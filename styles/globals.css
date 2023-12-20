@@ -33,20 +33,20 @@ a {
 }
 
 ::-webkit-scrollbar {
-  width: 8px; /* Set width of scrollbar */
+  width: 8px; 
 }
 
 ::-webkit-scrollbar-track {
-  background: #f1f1f1; /* Set background color of scrollbar track */
+  background: #f1f1f1; 
 }
 
 ::-webkit-scrollbar-thumb {
-  background: #888; /* Set color of scrollbar thumb */
-  border-radius: 2px; /* Round the corners of the thumb */
+  background: #888; 
+  border-radius: 2px; 
 }
 
 ::-webkit-scrollbar-thumb:hover {
-  background: #757575; /* Set color of thumb on hover */
+  background: #757575; 
 }
 
 img{
@@ -54,8 +54,101 @@ img{
   -webkit-user-drag: none;
 }
 
-/* @media (prefers-color-scheme: dark) {
-  html {
-    color-scheme: dark;
+
+@keyframes twinkle {
+  0%, 100% {
+    opacity: 1;
   }
-} */
+  50% {
+    opacity: 0;
+  }
+}
+
+.starry-background {
+  background: rgb(255, 252, 252);
+  position: relative;
+  overflow: hidden;
+}
+
+.star {
+  position: absolute;
+  background-color: #c3c393; 
+  width: 1px; 
+  height: 17px; 
+  border-radius: 50%;
+  box-shadow: #e0dbbe 0 0 3px;
+  animation: twinkle 2s infinite ease-in-out;
+}
+
+.shadow-red {
+  box-shadow: 0 4px 6px rgba(255, 0, 0, 0.1);
+}
+
+.shadow-blue {
+  box-shadow: 0 4px 6px rgba(0, 0, 255, 0.1);
+}
+
+.shadow-green {
+  box-shadow: 0 4px 6px rgba(0, 255, 0, 0.1);
+}
+
+.shadow-yellow {
+  box-shadow: 0 4px 6px rgba(255, 255, 0, 0.1);
+}
+
+.shadow-purple {
+  box-shadow: 0 4px 6px rgba(128, 0, 128, 0.1);
+}
+
+.shadow-orange {
+  box-shadow: 0 4px 6px rgba(255, 165, 0, 0.1);
+}
+
+.shadow-pink {
+  box-shadow: 0 4px 6px rgba(255, 105, 180, 0.1);
+}
+
+.shadow-teal {
+  box-shadow: 0 4px 6px rgba(0, 128, 128, 0.1);
+}
+
+.shadow-brown {
+  box-shadow: 0 4px 6px rgba(139, 69, 19, 0.1);
+}
+
+.shadow-gray {
+  box-shadow: 0 4px 6px rgba(128, 128, 128, 0.1);
+}
+
+.shadow-cyan {
+  box-shadow: 0 4px 6px rgba(0, 255, 255, 0.1);
+}
+
+.shadow-magenta {
+  box-shadow: 0 4px 6px rgba(255, 0, 255, 0.1);
+}
+
+.shadow-lime {
+  box-shadow: 0 4px 6px rgba(50, 205, 50, 0.1);
+}
+
+.shadow-gold {
+  box-shadow: 0 4px 6px rgba(255, 215, 0, 0.1);
+}
+
+.shadow-silver {
+  box-shadow: 0 4px 6px rgba(192, 192, 192, 0.1);
+}
+
+.shadow-indigo {
+  box-shadow: 0 4px 6px rgba(75, 0, 130, 0.1);
+}
+
+.shadow-olive {
+  box-shadow: 0 4px 6px rgba(128, 128, 0, 0.1);
+}
+
+.shadow-salmon {
+  box-shadow: 0 4px 6px rgba(250, 128, 114, 0.1);
+}
+
