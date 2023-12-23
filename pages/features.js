@@ -286,10 +286,10 @@ const Features = () => {
 <p className="text-md text-gray-700 mt-4">Elevate your digital voice with our Dynamic Blog Creation Package. Tailored to empower your storytelling and idea sharing, this package is designed for influencers, thought leaders, and businesses aiming to engage a wider audience through compelling and informative content.</p>
 
 <h5 className="text-2xl font-semibold text-gray-800 mt-6">Key Features</h5>
-<p className="text-md text-gray-700 mt-4"><b>Attractive Blog Layout:</b> Our team of skilled designers creates visually captivating blog layouts that are tailored to keep your readers fully engaged. We understand the importance of aesthetics in capturing and retaining your audience's attention.</p>
+<p className="text-md text-gray-700 mt-4"><b>Attractive Blog Layout:</b> Our team of skilled designers creates visually captivating blog layouts that are tailored to keep your readers fully engaged. We understand the importance of aesthetics in capturing and retaining your audiences attention.</p>
 <p className="text-md text-gray-700 mt-4"><b>Mobile-Responsive Design:</b> In an era where mobile browsing is prevalent, our package ensures that your blog maintains an impeccable appearance and functionality across all devices. Whether your audience accesses your content on a smartphone, tablet, or desktop, their reading experience will remain seamless and enjoyable.</p>
-<p className="text-md text-gray-700 mt-4"><b>User-Friendly CMS:</b> We provide you with an intuitive and user-friendly CMS that simplifies the process of managing your blog's content. You'll have the tools and flexibility needed to effortlessly update and publish new articles, keeping your digital narrative fresh and up-to-date.</p>
-<p className="text-md text-gray-700 mt-4"><b>Social Media Integration:</b> Expand the reach of your thought-provoking content by seamlessly integrating your blog with various social media platforms. This feature enables you to effortlessly share your articles and engage with your audience on social networks, enhancing your blog's visibility and impact.</p>
+<p className="text-md text-gray-700 mt-4"><b>User-Friendly CMS:</b> We provide you with an intuitive and user friendly CMS that simplifies the process of managing your blogs content. Youll have the tools and flexibility needed to effortlessly update and publish new articles, keeping your digital narrative fresh and up to date.</p>
+<p className="text-md text-gray-700 mt-4"><b>Social Media Integration:</b> Expand the reach of your thought-provoking content by seamlessly integrating your blog with various social media platforms. This feature enables you to effortlessly share your articles and engage with your audience on social networks, enhancing your blogs visibility and impact.</p>
 <p className="mt-6 text-md text-gray-700">Connect with us for a personalized consultation at{' '}
 <a href="mailto:services@bhamseoanddesignco.com">services@bhamseoanddesignco.com</a> or click the button below to begin your blogging journey.</p>
 <Link href="/contact" legacyBehavior>
@@ -304,7 +304,7 @@ const Features = () => {
 <div className="bg-white rounded-lg overflow-hidden" style={{ boxShadow: "0px 4px 6px rgba(0, 255, 0, 0.1)" }}>
 <div className="p-8">
 <h4 className="text-4xl font-semibold text-gray-800">Professional Business Website Package</h4>
-<p className="text-md text-gray-700 mt-4">Transform your company's online image with our Professional Business Website Package. This package is expertly designed for corporations, small businesses, and professionals keen on enhancing their digital footprint with a sophisticated and user-friendly website.</p>
+<p className="text-md text-gray-700 mt-4">Transform your companys online image with our Professional Business Website Package. This package is expertly designed for corporations, small businesses, and professionals keen on enhancing their digital footprint with a sophisticated and user-friendly website.</p>
 
 {/* Bussiness Ideal For Package */}
 <div class="custom-category-card">
@@ -319,7 +319,7 @@ const Features = () => {
   <div class="custom-category-icon">🏬</div>
   <span class="custom-category-title">Small Businesses</span>
   <div class="custom-category-description">
-    Small businesses seeking to improve their digital footprint and compete effectively in the online marketplace by having a professional and user-friendly website.
+    Small businesses seeking to improve their digital footprint and compete effectively in the online marketplace by having a professional and user friendly website.
   </div>
 </div>
 
@@ -457,7 +457,7 @@ Launch Your Portfolio Now
         <li><b>Compelling Call-to-Action:</b> Strategically placed prompts to encourage user action.</li>
         <li><b>High-Quality Visual Design:</b> Visually appealing elements to capture and retain visitor interest.</li>
         <li><b>Responsive Design:</b> Ensuring an excellent user experience across all devices.</li>
-        <li><b>SEO Optimization:</b> Boost your page's visibility on search engines.</li>
+        <li><b>SEO Optimization:</b> Boost your pages visibility on search engines.</li>
         <li><b>Analytics Integration:</b> Track visitor behavior and conversion metrics to refine strategies.</li>
       </ul>
       <p className="mt-6 text-md text-gray-700">Launch your next campaign with a high-converting landing page. Contact us at <a href="mailto:services@bhamseoanddesignco.com">services@bhamseoanddesignco.com</a>, or click the button below for a detailed consultation.</p>
@@ -525,7 +525,7 @@ Launch Your Portfolio Now
       <ul className="list-disc list-inside text-gray-700 mt-4">
         <li><b>Elegant Property Galleries:</b> Showcase properties with high-resolution images and detailed descriptions.</li>
         <li><b>Responsive Design:</b> Flawless functionality on desktops, tablets, and mobile devices.</li>
-        <li><b>Advanced Search Filters:</b> Help users find exactly what they're looking for with ease.</li>
+        <li><b>Advanced Search Filters:</b> Help users find exactly what theyre looking for with ease.</li>
         <li><b>Interactive Maps:</b> Incorporate location-based features for an intuitive property search experience.</li>
         <li><b>Client Testimonials and Reviews:</b> Build trust with prospective clients through authentic feedback.</li>
       </ul>
@@ -579,9 +579,9 @@ Launch Your Portfolio Now
       <p className="text-md text-gray-700 mt-4"><b>Elegant Menu Displays:</b> Visually appealing layouts to exhibit your dishes and specialties.</p>
       <p className="text-md text-gray-700"><b>Responsive Design:</b> Perfect viewing experience on all devices, from smartphones to desktops.</p>
       <p className="text-md text-gray-700"><b>Online Reservation System:</b> Convenient booking options for your guests.</p>
-      <p className="text-md text-gray-700"><b>Photo Galleries:</b> Showcase your restaurant's ambiance and culinary delights.</p>
+      <p className="text-md text-gray-700"><b>Photo Galleries:</b> Showcase your restaurants ambiance and culinary delights.</p>
       <p className="text-md text-gray-700"><b>Social Media Integration:</b> Connect with customers and promote your brand on various platforms.</p>
-      <p className="mt-6 text-md text-gray-700">To take your restaurant's online presence to the next level, contact us at <a href="mailto:services@bhamseoanddesignco.com">services@bhamseoanddesignco.com</a>, or click the button below to get started.</p>
+      <p className="mt-6 text-md text-gray-700">To take your restaurants online presence to the next level, contact us at <a href="mailto:services@bhamseoanddesignco.com">services@bhamseoanddesignco.com</a>, or click the button below to get started.</p>
       <Link href="/contact" legacyBehavior>
         <a className="inline-block mt-4 bg-gradient-to-r from-lime-600 to-lime-800 hover:from-lime-800 hover:to-lime-600 text-white text-lg py-3 px-8 rounded-full transition duration-300 ease-in-out transform hover:-translate-y-1 shadow-lg">
           Savor Dining Experiences

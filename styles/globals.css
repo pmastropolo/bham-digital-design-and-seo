@@ -154,19 +154,19 @@ img{
 
 .category-carousel {
   display: flex;
-  justify-content: space-between; /* Add space between category cards */
+  justify-content: space-between; 
   align-items: center;
-  gap: 20px; /* Add spacing between cards */
+  gap: 20px; 
 }
 
 .category-card {
-  flex: 0 0 calc(40.33% - 40px); /* Adjust card width and add spacing */
-  padding: 40px; /* Add padding for better spacing */
+  flex: 0 0 calc(40.33% - 40px); 
+  padding: 40px; 
   background-color: #ffffff;
 }
 
 .category-description {
-  font-size: 20px; /* Set a fixed font size for the category description */
+  font-size: 20px; 
 }
 
 .category-card .category-icon {
@@ -182,14 +182,14 @@ img{
 }
 
 .category-card span {
-  color: #333; /* Change text color */
-  margin-top: 10px; /* Add top margin for spacing */
+  color: #333; 
+  margin-top: 10px; 
   margin-left: 5px;
 }
 
 .category-card.active {
   display: flex;
-  transform: scale(1); /* Keep the scale at 1 to maintain the same size */
+  transform: scale(1); 
   box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1);
 }
 
@@ -213,12 +213,12 @@ img{
 
 .custom-category-card-container {
   display: flex;
-  flex-wrap: wrap; /* Allow the boxes to wrap to the next line when there's not enough space */
-  justify-content: flex-start; /* Align boxes to the left */
+  flex-wrap: wrap; 
+  justify-content: flex-start; 
 }
 
 .custom-category-card {
-  flex: 0 0 calc(33.33% - 2px); /* Adjust the width of each box (three boxes per row) */
+  flex: 0 0 calc(33.33% - 2px); 
   padding: 20px;
   background-color: #ffffff;
   text-align: center;
@@ -253,15 +253,15 @@ img{
 /* Media query for smaller screens */
 @media (max-width: 768px) {
   .category-carousel {
-    flex-wrap: wrap; /* Allow cards to wrap on smaller screens */
+    flex-wrap: wrap; 
     width: 100%;
   }
 
   .category-card {
-    flex: 0 0 calc(100% - 100px); /* Adjust card width for smaller screens */
+    flex: 0 0 calc(100% - 100px);
   }
 
   .category-description {
-    flex: 0 0 100%; /* Prevent category description from flexing */
+    flex: 0 0 100%; 
   }
 }
