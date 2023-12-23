@@ -152,3 +152,116 @@ img{
   box-shadow: 0 4px 6px rgba(250, 128, 114, 0.1);
 }
 
+.category-carousel {
+  display: flex;
+  justify-content: space-between; /* Add space between category cards */
+  align-items: center;
+  gap: 20px; /* Add spacing between cards */
+}
+
+.category-card {
+  flex: 0 0 calc(40.33% - 40px); /* Adjust card width and add spacing */
+  padding: 40px; /* Add padding for better spacing */
+  background-color: #ffffff;
+}
+
+.category-description {
+  font-size: 20px; /* Set a fixed font size for the category description */
+}
+
+.category-card .category-icon {
+  width: 50px;
+  height: 50px;
+  background-color: #f1e8e8;
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: #fff;
+  font-size: 24px;
+}
+
+.category-card span {
+  color: #333; /* Change text color */
+  margin-top: 10px; /* Add top margin for spacing */
+  margin-left: 5px;
+}
+
+.category-card.active {
+  display: flex;
+  transform: scale(1); /* Keep the scale at 1 to maintain the same size */
+  box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1);
+}
+
+.category-card:last-child {
+  margin-right: 2px;
+}
+
+#nextButton {
+  background-color: #35383c;
+  color: #fff;
+  border: none;
+  border-radius: 5px;
+  padding: 7px 15px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+#nextButton:hover {
+  background-color: #050505;
+}
+
+.custom-category-card-container {
+  display: flex;
+  flex-wrap: wrap; /* Allow the boxes to wrap to the next line when there's not enough space */
+  justify-content: flex-start; /* Align boxes to the left */
+}
+
+.custom-category-card {
+  flex: 0 0 calc(33.33% - 2px); /* Adjust the width of each box (three boxes per row) */
+  padding: 20px;
+  background-color: #ffffff;
+  text-align: center;
+  border: 1px solid #ccc;
+  border-radius: 10px;
+  margin: 10px;
+  cursor: pointer;
+  transition: all 0.3s ease-in-out;
+}
+
+.custom-category-icon {
+  font-size: 24px;
+  margin-bottom: 10px;
+}
+
+.custom-category-title {
+  font-weight: bold;
+  font-size: 18px;
+  color: #333;
+}
+
+.custom-category-description {
+  display: none;
+  font-size: 17px;
+  color: #666;
+}
+
+.custom-category-card:hover .custom-category-description {
+  display: block;
+}
+
+/* Media query for smaller screens */
+@media (max-width: 768px) {
+  .category-carousel {
+    flex-wrap: wrap; /* Allow cards to wrap on smaller screens */
+    width: 100%;
+  }
+
+  .category-card {
+    flex: 0 0 calc(100% - 100px); /* Adjust card width for smaller screens */
+  }
+
+  .category-description {
+    flex: 0 0 100%; /* Prevent category description from flexing */
+  }
+}

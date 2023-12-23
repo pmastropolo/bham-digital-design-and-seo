@@ -8,7 +8,7 @@ export default function QuoteRequest() {
           Reach Us Today
         </h2>
         <p className="text-lg text-blue-600">
-          Email: <a href="mailto:bhamseodesignco@mail.com">bhamseodesignco@mail.com</a>
+          Email:<a href="mailto:services@bhamseoanddesignco.com">services@bhamseoanddesignco.com</a>
         </p>
         <p className="text-lg text-blue-600">
           Phone: <a href="tel:(205) 705-7145">(205) 705-7145</a>

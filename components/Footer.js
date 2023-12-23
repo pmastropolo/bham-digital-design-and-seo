@@ -2,7 +2,7 @@ import React from 'react'
 import Link from 'next/link'
 
 const Footer = () => {
-  const email = 'bhamseodesignco@mail.com';
+  const email = 'services@bhamseoanddesignco.com';
 
   return (
     <footer>
