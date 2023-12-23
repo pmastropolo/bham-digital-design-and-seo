@@ -28,7 +28,6 @@ export default function Home() {
           className="mx-auto mb-8 max-w-full md:max-w-xl lg:max-w-3xl" 
         />
 
-
         <div className="bg-white text-center p-10 shadow-lg rounded-lg mb-10 z-10 relative">
           <h2 className="text-5xl font-extrabold text-gray-800 mb-6">Expert Web Design & SEO Services</h2>
           <p className="text-lg mb-8 text-gray-600">Elevate your online presence with our tailored solutions in Birmingham, Alabama.</p>
@@ -47,9 +46,6 @@ export default function Home() {
               <h4 className="text-xl font-bold mb-3">Web Design</h4>
               <p>Custom, responsive web designs that ensure a seamless user experience across all devices.</p>
               <FaPaintBrush className="text-gray-500 text-4xl mx-auto mt-3" />
-
-
-
             </div>
 
             {/* SEO Optimization Card */}
@@ -68,6 +64,30 @@ export default function Home() {
           </div>
         </section>
 
+        <div className="mt-20 mb-20 mx-auto py-8 px-4 bg-white rounded-2xl shadow-xl overflow-hidden" style={{ maxWidth: '90%' }}>
+  <div className="grid grid-cols-1 gap-8 md:grid-cols-2 md:gap-10">
+    <div className="space-y-4">
+      <h3 className="text-3xl md:text-4xl lg:text-5xl font-extrabold text-gray-800">Explore Our Web Development Services</h3>
+      <p className="text-md md:text-lg text-gray-600">Discover how our tailored web development solutions can elevate your business, leveraging the latest technologies and innovative design.</p>
+        <Link href="/features" legacyBehavior>
+            <a className="inline-block bg-blue-600 hover:bg-blue-800 text-white text-lg py-3 px-8 md:py-4 md:px-10 rounded-lg transition duration-300 ease-in-out transform hover:-translate-y-1">
+              Learn More
+            </a>
+          </Link>
+        </div>
+        <div className="flex justify-center items-center">
+          <div className="relative w-full h-64 md:h-96"> 
+            <Image
+              src="/images/istockphoto-1249598036-612x612.jpg"
+              alt="Web Development"
+              layout="fill"
+              objectFit="contain" 
+              className="rounded-lg"
+            />
+          </div>
+        </div>
+      </div>
+    </div>
       </main>
     </div>
   );
