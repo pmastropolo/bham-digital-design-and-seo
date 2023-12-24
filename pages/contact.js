@@ -1,37 +1,48 @@
 import React from 'react';
+import ContactForm from '../components/ContactForm';
 
-export default function QuoteRequest() {
+function Contact() {
   return (
-    <div className="container mx-auto p-6 bg-white shadow-lg rounded-lg max-w-2xl">
-      <div className="mt-8 text-center">
-        <h2 className="text-3xl font-semibold text-gray-800 mb-4">
-          Reach Us Today
-        </h2>
-        <p className="text-lg text-blue-600">
-          Email:<a href="mailto:services@bhamseoanddesignco.com">services@bhamseoanddesignco.com</a>
-        </p>
-        <p className="text-lg text-blue-600">
-          Phone: <a href="tel:(205) 705-7145">(205) 705-7145</a>
-        </p>
-        <p className="my-6 text-gray-600">
-          <span className="block text-xl">Or</span>
-          <span className="block text-xl">Scroll down below to fill out the form and get a free quote.</span>
-        </p>
-      </div>
+    <div className="bg-gray-100 min-h-screen">
+      <header className="bg-gradient-to-r from-blue-500 via-blue-600 to-blue-700 py-4">
+        <div className="container mx-auto text-white text-center max-w-xl mx-auto">
+          <h1 className="text-4xl font-bold mb-4">Reach Out to Us</h1>
+          <p className="mb-6">Connect with Our Team</p>
+        </div>
+      </header>
 
-      <h2 className="text-3xl font-bold text-center text-gray-800 mt-6 mb-6">Contact Form</h2>
-      <iframe
-        title="Google Form"
-        src="https://docs.google.com/forms/d/e/1FAIpQLScY_4_5vgNW7xyMNX0PUessBnK40dijaK08rvjPcwOgwtkq0w/viewform?embedded=true"
-        width="650"
-        height="800"
-        frameBorder="0"
-        marginHeight="0"
-        marginWidth="0"
-        className="mx-auto"
-      >
-        Loading…
-      </iframe>
+      <section className="container mx-auto py-8">
+        <div className="max-w-3xl mx-auto bg-white p-8 rounded-md shadow-lg">
+          <h2 className="text-2xl font-bold mb-4">Contact Form</h2>
+          <p className="mb-6">
+            Please fill out the form below to get in contact with us. If you dont have information for some lines, you can keep them{' '}
+            <span style={{ textDecoration: 'underline' }}>blank</span>.
+          </p>
+
+          <ContactForm />
+
+          <p className="mt-6 text-gray-500 text-center">
+            We will get back to you as soon as possible.
+          </p>
+        </div>
+      </section>
+
+     
+      <section className="bg-gradient-to-b from-blue-700 via-blue-600 to-blue-500 py-8">
+  <div className="container mx-auto text-center">
+    <h2 className="text-3xl font-semibold text-white mb-4">
+      Reach Us Today
+    </h2>
+    <p className="text-lg text-white mb-2">
+      Email: <a href="mailto:services@bhamseoanddesignco.com" className="text-purple-300 hover:underline">services@bhamseoanddesignco.com</a>
+    </p>
+    <p className="text-lg text-white mb-4">
+      Phone: <a href="tel:(205) 705-7145" className="text-purple-300 hover:underline">(205) 705-7145</a>
+    </p>
+  </div>
+</section>
     </div>
   );
 }
+
+export default Contact;
