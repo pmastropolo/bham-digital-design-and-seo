@@ -28,6 +28,7 @@ export default function Home() {
           className="mx-auto mb-8 max-w-full md:max-w-xl lg:max-w-3xl" 
         />
 
+        {/* MAIN HEADING */}
         <div className="bg-white text-center p-10 shadow-lg rounded-lg mb-10 z-10 relative">
           <h2 className="text-5xl font-extrabold text-gray-800 mb-6">Expert Web Design & SEO Services</h2>
           <p className="text-lg mb-8 text-gray-600">Elevate your online presence with our tailored solutions in Birmingham, Alabama.</p>
@@ -41,6 +42,7 @@ export default function Home() {
         <section>
           <h3 className="text-3xl text-center font-bold mb-6">Our Services</h3>
           <div className="flex flex-wrap justify-center gap-10">
+            
             {/* Web Design Card */}
             <div className="bg-white p-6 rounded-lg shadow-md max-w-sm hover:shadow-lg transition-shadow duration-300">
               <h4 className="text-xl font-bold mb-3">Web Design</h4>
@@ -64,7 +66,8 @@ export default function Home() {
           </div>
         </section>
 
-        <div className="mt-20 mb-20 mx-auto py-8 px-4 rounded-2xl shadow-xl overflow-hidden relative z-10" style={{ maxWidth: '90%', backgroundColor: 'white' }}>
+     {/* EXPLORE WEB DESIGN */}          
+  <div className="mt-20 mb-20 mx-auto py-8 px-4 rounded-2xl shadow-xl overflow-hidden relative z-10" style={{ maxWidth: '90%', backgroundColor: 'white' }}>
   <div className="grid grid-cols-1 gap-8 md:grid-cols-2 md:gap-10">
     <div className="space-y-8 text-center"> 
       <h3 className="text-3xl md:text-4xl lg:text-5xl font-extrabold text-gray-800">
@@ -93,9 +96,9 @@ export default function Home() {
   </div>
 </div>
 
+{/* EXPLORE SEO SERVICES */}
 <div className="mt-20 mb-20 mx-auto py-8 px-4 rounded-2xl shadow-xl overflow-hidden relative z-10" style={{ maxWidth: '90%', backgroundColor: 'white' }}>
-  <div className="grid grid-cols-1 gap-8 md:grid-cols-2 md:gap-10">
-    
+  <div className="grid grid-cols-1 gap-8 md:grid-cols-2 md:gap-10">  
     <div className="flex justify-center items-center">
       <div className="relative w-full h-64 md:h-96"> 
         <Image
@@ -107,7 +110,6 @@ export default function Home() {
         />
       </div>
     </div>
-
     <div className="space-y-8 text-center"> 
       <h3 className="text-3xl md:text-4xl lg:text-5xl font-extrabold text-gray-800">
         Discover Our SEO Mastery Packages
@@ -125,6 +127,7 @@ export default function Home() {
 </div>
 
 
+ {/* EXPLORE DIGITAL MARKETING */}
 <div className="mt-20 mb-20 mx-auto py-8 px-4 rounded-2xl shadow-xl overflow-hidden relative z-10" style={{ maxWidth: '90%', backgroundColor: 'white' }}>
   <div className="grid grid-cols-1 gap-8 md:grid-cols-2 md:gap-10">
     <div className="space-y-8 text-center"> 
@@ -140,6 +143,8 @@ export default function Home() {
         </a>
       </Link>
     </div>
+
+   {/* DIGITAL MARKETING IMAGE */}
     <div className="flex justify-center items-center">
       <div className="relative w-full h-64 md:h-96"> 
         <Image
