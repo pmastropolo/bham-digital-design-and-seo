@@ -5,12 +5,12 @@ const Apply = () => {
     return (
 
 <div className="apply-container bg-gray-100 text-gray-800 py-16">
-  <div className="max-w-6xl mx-auto">
+<div className="max-w-6xl mx-auto">
 
     {/* ABOUT US TITLE SECTION */}
-    <h1 className="text-5xl lg:text-6xl font-bold text-center mb-10">About Us</h1>
+    <h1 id="about-us" className="text-5xl lg:text-6xl font-bold text-center mb-10">About Us</h1>
 
-<div className="about-section grid grid-cols-1 lg:grid-cols-2 gap-10 items-center">
+    <div className="about-section grid grid-cols-1 lg:grid-cols-2 gap-10 items-center">
 <div className="text-center lg:text-left">
 
 {/* OUR MISSION SECTION */}
@@ -34,14 +34,24 @@ What sets us apart is our commitment to tailoring each project to our clients un
         layout="responsive" 
     />
 </div>
+</div>
+
+{/* TABLE OF CONTENTS */}
+<nav className="table-of-contents text-center my-10">
+    <ul className="toc-list">
+        <li className="toc-item"><a className="toc-link" href="#about-us">About Us</a></li>
+        <li className="toc-item"><a className="toc-link" href="#web-design-questions">Web Design Questions</a></li>
+        <li className="toc-item"><a className="toc-link" href="#seo-questions">SEO Questions</a></li>         
+    </ul>
+</nav>
 
 {/* FAQ SECTION */}
-<div className="container mx-auto px-6 py-8 bg-white">
-<div className="max-w-6xl mx-auto text-gray-800">
-<h1 className="text-5xl lg:text-6xl font-bold text-center mb-10 underline decoration-blue-500 decoration-4 underline-offset-8">FAQ</h1>
+<div className="container mx-auto px-16 py-10 bg-white">
+
+    <h1 className="text-5xl lg:text-6xl font-bold text-center mb-12 underline decoration-blue-500 decoration-4 underline-offset-8">FAQ</h1>
 
 {/* WEB DESIGN SECTION */}
-<h2 className="text-4xl font-extrabold text-indigo-600 mt-12 mb-8">Web Design</h2>
+<h2 id="web-design-questions" className="text-4xl font-extrabold text-indigo-600 mt-12 mb-8">Web Design</h2>
 
  {/* FIRST QUESTION - HOW MUCH WEBSITE COST */} 
  <div class="custom-category-card">
@@ -140,12 +150,13 @@ User experience is at the forefront of our design process. We focus on creating 
 </div>
 </div>
 
+{/* WEB DESIGN SECTION */}
+<h2 id="seo-questions" className="text-4xl font-extrabold text-indigo-600 mt-12 mb-8">SEO ( Search Engine Optimization )</h2>
+
+    
 </div>
                 </div>
             </div>
-            </div>
-                </div>
-
     );
 };
   
