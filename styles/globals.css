@@ -283,6 +283,44 @@ img {
   display: block;
 }
 
+/* TABLE OF CONTENTS STYLING */
+.table-of-contents {
+  padding: 20px;
+  background-color: #f8f8f8;
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+/* STYLING FOR TOC LIST */
+.toc-list {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+  display: inline-block; /* CENTERS LIST IN NAV */
+}
+
+/* STYLING FOR EACH TOC ITEM */
+.toc-item {
+  margin: 10px 15px;
+  display: inline-block;
+}
+
+/* STYLING FOR TOC LINKS */
+.toc-link {
+  color: #333;
+  font-size: 18px;
+  text-decoration: none;
+  padding-bottom: 5px;
+  transition: color 0.3s ease, border-color 0.3s ease;
+  border-bottom: 2px solid transparent;
+}
+
+/* HOVER EFFECT FOR TOC LINKS */
+.toc-link:hover {
+  color: #007bff;
+  border-bottom-color: #007bff;
+}
+
 /* Media query for smaller screens */
 @media (max-width: 768px) {
   /* ADJUSTMENTS FOR CATEGORY CAROUSEL ON SMALL SCREENS */
