@@ -18,7 +18,7 @@ const Apply = () => {
 At Bham SEO & Design Co., our mission is to empower businesses with innovative web design and digital solutions. We are driven by a passion for creativity, technology, and client success.
 </p>
 <p className="text-xl mb-8 leading-relaxed">
-What sets us apart is our commitment to tailoring each project to our clients' unique needs. We take the time to understand your business, goals, and target audience to create customized solutions that make a lasting impact. We stand out in the industry by consistently staying ahead of design trends and emerging technologies. Our mission is to make your online presence shine and help your business thrive in the digital landscape.
+What sets us apart is our commitment to tailoring each project to our clients unique needs. We take the time to understand your business, goals, and target audience to create customized solutions that make a lasting impact. We stand out in the industry by consistently staying ahead of design trends and emerging technologies. Our mission is to make your online presence shine and help your business thrive in the digital landscape.
 </p>
 </div>
 
@@ -64,7 +64,7 @@ Consider responsive design, easy navigation, a content management system, contac
 <div class="custom-category-card">
 <span class="custom-category-title">How Long Will It Take to Build the Website?</span>
 <div class="custom-category-description">
-A standard website typically takes between 4-6 weeks to complete, depending on the complexity and our current workload. For more complex projects, it could take longer. We'll give you a more accurate timeline once we've discussed your requirements.
+A standard website typically takes between 4 to 6 weeks to complete, depending on the complexity and our current workload. For more complex projects, it could take longer. We will give you a more accurate timeline once weve discussed your requirements.
 </div>
 </div>
 
@@ -72,7 +72,7 @@ A standard website typically takes between 4-6 weeks to complete, depending on t
 <div class="custom-category-card">
 <span class="custom-category-title">Will My Website Be Mobile-Friendly?</span>
 <div class="custom-category-description">
-Absolutely, all our websites are designed to be responsive and mobile-friendly. This ensures a seamless experience for users on various devices.
+Absolutely, all our websites are designed to be responsive and mobile friendly. This ensures a seamless experience for users on various devices.
 </div>
 </div>
 
@@ -80,7 +80,7 @@ Absolutely, all our websites are designed to be responsive and mobile-friendly. 
 <div class="custom-category-card">
 <span class="custom-category-title">Can You Improve My Existing Website?</span>
 <div class="custom-category-description">
-Yes, we can work with your existing website for redesigns, functionality improvements, or content updates. We'll first assess your current site to recommend the best course of action.
+Yes, we can work with your existing website for redesigns, functionality improvements, or content updates. We will first assess your current site to recommend the best course of action.
 </div>
 </div>
 
@@ -113,7 +113,7 @@ We can certainly assist with domain registration and hosting services. While the
 <div class="custom-category-card">
 <span class="custom-category-title">Can I Update the Website Myself?</span>
 <div class="custom-category-description">
-Our websites are built on user-friendly platforms, allowing you to easily make updates and changes. We also provide training and resources to help you manage your site effectively.
+Our websites are built on user friendly platforms, allowing you to easily make updates and changes. We also provide training and resources to help you manage your site effectively.
 </div>
 </div>
 
@@ -121,7 +121,7 @@ Our websites are built on user-friendly platforms, allowing you to easily make u
 <div class="custom-category-card">
 <span class="custom-category-title">What Kind of Support Will I Receive After the Website Goes Live?</span>
 <div class="custom-category-description">
-After your website goes live, we provide a period of post-launch support to address any immediate concerns. We're also available for ongoing support and updates as needed.
+After your website goes live, we provide a period of post-launch support to address any immediate concerns. We are also available for ongoing support and updates as needed.
 </div>
 </div>
 
@@ -129,7 +129,7 @@ After your website goes live, we provide a period of post-launch support to addr
 <div class="custom-category-card">
 <span class="custom-category-title">How Do You Approach Usability and User Experience?</span>
 <div class="custom-category-description">
-User experience is at the forefront of our design process. We focus on creating intuitive, user-friendly websites that engage and retain visitors.
+User experience is at the forefront of our design process. We focus on creating intuitive, user friendly websites that engage and retain visitors.
 </div>
 </div>
 
