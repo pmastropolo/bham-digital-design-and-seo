@@ -1,4 +1,5 @@
-import React from 'react'
+import React from 'react';
+import Image from 'next/image';
 
 const Apply = () => {
     return (
@@ -24,8 +25,14 @@ What sets us apart is our commitment to tailoring each project to our clients un
 
 {/* TEAMWORK IMAGE */}
 <div>
-<img src="/images/teammmmmy.png" alt="Team Photo" className="rounded-lg shadow-lg" />
-</div>
+    <Image 
+        src="/images/teammmmmy.png" 
+        alt="Team Photo" 
+        className="rounded-lg shadow-lg" 
+        width={500} 
+        height={300} 
+        layout="responsive" 
+    />
 </div>
 
 {/* FAQ SECTION */}
@@ -134,11 +141,12 @@ User experience is at the forefront of our design process. We focus on creating 
 </div>
 
 </div>
-</div>
-</div>
-</div>
-    
+                </div>
+            </div>
+            </div>
+                </div>
+
     );
-  };
+};
   
   export default Apply;
