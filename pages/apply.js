@@ -153,6 +153,110 @@ User experience is at the forefront of our design process. We focus on creating 
 {/* WEB DESIGN SECTION */}
 <h2 id="seo-questions" className="text-4xl font-extrabold text-indigo-600 mt-12 mb-8">SEO ( Search Engine Optimization )</h2>
 
+{/* QUESTION ONE - What is SEO and How Does it Work? */}
+<div className="custom-category-card">
+    <span className="custom-category-title">What is SEO and How Does it Work?</span>
+    <div className="custom-category-description">
+    SEO, or Search Engine Optimization, is the process of optimizing your website to improve its visibility in search engine results pages. 
+    This involves various strategies like keyword optimization, content creation, and improving site structure, all aimed at making your site more attractive to search engines like Google.
+    </div>
+</div>
+
+{/* QUESTION TWO - How Long Does it Take to See Results from SEO? */}
+<div className="custom-category-card">
+    <span className="custom-category-title">How Long Does it Take to See Results from SEO?</span>
+    <div className="custom-category-description">
+    SEO is a long-term strategy. Generally, you can start seeing initial results in about 3-6 months, but significant changes can take up to a year. It depends on factors like the competitiveness of your industry and the current state of your website.
+    </div>
+</div>
+
+{/* QUESTION THREE - Can You Guarantee First Page Rankings? */}
+<div className="custom-category-card">
+    <span className="custom-category-title">Can You Guarantee First Page Rankings?</span>
+    <div className="custom-category-description">
+    No ethical SEO service can guarantee specific rankings, including first-page placements, due to the ever-changing nature of search engine algorithms. However, we use proven strategies to significantly improve your chances of ranking highly
+    </div>
+</div>
+
+{/* QUESTION FOUR - What Strategies Will You Use to Improve Our SEO? */}
+<div className="custom-category-card">
+    <span className="custom-category-title">What Strategies Will You Use to Improve Our SEO?</span>
+    <div className="custom-category-description">
+    Our strategies include thorough keyword research, on-page optimization (like meta tags and URLs), quality content creation, and building reputable backlinks. We tailor our approach based on your unique business needs and industry standards.
+    </div>
+</div>
+
+{/* QUESTION FIVE - How Do You Conduct Keyword Research? */}
+<div className="custom-category-card">
+    <span className="custom-category-title">How Do You Conduct Keyword Research?</span>
+    <div className="custom-category-description">
+    We use advanced tools to identify keywords relevant to your business and with a high potential for traffic. We also analyze search trends, competitor keywords, and user intent to create a comprehensive keyword strategy.
+    </div>
+</div>
+
+{/* QUESTION SIX - How Do You Measure the Success of an SEO Campaign? */}
+<div className="custom-category-card">
+    <span className="custom-category-title">How Do You Measure the Success of an SEO Campaign?</span>
+    <div className="custom-category-description">
+    Success is measured using KPIs like improved rankings, increased website traffic, higher engagement rates, and ultimately, more conversions or sales. We provide regular reports to track these metrics.
+    </div>
+</div>
+
+{/* QUESTION SEVEN - What's Included in Your SEO Services? */}
+<div className="custom-category-card">
+    <span className="custom-category-title">Whats Included in Your SEO Services?</span>
+    <div className="custom-category-description">
+    Our services include technical website audits, on-page optimization, content strategy and creation, link building, local SEO (if applicable), and ongoing performance monitoring and adjustments.
+    </div>
+</div>
+
+{/* QUESTION EIGHT - How Will SEO Integrate with Our Overall Marketing Strategy? */}
+<div className="custom-category-card">
+    <span className="custom-category-title">How Will SEO Integrate with Our Overall Marketing Strategy?</span>
+    <div className="custom-category-description">
+    SEO complements other marketing efforts by increasing your online visibility and driving organic traffic. We will align our SEO tactics with your broader marketing goals for a cohesive strategy.
+    </div>
+</div>
+
+{/* QUESTION NINE - How Do You Stay Updated with SEO Changes and Google Algorithm Updates? */}
+<div className="custom-category-card">
+    <span className="custom-category-title">How Do You Stay Updated with SEO Changes and Google Algorithm Updates?</span>
+    <div className="custom-category-description">
+    We continuously stay informed about the latest SEO trends and Google algorithm updates through industry resources, forums, and training. This ensures our strategies remain effective and up-to-date.
+    </div>
+</div>
+
+{/* QUESTION ELEVEN - Can You Provide Case Studies or References? */}
+<div className="custom-category-card">
+    <span className="custom-category-title">Can You Provide Case Studies or References?</span>
+    <div className="custom-category-description">
+        Certainly! We have several case studies and client references that demonstrate our success in various projects. We would be happy to share these with you.
+    </div>
+</div>
+
+{/* QUESTION TWELVE - What Are Your Payment Terms and Contract Length? */}
+<div className="custom-category-card">
+    <span className="custom-category-title">What Are Your Payment Terms and Contract Length?</span>
+    <div className="custom-category-description">
+        Our payment terms and contract lengths are flexible, depending on the project scope. We typically work with monthly retainers, but we can discuss a plan that suits your budget and requirements.
+    </div>
+</div>
+
+{/* QUESTION THIRTEEN - How Do You Handle SEO for Local vs. Global Audiences? */}
+<div className="custom-category-card">
+    <span className="custom-category-title">How Do You Handle SEO for Local vs. Global Audiences?</span>
+    <div className="custom-category-description">
+        For local SEO, we focus on optimizing your Google My Business listing and local citations. For a global audience, we implement broader keyword strategies and consider multilingual SEO if applicable.
+    </div>
+</div>
+
+{/* QUESTION FOURTEEN - How Will We Communicate and How Often? */}
+<div className="custom-category-card">
+    <span className="custom-category-title">How Will We Communicate and How Often?</span>
+    <div className="custom-category-description">
+        Communication is key. We will set up regular meetings (weekly or monthly) and provide frequent email updates. You qill also have a dedicated account manager as your point of contact.
+    </div>
+</div>
     
 </div>
                 </div>
