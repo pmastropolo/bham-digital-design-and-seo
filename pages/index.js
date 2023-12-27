@@ -3,12 +3,16 @@ import { FaPaintBrush, FaSearch, FaDigitalOcean } from 'react-icons/fa';
 import Image from 'next/image';
 
 export default function Home() {
+
+  // Generate starry background
   const numberOfStars = 285;
   const stars = Array.from({ length: numberOfStars }, (_, index) => index);
 
   return (
  
     <div className="starry-background w-full min-h-screen bg-black">
+
+      {/* RENDER STAR ELEMENTS */}
       {stars.map((_, index) => (
         <div key={index} className="star" style={{
           top: `${Math.random() * 100}%`,
@@ -20,6 +24,7 @@ export default function Home() {
     <myhead></myhead>
       <main className="container mx-auto p-6 text-gray-800">
 
+      {/* RENDER LOGO IMAGE */}
       <Image
           src="/images/logggggooooooo.jpg"
           alt="bham seo and design co logo"
@@ -32,6 +37,8 @@ export default function Home() {
         <div className="bg-white text-center p-10 shadow-lg rounded-lg mb-10 z-10 relative">
           <h2 className="text-5xl font-extrabold text-gray-800 mb-6">Expert Web Design & SEO Services</h2>
           <p className="text-lg mb-8 text-gray-600">Elevate your online presence with our tailored solutions in Birmingham, Alabama.</p>
+          
+          {/* CONTACT PAGE BUTTON */} 
           <Link href="/contact" legacyBehavior>
             <a className="inline-block bg-blue-600 hover:bg-blue-800 text-white text-lg py-3 px-8 rounded-md transition duration-300 transform hover:-translate-y-1 shadow-md">
               Get a Free Price Quote Today
@@ -39,34 +46,53 @@ export default function Home() {
           </Link>
         </div>
 
-        <section>
-          <h3 className="text-3xl text-center font-bold mb-6">Our Services</h3>
-          <div className="flex flex-wrap justify-center gap-10">
-            
-            {/* Web Design Card */}
-            <div className="bg-white p-6 rounded-lg shadow-md max-w-sm hover:shadow-lg transition-shadow duration-300">
-              <h4 className="text-xl font-bold mb-3">Web Design</h4>
-              <p>Custom, responsive web designs that ensure a seamless user experience across all devices.</p>
+{/* Our Services Section */}
+<section>
+
+    {/* Section Heading */}
+    <h3 className="text-3xl text-center font-bold mb-6">
+       Our Services
+    </h3>
+
+    {/* Service Cards */}
+    <div className="flex flex-wrap justify-center gap-10">
+
+    {/* Web Design Card */}
+    <div className="bg-white p-6 rounded-lg shadow-md max-w-sm hover:shadow-lg transition-shadow duration-300">
+        <h4 className="text-xl font-bold mb-3">
+          Web Design
+      </h4>
+              <p>
+                Custom, responsive web designs that ensure a seamless user experience across all devices.
+              </p>
               <FaPaintBrush className="text-gray-500 text-4xl mx-auto mt-3" />
             </div>
 
             {/* SEO Optimization Card */}
             <div className="bg-white p-6 rounded-lg shadow-md max-w-sm hover:shadow-lg transition-shadow duration-300">
-              <h4 className="text-xl font-bold mb-3">SEO Optimization</h4>
-              <p>Improve your search engine ranking and drive traffic with our expert SEO strategies.</p>
+              <h4 className="text-xl font-bold mb-3">
+                SEO Optimization
+              </h4>
+              <p>
+                Improve your search engine ranking and drive traffic with our expert SEO strategies.
+              </p>
               <FaSearch className="text-gray-500 text-4xl mx-auto mt-3" />
             </div>
 
             {/* Digital Marketing Card */}
             <div className="bg-white p-6 rounded-lg shadow-md max-w-sm hover:shadow-lg transition-shadow duration-300">
-              <h4 className="text-xl font-bold mb-3">Digital Marketing</h4>
-              <p>Maximize your online potential with targeted digital marketing campaigns.</p>
+              <h4 className="text-xl font-bold mb-3">
+                Digital Marketing
+              </h4>
+              <p>
+                Maximize your online potential with targeted digital marketing campaigns.
+              </p>
               <FaDigitalOcean className="text-gray-500 text-4xl mx-auto mt-3" />
             </div>
           </div>
         </section>
 
-     {/* EXPLORE WEB DESIGN */}          
+  {/* EXPLORE WEB DESIGN */}          
   <div className="mt-20 mb-20 mx-auto py-8 px-4 rounded-2xl shadow-xl overflow-hidden relative z-10" style={{ maxWidth: '90%', backgroundColor: 'white' }}>
   <div className="grid grid-cols-1 gap-8 md:grid-cols-2 md:gap-10">
     <div className="space-y-8 text-center"> 
@@ -125,7 +151,6 @@ export default function Home() {
     </div>
   </div>
 </div>
-
 
  {/* EXPLORE DIGITAL MARKETING */}
 <div className="mt-20 mb-20 mx-auto py-8 px-4 rounded-2xl shadow-xl overflow-hidden relative z-10" style={{ maxWidth: '90%', backgroundColor: 'white' }}>
