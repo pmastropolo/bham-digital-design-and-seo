@@ -2,6 +2,7 @@
 @tailwind components;
 @tailwind utilities;
 
+/* GLOBAL STYLES */
 * {
   box-sizing: border-box;
   padding: 0;
@@ -9,6 +10,7 @@
   z-index: 1;
 }
 
+/* HTML AND BODY STYLES */
 html,
 body {
   max-width: 100vw;
@@ -16,35 +18,41 @@ body {
   font-family: Montserrat, Verdana, Geneva, Tahoma, sans-serif;
 }
 
+/* STYLING FOR ALL ANCHOR TAGS */
 a {
   font-family: Poppins, Verdana, Geneva, Tahoma, sans-serif;
   color: inherit;
   text-decoration: none;
 }
 
+/* CUSTOM SCROLLBAR STYLES */
 ::-webkit-scrollbar {
   width: 8px; 
 }
 
+/* SCROLLBAR TRACK STYLE */
 ::-webkit-scrollbar-track {
   background: #f1f1f1; 
 }
 
+/* SCROLLBAR HANDLE STYLE */
 ::-webkit-scrollbar-thumb {
   background: #888; 
   border-radius: 2px; 
 }
 
+/* SCROLLBAR HANDLE HOVER STYLE */
 ::-webkit-scrollbar-thumb:hover {
   background: #757575; 
 }
 
-img{
+/* IMAGE SELECTION DISABLED */
+img {
   user-select: none;
   -webkit-user-drag: none;
 }
 
-
+/* KEYFRAMES FOR TWINKLE EFFECT */
 @keyframes twinkle {
   0%, 100% {
     opacity: 1;
@@ -54,12 +62,14 @@ img{
   }
 }
 
+/* BACKGROUND STYLING FOR STARRY EFFECT */
 .starry-background {
   background: rgb(255, 252, 252);
   position: relative;
   overflow: hidden;
 }
 
+/* STYLING FOR INDIVIDUAL STARS */
 .star {
   position: absolute;
   background-color: #c3c393; 
@@ -70,78 +80,97 @@ img{
   animation: twinkle 2s infinite ease-in-out;
 }
 
+/* RED SHADOW */
 .shadow-red {
   box-shadow: 0 4px 6px rgba(255, 0, 0, 0.1);
 }
 
+/* BLUE SHADOW */
 .shadow-blue {
   box-shadow: 0 4px 6px rgba(0, 0, 255, 0.1);
 }
 
+/* GREEN SHADOW */
 .shadow-green {
   box-shadow: 0 4px 6px rgba(0, 255, 0, 0.1);
 }
 
+/* YELLOW SHADOW */
 .shadow-yellow {
   box-shadow: 0 4px 6px rgba(255, 255, 0, 0.1);
 }
 
+/* PURPLE SHADOW */
 .shadow-purple {
   box-shadow: 0 4px 6px rgba(128, 0, 128, 0.1);
 }
 
+/* ORANGE SHADOW */
 .shadow-orange {
   box-shadow: 0 4px 6px rgba(255, 165, 0, 0.1);
 }
 
+/* PINK SHADOW */
 .shadow-pink {
   box-shadow: 0 4px 6px rgba(255, 105, 180, 0.1);
 }
 
+/* TEAL SHADOW */
 .shadow-teal {
   box-shadow: 0 4px 6px rgba(0, 128, 128, 0.1);
 }
 
+/* BROWN SHADOW */
 .shadow-brown {
   box-shadow: 0 4px 6px rgba(139, 69, 19, 0.1);
 }
 
+/* GRAY SHADOW */
 .shadow-gray {
   box-shadow: 0 4px 6px rgba(128, 128, 128, 0.1);
 }
 
+/* CYAN SHADOW */
 .shadow-cyan {
   box-shadow: 0 4px 6px rgba(0, 255, 255, 0.1);
 }
 
+/* MAGENTA SHADOW */
 .shadow-magenta {
   box-shadow: 0 4px 6px rgba(255, 0, 255, 0.1);
 }
 
+/* LIME SHADOW */
 .shadow-lime {
   box-shadow: 0 4px 6px rgba(50, 205, 50, 0.1);
 }
 
+/* GOLD SHADOW */
 .shadow-gold {
   box-shadow: 0 4px 6px rgba(255, 215, 0, 0.1);
 }
 
+/* SILVER SHADOW */
 .shadow-silver {
   box-shadow: 0 4px 6px rgba(192, 192, 192, 0.1);
 }
 
+/* INDIGO SHADOW */
 .shadow-indigo {
   box-shadow: 0 4px 6px rgba(75, 0, 130, 0.1);
 }
 
+/* OLIVE SHADOW */
 .shadow-olive {
   box-shadow: 0 4px 6px rgba(128, 128, 0, 0.1);
 }
 
+/* SALMON SHADOW */
 .shadow-salmon {
   box-shadow: 0 4px 6px rgba(250, 128, 114, 0.1);
 }
 
+/* CATEGORY CAROUSEL STYLES */
 .category-carousel {
   display: flex;
   justify-content: space-between; 
@@ -149,16 +178,19 @@ img{
   gap: 20px; 
 }
 
+/* INDIVIDUAL CATEGORY CARD STYLES */
 .category-card {
   flex: 0 0 calc(40.33% - 40px); 
   padding: 40px; 
   background-color: #ffffff;
 }
 
+/* CATEGORY DESCRIPTION STYLING */
 .category-description {
   font-size: 20px; 
 }
 
+/* STYLES FOR CATEGORY ICON WITHIN CATEGORY CARD */
 .category-card .category-icon {
   width: 50px;
   height: 50px;
@@ -171,22 +203,26 @@ img{
   font-size: 24px;
 }
 
+/* STYLES FOR SPANS WITHIN CATEGORY CARD */
 .category-card span {
   color: #333; 
   margin-top: 10px; 
   margin-left: 5px;
 }
 
+/* STYLES FOR ACTIVE CATEGORY CARD */
 .category-card.active {
   display: flex;
   transform: scale(1); 
   box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1);
 }
 
+/* STYLES FOR LAST CATEGORY CARD */
 .category-card:last-child {
   margin-right: 2px;
 }
 
+/* NEXT BUTTON STYLES */
 #nextButton {
   background-color: #35383c;
   color: #fff;
@@ -197,16 +233,19 @@ img{
   transition: background-color 0.3s ease;
 }
 
+/* NEXT BUTTON HOVER EFFECT */
 #nextButton:hover {
   background-color: #050505;
 }
 
+/* CUSTOM CATEGORY CARD CONTAINER STYLES */
 .custom-category-card-container {
   display: flex;
   flex-wrap: wrap; 
   justify-content: flex-start; 
 }
 
+/* CUSTOM CATEGORY CARD STYLES */
 .custom-category-card {
   flex: 0 0 calc(33.33% - 2px); 
   padding: 20px;
@@ -219,72 +258,87 @@ img{
   transition: all 0.3s ease-in-out;
 }
 
+/* CUSTOM CATEGORY ICON STYLES */
 .custom-category-icon {
   font-size: 24px;
   margin-bottom: 10px;
 }
 
+/* CUSTOM CATEGORY TITLE STYLES */
 .custom-category-title {
   font-weight: bold;
   font-size: 18px;
   color: #333;
 }
 
+/* CUSTOM CATEGORY DESCRIPTION STYLES */
 .custom-category-description {
   display: none;
   font-size: 17px;
   color: #666;
 }
 
+/* CUSTOM CATEGORY CARD HOVER EFFECT TO SHOW DESCRIPTION */
 .custom-category-card:hover .custom-category-description {
   display: block;
 }
 
 /* Media query for smaller screens */
 @media (max-width: 768px) {
+  /* ADJUSTMENTS FOR CATEGORY CAROUSEL ON SMALL SCREENS */
   .category-carousel {
     flex-wrap: wrap; 
     width: 100%;
   }
 
+  /* ADJUSTMENTS FOR CATEGORY CARDS ON SMALL SCREENS */
   .category-card {
     flex: 0 0 calc(100% - 100px);
   }
-  
 
+  /* ADJUSTMENTS FOR CATEGORY DESCRIPTION ON SMALL SCREENS */
   .category-description {
     flex: 0 0 100%; 
   }
 }
 
+/* Media query for medium screens */
 @media (min-width: 768px) {
+  /* GRID LAYOUT FOR MEDIUM SCREENS - 3 COLUMNS */
   .md\:grid-cols-3 {
       grid-template-columns: repeat(3, 1fr); 
   }
 }
 
+/* Media query for smaller screens - TEXT SIZE ADJUSTMENT */
 @media (max-width: 767px) {
   .text-2xl {
       font-size: 1.5rem; 
   }
 }
 
+/* Media query for medium screens */
 @media (min-width: 768px) {
+  /* GRID LAYOUT FOR MEDIUM SCREENS - 2 COLUMNS */
   .md\:grid-cols-2 {
       grid-template-columns: repeat(2, 1fr); 
   }
 }
 
+/* Media query for large screens */
 @media (min-width: 1024px) {
+  /* GRID LAYOUT FOR LARGE SCREENS - 3 COLUMNS */
   .lg\:grid-cols-3 {
       grid-template-columns: repeat(3, 1fr); 
   }
 
+  /* TEXT SIZE ADJUSTMENT FOR LARGE SCREENS */
   .lg\:text-5xl {
       font-size: 3rem; 
   }
 }
 
+/* Media query for smaller screens - DUPLICATE RULE */
 @media (max-width: 767px) {
   .text-2xl {
       font-size: 1.5rem; 
