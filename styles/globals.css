@@ -250,8 +250,43 @@ img{
   .category-card {
     flex: 0 0 calc(100% - 100px);
   }
+  
 
   .category-description {
     flex: 0 0 100%; 
+  }
+}
+
+@media (min-width: 768px) {
+  .md\:grid-cols-3 {
+      grid-template-columns: repeat(3, 1fr); 
+  }
+}
+
+@media (max-width: 767px) {
+  .text-2xl {
+      font-size: 1.5rem; 
+  }
+}
+
+@media (min-width: 768px) {
+  .md\:grid-cols-2 {
+      grid-template-columns: repeat(2, 1fr); 
+  }
+}
+
+@media (min-width: 1024px) {
+  .lg\:grid-cols-3 {
+      grid-template-columns: repeat(3, 1fr); 
+  }
+
+  .lg\:text-5xl {
+      font-size: 3rem; 
+  }
+}
+
+@media (max-width: 767px) {
+  .text-2xl {
+      font-size: 1.5rem; 
   }
 }
