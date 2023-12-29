@@ -6,53 +6,32 @@ const Footer = () => {
   const email = 'services@bhamseoanddesignco.com';
 
   return (
-    <footer className="bg-white text-black py-5">
-      <section aria-label="Site Footer" className="container mx-auto flex flex-col md:flex-row justify-between items-center text-sm">
-        <div className="flex items-center space-x-2">
-
-          {/* EMAIL */}
-          <MdEmail className="text-black" size="1.7em" />
-          <a href={`mailto:${email}`} className="hover:text-gray-800">
+    <footer className="bg-gray-800 text-gray-300 py-5">
+      <section aria-label="Site Footer" className="container mx-auto flex flex-col md:flex-row justify-between items-center text-xs md:text-sm">
+        <div className="flex items-center space-x-2 mb-3 md:mb-0">
+          <MdEmail className="text-primary-500" size="1.5em" />
+          <a href={`mailto:${email}`} className="hover:text-primary-500">
             {email}
           </a>
         </div>
-
-        {/* ABOUT US PAGE LINK */}
-        <div className="my-3 md:my-0">
-          <Link href="/apply" legacyBehavior>
-            <a className="hover:text-gray-800">About Us & FAQ</a>
-          </Link>
+        <div className="mb-3 md:mb-0">
+          <Link href="/apply">About Us & FAQ</Link>
         </div>
-
-        {/* CONTACT US LINK */}
-        <div className="my-3 md:my-0">
-          <Link href="/contact" legacyBehavior>
-            <a className="hover:text-gray-800">Contact</a>
-          </Link>
+        <div className="mb-3 md:mb-0">
+          <Link href="/contact">Contact</Link>
         </div>
-
-        {/* Website Pricing Link */}
-        <div className="my-3 md:my-0">
-          <Link href="/PackagePage" legacyBehavior>
-            <a className="hover:text-primary-500">Website Pricing</a>
-          </Link>
+        <div className="mb-3 md:mb-0">
+          <Link href="/PackagePage">Website Pricing</Link>
         </div>
-
-        {/* Privacy Policy Link */}
-        <div className="my-3 md:my-0">
-          <Link href="/privacy" legacyBehavior>
-            <a className="hover:text-primary-500">Privacy Policy</a>
-          </Link>
+        <div className="mb-3 md:mb-0">
+          <Link href="/privacy">Privacy Policy</Link>
         </div>
-   
-        <p>
+        <p className="text-center md:text-left">
           &copy; {new Date().getFullYear()} Bham SEO & Design Co. All rights reserved.
         </p>
-
       </section>
     </footer>
   );
-
 };
 
 export default Footer;
