@@ -1,4 +1,5 @@
 import React from 'react';
+import Link from 'next/link';
 
 const SeoPackagePage = () => {
     return (
@@ -9,6 +10,19 @@ const SeoPackagePage = () => {
             <p className="text-xl mb-8 leading-relaxed font-light">
                 Elevate your brands online presence with our <span className="font-semibold text-blue-600">SEO Mastery Package</span>, meticulously crafted to boost your websites visibility and organic reach. Our team of SEO experts will employ cutting-edge strategies tailored to your specific business needs, ensuring your website stands out in search engine results.
             </p>
+
+            <div id="table-of-contents">
+    <h2>Table of Contents</h2>
+    <ul>
+        <li>
+            <a href="#explore-seo-services">Explore our SEO Services</a>
+        </li>
+        <li>
+            <a href="#seo-pricing-packages">SEO Pricing Packages</a>
+        </li>
+    </ul>
+</div>
+
             <div className="grid grid-cols-1 md:grid-cols-2 gap-8 py-4">
                 <div className="p-6 border-l-4 border-blue-500 bg-gray-50 rounded-lg shadow-lg transform transition duration-300 hover:scale-105">
                     <h2 className="text-2xl font-bold text-gray-800 mb-3">Keyword Research and Optimization</h2>
@@ -40,7 +54,9 @@ const SeoPackagePage = () => {
         <div className="mb-20"></div>
 <div className="bg-white text-center p-10 shadow-lg rounded-lg mb-10 z-10 relative">
 <h2 className="text-5xl font-extrabold text-gray-800 mb-6">Explore Our Comprehensive SEO Services</h2>
+<div id="#explore-seo-services">
 <p className="text-lg mb-8 text-gray-600">Delve into the extensive spectrum of our SEO offerings below for a detailed understanding.</p>
+</div>
 <div className="flex justify-center items-center">
 <svg xmlns="http://www.w3.org/2000/svg" className="h-6 w-6 text-gray-600" fill="none" viewBox="0 0 24 24" stroke="currentColor">
 <path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M19 9l-7 7-7-7" />
@@ -56,44 +72,44 @@ const SeoPackagePage = () => {
             <p className="text-white text-opacity-90">This process enhances your websites visibility on search engines by strategically using specific words and phrases that align with what your potential customers search for.</p>
         </div>
         <div className="p-6 bg-white space-y-4">
-        <div class="custom-category-card">
+        <div class="cat-car">
         <div class="custom-category-icon">🎯</div>
         <span class="custom-category-title">Understanding Your Goals</span>
 <p> We initiate by discussing your websites objectives to align with your vision.</p>
       </div>
-      <div class="custom-category-card">
+      <div class="cat-car">
         <div class="custom-category-icon">🔍</div>
         <span class="custom-category-title">Market Research</span>
 <p> We conduct in-depth industry research, competitive analysis, and customer behavior studies.</p>
       </div>
-      <div class="custom-category-card">
+      <div class="cat-car">
         <div class="custom-category-icon">📋</div>
         <span class="custom-category-title">Keyword List</span>
 <p> We compile a comprehensive list of keywords and phrases commonly used to find websites like yours.</p>
       </div>
-      <div class="custom-category-card">
+      <div class="cat-car">
         <div class="custom-category-icon">🌟</div>
         <span class="custom-category-title">Choosing the Best Keywords</span>
 <p> We meticulously select the most effective keywords relevant to your business for increased traffic.</p>
       </div>
-      <div class="custom-category-card">
+      <div class="cat-car">
         <div class="custom-category-icon">🔑</div>
         <span class="custom-category-title">Using Keywords on Your Site</span>
 <p> We strategically integrate these keywords into various aspects of your website, including titles and articles.</p>
       </div>
-      <div class="custom-category-card">
+      <div class="cat-car">
         <div class="custom-category-icon">✍️</div>
         <span class="custom-category-title">Creating Helpful Content</span>
 <p> Our team generates valuable content for your website that incorporates these keywords naturally.</p>
       </div>
-      <div class="custom-category-card">
+      <div class="cat-car">
         <div class="custom-category-icon">👀</div>
         <span class="custom-category-title">Keeping an eye on Progress</span>
 <p>We continuously monitor your websites performance in search results and implement necessary adjustments.</p>
       </div>
-      <div class="custom-category-card">
+      <div class="cat-car">
         <div class="custom-category-icon">📊 </div>
-        <span class="custom-category-title">Reporting to You</span>
+        <span class="cat-title">Reporting to You</span>
 <p>  Youll receive easy-to-understand reports demonstrating how your website is attracting more visitors.</p>
       </div>
       
@@ -111,42 +127,42 @@ const SeoPackagePage = () => {
                         </div>
                         <div className="p-6 bg-white space-y-4">
                  
-<div class="custom-category-card">
+<div class="cat-car">
     <div class="custom-category-icon">🏗️</div>
-    <span class="custom-category-title">Website Structure Optimization</span>
+    <span class="cat-title">Website Structure Optimization</span>
     <p>We start by examining the structure of your website, optimizing its layout, navigation, and overall organization to be user-friendly and search engine-friendly.</p>
 </div>
-<div class="custom-category-card">
+<div class="cat-car">
     <div class="custom-category-icon">🔖</div>
     <span class="custom-category-title">Meta Tags Optimization</span>
     <p>We meticulously review and optimize meta titles and descriptions for each page, crafting compelling, keyword-rich meta tags for better search rankings and user engagement.</p>
 </div>
-<div class="custom-category-card">
+<div class="cat-car">
     <div class="custom-category-icon">📝</div>
     <span class="custom-category-title">Content Optimization</span>
     <p>Our content optimization ensures alignment with target keywords and audience value, including keyword integration and header tags optimization.</p>
 </div>
-<div class="custom-category-card">
+<div class="cat-car">
     <div class="custom-category-icon">🔍</div>
     <span class="custom-category-title">Keyword Analysis</span>
     <p>We conduct in-depth research to identify valuable and relevant keywords for your industry, selecting ones with high search volume and potential for qualified traffic.</p>
 </div>
-<div class="custom-category-card">
+<div class="cat-car">
     <div class="custom-category-icon">📱</div>
     <span class="custom-category-title">Mobile Optimization</span>
     <p>We ensure your website is fully responsive and optimized for mobile users, focusing on page load times and seamless user experience on various devices.</p>
 </div>
-<div class="custom-category-card">
+<div class="cat-car">
     <div class="custom-category-icon">⚙️</div>
     <span class="custom-category-title">Technical SEO</span>
     <p>Our technical SEO audits identify and rectify issues affecting your websites performance, such as broken links, duplicate content, and crawlability issues.</p>
 </div>
-<div class="custom-category-card">
+<div class="cat-car">
     <div class="custom-category-icon">📊</div>
     <span class="custom-category-title">Monitoring and Reporting</span>
     <p>We continuously monitor your websites performance, track keyword rankings, and provide detailed reports on the progress of your SEO efforts.</p>
 </div>
-<div class="custom-category-card">
+<div class="cat-car">
     <div class="custom-category-icon">👥</div>
     <span class="custom-category-title">User Experience UX Enhancement</span>
     <p>We enhance your websites UX, focusing on improving page speed, reducing bounce rates, and ensuring user-friendly navigation and information accessibility.</p>
@@ -165,26 +181,26 @@ const SeoPackagePage = () => {
             </div>
             <div className="p-6 bg-white space-y-4">
       
-<div class="custom-category-card">
+<div class="cat-car">
     <div class="custom-category-icon">🔍</div>
     <span class="custom-category-title">Website Assessment</span>
     <p>Our team will thoroughly evaluate your websites technical components, including its structure, meta tags, internal linking, and more.</p>
 </div>
 
 
-<div class="custom-category-card">
+<div class="cat-car">
     <div class="custom-category-icon">🚨</div>
     <span class="custom-category-title">Issue Identification</span>
     <p>We will identify any technical issues such as broken links, duplicate content, slow page load times, and mobile-friendliness problems that may hinder your SEO performance.</p>
 </div>
 
-<div class="custom-category-card">
+<div class="cat-car">
     <div class="custom-category-icon">⏫</div>
     <span class="custom-category-title">Prioritization</span>
     <p>After pinpointing issues, we prioritize them based on their impact on your sites SEO. Critical issues are addressed first to ensure immediate improvements.</p>
 </div>
 
-<div class="custom-category-card">
+<div class="cat-car">
     <div class="custom-category-icon">🛠️</div>
     <span class="custom-category-title">Optimization</span>
     <p>Our experts implement necessary changes to rectify identified issues, ensuring that your website is in line with best SEO practices.</p>
@@ -204,22 +220,22 @@ const SeoPackagePage = () => {
                 <p className="text-white text-opacity-90">We will create a content plan that includes SEO-friendly articles and materials tailored to your target audience. This helps improve your websites visibility and engages your visitors with valuable information.</p>
             </div>
             <div className="p-6 bg-white space-y-4">
-            <div class="custom-category-card">
+            <div class="cat-car">
     <div class="custom-category-icon">👥</div>
     <span class="custom-category-title">Audience Analysis</span>
     <p>We begin by understanding your target audience, their interests, pain points, and preferences.</p>
 </div>
-<div class="custom-category-card">
+<div class="cat-car">
     <div class="custom-category-icon">🔍</div>
     <span class="custom-category-title">Keyword Research</span>
     <p>Our team conducts comprehensive keyword research to identify the most relevant and high-value keywords for your industry.</p>
 </div>
-<div class="custom-category-card">
+<div class="cat-car">
     <div class="custom-category-icon">📅</div>
     <span class="custom-category-title">Content Plan</span>
     <p>Based on audience analysis and keyword research, we create a content plan that outlines the topics, types of content, and publishing schedule.</p>
 </div>
-<div class="custom-category-card">
+<div class="cat-car">
     <div class="custom-category-icon">✍️</div>
     <span class="custom-category-title">Content Creation</span>
     <p>We develop SEO-friendly articles and materials that align with your content plan, ensuring they provide value to your audience.</p>
@@ -237,25 +253,25 @@ const SeoPackagePage = () => {
                 <p className="text-white text-opacity-90">Our SEO experts will review your existing backlinks and design a plan to acquire high-quality backlinks. This strengthens your websites authority and boosts its ranking in search engine results pages.</p>
             </div>
             <div className="p-6 bg-white space-y-4">       
-            <div class="custom-category-card">
+            <div class="cat-car">
     <div class="custom-category-icon">🔗</div>
     <span class="custom-category-title">Backlink Assessment</span>
     <p>Our SEO experts evaluate your existing backlink profile, looking at the quality, quantity, and relevance of your backlinks.</p>
 </div>
 
-<div class="custom-category-card">
+<div class="cat-car">
     <div class="custom-category-icon">🕵️‍♂️</div>
     <span class="custom-category-title">Competitor Analysis</span>
     <p>We analyze your competitors backlink strategies to identify opportunities for improvement.</p>
 </div>
 
-<div class="custom-category-card">
+<div class="cat-car">
     <div class="custom-category-icon">💡</div>
     <span class="custom-category-title">Strategy Development</span>
     <p>Based on the assessment, we craft a backlink strategy that includes acquiring high-quality backlinks from authoritative sources.</p>
 </div>
 
-<div class="custom-category-card">
+<div class="cat-car">
     <div class="custom-category-icon">🛠️</div>
     <span class="custom-category-title">Implementation</span>
     <p>Our team actively works on building and earning backlinks that enhance your websites authority and visibility.</p>
@@ -274,25 +290,25 @@ const SeoPackagePage = () => {
                 <p className="text-white text-opacity-90">Youll receive comprehensive monthly reports on how your website is performing in search engines. These reports come with valuable insights and suggestions for continuous improvement, helping you stay on top of your SEO game.</p>
             </div>
             <div className="p-6 bg-white space-y-4">
-            <div class="custom-category-card">
+            <div class="cat-car">
     <div class="custom-category-icon">📊</div>
     <span class="custom-category-title">Data Collection</span>
     <p>We collect data on your websites performance, including keyword rankings, organic traffic, and user behavior.</p>
 </div>
 
-<div class="custom-category-card">
+<div class="cat-car">
     <div class="custom-category-icon">🔍</div>
     <span class="custom-category-title">Analysis</span>
     <p>Our experts analyze the collected data to gain insights into your websites SEO performance.</p>
 </div>
 
-<div class="custom-category-card">
+<div class="cat-car">
     <div class="custom-category-icon">📝</div>
     <span class="custom-category-title">Report Generation</span>
     <p>We compile the analysis results into comprehensive monthly reports, highlighting key performance metrics and trends.</p>
 </div>
 
-<div class="custom-category-card">
+<div class="cat-car">
     <div class="custom-category-icon">💡</div>
     <span class="custom-category-title">Recommendations</span>
     <p>Along with the reports, we provide actionable recommendations to improve your websites SEO based on the data insights.</p>
@@ -300,6 +316,11 @@ const SeoPackagePage = () => {
             </div>
         </div>
     </div>
+</div>
+
+<div id="#seo-pricing-packages">
+
+
 </div>
         </div> 
 
