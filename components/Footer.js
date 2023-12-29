@@ -31,6 +31,13 @@ const Footer = () => {
           </Link>
         </div>
 
+        {/* Website Pricing Link */}
+        <div className="my-3 md:my-0">
+          <Link href="/PackagePage" legacyBehavior>
+            <a className="hover:text-primary-500">Website Pricing</a>
+          </Link>
+        </div>
+   
         <p>
           &copy; {new Date().getFullYear()} Bham SEO & Design Co. All rights reserved.
         </p>
