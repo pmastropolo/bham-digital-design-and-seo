@@ -37,6 +37,13 @@ const Footer = () => {
             <a className="hover:text-primary-500">Website Pricing</a>
           </Link>
         </div>
+
+        {/* Privacy Policy Link */}
+        <div className="my-3 md:my-0">
+          <Link href="/privacy" legacyBehavior>
+            <a className="hover:text-primary-500">Privacy Policy</a>
+          </Link>
+        </div>
    
         <p>
           &copy; {new Date().getFullYear()} Bham SEO & Design Co. All rights reserved.
