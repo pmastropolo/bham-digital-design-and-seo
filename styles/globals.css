@@ -238,15 +238,60 @@ img {
   background-color: #050505;
 }
 
-/* CUSTOM CATEGORY CARD CONTAINER STYLES */
+/* Container for the category cards */
 .custom-category-card-container {
   display: flex;
-  flex-wrap: wrap; 
-  justify-content: flex-start; 
+  flex-wrap: wrap;
+  justify-content: space-around; 
 }
 
-/* CUSTOM CATEGORY CARD STYLES */
+/* Style for individual category cards */
 .custom-category-card {
+  flex: 1 0 auto; 
+  max-width: 100%; 
+  padding: 20px;
+  background-color: #ffffff;
+  text-align: center;
+  border: 1px solid #ccc;
+  border-radius: 10px;
+  margin: 10px;
+  box-sizing: border-box; 
+}
+
+.custom-category-icon {
+  font-size: 24px;
+  margin-bottom: 10px;
+}
+
+.custom-category-title {
+  font-weight: bold;
+  font-size: 18px;
+  color: #333;
+}
+
+.custom-category-description {
+  display: none;
+  font-size: 17px;
+  color: #666;
+}
+
+.custom-category-card:hover .custom-category-description {
+  display: block;
+}
+
+.cat-title {
+  font-weight: bold;
+  font-size: 18px;
+  color: #333;
+}
+
+.cat-de {
+  display: none;
+  font-size: 17px;
+  color: #666;
+}
+
+.cat-car {
   flex: 0 0 calc(33.33% - 2px); 
   padding: 20px;
   background-color: #ffffff;
@@ -258,127 +303,69 @@ img {
   transition: all 0.3s ease-in-out;
 }
 
-/* CUSTOM CATEGORY ICON STYLES */
-.custom-category-icon {
-  font-size: 24px;
-  margin-bottom: 10px;
-}
-
-/* CUSTOM CATEGORY TITLE STYLES */
-.custom-category-title {
-  font-weight: bold;
-  font-size: 18px;
-  color: #333;
-}
-
-/* CUSTOM CATEGORY DESCRIPTION STYLES */
-.custom-category-description {
-  display: none;
-  font-size: 17px;
-  color: #666;
-}
-
-/* CUSTOM CATEGORY CARD HOVER EFFECT TO SHOW DESCRIPTION */
-.custom-category-card:hover .custom-category-description {
+.cat-car:hover .cat-de {
   display: block;
 }
 
-/* TABLE OF CONTENTS STYLING */
-.table-of-contents {
-  padding: 20px;
-  background-color: #f8f8f8;
-  border-radius: 10px;
-  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
-}
-
-/* STYLING FOR TOC LIST */
-.toc-list {
-  list-style: none;
-  padding: 0;
-  margin: 0;
-  display: inline-block; /* CENTERS LIST IN NAV */
-}
-
-/* STYLING FOR EACH TOC ITEM */
-.toc-item {
-  margin: 10px 15px;
-  display: inline-block;
-}
-
-/* STYLING FOR TOC LINKS */
-.toc-link {
-  color: #333;
-  font-size: 18px;
-  text-decoration: none;
-  padding-bottom: 5px;
-  transition: color 0.3s ease, border-color 0.3s ease;
-  border-bottom: 2px solid transparent;
-}
-
-/* HOVER EFFECT FOR TOC LINKS */
-.toc-link:hover {
-  color: #007bff;
-  border-bottom-color: #007bff;
-}
 
 /* Media query for smaller screens */
 @media (max-width: 768px) {
-  /* ADJUSTMENTS FOR CATEGORY CAROUSEL ON SMALL SCREENS */
   .category-carousel {
     flex-wrap: wrap; 
     width: 100%;
   }
 
-  /* ADJUSTMENTS FOR CATEGORY CARDS ON SMALL SCREENS */
   .category-card {
     flex: 0 0 calc(100% - 100px);
   }
-
-  /* ADJUSTMENTS FOR CATEGORY DESCRIPTION ON SMALL SCREENS */
+  
   .category-description {
     flex: 0 0 100%; 
   }
+
+  /* Add a media query for screens under 1000px */
+  @media (max-width: 1000px) {
+    .grid-cols-1 {
+      grid-template-columns: 1fr;
+    }
+  }
+
+  .text-2xl {
+    font-size: 1.5rem; 
+  }
 }
 
-/* Media query for medium screens */
 @media (min-width: 768px) {
-  /* GRID LAYOUT FOR MEDIUM SCREENS - 3 COLUMNS */
   .md\:grid-cols-3 {
-      grid-template-columns: repeat(3, 1fr); 
+    grid-template-columns: repeat(3, 1fr); 
+  }
+
+  .md\:grid-cols-2 {
+    grid-template-columns: repeat(2, 1fr); 
   }
 }
 
-/* Media query for smaller screens - TEXT SIZE ADJUSTMENT */
-@media (max-width: 767px) {
-  .text-2xl {
-      font-size: 1.5rem; 
+@media (min-width: 1024px) {
+  .lg\:grid-cols-3 {
+    grid-template-columns: repeat(3, 1fr); 
+  }
+
+  .lg\:text-5xl {
+    font-size: 3rem; 
   }
 }
 
 /* Media query for medium screens */
-@media (min-width: 768px) {
-  /* GRID LAYOUT FOR MEDIUM SCREENS - 2 COLUMNS */
-  .md\:grid-cols-2 {
-      grid-template-columns: repeat(2, 1fr); 
+@media (min-width: 600px) {
+  .custom-category-card {
+    max-width: calc(50% - 22px); 
   }
 }
 
-/* Media query for large screens */
-@media (min-width: 1024px) {
-  /* GRID LAYOUT FOR LARGE SCREENS - 3 COLUMNS */
-  .lg\:grid-cols-3 {
-      grid-template-columns: repeat(3, 1fr); 
-  }
-
-  /* TEXT SIZE ADJUSTMENT FOR LARGE SCREENS */
-  .lg\:text-5xl {
-      font-size: 3rem; 
-  }
-}
-
-/* Media query for smaller screens - DUPLICATE RULE */
-@media (max-width: 767px) {
-  .text-2xl {
-      font-size: 1.5rem; 
+/* Media query for larger screens */
+@media (min-width: 1000px) {
+  .custom-category-card {
+    flex-basis: calc(25% - 22px); 
+    max-width: calc(25% - 22px); 
   }
 }
