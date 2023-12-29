@@ -151,8 +151,6 @@ const Business = () => {
       </div>
     </div>
 
-
-
     <div className="p-3">
 
     <h4 className="text-4xl font-semibold text-gray-800 mt-2">Professional <span className="text-green-600">Business</span> Website Package</h4>
@@ -258,19 +256,20 @@ const Business = () => {
 </div>
 
 
-      {/* Section for Key Features of the Business Package */}
-      <h5 className="text-2xl font-semibold text-gray-800 mt-6">Benefits of having a Business WebSite</h5>
-      {/* Feature Descriptions */}
+{/* Section for Benefits of the Business Package */}
+<h5 className="text-2xl font-semibold text-gray-800 mt-6">Benefits of having a Business Website</h5>
 
+{/* Benefit Descriptions */}
 <p className="text-md text-gray-700 mt-4"><b>Availability 24/7</b> | Your website is open 24/7 for sales and leads.</p>
 <p className="text-md text-gray-700 mt-4"><b>Competitive Edge</b> | Stay ahead in the digital age.</p>
 <p className="text-md text-gray-700 mt-4"><b>Credibility</b> | Enhance trust with a professional online presence.</p>
 <p className="text-md text-gray-700 mt-4"><b>Information Hub</b> | Offer resources and contact info.</p>
 <p className="text-md text-gray-700 mt-4 mb-4"><b>Lead Generation</b> | Capture leads for customer engagement.</p>
 
-
+{/* Ideal For */}
 <h5 className="text-2xl font-semibold text-gray-800 mt-6 mb-4">Ideal For</h5>
 <div class="custom-category-card-container">
+  
       {/* Individual Card for Corporations */}
       <div class="custom-category-card">
         <div class="custom-category-icon">🏢</div>
@@ -298,7 +297,7 @@ const Business = () => {
         </div>
       </div>
   
-
+       {/* Individual Card for Entrepreneurs */}
       <div class="custom-category-card">
   <div class="custom-category-icon">🚀</div>
   <span class="custom-category-title">Entrepreneurs</span>
@@ -307,7 +306,6 @@ const Business = () => {
   </div>
 </div>
 </div>
-
 
       
       {/* Call to Action for Contact */}
@@ -321,9 +319,6 @@ const Business = () => {
       </Link>
     </div>
   </div>
-
-  
-
 
 
 <section></section>
