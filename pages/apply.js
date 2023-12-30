@@ -48,7 +48,7 @@ What sets us apart is our commitment to tailoring each project to our clients un
 {/* FAQ SECTION */}
 <div className="container mx-auto px-16 py-10 bg-white">
 
-    <h1 className="text-5xl lg:text-6xl font-bold text-center mb-12 underline decoration-blue-500 decoration-4 underline-offset-8">FAQ</h1>
+    <h2 className="text-5xl lg:text-6xl font-bold text-center mb-12 underline decoration-blue-500 decoration-4 underline-offset-8">FAQ</h2>
 
 {/* WEB DESIGN SECTION */}
 <h2 id="web-design-questions" className="text-4xl font-extrabold text-indigo-600 mt-12 mb-8">Web Design</h2>
