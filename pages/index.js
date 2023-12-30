@@ -102,7 +102,7 @@ export default function Home() {
       <p className="text-md md:text-lg text-gray-600">
         Discover how our tailored web development solutions can elevate your business, leveraging the latest technologies and innovative design.
       </p>
-      <Link href="/features" legacyBehavior>
+      <Link href="/PackagePage" legacyBehavior>
         <a className="inline-block bg-blue-600 hover:bg-blue-800 text-white text-lg py-3 px-8 rounded-md transition duration-300 transform hover:-translate-y-1 shadow-md">
           Learn More
         </a>
