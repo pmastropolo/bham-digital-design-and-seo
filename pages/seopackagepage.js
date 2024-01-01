@@ -1,5 +1,6 @@
 import React from 'react';
 import Link from 'next/link';
+import SEOPackages from '../components/SEOPackages'; 
 
 const SeoPackagePage = () => {
     return (
@@ -10,18 +11,13 @@ const SeoPackagePage = () => {
             <p className="text-xl mb-8 leading-relaxed font-light">
                 Elevate your brands online presence with our <span className="font-semibold text-blue-600">SEO Mastery Package</span>, meticulously crafted to boost your websites visibility and organic reach. Our team of SEO experts will employ cutting-edge strategies tailored to your specific business needs, ensuring your website stands out in search engine results.
             </p>
+            <div className="flex flex-wrap justify-center gap-4 mb-8">
+                    <a href="#keyword-research" className="px-4 py-2 bg-blue-500 text-white rounded hover:bg-blue-600">SEO Services</a>
+                    <a href="#seo-packages-pricing" className="px-4 py-2 bg-blue-500 text-white rounded hover:bg-blue-600">SEO Packages Pricing</a>
+                    <a href="#free-quote" className="px-4 py-2 bg-blue-500 text-white rounded hover:bg-blue-600">Free Quote</a>
 
-            <div id="table-of-contents">
-    <h2>Table of Contents</h2>
-    <ul>
-        <li>
-            <a href="#explore-seo-services">Explore our SEO Services</a>
-        </li>
-        <li>
-            <a href="#seo-pricing-packages">SEO Pricing Packages</a>
-        </li>
-    </ul>
-</div>
+                </div>
+
 
             <div className="grid grid-cols-1 md:grid-cols-2 gap-8 py-4">
                 <div className="p-6 border-l-4 border-blue-500 bg-gray-50 rounded-lg shadow-lg transform transition duration-300 hover:scale-105">
@@ -52,6 +48,7 @@ const SeoPackagePage = () => {
         </div>
 
         <div className="mb-20"></div>
+        <div id="keyword-research">
 <div className="bg-white text-center p-10 shadow-lg rounded-lg mb-10 z-10 relative">
 <h2 className="text-5xl font-extrabold text-gray-800 mb-6">Explore Our Comprehensive SEO Services</h2>
 <div id="#explore-seo-services">
@@ -61,6 +58,7 @@ const SeoPackagePage = () => {
 <svg xmlns="http://www.w3.org/2000/svg" className="h-6 w-6 text-gray-600" fill="none" viewBox="0 0 24 24" stroke="currentColor">
 <path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M19 9l-7 7-7-7" />
 </svg>
+</div>
 </div>
 </div>
         <div className="flex flex-wrap justify-center gap-8 mt-10">
@@ -318,8 +316,11 @@ const SeoPackagePage = () => {
     </div>
 </div>
 
-<div id="#seo-pricing-packages">
-
+<div id="seo-packages-pricing">
+            <h1 className="text-3xl font-bold my-4">Our SEO Packages</h1>
+            <SEOPackages />
+        </div>
+        <div id="free-quote">
 
 </div>
         </div> 
