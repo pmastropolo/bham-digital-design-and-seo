@@ -4,6 +4,7 @@ import SubscribeForm from './subbscribe';
 
 const Footer = () => {
   const email = 'services@bhamseoanddesignco.com';
+  const currentYear = new Date().getFullYear(); 
 
     return (
         <footer className="bg-white text-black p-4">
@@ -34,8 +35,13 @@ const Footer = () => {
 
                 </div>
                 <div className="w-full sm:w-auto">
-          <span className="font-bold mb-2 block">Subscribe to Our Email Newsletter</span>
+          <span className="font-bold mb-2 block">Join Our Email List</span>
           <SubscribeForm />
+        </div>
+        <div className="w-full text-center mt-4">
+          <p className="text-sm">
+            © {currentYear} Bham SEO and Design Co. All rights reserved.
+          </p>
         </div>
                 </div>
       
