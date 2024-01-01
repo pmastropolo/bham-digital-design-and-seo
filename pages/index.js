@@ -111,7 +111,7 @@ export default function Home() {
     <div className="flex justify-center items-center">
       <div className="relative w-full h-64 md:h-96"> 
         <Image
-          src="/images/istockphoto-1249598036-612x612.jpg"
+          src="/images/ggggggg.jpg"
           alt="Web Development"
           layout="fill"
           objectFit="contain" 
