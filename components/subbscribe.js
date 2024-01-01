@@ -12,6 +12,7 @@ const SubscribeForm = () => {
             <label htmlFor="email" className="block text-sm font-medium text-gray-700 sr-only">
                 Email Address
             </label>
+            {/* Email input */}
             <input
                 id="email"
                 type="email" 
@@ -20,12 +21,14 @@ const SubscribeForm = () => {
                            focus:outline-none focus:border-indigo-500 focus:ring-1 focus:ring-indigo-500"
                 placeholder="Enter your email"
             />
+            {/* Validation error */}
             <ValidationError 
                 prefix="Email" 
                 field="email"
                 errors={state.errors}
                 className="text-red-600 text-sm mt-1"
             />
+            {/* Submit button */}        
             <button 
                 type="submit" 
                 disabled={state.submitting}
