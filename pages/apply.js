@@ -4,27 +4,26 @@ import Image from 'next/image';
 const Apply = () => {
     return (
 
-<div className="apply-container bg-gray-100 text-gray-800 py-16">
-<div className="max-w-6xl mx-auto">
+<div className="apply-container bg-gray-100 text-gray-800 py-8 lg:py-16">
+<div className="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8">
 
-    {/* ABOUT US TITLE SECTION */}
-    <h1 id="about-us" className="text-5xl lg:text-6xl font-bold text-center mb-10">About Us</h1>
-
-    <div className="about-section grid grid-cols-1 lg:grid-cols-2 gap-10 items-center">
+{/* ABOUT US TITLE SECTION */}
+<h1 id="about-us" className="text-4xl sm:text-5xl md:text-6xl font-bold text-center mb-6 lg:mb-10">About Us</h1>
+<div className="about-section grid grid-cols-1 gap-8 lg:grid-cols-2 lg:gap-10 items-center">
 <div className="text-center lg:text-left">
 
 {/* OUR MISSION SECTION */}
-<h2 className="text-3xl lg:text-4xl font-semibold mb-4 text-indigo-600">Our Mission</h2>
-<p className="text-xl mb-8 leading-relaxed">
+<h2 className="text-2xl lg:text-3xl font-semibold mb-4 text-indigo-600">Our Mission</h2>
+<p className="text-lg lg:text-xl mb-6 leading-relaxed">
 At Bham SEO & Design Co., our mission is to empower businesses with innovative web design and digital solutions. We are driven by a passion for creativity, technology, and client success.
 </p>
-<p className="text-xl mb-8 leading-relaxed">
+<p className="text-lg lg:text-xl mb-6 leading-relaxed">
 What sets us apart is our commitment to tailoring each project to our clients unique needs. We take the time to understand your business, goals, and target audience to create customized solutions that make a lasting impact. We stand out in the industry by consistently staying ahead of design trends and emerging technologies. Our mission is to make your online presence shine and help your business thrive in the digital landscape.
 </p>
 </div>
 
 {/* TEAMWORK IMAGE */}
-<div>
+<div className="flex justify-center">
     <Image 
         src="/images/teammmmmy.png" 
         alt="Team Photo" 
@@ -38,17 +37,23 @@ What sets us apart is our commitment to tailoring each project to our clients un
 
 {/* TABLE OF CONTENTS */}
 <nav className="table-of-contents text-center my-10">
-    <ul className="toc-list">
-        <li className="toc-item"><a className="toc-link" href="#about-us">About Us</a></li>
-        <li className="toc-item"><a className="toc-link" href="#web-design-questions">Web Design Questions</a></li>
-        <li className="toc-item"><a className="toc-link" href="#seo-questions">SEO Questions</a></li>         
+    <h2 className="text-2xl font-bold mb-4">Quick Navigation</h2>
+    <ul className="toc-list list-none">
+        <li className="toc-item mb-2">
+            <a className="toc-link inline-block bg-indigo-600 hover:bg-indigo-700 text-white py-2 px-4 rounded-lg shadow-md" href="#about-us">About Us</a>
+        </li>
+        <li className="toc-item mb-2">
+            <a className="toc-link inline-block bg-indigo-600 hover:bg-indigo-700 text-white py-2 px-4 rounded-lg shadow-md" href="#web-design-questions">Web Design Questions</a>
+        </li>
+        <li className="toc-item mb-2">
+            <a className="toc-link inline-block bg-indigo-600 hover:bg-indigo-700 text-white py-2 px-4 rounded-lg shadow-md" href="#seo-questions">SEO Questions</a>
+        </li>         
     </ul>
 </nav>
 
 {/* FAQ SECTION */}
 <div className="container mx-auto px-16 py-10 bg-white">
-
-    <h2 className="text-5xl lg:text-6xl font-bold text-center mb-12 underline decoration-blue-500 decoration-4 underline-offset-8">FAQ</h2>
+<h2 className="text-5xl lg:text-6xl font-bold text-center mb-12 underline decoration-blue-500 decoration-4 underline-offset-8">FAQ</h2>
 
 {/* WEB DESIGN SECTION */}
 <h2 id="web-design-questions" className="text-4xl font-extrabold text-indigo-600 mt-12 mb-8">Web Design</h2>
