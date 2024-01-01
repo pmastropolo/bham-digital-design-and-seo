@@ -24,9 +24,9 @@ const Footer = () => {
                     </Link>
                 </div>
                 <div className="w-full sm:w-auto mb-4 sm:mb-0">
-                    <span className="font-bold mb-2 block">Services:</span>
-                    <Link href="/digitalmarketingg" legacyBehavior>
-                        <a className="block mb-2">Digital Marketing</a>
+                    <span className="font-bold mb-2 block">Services</span>
+                    <Link href="/PackagePage" legacyBehavior>
+                        <a className="block mb-2">Website Pricing</a>
                     </Link>
                     <Link href="/seopackagepage" legacyBehavior>
                         <a className="block mb-2">SEO</a>
