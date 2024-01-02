@@ -92,6 +92,7 @@ const BlogPackageData = [
 
 const BlogPackages = () => {
   return (
+    
 <div>
         <div className="bg-blue rounded-lg overflow-hidden shadow-md" style={{ boxShadow: "0px 4px 2px rgba(0, 0, 255, 0.1)" }}>
         <div className="p-2 sm:p-3">
