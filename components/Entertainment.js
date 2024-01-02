@@ -153,54 +153,53 @@ Enable fans to purchase tickets or book seats for your events conveniently.
 </div>
 
 <div class="custom-category-card">
-  <div class="custom-category-icon">🌐</div>
-  <span class="custom-category-title">Advanced SEO</span>
-  <div class="custom-category-description">
-    Improve online visibility and reach a wider audience through search engine optimization.
-  </div>
+<div class="custom-category-icon">🌐</div>
+<span class="custom-category-title">Advanced SEO</span>
+<div class="custom-category-description">
+Improve online visibility and reach a wider audience through search engine optimization.
+</div>
 </div>
 
 <div class="custom-category-card">
-  <div class="custom-category-icon">🎉</div>
-  <span class="custom-category-title">Fan Engagement</span>
-  <div class="custom-category-description">
-    Interact with your fans and followers through social media feeds and engagement features.
-  </div>
+<div class="custom-category-icon">🎉</div>
+<span class="custom-category-title">Fan Engagement</span>
+<div class="custom-category-description">
+Interact with your fans and followers through social media feeds and engagement features.
+</div>
 </div>
 
 <div class="custom-category-card">
-  <div class="custom-category-icon">💼</div>
-  <span class="custom-category-title">E-Commerce for Merchandise Sales</span>
-  <div class="custom-category-description">
-    Sell merchandise, tickets, or other products related to your entertainment brand.
-  </div>
+<div class="custom-category-icon">💼</div>
+<span class="custom-category-title">E-Commerce for Merchandise Sales</span>
+<div class="custom-category-description">
+Sell merchandise, tickets, or other products related to your entertainment brand.
+</div>
 </div>
 
 <div class="custom-category-card">
-  <div class="custom-category-icon">📊</div>
-  <span class="custom-category-title">Comprehensive Event Management</span>
-  <div class="custom-category-description">
-    Efficiently manage and promote your events with powerful tools.
-  </div>
+<div class="custom-category-icon">📊</div>
+<span class="custom-category-title">Comprehensive Event Management</span>
+<div class="custom-category-description">
+Efficiently manage and promote your events with powerful tools.
+</div>
 </div>
 
 <div class="custom-category-card">
-  <div class="custom-category-icon">🌟</div>
-  <span class="custom-category-title">VIP and Fan Club Membership Areas</span>
-  <div class="custom-category-description">
-    Create exclusive spaces for your loyal supporters and fans.
-  </div>
+<div class="custom-category-icon">🌟</div>
+<span class="custom-category-title">VIP and Fan Club Membership Areas</span>
+<div class="custom-category-description">
+Create exclusive spaces for your loyal supporters and fans.
+</div>
 </div>
 
 <div class="custom-category-card">
-  <div class="custom-category-icon">🌍</div>
-  <span class="custom-category-title">Multi-Language Support</span>
-  <div class="custom-category-description">
-    Reach a global audience by offering your website in multiple languages.
-  </div>
+<div class="custom-category-icon">🌍</div>
+<span class="custom-category-title">Multi-Language Support</span>
+<div class="custom-category-description">
+Reach a global audience by offering your website in multiple languages.
 </div>
-
-    </div>
+</div>
+</div>
 
     <h5 className="text-2xl font-semibold text-gray-800 mt-6">Benefits</h5>
 
@@ -373,7 +372,6 @@ Enable fans to purchase tickets or book seats for your events conveniently.
         Request a Free Price Quote
       </a>
     </Link>
-
           </div>
         </div>
 
