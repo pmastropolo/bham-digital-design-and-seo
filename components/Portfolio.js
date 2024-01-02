@@ -144,30 +144,14 @@ const Portfolio = () => {
           <h4 className="text-4xl mt-4 font-semibold text-gray-800">
             Stunning<span className="text-yellow-700"> Portfolio</span> Website Package
           </h4>
-          <p className="text-md text-gray-700 mt-4">
+          <p className="text-md text-gray-700 mt-4 mb-4">
             Dazzle the digital world with our Stunning Portfolio Website Package. This exclusive offering is meticulously designed to empower individuals and professionals from various creative domains. Elevate your online presence and leave an indelible mark in your industry with a captivating and visually immersive digital portfolio.
           </p>
                     
 {/* Custom Category Card Container */}
 <div className="custom-category-card-container">
 
-  {/* Multiple Page Options Card */}
-  <div class="custom-category-card">
-    <div class="custom-category-icon">📄</div>
-    <span class="custom-category-title">Multiple Page Options</span>
-    <div class="custom-category-description">
-      Create up to 5 pages including Home, About, Portfolio, Blog, and Contact.
-    </div>
-  </div>
 
-  {/* Design Templates Card */}
-  <div class="custom-category-card">
-    <div class="custom-category-icon">🎨</div>
-    <span class="custom-category-title">Design Templates</span>
-    <div class="custom-category-description">
-      Choose from a variety of design templates to match your brand.
-    </div>
-  </div>
 
   {/* Mobile-Responsive Design Card */}
   <div class="custom-category-card">
@@ -223,24 +207,6 @@ const Portfolio = () => {
     </div>
   </div>
 
-  {/* Analytics Card */}
-  <div class="custom-category-card">
-    <div class="custom-category-icon">📈</div>
-    <span class="custom-category-title">Analytics</span>
-    <div class="custom-category-description">
-      Get insights into your websites performance with basic analytics.
-    </div>
-  </div>
-
-  {/* Custom Design Options Card */}
-  <div class="custom-category-card">
-    <div class="custom-category-icon">🎨</div>
-    <span class="custom-category-title">Custom Design Options</span>
-    <div class="custom-category-description">
-      Enjoy personalized and interactive designs for your brand.
-    </div>
-  </div>
-
   {/* Blog Integration Card */}
   <div class="custom-category-card">
     <div class="custom-category-icon">📝</div>
@@ -260,14 +226,50 @@ const Portfolio = () => {
   </div>
 </div>
 
-<h5 className="text-2xl font-semibold text-gray-800 mt-6">Benefits</h5>
-<p className="text-md text-gray-700 mt-4"><b>Showcase Your Talent</b> | Display your work professionally to impress clients and employers.</p>
-<p className="text-md text-gray-700 mt-4"><b>Boost Your Image</b> | Elevate your online presence with a sleek, personal portfolio.</p>
-<p className="text-md text-gray-700 mt-4"><b>Unique Branding</b> | Customize your site to stand out and define your personal brand.</p>
-<p className="text-md text-gray-700 mt-4"><b>Get Noticed</b> | Attract job offers, freelance gigs, and collaborations with a stunning portfolio.</p>
-<p className="text-md text-gray-700 mt-4"><b>Global Exposure</b> | Reach a worldwide audience and expand your opportunities.</p>
-<p className="text-md text-gray-700 mt-4"><b>Total Control</b> | Manage and update your content effortlessly to keep your portfolio fresh.</p>
-<p className="text-md text-gray-700 mt-4"><b>Engage Your Audience</b> | Connect with your viewers, gather feedback, and share your journey.</p>
+{/* Benefits Section */}
+<div className="mt-6">
+<h5 className="text-3xl font-semibold text-gray-800">Benefits of Owning a Portfolio Website</h5>
+<hr className="mb-3 mt-3" />
+<div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-4 mt-4">
+
+    {/* Showcase Your Talent Card */}
+    <div className="benefit-card">
+      <h6 className="title font-bold text-lg">Showcase Your Talent</h6>
+      <p className="description">Display your work professionally to impress clients and employers.</p>
+    </div>
+
+    {/* Boost Your Image Card */}
+    <div className="benefit-card">
+      <h6 className="title font-bold text-lg">Boost Your Image</h6>
+      <p className="description">Elevate your online presence with a sleek, personal portfolio.</p>
+    </div>
+
+    {/* Get Noticed Card */}
+    <div className="benefit-card">
+      <h6 className="title font-bold text-lg">Get Noticed</h6>
+      <p className="description">Attract job offers, freelance gigs, and collaborations with a stunning portfolio.</p>
+    </div>
+
+    {/* Global Exposure Card */}
+    <div className="benefit-card">
+      <h6 className="title font-bold text-lg">Global Exposure</h6>
+      <p className="description">Reach a worldwide audience and expand your opportunities.</p>
+    </div>
+
+    {/* Total Control Card */}
+    <div className="benefit-card">
+      <h6 className="title font-bold text-lg">Total Control</h6>
+      <p className="description">Manage and update your content effortlessly to keep your portfolio fresh.</p>
+    </div>
+
+    {/* Availability 24/7 Card */}
+    <div className="benefit-card">
+      <h6 className="title font-bold text-lg">Availability 24/7</h6>
+      <p className="description">Open non-stop for sales & leads.</p>
+    </div>
+
+  </div>
+</div>
 
 
 {/* IDEAL FOR SECTION */}
@@ -341,7 +343,7 @@ const Portfolio = () => {
 {/* Portfolio Packages Grid */}
 <div className="grid grid-cols-1 md:grid-cols-3 lg:grid-cols-2 gap-x-4 gap-y-4">
   {portfolioPackages.map((pkg, index) => (
-    <div key={index} className="bg-white rounded-lg overflow-hidden shadow-lg border border-yellow-500 hover:shadow-2xl transition-shadow duration-500 ease-in-out">
+    <div key={index} className="bg-white rounded-lg overflow-hidden shadow-lg border border-yellow-700 hover:shadow-2xl transition-shadow duration-500 ease-in-out">
       <div className="flex flex-col h-full"> 
         <div className="p-4">
           <h3 className="text-2xl font-semibold mb-1 tracking-wide leading-relaxed text-gray-800 hover:text-yellow-800 transition-colors duration-300 ease-in-out">{pkg.name}</h3>
@@ -386,11 +388,10 @@ const Portfolio = () => {
 </div>
 
 {/* Yellow Border Bottom */}
-<div className="border-bottom-yellow"></div>
+<div className="border-bottom-brown"></div>
 </div>
    );
 };
 
 
 export default Portfolio;
-
