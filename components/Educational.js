@@ -126,121 +126,90 @@ const Educational = () => {
 <h4 className="text-4xl font-semibold text-gray-800 mt-4">Innovative <span className="text-purple-800">Educational</span> Website Package</h4>
 <p className="text-md text-gray-700 mt-2 mb-4">Revolutionize the learning experience with our Innovative Educational Website Package. This package is designed for educational institutions, tutors, and e-learning platforms seeking to create interactive, engaging, and informative online educational experiences.</p>
                       
-   
+
+
 <div className="custom-category-card-container">
 
-{/* Multiple Pages */}
+{/* Interactive Learning Tools */}
 <div class="custom-category-card">
-  <div class="custom-category-icon">📚</div>
-  <span class="custom-category-title">Multiple Pages</span>
+  <div class="custom-category-icon">🧑‍🏫🛠️</div>
+  <span class="custom-category-title">Interactive Learning Tools</span>
   <div class="custom--description">
-    Create several pages to fully showcase your educational services.
+    Engage students with interactive tools like quizzes, videos, and educational games.
   </div>
 </div>
 
-{/* Mobile Responsiveness */}
-<div class="custom-category-card">
-  <div class="custom-category-icon">📱</div>
-  <span class="custom-category-title">Mobile Responsiveness</span>
-  <div class="custom--description">
-    Ensure your site works perfectly on mobile devices.
+  {/* Mobile Responsiveness and SEO */}
+  <div class="custom-category-card">
+    <div class="custom-category-icon">📱🔍</div>
+    <span class="custom-category-title">Mobile Responsiveness & SEO</span>
+    <div class="custom--description">
+      Ensure your site works perfectly on all devices and ranks well in search results.
+    </div>
   </div>
+
+  {/* Communication and Engagement */}
+  <div class="custom-category-card">
+    <div class="custom-category-icon">✉️🌟</div>
+    <span class="custom-category-title">Communication & Engagement</span>
+    <div class="custom--description">
+      Easy contact forms and testimonials for effective communication and engagement.
+    </div>
+  </div>
+
+  {/* Faculty and Course Information */}
+  <div class="custom-category-card">
+    <div class="custom-category-icon">👩‍🏫🎓</div>
+    <span class="custom-category-title">Faculty | Course Information</span>
+    <div class="custom--description">
+      Detailed profiles and listings to highlight faculty expertise and courses offered.
+    </div>
+  </div>
+
+  {/* Content Management and News Updates */}
+  <div class="custom-category-card">
+    <div class="custom-category-icon">🖥️📰</div>
+    <span class="custom-category-title">Content Management & News Updates</span>
+    <div class="custom--description">
+      Manage your content effortlessly and keep your audience updated with the latest news.
+    </div>
+  </div>
+
+  {/* Events Calendar and Community Interaction */}
+  <div class="custom-category-card">
+    <div class="custom-category-icon">🗓️📱</div>
+    <span class="custom-category-title">Events Calendar & Community Interaction</span>
+    <div class="custom--description">
+      Track upcoming events and foster community interaction through social media.
+    </div>
+  </div>
+
+  {/* Global Accessibility and Multi-Language Support */}
+  <div class="custom-category-card">
+    <div class="custom-category-icon">🌎🔠</div>
+    <span class="custom-category-title">Global Accessibility & Multi-Language</span>
+    <div class="custom--description">
+      Ensure worldwide accessibility with multi-language support for a diverse audience.
+    </div>
+  </div>
+
+  {/* E-Commerce and Online Services */}
+  <div class="custom-category-card">
+    <div class="custom-category-icon">💳💼</div>
+    <span class="custom-category-title">Ecommerce | Online Services</span>
+    <div class="custom--description">
+      Enable online transactions and services for a seamless user experience.
+    </div>
+  </div>
+
 </div>
 
-{/* SEO Setup */}
-<div class="custom-category-card">
-  <div class="custom-category-icon">🔍</div>
-  <span class="custom-category-title">SEO Setup</span>
-  <div class="custom--description">
-    Improve your search rankings to attract more students.
-  </div>
-</div>
+   
 
-{/* Contact Form */}
-<div class="custom-category-card">
-  <div class="custom-category-icon">📬</div>
-  <span class="custom-category-title">Contact Form</span>
-  <div class="custom--description">
-    Easy contact form for inquiries from students and partners.
-  </div>
-</div>
-
-{/* Faculty and Staff Information */}
-<div class="custom-category-card">
-  <div class="custom-category-icon">👩‍🏫</div>
-  <span class="custom-category-title">Faculty and Staff Information</span>
-  <div class="custom--description">
-    Highlight your educators profiles and expertise.
-  </div>
-</div>
-
-{/* Course and Program Listings */}
-<div class="custom-category-card">
-  <div class="custom-category-icon">🎓</div>
-  <span class="custom-category-title">Course and Program Listings</span>
-  <div class="custom--description">
-    Detail your educational offerings for prospective students.
-  </div>
-</div>
-
-{/* Content Management System (CMS) */}
-<div class="custom-category-card">
-  <div class="custom-category-icon">🖥️</div>
-  <span class="custom-category-title">Content Management System (CMS)</span>
-  <div class="custom--description">
-    Easily update and manage your websites content.
-  </div>
-</div>
-
-{/* Events Calendar */}
-<div class="custom-category-card">
-  <div class="custom-category-icon">🗓️</div>
-  <span class="custom-category-title">Events Calendar</span>
-  <div class="custom--description">
-    Keep track of and display upcoming events and activities.
-  </div>
-</div>
-
-{/* Testimonials */}
-<div class="custom-category-card">
-  <div class="custom-category-icon">🌟</div>
-  <span class="custom-category-title">Testimonials</span>
-  <div class="custom--description">
-    Showcase feedback from happy students and partners.
-  </div>
-</div>
-
-{/* Blog or News Section */}
-<div class="custom-category-card">
-  <div class="custom-category-icon">📰</div>
-  <span class="custom-category-title">Blog or News Section</span>
-  <div class="custom--description">
-    Share latest updates and educational insights.
-  </div>
-</div>
-
-{/* Advanced Custom Design */}
-<div class="custom-category-card">
-  <div class="custom-category-icon">🎨</div>
-  <span class="custom-category-title">Advanced Custom Design</span>
-  <div class="custom--description">
-    Unique, brand-tailored design to stand out.
-  </div>
-</div>
-
-{/* Global Accessibility */}
-<div class="custom-category-card">
-  <div class="custom-category-icon">🌎</div>
-  <span class="custom-category-title">Global Accessibility</span>
-  <div class="custom--description">
-    Make your website globally accessible with multi-language support.
-  </div>
-</div>
-</div> 
 
 {/* Section for Benefits of the Educational Package */}
 <div className="mt-6">
-<h5 className="text-3xl font-semibold text-gray-800">Benefits</h5>
+<h5 className="text-3xl font-semibold text-gray-800">Benefits of Owning an Educational Website</h5>
 <hr className="mb-3 mt-3" />
 <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-4 mt-4">
 
