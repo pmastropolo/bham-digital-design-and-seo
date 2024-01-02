@@ -88,198 +88,215 @@ const Restaurant = () => {
           <div className="p-4 sm:p-3">
           <div className="bg-gradient-to-b from-emerald-900 to-emerald-900 rounded-lg overflow-hidden text-white text-center tracking-wide leading-tight hover:text-emerald-950 transition-colors duration-300 p-8">
         <h1 className="text-3xl sm:text-4xl md:text-5xl lg:text-6xl font-bold">
-        Byte to Bite | Digital Dining Redefined
+       Digital Dining Redefined
               </h1>
               <p className="text-sm sm:text-md md:text-lg text-gray-100 mt-2 sm:mt-4">
-              Transforming How You Experience Food Online
+              Byte to Bite 
               </p>
             </div>
         
-<h4 className="text-4xl mt-2 font-semibold text-gray-800">Gourmet <span className="text-emerald-800">Restaurant </span>Website Package</h4>
-<p className="text-md text-gray-700 mt-4">Enhance your culinary presence online with our Gourmet Restaurant Website Package. Designed for restaurants, cafes, and culinary businesses, this package provides an enticing platform to showcase your menu, ambiance, and unique dining experiences to attract more food enthusiasts.</p>
+<h4 className="text-4xl mt-2 font-semibold text-gray-800 mt-4">Gourmet <span className="text-emerald-800">Restaurant </span>Website Package</h4>
+<p className="text-md text-gray-700 mt-4 mb-4">Enhance your culinary presence online with our Gourmet Restaurant Website Package. Designed for restaurants, cafes, and culinary businesses, this package provides an enticing platform to showcase your menu, ambiance, and unique dining experiences to attract more food enthusiasts.</p>
       
 <div className="custom-category-card-container">
-<div class="custom-category-card">
-<div class="custom-category-icon">🌐</div>
-<span class="custom-category-title">Web Presence</span>
-<div class="custom-category-description">
-Establish a strong online identity that captivates your audience and showcases your culinary expertise.
-</div>
-</div>
 
-<div class="custom-category-card">
-  <div class="custom-category-icon">📜</div>
-  <span class="custom-category-title">Menu Display</span>
-  <div class="custom-category-description">
-    Display your delicious menu in a way that entices customers, from basic listings to interactive galleries.
+  {/* Web Presence Card */}
+  <div class="custom-category-card">
+    <div class="custom-category-icon">🌐</div>
+    <span class="custom-category-title">Web Presence</span>
+    <div class="custom-category-description">
+      Create a captivating online identity to highlight your culinary skills.
+    </div>
+  </div>
+
+  {/* Menu Display Card */}
+  <div class="custom-category-card">
+    <div class="custom-category-icon">📜</div>
+    <span class="custom-category-title">Menu Display</span>
+    <div class="custom-category-description">
+      Showcase your menu enticingly, from simple lists to interactive galleries.
+    </div>
+  </div>
+
+  {/* Contact Information Card */}
+  <div class="custom-category-card">
+    <div class="custom-category-icon">📞</div>
+    <span class="custom-category-title">Contact Information</span>
+    <div class="custom-category-description">
+      Easy access to contact details, maps, and inquiry forms for your customers.
+    </div>
+  </div>
+
+  {/* Mobile-Responsive Design Card */}
+  <div class="custom-category-card">
+    <div class="custom-category-icon">📱</div>
+    <span class="custom-category-title">Mobile-Responsive Design</span>
+    <div class="custom-category-description">
+      Optimize your site for all devices, ensuring a smooth mobile experience.
+    </div>
+  </div>
+
+  {/* Online Booking/Reservation System Card */}
+  <div class="custom-category-card">
+    <div class="custom-category-icon">📅</div>
+    <span class="custom-category-title">Online Booking | Reservation System</span>
+    <div class="custom-category-description">
+      Hassle-free online reservations for customer convenience and efficiency.
+    </div>
+  </div>
+
+  {/* E-Commerce Capabilities Card */}
+  <div class="custom-category-card">
+    <div class="custom-category-icon">💻</div>
+    <span class="custom-category-title">E-Commerce Capabilities</span>
+    <div class="custom-category-description">
+      Smooth online ordering for an enhanced customer experience.
+    </div>
+  </div>
+
+  {/* Content Variety Card */}
+  <div class="custom-category-card">
+    <div class="custom-category-icon">📄</div>
+    <span class="custom-category-title">Content Variety</span>
+    <div class="custom-category-description">
+      Diverse web pages to showcase different aspects of your restaurant.
+    </div>
+  </div>
+
+  {/* Marketing Tools Card */}
+  <div class="custom-category-card">
+    <div class="custom-category-icon">📣</div>
+    <span class="custom-category-title">Marketing Tools</span>
+    <div class="custom-category-description">
+      Advanced tools for promotions and digital marketing.
+    </div>
   </div>
 </div>
 
-<div class="custom-category-card">
-  <div class="custom-category-icon">📞</div>
-  <span class="custom-category-title">Contact Information</span>
-  <div class="custom-category-description">
-    Provide easy access to your contact details, including a handy map and inquiry form for seamless communication.
-  </div>
-</div>
-
-<div class="custom-category-card">
-  <div class="custom-category-icon">📱</div>
-  <span class="custom-category-title">Mobile-Responsive Design</span>
-  <div class="custom-category-description">
-    Ensure your website looks perfect on any device, offering a seamless experience for mobile users.
-  </div>
-</div>
-
-<div class="custom-category-card">
-  <div class="custom-category-icon">🔗</div>
-  <span class="custom-category-title">Social Media Integration</span>
-  <div class="custom-category-description">
-    Connect with your audience through popular social media platforms for increased engagement and visibility.
-  </div>
-</div>
-
-<div class="custom-category-card">
-  <div class="custom-category-icon">🔍</div>
-  <span class="custom-category-title">SEO Optimization</span>
-  <div class="custom-category-description">
-    Improve your online discoverability with SEO strategies tailored for local and broader audiences.
-  </div>
-</div>
-
-<div class="custom-category-card">
-  <div class="custom-category-icon">📅</div>
-  <span class="custom-category-title">Online Booking/Reservation System</span>
-  <div class="custom-category-description">
-    Enable customers to make hassle-free online reservations, enhancing convenience and operational efficiency.
-  </div>
-</div>
-
-<div class="custom-category-card">
-  <div class="custom-category-icon">🎨</div>
-  <span class="custom-category-title">Customized Web Design</span>
-  <div class="custom-category-description">
-    Reflect your unique brand identity with customized web designs that capture the essence of your restaurant.
-  </div>
-</div>
-
-<div class="custom-category-card">
-  <div class="custom-category-icon">💻</div>
-  <span class="custom-category-title">E-Commerce Capabilities</span>
-  <div class="custom-category-description">
-    Offer online ordering systems for a smooth and convenient customer experience.
-  </div>
-</div>
-
-<div class="custom-category-card">
-  <div class="custom-category-icon">📄</div>
-  <span class="custom-category-title">Content Variety</span>
-  <div class="custom-category-description">
-    Engage your audience with a variety of web pages, each tailored to highlight different aspects of your restaurant.
-  </div>
-</div>
-
-<div class="custom-category-card">
-  <div class="custom-category-icon">📣</div>
-  <span class="custom-category-title">Marketing Tools</span>
-  <div class="custom-category-description">
-    Utilize advanced tools for promotions, customer loyalty programs, and comprehensive digital marketing campaigns.
-  </div>
-</div>
-
-<div class="custom-category-card">
-  <div class="custom-category-icon">🌍</div>
-  <span class="custom-category-title">Multilingual Support</span>
-  <div class="custom-category-description">
-    Reach a wider audience with multilingual support, ensuring your message resonates with diverse customer bases.
-  </div>
-</div>
-
-</div>
  
-      <h5 className="text-2xl font-semibold text-gray-800 mt-6">Benefits</h5>
-      <p className="text-md text-gray-700 mt-4"><b>Convenience at Your Fingertips:</b> Enjoy the ease of exploring menus, booking tables, and even ordering food online, all from the comfort of your home.</p>
-
-<p className="text-md text-gray-700 mt-4"><b>Visual Feast:</b> Get a tantalizing preview of what to expect with high-quality images of dishes, helping you make informed meal choices.</p>
-
-<p className="text-md text-gray-700 mt-4"><b>Hassle-Free Reservations:</b> Skip the wait by making online reservations, ensuring you get a table at your favorite restaurant when you want it.</p>
-
-<p className="text-md text-gray-700 mt-4"><b>Stay Updated:</b> Be the first to know about special deals, new menu items, and exclusive events through easy access to the latest news and updates.</p>
-
-<p className="text-md text-gray-700 mt-4"><b>Global Access:</b> Explore diverse culinary options from around the world, perfect for planning your dining experiences during travels.</p>
-
-<p className="text-md text-gray-700 mt-4"><b>Informed Decisions:</b> Access detailed information about dietary options, ingredients, and prices, helping you choose meals that best suit your preferences and needs.</p>
-
-
-      <h5 className="text-2xl font-semibold text-gray-800 mt-6">Ideal For</h5>
-      <div className="custom-category-card-container">
-      <div class="custom-category-card">
-  <div class="custom-category-icon">🌟</div>
-  <span class="custom-category-title">The Trendsetter</span>
-  <div class="custom-category-description">
-    Eager to integrate the latest in culinary trends and technology into their restaurants online presence.
-  </div>
+{/* Section for Benefits of the Ecommerce Package */}
+<div className="mt-6">
+<h5 className="text-3xl font-semibold text-gray-800">Benefits of Owning a Restaurant Website</h5>
+<hr className="mb-3 mt-3" />
+<div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-4 mt-4">
+{/* Online Visibility Card */}
+<div className="benefit-card">
+  <h6 className="title font-bold text-lg">Online Visibility</h6>
+  <p className="description">Enhances your restaurants findability on the internet.</p>
 </div>
 
-<div class="custom-category-card">
-  <div class="custom-category-icon">👩‍🍳</div>
-  <span class="custom-category-title">The Culinary Artist</span>
-  <div class="custom-category-description">
-    Focused on showcasing their unique and artistic culinary creations through a visually stunning website.
-  </div>
+{/* Customer Convenience Card */}
+<div className="benefit-card">
+  <h6 className="title font-bold text-lg">Customer Convenience</h6>
+  <p className="description">Facilitates menu viewing, reservations, and online ordering.</p>
 </div>
 
-<div class="custom-category-card">
-  <div class="custom-category-icon">📈</div>
-  <span class="custom-category-title">The Business Savvy</span>
-  <div class="custom-category-description">
-    Always looking for ways to boost business and revenue through effective online marketing and SEO strategies.
-  </div>
+{/* Showcasing the Menu Card */}
+<div className="benefit-card">
+  <h6 className="title font-bold text-lg">Showcasing the Menu</h6>
+  <p className="description">Attracts customers with a well-presented online menu.</p>
 </div>
 
-<div class="custom-category-card">
-  <div class="custom-category-icon">🍽️</div>
-  <span class="custom-category-title">The Traditionalist</span>
-  <div class="custom-category-description">
-    Seeking to maintain the essence and tradition of their restaurant while adapting to the modern digital world.
-  </div>
+{/* Marketing and Promotions Card */}
+<div className="benefit-card">
+  <h6 className="title font-bold text-lg">Marketing and Promotions</h6>
+  <p className="description">Ideal for advertising specials and events.</p>
 </div>
 
-<div class="custom-category-card">
-  <div class="custom-category-icon">🚚</div>
-  <span class="custom-category-title">The Mobile Eateries</span>
-  <div class="custom-category-description">
-    Food trucks and mobile cafes looking to establish an online location where customers can find them easily.
-  </div>
+{/* Building Brand Identity Card */}
+<div className="benefit-card">
+  <h6 className="title font-bold text-lg">Building Brand Identity</h6>
+  <p className="description">Strengthens your restaurants online branding.</p>
 </div>
 
-<div class="custom-category-card">
-  <div class="custom-category-icon">🌍</div>
-  <span class="custom-category-title">The Global Diner</span>
-  <div class="custom-category-description">
-    Restaurants with a diverse clientele, needing multilingual support to cater to an international audience.
-  </div>
+{/* Data Collection and Analytics Card */}
+<div className="benefit-card">
+  <h6 className="title font-bold text-lg">Data Collection and Analytics</h6>
+  <p className="description">Gathers customer insights for targeted marketing.</p>
+</div>
+</div>
 </div>
 
-<div class="custom-category-card">
-  <div class="custom-category-icon">🤝</div>
-  <span class="custom-category-title">The Community Hub</span>
-  <div class="custom-category-description">
-    Local eateries aiming to strengthen community ties and engage with customers through local SEO and social media.
+<h5 className="text-2xl font-semibold text-gray-800 mt-6">Ideal For</h5>
+<div className="custom-category-card-container">
+
+  {/* The Trendsetter Card */}
+  <div className="custom-category-card">
+    <div className="custom-category-icon">🌟</div>
+    <span className="custom-category-title">The Trendsetter</span>
+    <div className="custom--description">
+      Embracing culinary trends and technology in their online presence.
+    </div>
+  </div>
+
+  {/* The Culinary Artist Card */}
+  <div className="custom-category-card">
+    <div className="custom-category-icon">👩‍🍳</div>
+    <span className="custom-category-title">The Culinary Artist</span>
+    <div className="custom--description">
+      Showcasing artistic culinary creations on a visually impressive website.
+    </div>
+  </div>
+
+  {/* The Business Savvy Card */}
+  <div className="custom-category-card">
+    <div className="custom-category-icon">📈</div>
+    <span className="custom-category-title">The Business Savvy</span>
+    <div className="custom--description">
+      Leveraging online marketing and SEO for business growth.
+    </div>
+  </div>
+
+  {/* The Traditionalist Card */}
+  <div className="custom-category-card">
+    <div className="custom-category-icon">🍽️</div>
+    <span className="custom-category-title">The Traditionalist</span>
+    <div className="custom--description">
+      Balancing tradition with modern digital adaptation.
+    </div>
+  </div>
+
+  {/* The Mobile Eateries Card */}
+  <div className="custom-category-card">
+    <div className="custom-category-icon">🚚</div>
+    <span className="custom-category-title">The Mobile Eateries</span>
+    <div>
+      For food trucks and mobile cafes to connect with customers online.
+    </div>
+  </div>
+
+  {/* The Global Diner Card */}
+  <div className="custom-category-card">
+    <div className="custom-category-icon">🌍</div>
+    <span className="custom-category-title">The Global Diner</span>
+    <div>
+      Offering multilingual support for a diverse, international clientele.
+    </div>
+  </div>
+
+  {/* The Community Hub Card */}
+  <div className="custom-category-card">
+    <div className="custom-category-icon">🤝</div>
+    <span className="custom-category-title">The Community Hub</span>
+    <div>
+      Local spots focusing on community engagement and local SEO.
+    </div>
+  </div>
+
+  {/* The Industry Leader Card */}
+  <div className="custom-category-card">
+    <div className="custom-category-icon">🥇</div>
+    <span className="custom-category-title">The Industry Leader</span>
+    <div>
+      For chains or franchises needing a robust digital platform.
+    </div>
   </div>
 </div>
-
-<div class="custom-category-card">
-  <div class="custom-category-icon">🥇</div>
-  <span class="custom-category-title">The Industry Leader</span>
-  <div class="custom-category-description">
-    Established restaurant chains or franchises seeking a comprehensive digital ecosystem to maintain their leading position.
-  </div>
-</div>
-
-      </div>
       
-      <p className="mt-6 text-md text-gray-700">To take your restaurants online presence to the next level, contact us at <a href="mailto:services@bhamseoanddesignco.com">services@bhamseoanddesignco.com</a>, or click the button below to get started.</p>
+      
+      
+      
+      <p className="mt-6 text-md text-gray-700">To take your restaurants online presence to the next level, contact us at <a href="mailto:services@bhamseoanddesignco.com" style={{ color: 'green' }}>services@bhamseoanddesignco.com</a>, or click the button below to get started.</p>
       <Link href="/contact" legacyBehavior>
         <a className="inline-block mt-4 mb-6 bg-gradient-to-r from-emerald-600 to-emerald-800 hover:from-lime-800 hover:to-emerald-600 text-white text-lg py-3 px-8 rounded-full transition duration-300 ease-in-out transform hover:-translate-y-1 shadow-lg">
           Savor Dining Experiences
@@ -350,7 +367,8 @@ Find the Ideal Plan for Your Business
           </div>
 
 {/* EMERALD BORDER BOTTOM */} 
-<div className="border-bottom-emerald"></div>
+<div className="border-bottom-green"></div>
+
 </div>
 
    );
