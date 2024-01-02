@@ -2,90 +2,83 @@ import React from 'react';
 import Link from 'next/link';
 
 const packages = [
-
-        {
-                "name": "Community Outreach Starter Package",
-                "price": "$800 - $1,500",
-                "duration": "3 Weeks",
-                "features": [
-                  "- Basic Responsive Design for Community Engagement",
-                  "- Event Calendar for Local Activities",
-                  "- Blog or News Section for Updates",
-                  "- Contact Form for Member Inquiries"
-                ],
-                "websiteIncludes": [
-                  "Home Page with Community Overview",
-                  "About Us Page for Mission and Vision",
-                  "Upcoming Events Calendar",
-                  "Community News or Blog Section"
-                ],
-                "totalPages": "4-6",
-                "idealFor": "Small Community Groups and Local Non-Profits Seeking Basic Online Presence."
-              },
-
-        {
-                "name": "Engaged Community Platform Package",
-                "price": "$2,500 - $5,000",
-                "duration": "6 Weeks",
-                "features": [
-                  "- Interactive Event Registration and RSVPs",
-                  "- Member Profiles and Directories",
-                  "- Forum or Discussion Board for Member Interaction",
-                  "- Social Media Integration for Wider Reach"
-                ],
-                "websiteIncludes": [
-                  "Dynamic Home Page with Event Highlights",
-                  "Detailed Member Directory",
-                  "Interactive Community Forum",
-                  "Resources and Documents Library"
-                ],
-                "totalPages": "8-12",
-                "idealFor": "Growing Community Organizations Looking to Foster Engagement and Networking Online."
-              },         
-
-        {
-                "name": "Comprehensive Community Network Package",
-                "price": "$6,000 - $10,000",
-                "duration": "10 Weeks",
-                "features": [
-                  "- Custom Design Tailored to Community Branding",
-                  "- Advanced Member Management and CRM Integration",
-                  "- Online Donation and Fundraising Capabilities",
-                  "- Email Marketing Tools for Effective Communication"
-                ],
-                "websiteIncludes": [
-                  "Branded Landing Page for Community",
-                  "Advanced Event Management with Online Payments",
-                  "Member Portal with Customized Access",
-                  "Volunteer Sign-Up and Management Section"
-                ],
-                "totalPages": "15-20",
-                "idealFor": "Large Community Organizations and Networks Seeking a Robust Online Platform for Member Management and Fundraising."
-              },
-
-        {
-                "name": "Elite Community Ecosystem Package",
-                "price": "$12,000+",
-                "duration": "14+ Weeks",
-                "features": [
-                  "- State-of-the-Art Website and Mobile App Integration",
-                  "- Multi-Lingual Support for Global Communities",
-                  "- Full-Scale Analytics for Community Insights",
-                  "- Custom API Integrations for Additional Functionality"
-                ],
-                "websiteIncludes": [
-                  "Sophisticated Main Portal with High-End Features",
-                  "Dedicated Sections for Different Community Groups",
-                  "Integrated E-Commerce for Community Merchandise",
-                  "Comprehensive Resource Center with Multi-Media Content"
-                ],
-                "totalPages": "20+",
-                "idealFor": "National or International Community Organizations Needing an Extensive Digital Ecosystem."
-              }
-              
-
-    ];
-
+  {
+    "name": "Community Outreach Starter Package",
+    "price": "$800 - $1,500",
+    "duration": "3 Weeks",
+    "features": [
+      "- Basic Responsive Design for Community Engagement",
+      "- Event Calendar for Local Activities",
+      "- Blog or News Section for Updates",
+      "- Contact Form for Member Inquiries"
+    ],
+    "websiteIncludes": [
+      "Home Page with Community Overview",
+      "About Us Page for Mission and Vision",
+      "Upcoming Events Calendar",
+      "Community News or Blog Section"
+    ],
+    "totalPages": "4-6",
+    "idealFor": "Small Community Groups and Local Non-Profits Seeking Basic Online Presence."
+  },
+  {
+    "name": "Engaged Community Platform Package",
+    "price": "$2,500 - $5,000",
+    "duration": "6 Weeks",
+    "features": [
+      "- Interactive Event Registration and RSVPs",
+      "- Member Profiles and Directories",
+      "- Forum or Discussion Board for Member Interaction",
+      "- Social Media Integration for Wider Reach"
+    ],
+    "websiteIncludes": [
+      "Dynamic Home Page with Event Highlights",
+      "Detailed Member Directory",
+      "Interactive Community Forum",
+      "Resources and Documents Library"
+    ],
+    "totalPages": "8-12",
+    "idealFor": "Growing Community Organizations Looking to Foster Engagement and Networking Online."
+  },
+  {
+    "name": "Comprehensive Community Network Package",
+    "price": "$6,000 - $10,000",
+    "duration": "10 Weeks",
+    "features": [
+      "- Custom Design Tailored to Community Branding",
+      "- Advanced Member Management and CRM Integration",
+      "- Online Donation and Fundraising Capabilities",
+      "- Email Marketing Tools for Effective Communication"
+    ],
+    "websiteIncludes": [
+      "Branded Landing Page for Community",
+      "Advanced Event Management with Online Payments",
+      "Member Portal with Customized Access",
+      "Volunteer Sign-Up and Management Section"
+    ],
+    "totalPages": "15-20",
+    "idealFor": "Large Community Organizations and Networks Seeking a Robust Online Platform for Member Management and Fundraising."
+  },
+  {
+    "name": "Elite Community Ecosystem Package",
+    "price": "$12,000+",
+    "duration": "14+ Weeks",
+    "features": [
+      "- State-of-the-Art Website and Mobile App Integration",
+      "- Multi-Lingual Support for Global Communities",
+      "- Full-Scale Analytics for Community Insights",
+      "- Custom API Integrations for Additional Functionality"
+    ],
+    "websiteIncludes": [
+      "Sophisticated Main Portal with High-End Features",
+      "Dedicated Sections for Different Community Groups",
+      "Integrated E-Commerce for Community Merchandise",
+      "Comprehensive Resource Center with Multi-Media Content"
+    ],
+    "totalPages": "20+",
+    "idealFor": "National or International Community Organizations Needing an Extensive Digital Ecosystem."
+  }
+];
 
 const CommunityPackages = () => {
         return (
