@@ -81,185 +81,205 @@ const personalPackages = [
 ];
 
 const Personal = () => {
-        return (
-                <div>
-                  <div className="bg-white rounded-lg overflow-hidden shadow-md" style={{ boxShadow: "0px 3px 2px rgba(230, 0, 0, 0.5)" }}>
-                    <div className="p-4 sm:p-3">
-                      <div className="bg-gradient-to-b from-pink-900 to-pink-900 rounded-lg overflow-hidden text-white text-center tracking-wide leading-tight hover:text-pink-200 transition-colors duration-300 p-8">
-                        <h1 className="text-3xl sm:text-4xl md:text-5xl lg:text-6xl font-bold">
-                        Elevate Your Online Presence
-                        </h1>
-                        <p className="text-sm sm:text-md md:text-lg text-gray-100 mt-2 sm:mt-4">
-                        Unlock the power of a stunning personal website.
-                        </p>
-                      </div>
-              
-                   
-                
+  return (
+    <div>
+      {/* Main Personal Website Package Card */}
+      <div className="bg-white rounded-lg overflow-hidden shadow-md" style={{ boxShadow: "0px 3px 2px rgba(230, 0, 0, 0.5)" }}>
+        <div className="p-4 sm:p-3">
+          {/* Title Section */}
+          <div className="bg-gradient-to-b from-pink-900 to-pink-900 rounded-lg overflow-hidden text-white text-center tracking-wide leading-tight hover:text-pink-200 transition-colors duration-300 p-8">
+            <h1 className="text-3xl sm:text-4xl md:text-5xl lg:text-6xl font-bold">
+              Elevate Your Online Presence
+            </h1>
+            <p className="text-sm sm:text-md md:text-lg mt-2 sm:mt-4">
+              Unlock the power of a stunning personal website.
+            </p>
+          </div>
 
-      <h4 className="text-4xl mt-2 font-semibold text-gray-800">Unique <span className="text-pink-800">Personal</span> Website Package</h4>
-      <p className="text-md text-gray-700 mt-4">Create your individual online identity with our Unique Personal Website Package. This package is ideal for bloggers, artists, freelancers, and anyone looking to establish a personal brand or share their passions with the world in a distinctive and memorable way.</p>
-      
-      <div className="custom-category-card-container">
-      <div class="custom-category-card">
-  <div class="custom-category-icon">🎨</div>
-  <span class="custom-category-title">Customized Design</span>
-  <div class="custom-category-description">
-    Your website will be a reflection of your unique style and personality, ensuring you stand out online.
+          {/* Package Description */}
+          <h4 className="text-4xl mt-4 font-semibold text-gray-800">
+            Unique <span className="text-pink-800">Personal</span> Website Package
+          </h4>
+          <p className="text-md text-gray-700 mt-4 mb-4">
+            Create your individual online identity with our Unique Personal Website Package. Ideal for bloggers, artists, freelancers, and anyone looking to establish a personal brand or share their passions.
+          </p>
+
+
+{/* Custom Category Card Container */}
+<div className="custom-category-card-container">
+
+  {/* Customized Design Card */}
+  <div className="custom-category-card">
+    <div className="custom-category-icon">🎨</div>
+    <span className="custom-category-title">Customized Design</span>
+    <div className="custom-category-description">
+      Your website will be a reflection of your unique style and personality, ensuring you stand out online.
+    </div>
+  </div>
+
+  {/* About Me/Bio Page Card */}
+  <div className="custom-category-card">
+    <div className="custom-category-icon">👤</div>
+    <span className="custom-category-title">About Me | Bio</span>
+    <div className="custom-category-description">
+      Share your story and let your audience get to know the person behind the website.
+    </div>
+  </div>
+
+  {/* Online Resume Card */}
+  <div className="custom-category-card">
+    <div className="custom-category-icon">📝</div>
+    <span className="custom-category-title">Online Resume</span>
+    <div className="custom-category-description">
+    Showcase your skills and experience interactively on your site.
+    </div>
+  </div>
+
+  {/* Social Media Integration Card */}
+  <div class="custom-category-card">
+    <div class="custom-category-icon">📱</div>
+    <span class="custom-category-title">Connect on Social Media</span>
+    <div class="custom-category-description">Link and engage with your audience on social platforms.</div>
+  </div>
+
+  {/* Portfolio/Gallery Card */}
+  <div className="custom-category-card">
+    <div className="custom-category-icon">📷</div>
+    <span className="custom-category-title">Portfolio | Gallery</span>
+    <div className="custom-category-description">
+      Showcase your work or creations beautifully with integrated portfolios or galleries.
+    </div>
+  </div>
+
+  {/* Mobile Responsiveness Card */}
+  <div className="custom-category-card">
+    <div className="custom-category-icon">📱💻</div>
+    <span className="custom-category-title">Mobile Responsiveness</span>
+    <div className="custom-category-description">
+      Your website will look stunning and function perfectly on all devices.
+    </div>
+  </div>
+
+  {/* Networking Card */}
+  <div className="custom-category-card">
+    <div className="custom-category-icon">💼</div>
+    <span className="custom-category-title">Networking</span>
+    <div className="custom-category-description">
+    Connect with peers and share contact information through your site.
+    </div>
+  </div>
+
+  {/* Global Reach Card */}
+  <div className="custom-category-card">
+    <div className="custom-category-icon">🌎</div>
+    <span className="custom-category-title">Global Reach</span>
+    <div className="custom-category-description">
+    Expand your visibility worldwide with an online presence.
+    </div>
   </div>
 </div>
 
-<div class="custom-category-card">
-  <div class="custom-category-icon">⏳</div>
-  <span class="custom-category-title">Duration</span>
-  <div class="custom-category-description">
-    We will work efficiently to get your website up and running within your chosen timeframe, whether its 3 weeks or a more comprehensive 12+ weeks plan.
+{/* BENEFITS section */}
+<div className="mt-6">
+  <h5 className="text-3xl font-semibold text-gray-800">Benefits of Owning a Personal Website</h5>
+  <hr className="mb-3 mt-3" />
+  <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-4 mt-4 mb-6">
+
+{/* Control and Ownership Card */}
+<div className="benefit-card">
+  <h6 className="title font-bold text-lg">Control and Ownership</h6>
+  <p className="description">Full control over your content and presentation with your own website.</p>
+</div>
+
+{/* Improved Credibility Card */}
+<div className="benefit-card">
+  <h6 className="title font-bold text-lg">Improved Credibility</h6>
+  <p className="description">Enhance your professional image with a well-designed website.</p>
+</div>
+
+{/* Content Sharing Card */}
+<div className="benefit-card">
+  <h6 className="title font-bold text-lg">Content Sharing</h6>
+  <p className="description">Position yourself as an expert by sharing blogs and articles.</p>
+</div>
+
+{/* Career Advancement Card */}
+<div className="benefit-card">
+  <h6 className="title font-bold text-lg">Career Advancement</h6>
+  <p className="description">Attract new opportunities by highlighting your achievements.</p>
+</div>
+
+{/* Diversify Income Card */}
+<div className="benefit-card">
+  <h6 className="title font-bold text-lg">Diversify Income</h6>
+  <p className="description">Use your website to sell products, offer courses, or consult.</p>
+</div>
+
+    {/* Personal Branding Card */}
+    <div className="benefit-card">
+      <h6 className="title font-bold text-lg">Personal Branding</h6>
+      <p className="description">Showcase your identity and stand out.</p>
+    </div>
   </div>
 </div>
 
-<div class="custom-category-card">
-  <div class="custom-category-icon">🔍</div>
-  <span class="custom-category-title">SEO Integration</span>
-  <div class="custom-category-description">
-    Boost your online visibility and rank higher in search results to help more people discover your amazing content.
+{/* Ideal For Section */}
+<h5 className="text-2xl font-semibold text-gray-800 mt-6">Ideal For</h5>
+<div className="custom-category-card-container">
+
+  {/* Card for Bloggers */}
+  <div className="custom-category-card">
+    <div className="custom-category-icon">👩‍💻</div>
+    <span className="custom-category-title">Bloggers</span>
+    <div className="custom--description">
+      Establish your personal brand and share your passions with the world using our Unique Personal Website Package.
+    </div>
+  </div>
+
+  {/* Card for Artists */}
+  <div className="custom-category-card">
+    <div className="custom-category-icon">🎨</div>
+    <span className="custom-category-title">Artists</span>
+    <div className="custom--description">
+      Showcase your work and portfolio in a distinctive and memorable way.
+    </div>
+  </div>
+
+  {/* Card for Freelancers */}
+  <div className="custom-category-card">
+    <div className="custom-category-icon">💼</div>
+    <span className="custom-category-title">Freelancers</span>
+    <div className="custom--description">
+      Build your personal online identity and connect with clients. 
+    </div>
+  </div>
+
+  {/* Card for Online Presence */}
+  <div className="custom-category-card">
+    <div className="custom-category-icon">🌐</div>
+    <span className="custom-category-title">Online Presence</span>
+    <div className="custom--description">
+      Enhance your online presence and reach a broader audience with our Unique Personal Website Package.
+    </div>
   </div>
 </div>
 
-<div class="custom-category-card">
-  <div class="custom-category-icon">📬</div>
-  <span class="custom-category-title">Contact Page</span>
-  <div class="custom-category-description">
-    Stay connected with your audience through a user-friendly contact form, making it easy for them to reach out to you.
-  </div>
-</div>
 
-<div class="custom-category-card">
-  <div class="custom-category-icon">📄</div>
-  <span class="custom-category-title">Total Pages</span>
-  <div class="custom-category-description">
-    Choose the package that best suits your content needs, from 4-6 pages to expansive 15+ page websites.
-  </div>
-</div>
-
-<div class="custom-category-card">
-  <div class="custom-category-icon">👤</div>
-  <span class="custom-category-title">About Me/Bio Page</span>
-  <div class="custom-category-description">
-    Share your story and let your audience get to know the person behind the website.
-  </div>
-</div>
-
-<div class="custom-category-card">
-  <div class="custom-category-icon">📝</div>
-  <span class="custom-category-title">Blog Integration</span>
-  <div class="custom-category-description">
-    Share your thoughts, experiences, and passions through a user-friendly blog platform.
-  </div>
-</div>
-
-<div class="custom-category-card">
-  <div class="custom-category-icon">📱</div>
-  <span class="custom-category-title">Social Media Integration</span>
-  <div class="custom-category-description">
-    Seamlessly connect your website to your social media profiles, expanding your online presence across platforms.
-  </div>
-</div>
-
-<div class="custom-category-card">
-  <div class="custom-category-icon">📷</div>
-  <span class="custom-category-title">Portfolio/Gallery</span>
-  <div class="custom-category-description">
-    Showcase your work or creations beautifully with integrated portfolios or galleries.
-  </div>
-</div>
-
-<div class="custom-category-card">
-  <div class="custom-category-icon">📱💻</div>
-  <span class="custom-category-title">Mobile Responsiveness</span>
-  <div class="custom-category-description">
-    Your website will look stunning and function perfectly on all devices, ensuring a great user experience for everyone.
-  </div>
-</div>
-
-<div class="custom-category-card">
-  <div class="custom-category-icon">💼</div>
-  <span class="custom-category-title">E-commerce Integration</span>
-  <div class="custom-category-description">
-    If you have products or services to offer, weve got you covered with e-commerce functionality.
-  </div>
-</div>
-
-<div class="custom-category-card">
-  <div class="custom-category-icon">🚀</div>
-  <span class="custom-category-title">Advanced Marketing Tools</span>
-  <div class="custom-category-description">
-    Our top-tier package includes a suite of powerful digital marketing tools to supercharge your online engagement and promotion efforts.
-
+{/* Contact Information */}
+<p className="mt-6 text-md text-gray-700">
+  Ready to build your online presence? Contact us at 
+  <a href="mailto:services@bhamseoanddesignco.com" style={{ color: 'purple' }}> services@bhamseoanddesignco.com
+  </a> for a consultation, or click the button below to start your journey.
+</p>
+     
+{/* Contact Button */}      
+<Link href="/contact" legacyBehavior>
+  <a className="inline-block mt-6 mb-6 bg-gradient-to-r from-pink-800 to-pink-900 hover:from-pink-900 hover:to-pink-900 text-white text-lg py-3 px-8 rounded-full transition duration-300 ease-in-out transform hover:-translate-y-1 shadow-lg">
+    Craft Your Personal Space
+ </a>
+</Link>
 </div>
 </div>
-</div>
-
-<h5 className="text-2xl font-semibold text-gray-800 mt-6">Benefits of Having a Personal Website</h5>     
-<p className="text-md text-gray-700 mt-4"><b>Online Portfolio:</b> Showcase your work, projects, and achievements in one place, making it easy for potential clients, employers, or collaborators to see your skills and accomplishments.</p>
-<p className="text-md text-gray-700 mt-4"><b>Personal Branding:</b> Establish a strong personal brand by creating a website that reflects your unique identity, values, and expertise, helping you stand out in your field.</p>
-<p className="text-md text-gray-700 mt-4"><b>Control and Ownership:</b> Unlike social media profiles or third-party platforms, you have complete control and ownership over your personal website, ensuring your content is presented the way you want it to be.</p>
-<p className="text-md text-gray-700 mt-4"><b>Improved Credibility:</b> A well-designed website can enhance your credibility and professionalism, making you appear more trustworthy to potential clients, employers, or partners.</p>
-<p className="text-md text-gray-700 mt-4"><b>Networking:</b> Use your website as a central hub for networking, sharing your contact information, and connecting with like-minded individuals or industry peers.</p>
-<p className="text-md text-gray-700 mt-4"><b>Content Sharing:</b> Share your thoughts, insights, and expertise through a blog or articles, positioning yourself as an authority in your niche or industry.</p>
-<p className="text-md text-gray-700 mt-4"><b>Online Resume:</b> Your website can serve as an interactive online resume, providing a comprehensive overview of your qualifications, experience, and skills to potential employers or clients.</p>
-<p className="text-md text-gray-700 mt-4"><b>Career Advancement:</b> A personal website can help you advance in your career by showcasing your accomplishments and attracting new opportunities.</p>
-<p className="text-md text-gray-700 mt-4"><b>Diversify Income:</b> If you offer services or products, your website can serve as an additional revenue stream by allowing you to sell products, offer online courses, or provide consulting services.</p>
-<p className="text-md text-gray-700 mt-4"><b>Global Reach:</b> Reach a global audience with your website, breaking geographical boundaries and increasing your visibility to potential clients, customers, or collaborators from around the world.</p>
-
-      
-
-      <h5 className="text-2xl font-semibold text-gray-800 mt-6">Ideal For</h5>
-      <div className="custom-category-card-container">
-      <div class="custom-category-card">
-  <div class="custom-category-icon">👩‍💻</div>
-  <span class="custom-category-title">Bloggers</span>
-  <div class="custom-category-descrhiption">
-    Establish your personal brand and share your passions with the world using our Unique Personal Website Package. Reflect your style with a customized aesthetic design.
-  </div>
-</div>
-
-<div class="custom-category-card">
-  <div class="custom-category-icon">🎨</div>
-  <span class="custom-category-title">Artists</span>
-  <div class="custom-category-descrhiption">
-    Showcase your work and portfolio in a distinctive and memorable way. Enjoy a responsive and intuitive layout for an engaging user experience.
-  </div>
-</div>
-
-<div class="custom-category-card">
-  <div class="custom-category-icon">💼</div>
-  <span class="custom-category-title">Freelancers</span>
-  <div class="custom-category-deschription">
-    Build your personal online identity and connect with clients. Benefit from blog and gallery integration, social media connectivity, and SEO optimization.
-  </div>
-</div>
-
-<div class="custom-category-card">
-  <div class="custom-category-icon">🌐</div>
-  <span class="custom-category-title">Online Presence</span>
-  <div class="custom-category-dehscription">
-    Enhance your online presence and reach a broader audience with our Unique Personal Website Package. Craft your personal space today!
-  </div>
-</div>
-</div>
-
-
-
-      <p className="mt-6 text-md text-gray-700">Ready to build your online presence? Contact us at <a href="mailto:services@bhamseoanddesignco.com">services@bhamseoanddesignco.com</a> for a consultation, or click the button below to start your journey.</p>
-      <Link href="/contact" legacyBehavior>
-        <a className="inline-block mt-4 bg-gradient-to-r from-pink-800 to-pink-900 hover:from-pink-900 hover:to-pink-900 text-white text-lg py-3 px-8 rounded-full transition duration-300 ease-in-out transform hover:-translate-y-1 shadow-lg">
-          Craft Your Personal Space
-        </a>
-      </Link>
-      </div>
-  </div>
-
-
 
 {/* PERSONAL PACKAGE PRICING TITLE */}
 <div className="relative py-5 px-6 lg:px-12 bg-gradient-to-br from-pink-500 via-pink-500 to-pink-600 rounded-3xl shadow-xl mx-4 my-10">
@@ -274,6 +294,7 @@ const Personal = () => {
   </div>
 </div>
 
+{/* PERSONAL PACKAGES PRICING */}
 <div className="grid grid-cols-1 md:grid-cols-3 lg:grid-cols-2 gap-x-4 gap-y-4">
   {personalPackages.map((pkg, index) => (
     <div key={index} className="bg-white rounded-lg overflow-hidden shadow-lg border border-pink-900 hover:shadow-2xl transition-shadow duration-500 ease-in-out">
@@ -326,5 +347,6 @@ const Personal = () => {
     </div>
   );
 };
+
 
 export default Personal;
