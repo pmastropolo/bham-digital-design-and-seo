@@ -1,5 +1,6 @@
 import React from 'react';
 import Link from 'next/link';
+import BusinessForm from './BusinessForm';
 
 const businessPackages = [
   {
@@ -122,7 +123,6 @@ const businessPackages = [
 const Business = () => {
   return (
     <div>
-
 <div className="bg-white rounded-lg overflow-hidden" style={{ boxShadow: "0px 4px 6px rgba(0, 255, 0, 0.1)" }}>
 <div className="bg-white rounded-lg overflow-hidden shadow-md" style={{ boxShadow: "0px 3px 2px rgba(0, 128, 0, 0.5)" }}>
     <div className="p-2 sm:p-3">
@@ -138,178 +138,206 @@ const Business = () => {
 
     <div className="p-3">
 
-    <h4 className="text-4xl font-semibold text-gray-800 mt-2">Professional <span className="text-green-600">Business</span> Website Package</h4>
-    <p className="text-md text-gray-700 mt-2">Transform your companys online image with our Professional Business Website Package. This package is expertly designed for corporations, small businesses, and professionals keen on enhancing their digital footprint with a sophisticated and user-friendly website.</p>
+<h4 className="text-4xl font-semibold text-gray-800 mt-2">Professional <span className="text-green-600">Business</span> Website Package</h4>
+<p className="text-md text-gray-700 mt-2">Transform your companys online image with our Professional Business Website Package. This package is expertly designed for corporations, small businesses, and professionals keen on enhancing their digital footprint with a sophisticated and user-friendly website.</p>
  
-    <div class="custom-category-card-container">
-  <div class="custom-category-card">
-  <div class="custom-category-icon">📱</div>
-  <span class="custom-category-title">Mobile-Responsive Layout</span>
-  <div class="custom-category-description">
-    Take your business everywhere! Our designs ensure your site looks great on all devices.
-  </div>
+<div class="custom-category-card-container">
+{/* MOBILE-RESPONSIVE LAYOUT SECTION */}
+<div class="custom-category-card">
+<div class="custom-category-icon">📱</div>
+<span class="custom-category-title">Mobile-Responsive Layout</span>
+<div class="custom-category-description">Take your business everywhere! Our designs ensure your site looks great on all devices.</div>
 </div>
 
+{/* SEO OPTIMIZATION SECTION */}
 <div class="custom-category-card">
-  <div class="custom-category-icon">🔍</div>
-  <span class="custom-category-title">SEO Optimization</span>
-  <div class="custom-category-description">
-    Climb the search engine ranks and get noticed by more customers.
-  </div>
+<div class="custom-category-icon">🔍</div>
+<span class="custom-category-title">SEO Optimization</span>
+<div class="custom-category-description">Climb the search engine ranks and get noticed by more customers.</div>
 </div>
 
+{/* SOCIAL MEDIA INTEGRATION SECTION */}
 <div class="custom-category-card">
-  <div class="custom-category-icon">📲</div>
-  <span class="custom-category-title">Social Media Integration</span>
-  <div class="custom-category-description">
-    Connect your site seamlessly with social media for greater reach and engagement.
-  </div>
+<div class="custom-category-icon">📲</div>
+<span class="custom-category-title">Social Media Integration</span>
+<div class="custom-category-description">Connect your site seamlessly with social media for greater reach and engagement.</div>
 </div>
 
+{/* CONTACT FORM SECTION */}
 <div class="custom-category-card">
-  <div class="custom-category-icon">✉️</div>
-  <span class="custom-category-title">Contact Form</span>
-  <div class="custom-category-description">
-    Make it easy for clients to reach out with user-friendly contact forms.
-  </div>
+<div class="custom-category-icon">✉️</div>
+<span class="custom-category-title">Contact Form</span>
+<div class="custom-category-description">Make it easy for clients to reach out with user-friendly contact forms.</div>
 </div>
 
+{/* SECURITY FEATURES SECTION */}
 <div class="custom-category-card">
-  <div class="custom-category-icon">🔐</div>
-  <span class="custom-category-title">Security Features</span>
-  <div class="custom-category-description">
-    Protect your site and customer data with top-notch security.
-  </div>
+<div class="custom-category-icon">🔐</div>
+<span class="custom-category-title">Security Features</span>
+<div class="custom-category-description">Protect your site and customer data with top-notch security.</div>
 </div>
 
+{/* CUSTOMIZABLE PAGES SECTION */}
 <div class="custom-category-card">
-  <div class="custom-category-icon">🖌️</div>
-  <span class="custom-category-title">Customizable Pages</span>
-  <div class="custom-category-description">
-    Express your brands unique style with fully customizable web pages.
-  </div>
+<div class="custom-category-icon">🖌️</div>
+<span class="custom-category-title">Customizable Pages</span>
+<div class="custom-category-description">Express your brands unique style with fully customizable web pages.</div>
 </div>
 
+{/* INVITING HOME PAGE SECTION */}
 <div class="custom-category-card">
-  <div class="custom-category-icon">🏠</div>
-  <span class="custom-category-title">Inviting Home Page</span>
-  <div class="custom-category-description">
-    Create a compelling first impression that captivates visitors.
-  </div>
+<div class="custom-category-icon">🏠</div>
+<span class="custom-category-title">Inviting Home Page</span>
+<div class="custom-category-description">Create a compelling first impression that captivates visitors.</div>
 </div>
 
+{/* ABOUT US PAGE SECTION */}
 <div class="custom-category-card">
-  <div class="custom-category-icon">👥</div>
-  <span class="custom-category-title">About Us Page</span>
-  <div class="custom-category-description">
-    Share your story and connect personally with customers.
-  </div>
+<div class="custom-category-icon">👥</div>
+<span class="custom-category-title">About Us Page</span>
+<div class="custom-category-description">Share your story and connect personally with customers.</div>
 </div>
 
+{/* SERVICES OR PRODUCTS PAGE SECTION */}
 <div class="custom-category-card">
-  <div class="custom-category-icon">💼</div>
-  <span class="custom-category-title">Services or Products Page</span>
-  <div class="custom-category-description">
-    Showcase what you offer in a compelling, clear format.
-  </div>
+<div class="custom-category-icon">💼</div>
+<span class="custom-category-title">Services or Products Page</span>
+<div class="custom-category-description">Showcase what you offer in a compelling, clear format.</div>
 </div>
 
+{/* CONTACT PAGE SECTION */}
 <div class="custom-category-card">
-  <div class="custom-category-icon">📞</div>
-  <span class="custom-category-title">Contact Page</span>
-  <div class="custom-category-description">
-    Ensure customers can easily find ways to get in touch.
-  </div>
+<div class="custom-category-icon">📞</div>
+<span class="custom-category-title">Contact Page</span>
+<div class="custom-category-description">Ensure customers can easily find ways to get in touch.</div>
 </div>
 
+{/* BLOG & NEWS SECTION */}
 <div class="custom-category-card">
-  <div class="custom-category-icon">📰</div>
-  <span class="custom-category-title">Blog & News Section</span>
-  <div class="custom-category-description">
-    Keep your audience updated and engaged with regular posts.
-  </div>
+<div class="custom-category-icon">📰</div>
+<span class="custom-category-title">Blog & News Section</span>
+<div class="custom-category-description">Keep your audience updated and engaged with regular posts.</div>
 </div>
 
+{/* CMS - CONTENT MANAGEMENT SYSTEM SECTION */}
 <div class="custom-category-card">
-  <div class="custom-category-icon">💻</div>
-  <span class="custom-category-title">CMS - Content Management System</span>
-  <div class="custom-category-description">
-    Manage your content effortlessly, keeping your site fresh and engaging.
-  </div>
+<div class="custom-category-icon">💻</div>
+<span class="custom-category-title">CMS - Content Management System</span>
+<div class="custom-category-description">Manage your content effortlessly, keeping your site fresh and engaging.</div>
 </div>
 </div>
 </div>
 
 
 {/* Section for Benefits of the Business Package */}
-<h5 className="text-2xl font-semibold text-gray-800 mt-6">Benefits of having a Business Website</h5>
+<div className="mt-6">
+<h5 className="text-3xl font-semibold text-gray-800">Benefits</h5>
+<hr className="mb-3 mt-3" />
+<div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-4 mt-4">
+        
+{/* Availability 24/7 Card */}
+<div className="benefit-card">
+<h6 className="title font-bold text-lg">Availability 24/7</h6>
+<p className="description">Open non-stop for sales & leads.</p>
+</div>
 
-{/* Benefit Descriptions */}
-<p className="text-md text-gray-700 mt-4"><b>Availability 24/7</b> | Your website is open 24/7 for sales and leads.</p>
-<p className="text-md text-gray-700 mt-4"><b>Competitive Edge</b> | Stay ahead in the digital age.</p>
-<p className="text-md text-gray-700 mt-4"><b>Credibility</b> | Enhance trust with a professional online presence.</p>
-<p className="text-md text-gray-700 mt-4"><b>Information Hub</b> | Offer resources and contact info.</p>
-<p className="text-md text-gray-700 mt-4 mb-4"><b>Lead Generation</b> | Capture leads for customer engagement.</p>
+{/* Competitive Edge Card */}
+<div className="benefit-card">
+<h6 className="title font-bold text-lg">Competitive Edge</h6>
+<p className="description">Stay ahead in the digital age.</p>
+</div>
+
+{/* Credibility Card */}
+<div className="benefit-card">
+<h6 className="title font-bold text-lg">Credibility</h6>
+<p className="description">Build trust with a sleek website.</p>
+</div>
+
+{/* Information Hub Card */}
+<div className="benefit-card">
+<h6 className="title font-bold text-lg">Information Hub</h6>
+<p className="description">All your info, easily accessible.</p>
+</div>
+
+{/* Lead Generation Card */}
+<div className="benefit-card">
+<h6 className="title font-bold text-lg">Lead Generation</h6>
+<p className="description">Efficiently capture and grow leads.</p>
+</div>
+</div>
+</div>
+
 
 {/* Ideal For */}
 <h5 className="text-2xl font-semibold text-gray-800 mt-6 mb-4">Ideal For</h5>
 <div class="custom-category-card-container">
   
-      {/* Individual Card for Corporations */}
-      <div class="custom-category-card">
-        <div class="custom-category-icon">🏢</div>
-        <span class="custom-category-title">Corporations</span>
-        <div class="custom-category-descrigption">
-          Larger companies looking to establish a strong online presence with a sophisticated website that reflects their brand and offers advanced features.
-        </div>
-      </div>
-
-      {/* Individual Card for Small Businesses */}
-      <div class="custom-category-card">
-        <div class="custom-category-icon">🏬</div>
-        <span class="custom-category-title">Small Businesses</span>
-        <div class="custom-category-descrgiption">
-          Small businesses seeking to improve their digital footprint and compete effectively in the online marketplace by having a professional and user-friendly website.
-        </div>
-      </div>
-
-      {/* Individual Card for Professionals */}
-      <div class="custom-category-card">
-        <div class="custom-category-icon">👩‍💼</div>
-        <span class="custom-category-title">Professionals</span>
-        <div class="custom-category-descgription">
-          Individuals or professionals, such as consultants, freelancers, or service providers, who want to showcase their expertise and services with an elegant and interactive online platform.
-        </div>
-      </div>
-  
-       {/* Individual Card for Entrepreneurs */}
-      <div class="custom-category-card">
-  <div class="custom-category-icon">🚀</div>
-  <span class="custom-category-title">Entrepreneurs</span>
-  <div class="custom-category-descrigption">
-    Entrepreneurs, whether solo entrepreneurs or those leading a startup, can use a website to showcase their innovative ideas, attract investors, and connect with potential customers.
-  </div>
+{/* Individual Card for Corporations */}
+<div class="custom-category-card">
+<div class="custom-category-icon">🏢</div>
+<span class="custom-category-title">Corporations</span>
+<div class="custom-category-descrhiption">
+Larger companies looking to establish a strong online presence with a sophisticated website that reflects their brand and offers advanced features.
 </div>
 </div>
 
-      
-      {/* Call to Action for Contact */}
-      <p className="mt-6 mb-4 text-md text-gray-700">
-        For a custom solution that fits your business needs, contact us at <a href="mailto:services@bhamseoanddesignco.com">services@bhamseoanddesignco.com</a>, or click below to discuss your project.
-      </p>
-      <Link href="/contact" legacyBehavior>
-        <a className="inline-block mt-4 mb-4 bg-gradient-to-r from-green-600 to-green-800 hover:from-green-800 hover:to-green-600 text-white text-lg py-3 px-8 rounded-full transition duration-300 ease-in-out transform hover:-translate-y-1 shadow-lg">
-          Elevate Your Business Today
-        </a>
-      </Link>
-    </div>
-  </div>
+{/* Individual Card for Small Businesses */}
+<div class="custom-category-card">
+<div class="custom-category-icon">🏬</div>
+<span class="custom-category-title">Small Businesses</span>
+<div class="custom-category-deschription">
+Small businesses seeking to improve their digital footprint and compete effectively in the online marketplace by having a professional and user-friendly website.
+</div>
+</div>
+
+{/* Individual Card for Professionals */}
+<div class="custom-category-card">
+<div class="custom-category-icon">👩‍💼</div>
+<span class="custom-category-title">Professionals</span>
+<div class="custom-category-deschription">
+Individuals or professionals, such as consultants, freelancers, or service providers, who want to showcase their expertise and services with an elegant and interactive online platform.
+</div>
+</div>
+
+{/* Individual Card for Entrepreneurs */}
+<div class="custom-category-card">
+<div class="custom-category-icon">🚀</div>
+<span class="custom-category-title">Entrepreneurs</span>
+<div class="custom-category-descrhiption">
+Entrepreneurs, whether solo entrepreneurs or those leading a startup, can use a website to showcase their innovative ideas, attract investors, and connect with potential customers.
+</div>
+</div>
+</div>
+
+{/* Call to Action for Contact */}
+<p className="mt-6 mb-4 text-md text-gray-700">
+For a custom solution that fits your business needs, contact us at <a href="mailto:services@bhamseoanddesignco.com" style={{ color: 'green' }}>services@bhamseoanddesignco.com</a>, or click below to discuss your project.
+</p>
+
+<Link href="/contact" legacyBehavior>
+<a className="inline-block mt-4 mb-4 bg-gradient-to-r from-green-600 to-green-800 hover:from-green-800 hover:to-green-600 text-white text-lg py-3 px-8 rounded-full transition duration-300 ease-in-out transform hover:-translate-y-1 shadow-lg">
+Elevate Your Business Today
+</a>
+</Link>
+</div>
+</div>
 
 
-<section></section>
-<h1 className="text-3xl lg:text-5xl font-bold text-center mb-8 mt-10 underline decoration-green-900 decoration-4 underline-offset-8">
-  Business Package Pricing
+
+{/* BUSINESS PACKAGE PRICING TITLE*/}
+<div className="relative py-5 px-6 lg:px-12 bg-gradient-to-br from-green-600 via-green-700 to-green-800 rounded-3xl shadow-xl mx-4 my-10">
+<div className="text-center">
+<h1 className="text-xl lg:text-3xl font-extrabold text-white mb-2 mt-2 tracking-wide leading-tight hover:text-green-950 transition-colors duration-300">
+Business Package Pricing
 </h1>
+<p className="text-md lg:text-lg font-medium text-white mb-2">
+Find the Ideal Plan for Your Business
+</p>
+<span className="inline-block w-16 h-1 bg-green-100 rounded"></span>
+</div>
+</div>
+
+{/* BUSINESS PACKAGES */}
 <div className="grid grid-cols-1 md:grid-cols-3 lg:grid-cols-2 gap-x-4 gap-y-4">
   {businessPackages.map((pkg, index) => (
     <div key={index} className="bg-white rounded-lg overflow-hidden shadow-lg border border-green-500 hover:shadow-2xl transition-shadow duration-500 ease-in-out">
@@ -354,11 +382,11 @@ const Business = () => {
     </a>
   </Link>
 </div>
-    </div>
+{/* GREEN BORDER BOTTOM */} 
+<div className="border-bottom-green"></div>
+
+</div>
   );
 };
 
 export default Business;
-
-
-
