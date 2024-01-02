@@ -259,6 +259,12 @@ const EcommercePackages = () => {
 Connect with us for a personalized consultation at{' '}
 <a href="mailto:services@bhamseoanddesignco.com" style={{ color: 'red' }}>services@bhamseoanddesignco.com</a> or click the button below to begin your blogging journey.
 </p>
+{/* Button for Learning More */}
+<Link href="/contact" legacyBehavior>
+    <a className="inline-block mt-4 mb-6 bg-gradient-to-r from-red-600 to-red-800 hover:from-red-800 hover:to-red-600 text-white text-lg py-3 px-8 rounded-full transition duration-300 ease-in-out transform hover:-translate-y-1 shadow-lg">
+      Enhance Your Ecommerce Reach
+    </a>
+  </Link>
 </div>
 </div>
     
