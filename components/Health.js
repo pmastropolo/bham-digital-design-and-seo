@@ -334,8 +334,13 @@ Contact us today to request a <span className="text-gray-400">free price quote</
 Request a Free Price Quote
 </a>
 </Link>
+
 </div>
+
+{/* GRAY BORDER BOTTOM */} 
+<div className="border-bottom-gray"></div>
 </div>
-);
+   );
+  };
 
 export default Health;
