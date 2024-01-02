@@ -82,26 +82,27 @@ const entertainmentPackageData = [
 
 const Entertainment = () => {
   return (
-        <div>
-        <div>
-          <div className="bg-white rounded-lg overflow-hidden shadow-md" style={{ boxShadow: "0px 4px 4px rgba(75, 0, 130, 0.4)" }}>
-            <div className="p-4 sm:p-3">
-              <div className="bg-gradient-to-b from-indigo-400 to-indigo-500 rounded-lg overflow-hidden text-white text-center tracking-wide leading-tight hover:text-indigo-500 transition-colors duration-300 p-8">
-                <h1 className="text-3xl sm:text-4xl md:text-5xl lg:text-6xl font-bold">
-                Transforming Entertainment
-                </h1>
-                <p className="text-sm sm:text-md md:text-lg text-gray-100 mt-2 sm:mt-4">
-                Where Entertainment Meets Excellence
-                </p>
-              </div>
-      
+
+<div>
+<div className="bg-white rounded-lg overflow-hidden shadow-md" style={{ boxShadow: "0px 4px 4px rgba(75, 0, 130, 0.4)" }}>
+<div className="p-2 sm:p-3">
+<div className="bg-gradient-to-b from-indigo-400 to-indigo-500 rounded-lg overflow-hidden text-white text-center tracking-wide leading-tight hover:text-indigo-800 transition-colors duration-300 p-8">
+
+{/* Entertainment TITLE ONE*/}
+<h1 className="text-3xl sm:text-4xl md:text-5xl lg:text-6xl font-bold"> Transforming Entertainment</h1>
+<p className="text-sm sm:text-md md:text-lg text-gray-100 mt-2 sm:mt-4"> Where Entertainment Meets Excellence</p>
+</div>
+
+{/* Entertainment TITLE TWO */}
 <h4 className="text-4xl mt-4 font-semibold text-gray-800">Vibrant<span className="text-indigo-400"> Entertainment</span> Website Package</h4>
-<p className="text-md text-gray-700 mt-4">Engage and captivate your audience with our Vibrant Entertainment Website Package. This package is perfectly suited for artists, performers, event organizers, and entertainment companies looking to create an engaging, visually stunning, and interactive online presence.</p>
-      
+<p className="text-md text-gray-700 mt-4 mb-6">Engage and captivate your audience with our Vibrant Entertainment Website Package. This package is perfectly suited for artists, performers, event organizers, and entertainment companies looking to create an engaging, visually stunning, and interactive online presence.</p>
+
 <div className="custom-category-card-container">
+
+{/* Responsive Design CARD */}
 <div class="custom-category-card">
 <div class="custom-category-icon">🖥️</div>
-  <span class="custom-category-title">Responsive Design for All Devices</span>
+  <span class="custom-category-title">Responsive Design</span>
   <div class="custom-category-description">
     Your website will look great and function smoothly on desktops, tablets, and mobile devices.
   </div>
@@ -117,8 +118,8 @@ Connect with your audience through seamless integration with popular social medi
 </div>
 
 {/* CONTACT FORM CARD */}
-<div class="custom-category">
-<div class="-category-icon">📝</div>
+<div class="custom-category-card">
+<div class="custom-category-icon">📝</div>
 <span class="custom-category-title">Contact Form</span>
 <div class="custom-category-description">
 Make it easy for fans and clients to get in touch with you or inquire about bookings.
@@ -201,133 +202,172 @@ Reach a global audience by offering your website in multiple languages.
 </div>
 </div>
 
-    <h5 className="text-2xl font-semibold text-gray-800 mt-6">Benefits</h5>
 
-    <p className="text-md text-gray-700 mt-4"><b>Enhanced Visibility:</b> Showcase your talent, events, or services to a global audience, increasing your online presence.</p>
+{/* BENEFITS section */}
+<div className="mt-6">
+  <h5 className="text-3xl font-semibold text-gray-800">Benefits</h5>
+  <hr className="mb-3 mt-3" />
+  <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-4 mt-4 mb-6">
 
-<p className="text-md text-gray-700 mt-4"><b>Fan Engagement:</b> Connect with your audience through interactive features, social media integration, and fan clubs.</p>
+    {/* Enhanced Visibility Card */}
+    <div className="benefit-card">
+      <h6 className="title font-bold text-lg">Enhanced Visibility</h6>
+      <p className="description">Showcase your talent globally and boost your online reach!</p>
+    </div>
 
-<p className="text-md text-gray-700 mt-4"><b>Event Promotion:</b> Easily promote upcoming events, performances, or releases, attracting more attendees or viewers.</p>
+    {/* Event Promotion Card */}
+    <div className="benefit-card">
+      <h6 className="title font-bold text-lg">Event Promotion</h6>
+      <p className="description">Promote your events easily and attract more attendees!</p>
+    </div>
 
-<p className="text-md text-gray-700 mt-4"><b>Multimedia Showcase:</b> Display high-quality images, videos, and audio to captivate your audience and highlight your work.</p>
+    {/* Multimedia Showcase Card */}
+    <div className="benefit-card">
+      <h6 className="title font-bold text-lg">Multimedia Showcase</h6>
+      <p className="description">Highlight your work with stunning images, videos, and audio.</p>
+    </div>
 
-<p className="text-md text-gray-700 mt-4"><b>Booking and Ticketing:</b> Offer online booking, ticket purchasing, and reservations, streamlining the booking process for customers.</p>
+    {/* Booking and Ticketing Card */}
+    <div className="benefit-card">
+      <h6 className="title font-bold text-lg">Booking and Ticketing</h6>
+      <p className="description">Simplify ticket purchases and bookings online.</p>
+    </div>
 
-<p className="text-md text-gray-700 mt-4"><b>Analytics and Insights:</b> Gain valuable insights into your audiences behavior and preferences through analytics, helping you make data-driven decisions.</p>
+    {/* Analytics and Insights Card */}
+    <div className="benefit-card">
+      <h6 className="title font-bold text-lg">Analytics and Insights</h6>
+      <p className="description">Get valuable audience insights to guide your decisions.</p>
+    </div>
 
-    <h5 className="text-2xl font-semibold text-gray-800 mt-6">Ideal For</h5>
+  </div>
+</div>
+
+
+
+{/* Ideal For Section */}
+<h5 className="text-3xl font-semibold text-gray-800 mt-6 mb-4">Ideal For</h5>
+
+{/* Container for Category Cards */}
 <div className="custom-category-card-container">
-<div class="custom-category-card">
-  <div class="custom-category-icon">🎸</div>
-  <span class="custom-category-title">Local Bands</span>
-  <div class="custom-category-description">
-    Perfect for local bands seeking a basic online presence to showcase their music and upcoming gigs.
+
+  {/* Card for Local Bands */}
+  <div class="custom-category-card">
+    <div class="custom-category-icon">🎸</div>
+    <span class="custom-category-title">Local Bands</span>
+    <div>Perfect for showcasing your music and upcoming gigs.</div>
+  </div>
+
+  {/* Card for Small Theaters */}
+  <div class="custom-category-card">
+    <div class="custom-category-icon">🎭</div>
+    <span class="custom-category-title">Small Theaters</span>
+    <div>Great for promoting your shows and engaging with audiences.</div>
+  </div>
+
+  {/* Card for Entertainment Startups */}
+  <div class="custom-category-card">
+    <div class="custom-category-icon">🎤</div>
+    <span class="custom-category-title">Entertainment Startups</span>
+    <div class="custom--description">
+    Ideal for quickly establishing your online presence.
+    </div>
+  </div>
+
+  {/* Card for Event Organizers */}
+  <div class="custom-category-card">
+    <div class="custom-category-icon">🎪</div>
+    <span class="custom-category-title">Event Organizers</span>
+    <div class="custom--description">Effective for promoting and managing your events.</div>
+  </div>
+
+  {/* Card for Party Planners */}
+  <div class="custom-category-card">
+    <div class="custom-category-icon">🎉</div>
+    <span class="custom-category-title">Party Planners</span>
+    <div>Showcase your services & highlight upcoming events.</div>
+  </div>
+
+  {/* Card for Circus Performers */}
+  <div class="custom-category-card">
+    <div class="custom-category-icon">🤹‍♀️</div>
+    <span class="custom-category-title">Circus Performers</span>
+    <div class="custom--description">Display your acts and schedule, & connect with fans.</div>
+  </div>
+
+  {/* Card for Gaming Communities */}
+  <div class="custom-category-card">
+    <div class="custom-category-icon">🎮</div>
+    <span class="custom-category-title">Gaming Communities</span>
+    <div class="custom--description">Promote your tournaments and share the latest news and events.</div>
+  </div>
+
+  {/* Card for Film Production Houses */}
+  <div class="custom-category-card">
+    <div class="custom-category-icon">📽️</div>
+    <span class="custom-category-title">Film Production Houses</span>
+    <div class="custom--description">Ideal for showcasing your films and upcoming projects.</div>
+  </div>
+
+  {/* Card for Music Festivals */}
+  <div class="custom-category-card">
+    <div class="custom-category-icon">🎶</div>
+    <span class="custom-category-title">Music Festivals</span>
+    <div class="custom--description">Announce lineups, sell tickets, and provide event info easily.</div>
+  </div>
+
+  {/* Card for Carnivals and Fairs */}
+  <div class="custom-category-card">
+    <div class="custom-category-icon">🎪</div>
+    <span class="custom-category-title">Carnivals and Fairs</span>
+    <div class="custom--description"> Promote your attractions, schedules, and ticket sales.</div>
+  </div>
+
+  {/* Card for Theme Parks */}
+  <div class="custom-category-card">
+    <div class="custom-category-icon">🏰</div>
+    <span class="custom-category-title">Theme Parks</span>
+    <div class="custom--description">Show off your rides, entertainment, and visitor info.</div>
+  </div>
+
+  {/* Card for Art Galleries */}
+  <div class="custom-category-card">
+    <div class="custom-category-icon">🎨</div>
+    <span class="custom-category-title">Art Galleries</span>
+    <div class="custom--description">Display your exhibitions and featured artists.</div>
   </div>
 </div>
 
-<div class="custom-category-card">
-  <div class="custom-category-icon">🎭</div>
-  <span class="custom-category-title">Small Theaters</span>
-  <div class="custom-category-description">
-    Ideal for small theaters looking to promote their shows, share event details, and engage with the audience.
-  </div>
-</div>
-
-<div class="custom-category-card">
-  <div class="custom-category-icon">🎤</div>
-  <span class="custom-category-title">Entertainment Startups</span>
-  <div class="custom-category-description">
-    Tailored for entertainment startups aiming to establish their online presence quickly and efficiently.
-  </div>
-</div>
-
-<div class="custom-category-card">
-  <div class="custom-category-icon">🎪</div>
-  <span class="custom-category-title">Event Organizers</span>
-  <div class="custom-category-description">
-    Designed to meet the needs of event organizers looking to promote and manage events effectively.
-  </div>
-</div>
-
-<div class="custom-category-card">
-  <div class="custom-category-icon">🎉</div>
-  <span class="custom-category-title">Party Planners</span>
-  <div class="custom-category-description">
-    Ideal for party planners and event coordinators to showcase their services and upcoming events.
-  </div>
-</div>
-
-<div class="custom-category-card">
-  <div class="custom-category-icon">🤹‍♀️</div>
-  <span class="custom-category-title">Circus Performers</span>
-  <div class="custom-category-description">
-    Tailored for circus performers to display their acts, schedule performances, and engage with fans.
-  </div>
-</div>
-
-<div class="custom-category-card">
-  <div class="custom-category-icon">🎮</div>
-  <span class="custom-category-title">Gaming Communities</span>
-  <div class="custom-category-description">
-    Perfect for gaming communities and esports organizations to promote tournaments, news, and events.
-  </div>
-</div>
-
-<div class="custom-category-card">
-  <div class="custom-category-icon">📽️</div>
-  <span class="custom-category-title">Film Production Houses</span>
-  <div class="custom-category-description">
-    Designed for film production companies to showcase their portfolios, films, and upcoming projects.
-  </div>
-</div>
-
-<div class="custom-category-card">
-  <div class="custom-category-icon">🎶</div>
-  <span class="custom-category-title">Music Festivals</span>
-  <div class="custom-category-description">
-    Tailored for music festivals to announce lineups, sell tickets, and provide event information.
-  </div>
-</div>
-
-<div class="custom-category-card">
-  <div class="custom-category-icon">🎪</div>
-  <span class="custom-category-title">Carnivals and Fairs</span>
-  <div class="custom-category-description">
-    Ideal for carnivals and fairs to promote attractions, schedules, and ticket sales.
-  </div>
-</div>
-
-<div class="custom-category-card">
-  <div class="custom-category-icon">🏰</div>
-  <span class="custom-category-title">Theme Parks</span>
-  <div class="custom-category-description">
-    Designed for theme parks to showcase rides, entertainment, and visitor information.
-  </div>
-</div>
-
-<div class="custom-category-card">
-  <div class="custom-category-icon">🎨</div>
-  <span class="custom-category-title">Art Galleries</span>
-  <div class="custom-category-description">
-    Perfect for art galleries to display exhibitions, artists, and upcoming art events.
-  </div>
-</div>
-</div>
-
-      <p className="mt-6 text-md text-gray-700">To start building your entertainment empire online, get in touch with us at services@bhamseoanddesignco.com, or click the button below for further details.</p>
-      <Link href="/contact" legacyBehavior>
-        <a className="inline-block mb-6 mt-4 bg-indigo-400 text-white text-lg py-3 px-8 rounded-full transition duration-300 ease-in-out transform hover:-translate-y-1 shadow-lg">
+{/* GET IN TOUCH EMAIL PURPLE */}  
+<p className="mt-6 text-md text-gray-700">
+To start building your entertainment empire online, get in touch with us at{' '}
+<a href="mailto:services@bhamseoanddesignco.com" style={{ color: 'purple' }}>services@bhamseoanddesignco.com</a> or click the button below to begin your blogging journey.
+</p>    
+      
+{/* CONTACT LINK */}        
+<Link href="/contact" legacyBehavior>
+  <a className="inline-block mb-6 mt-4 bg-indigo-400 text-white text-lg py-3 px-8 rounded-full transition duration-300 ease-in-out transform hover:-translate-y-1 shadow-lg">
           Discover Entertainment
         </a>
       </Link>
     </div>
   </div>
+
+
+
+{/* Entertainment PACKAGE PRICING TITLE */}
+<div className="relative py-5 px-6 lg:px-12 bg-gradient-to-br from-indigo-500 via-indigo-500 to-indigo-600 rounded-3xl shadow-xl mx-4 my-10">
+  <div className="text-center">
+    <h1 className="text-xl lg:text-3xl font-extrabold text-white mb-2 mt-2 tracking-wide leading-tight hover:text-indigo-800 transition-colors duration-300">
+    Entertainment Package Pricing
+    </h1>
+    <p className="text-md lg:text-lg font-medium text-white mb-2">
+      Find the Ideal Plan for Your Business
+    </p>
+    <span className="inline-block w-16 h-1 bg-indigo-100 rounded"></span>
+  </div>
 </div>
 
-
-<h1 className="text-3xl lg:text-5xl font-bold text-center mb-8 mt-10 underline decoration-indigo-500 decoration-4 underline-offset-8">
-  Entertainment Package Pricing
-</h1>
+{/* Entertainment PACKAGE PRICING */} 
 <div className="grid grid-cols-1 md:grid-cols-3 lg:grid-cols-2 gap-x-4 gap-y-4">
   {entertainmentPackageData.map((pkg, index) => (
     <div key={index} className="bg-white rounded-lg overflow-hidden shadow-lg border border-indigo-300 hover:shadow-2xl transition-shadow duration-500 ease-in-out">
@@ -373,6 +413,10 @@ Reach a global audience by offering your website in multiple languages.
       </a>
     </Link>
           </div>
+
+{/* indigo BORDER BOTTOM */} 
+<div className="border-bottom-indigo"></div>
+
         </div>
 
    );
