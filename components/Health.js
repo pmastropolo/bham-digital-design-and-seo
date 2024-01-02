@@ -90,9 +90,9 @@ const Health = () => {
                           Health Web Design Package
                         </h1>
                         <p className="text-sm sm:text-md md:text-lg text-gray-300 mt-2 sm:mt-4">
-                          Transform Your Health Website with Us
-                        </p>
-              </div>
+  Transform Your Health Website with Us
+</p>
+</div>
                    
 {/* Health Web Design Package */}           
 <h4 className="text-4xl font-semibold text-gray-800 mt-4">Comprehensive <span className="text-gray-400">Health</span> Web Design Package</h4>
@@ -317,27 +317,25 @@ Find the Ideal Plan for Your Business
 </div>
       
 <div className="text-center mt-8">
-  {/* Heading indicating the main action */}
-  <p className="text-2xl text-gray-900 font-semibold">
-    Interested in our Health Web Design Package?
-  </p>
+{/* Heading indicating the main action */}
+<p className="text-2xl text-gray-900 font-semibold">
+Interested in our Health Web Design Package?
+</p>
 
-  {/* Subtext to encourage user action */}
-  <p className="text-lg text-gray-600">
-    Contact us today to request a <span className="text-gray-400">free price quote</span>.
-  </p>
+{/* Subtext to encourage user action */}
+<p className="text-lg text-gray-600">
+Contact us today to request a <span className="text-gray-400">free price quote</span>.
+</p>
 
-  {/* Link to the contact page */}
-  <Link href="/contact" legacyBehavior>
-    {/* Call-to-action button */}
-    <a className="inline-block bg-gray-800 hover:bg-gray-900 text-white text-lg py-3 px-12 mb-6 mt-4 rounded-md transition duration-300 transform hover:-translate-y-1 shadow-md">
-      Request a Free Price Quote
-    </a>
-  </Link>
+{/* Link to the contact page */}
+<Link href="/contact" legacyBehavior>
+{/* Call-to-action button */}
+<a className="inline-block bg-gray-800 hover:bg-gray-900 text-white text-lg py-3 px-12 mb-6 mt-4 rounded-md transition duration-300 transform hover:-translate-y-1 shadow-md">
+Request a Free Price Quote
+</a>
+</Link>
 </div>
-
-    </div>
-  );
-};
+</div>
+);
 
 export default Health;
