@@ -96,29 +96,27 @@ const Entertainment = () => {
               </div>
       
 <h4 className="text-4xl mt-4 font-semibold text-gray-800">Vibrant<span className="text-indigo-400"> Entertainment</span> Website Package</h4>
-
-
-      <p className="text-md text-gray-700 mt-4">Engage and captivate your audience with our Vibrant Entertainment Website Package. This package is perfectly suited for artists, performers, event organizers, and entertainment companies looking to create an engaging, visually stunning, and interactive online presence.</p>
+<p className="text-md text-gray-700 mt-4">Engage and captivate your audience with our Vibrant Entertainment Website Package. This package is perfectly suited for artists, performers, event organizers, and entertainment companies looking to create an engaging, visually stunning, and interactive online presence.</p>
       
-      
-      
-    <div className="custom-category-card-container">
-    <div class="custom-category-card">
-  <div class="custom-category-icon">🖥️</div>
+<div className="custom-category-card-container">
+<div class="custom-category-card">
+<div class="custom-category-icon">🖥️</div>
   <span class="custom-category-title">Responsive Design for All Devices</span>
   <div class="custom-category-description">
     Your website will look great and function smoothly on desktops, tablets, and mobile devices.
   </div>
 </div>
 
+{/* SOCIAL MEDIA CARD */}
 <div class="custom-category-card">
-  <div class="custom-category-icon">📱</div>
-  <span class="custom-category-title">Social Media Integration</span>
-  <div class="custom-category-description">
-    Connect with your audience through seamless integration with popular social media platforms.
-  </div>
+<div class="custom-category-icon">📱</div>
+<span class="custom-category-title">Social Media Integration</span>
+<div class="custom-category-description">
+Connect with your audience through seamless integration with popular social media platforms.
+</div>
 </div>
 
+{/* CONTACT FORM CARD */}
 <div class="custom-category-card">
   <div class="custom-category-icon">📝</div>
   <span class="custom-category-title">Contact Form</span>
@@ -127,6 +125,7 @@ const Entertainment = () => {
   </div>
 </div>
 
+{/* MULTIMEDIA CARD */}
 <div class="custom-category-card">
   <div class="custom-category-icon">📸</div>
   <span class="custom-category-title">Multimedia Integration</span>
