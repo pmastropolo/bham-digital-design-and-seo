@@ -7,100 +7,92 @@ const BlogPackageData = [
     "price": "$500 - $1500",
     "duration": "3 Weeks",
     "features": [
-        "- Up to 10 Initial Blog Posts Setup",
-        "- User Friendly Layout for Beginners",
-        "- Basic SEO to Boost Online Visibility",
-        "- Responsive Design for Mobile and Desktop",
-        "- Social Media Integration to Connect with Audiences",
-        "- Efficient CMS for Easy Blog Post Management"
+      "- Up to 10 Initial Blog Posts Setup",
+      "- User Friendly Layout for Beginners",
+      "- Basic SEO to Boost Online Visibility",
+      "- Responsive Design for Mobile and Desktop",
+      "- Social Media Integration to Connect with Audiences",
+      "- Efficient CMS for Easy Blog Post Management"
     ],
     "websiteIncludes": [
-        "Home | Featured Posts",
-        "About | Personal or Brand Story",
-        "Standard Blog Layout with up to 10 Posts",
-        "Contact | Simple Inquiry Form",
-        "Social Media Links & Integration"  
+      "Home | Featured Posts",
+      "About | Personal or Brand Story",
+      "Standard Blog Layout with up to 10 Posts",
+      "Contact | Simple Inquiry Form",
+      "Social Media Links & Integration"  
     ],
     "totalPages": "10",
     "idealFor": "Individuals or Hobbyists Starting a Personal Blog."
   },
-
   {
     "name": "Standard Blog Package",
-        "price": "$1500 - $3000",
-        "duration": "8 Weeks",
-        "features": [
-                "- Up to 20 Initial Blog Posts Setup",
-                "- Enhanced Customizable Templates",
-                "- Advanced SEO Tools for Greater Reach",
-                "- Integrated Blog Analytics to Track Performance",
-                "- Email Subscription for Audience Engagement",
-                "- Multi Category Blog Support"
-        ],
-        "websiteIncludes": [
-                "Customizable Home Page with Dynamic Layout",
-                "Detailed About Section",
-                "Expanded Blog Section with up to 20 Posts",
-                "Contact Page with Enhanced Functionality",
-                "Dedicated Category and Archive Pages"
-        ],
-        "totalPages": "20",
-        "idealFor": "Emerging Bloggers or Small Businesses Focusing on Content Marketing."
-      },
-
-      {
-        "name": "Premium Blog Package",
-            "price": "$3,000 - $6,000",
-            "duration": "12 Weeks",
-            "features": [
-                "- Premium Custom Design Aligning With Brand Identity",
-                "- Comprehensive SEO And Content Strategy",
-                "- Advanced CMS With Diverse Content Capabilities",
-                "- Social Media Strategy And Integration",
-                "- Robust Security And Advanced Analytics"
-        
-            ],
-            "websiteIncludes": [
-                "Custom Designed Home and Landing Pages",
-                "In-Depth About Page with Team Profiles",
-                "Extensive Blog Section with Unlimited Posts",
-                "Interactive Contact Page with Social Media Feeds",
-                "Specialized Pages for Email Sign-up, Privacy Policies"
-            ],
-            "totalPages": "25+",
-            "idealFor": "Professional Bloggers, Influencers, or Businesses That Require a Robust Blogging Platform with Advanced Features."
-          },
-
-          {
-                "name": "Enterprise Blogger's Premium Suite",
-                    "price": "$6000+",
-                    "duration": "24 Weeks",
-                    "features": [
-                        "- Fully Customized Design and Interactive Features",
-                        "- Unlimited Blog Post Capability",
-                        "- Full Scale CMS with E-Commerce Integration",
-                        "- Personalized User Experience Design",
-                        "- Dedicated Account and Multilingual Support"
-                
-                    ],
-                    "websiteIncludes": [
-                        "State-of-the-Art Landing Page with Interactive Elements",
-                        "Comprehensive About Us Page with Detailed Company Story",
-                        "Unlimited Blog Posts with Advanced Layouts",
-                        "E-Commerce Integration for Merchandising",
-                        "Multi-Language Support Pages for Global Reach"
-                    ],
-                    "totalPages": "30+",
-                    "idealFor": "Large Businesses Or Media Companies Needing a High-End Blogging Platform With Full Customization And Extensive Features."
-                  }
-
+    "price": "$1500 - $3000",
+    "duration": "8 Weeks",
+    "features": [
+      "- Up to 20 Initial Blog Posts Setup",
+      "- Enhanced Customizable Templates",
+      "- Advanced SEO Tools for Greater Reach",
+      "- Integrated Blog Analytics to Track Performance",
+      "- Email Subscription for Audience Engagement",
+      "- Multi Category Blog Support"
+    ],
+    "websiteIncludes": [
+      "Customizable Home Page with Dynamic Layout",
+      "Detailed About Section",
+      "Expanded Blog Section with up to 20 Posts",
+      "Contact Page with Enhanced Functionality",
+      "Dedicated Category and Archive Pages"
+    ],
+    "totalPages": "20",
+    "idealFor": "Emerging Bloggers or Small Businesses Focusing on Content Marketing."
+  },
+  {
+    "name": "Premium Blog Package",
+    "price": "$3,000 - $6,000",
+    "duration": "12 Weeks",
+    "features": [
+      "- Premium Custom Design Aligning With Brand Identity",
+      "- Comprehensive SEO And Content Strategy",
+      "- Advanced CMS With Diverse Content Capabilities",
+      "- Social Media Strategy And Integration",
+      "- Robust Security And Advanced Analytics"
+    ],
+    "websiteIncludes": [
+      "Custom Designed Home and Landing Pages",
+      "In-Depth About Page with Team Profiles",
+      "Extensive Blog Section with Unlimited Posts",
+      "Interactive Contact Page with Social Media Feeds",
+      "Specialized Pages for Email Sign-up, Privacy Policies"
+    ],
+    "totalPages": "25+",
+    "idealFor": "Professional Bloggers, Influencers, or Businesses That Require a Robust Blogging Platform with Advanced Features."
+  },
+  {
+    "name": "Enterprise Blogger's Premium Suite",
+    "price": "$6000+",
+    "duration": "24 Weeks",
+    "features": [
+      "- Fully Customized Design and Interactive Features",
+      "- Unlimited Blog Post Capability",
+      "- Full Scale CMS with E-Commerce Integration",
+      "- Personalized User Experience Design",
+      "- Dedicated Account and Multilingual Support"
+    ],
+    "websiteIncludes": [
+      "State-of-the-Art Landing Page with Interactive Elements",
+      "Comprehensive About Us Page with Detailed Company Story",
+      "Unlimited Blog Posts with Advanced Layouts",
+      "E-Commerce Integration for Merchandising",
+      "Multi-Language Support Pages for Global Reach"
+    ],
+    "totalPages": "30+",
+    "idealFor": "Large Businesses Or Media Companies Needing a High-End Blogging Platform With Full Customization And Extensive Features."
+  }
 ];
 
 const BlogPackages = () => {
   return (
-
-
-        <div>
+<div>
         <div className="bg-blue rounded-lg overflow-hidden shadow-md" style={{ boxShadow: "0px 4px 2px rgba(0, 0, 255, 0.1)" }}>
         <div className="p-2 sm:p-3">
         <div className="bg-gradient-to-b from-blue-500 to-blue-700 rounded-lg overflow-hidden text-white text-center tracking-wide leading-tight hover:text-blue-900 transition-colors duration-300 p-8">
