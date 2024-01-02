@@ -170,6 +170,22 @@ img {
   box-shadow: 0 4px 6px rgba(250, 128, 114, 0.1);
 }
 
+/* BORDER COLORS */
+
+/* BORDER BOTTOM RED */
+.border-bottom-red {
+  border-bottom: 5px solid red;
+  margin-top: 6px;
+  margin-bottom: 2px;
+}
+
+/* BORDER BOTTOM GREEN */
+.border-bottom-green {
+  border-bottom: 5px solid rgb(10, 154, 48);
+  margin-top: 6px;
+  margin-bottom: 2px;
+}
+
 /* CATEGORY CAROUSEL STYLES */
 .category-carousel {
   display: flex;
