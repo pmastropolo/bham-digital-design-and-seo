@@ -117,37 +117,39 @@ Connect with your audience through seamless integration with popular social medi
 </div>
 
 {/* CONTACT FORM CARD */}
-<div class="custom-category-card">
-  <div class="custom-category-icon">📝</div>
-  <span class="custom-category-title">Contact Form</span>
-  <div class="custom-category-description">
-    Make it easy for fans and clients to get in touch with you or inquire about bookings.
-  </div>
+<div class="custom-category">
+<div class="-category-icon">📝</div>
+<span class="custom-category-title">Contact Form</span>
+<div class="custom-category-description">
+Make it easy for fans and clients to get in touch with you or inquire about bookings.
+</div>
 </div>
 
 {/* MULTIMEDIA CARD */}
 <div class="custom-category-card">
-  <div class="custom-category-icon">📸</div>
-  <span class="custom-category-title">Multimedia Integration</span>
-  <div class="custom-category-description">
-    Showcase your talent with high-quality images, videos, and interactive media galleries.
-  </div>
+<div class="custom-category-icon">📸</div>
+<span class="custom-category-title">Multimedia Integration</span>
+<div class="custom-category-description">
+Showcase your talent with high-quality images, videos, and interactive media galleries.
+</div>
 </div>
 
+{/* EVENT LISTING CARD */}
 <div class="custom-category-card">
-  <div class="custom-category-icon">📅</div>
-  <span class="custom-category-title">Event Listing and Information</span>
-  <div class="custom-category-description">
-    Keep your audience informed about upcoming events, performances, and shows.
-  </div>
+<div class="custom-category-icon">📅</div>
+<span class="custom-category-title">Event Listing and Information</span>
+<div class="custom-category-description">
+Keep your audience informed about upcoming events, performances, and shows.
+</div>
 </div>
 
+{/* ONLINE TICKET BOOKING CARD */}
 <div class="custom-category-card">
-  <div class="custom-category-icon">🎫</div>
-  <span class="custom-category-title">Online Ticket Booking System</span>
-  <div class="custom-category-description">
-    Enable fans to purchase tickets or book seats for your events conveniently.
-  </div>
+<div class="custom-category-icon">🎫</div>
+<span class="custom-category-title">Online Ticket Booking System</span>
+<div class="custom-category-description">
+Enable fans to purchase tickets or book seats for your events conveniently.
+</div>
 </div>
 
 <div class="custom-category-card">
