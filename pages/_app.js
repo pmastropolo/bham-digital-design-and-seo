@@ -3,6 +3,7 @@ import { useState, useEffect } from 'react';
 import { useRouter } from 'next/router';
 import Footer from "../components/Footer";
 import NavBar from "../components/Navbar";
+import MyHead from "../components/MyHead";
 import NProgress from 'nprogress';
 import '../public/nprogress.css';
 import { ToastContainer } from 'react-toastify';
@@ -36,10 +37,11 @@ export default function App({ Component, pageProps }) {
 
   return (
     <>
+    <MyHead />
       <NavBar />
       <Script 
         strategy="lazyOnload" 
-        src={`https://www.googletagmanager.com/gtag/js?id=G-WYTYXQXVK6`} 
+        src={`https://www.googletagmanager.com/gtag/js?id=G-NV8SR6JZTG`} 
       />
       <Script 
         id="google-analytics-script" // Added id attribute
@@ -49,7 +51,7 @@ export default function App({ Component, pageProps }) {
           window.dataLayer = window.dataLayer || [];
           function gtag(){dataLayer.push(arguments);}
           gtag('js', new Date());
-          gtag('config', 'G-WYTYXQXVK6', {
+          gtag('config', 'G-NV8SR6JZTG', {
             page_path: window.location.pathname,
           });
         `}
