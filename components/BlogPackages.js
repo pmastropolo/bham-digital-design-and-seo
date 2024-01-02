@@ -97,129 +97,229 @@ const BlogPackages = () => {
         <div className="bg-blue rounded-lg overflow-hidden shadow-md" style={{ boxShadow: "0px 4px 2px rgba(0, 0, 255, 0.1)" }}>
         <div className="p-2 sm:p-3">
         <div className="bg-gradient-to-b from-blue-500 to-blue-700 rounded-lg overflow-hidden text-white text-center tracking-wide leading-tight hover:text-blue-900 transition-colors duration-300 p-8">
+        
+        {/* BLOG TITLE ONE */}
         <h1 className="text-3xl sm:text-4xl md:text-5xl lg:text-6xl font-bold">
         Unleash Your Blogging Potential
           </h1>
-          <p className="text-sm sm:text-md md:text-lg text-gray-300 mt-2 sm:mt-4">
+          <p className="text-sm sm:text-md md:text-lg text-gray-100 mt-2 sm:mt-4">
           Elevate your digital voice.
           </p>
           </div>
-  </div>
-          <h4 className="text-4xl font-semibold text-gray-800 mt-4">Dynamic <span className="text-blue-800">Blog</span> Creation Package</h4>
-<p className="text-md text-gray-700 mt-2">Elevate your digital voice with our Dynamic Blog Creation Package. Tailored to empower your storytelling and idea sharing, this package is designed for influencers, thought leaders, and businesses aiming to engage a wider audience through compelling and informative content.</p>
+  
+{/* BLOG TITLE TWO */}
+<h4 className="text-4xl font-semibold text-gray-800 mt-4">Dynamic <span className="text-blue-800">Blog</span> Creation Package</h4>
+<p className="text-md text-gray-700 mt-2 mb-4">Elevate your digital voice with our Dynamic Blog Creation Package. Tailored to empower your storytelling and idea sharing, this package is designed for influencers, thought leaders, and businesses aiming to engage a wider audience through compelling and informative content.</p>
       
-        
-        <div class="custom-category-card-container">
+<div class="custom-category-card-container">
+  {/* Initial Blog Posts Card */}
+  <div class="custom-category-card">
+    <div class="custom-category-icon">🚀</div>
+    <span class="custom-category-title">Start Strong with Initial Blog Posts</span>
+    <div class="custom-category-description">Kickstart your blog with our initial post setups.</div>
+  </div>
 
-      <div class="custom-category-card">
-  <div class="custom-category-icon">🚀</div>
-  <span class="custom-category-title">Start Strong with Initial Blog Posts</span>
-  <div class="custom-category-description">Get your blog off to a flying start with our packages that include the setup of initial blog posts. No need to begin from scratch!</div>
+  {/* User-Friendly Design Card */}
+  <div class="custom-category-card">
+    <div class="custom-category-icon">👩‍💻</div>
+    <span class="custom-category-title">User-Friendly for Everyone</span>
+    <div class="custom-category-description">Beginner-friendly design for easy content creation.</div>
+  </div>
+
+  {/* Responsive Design Card */}
+  <div class="custom-category-card">
+    <div class="custom-category-icon">📱</div>
+    <span class="custom-category-title">Looks Great Everywhere</span>
+    <div class="custom-category-description">Responsive design for an excellent look on all devices.</div>
+  </div>
+
+  {/* Social Media Integration Card */}
+  <div class="custom-category-card">
+    <div class="custom-category-icon">📱</div>
+    <span class="custom-category-title">Connect on Social Media</span>
+    <div class="custom-category-description">Link and engage with your audience on social platforms.</div>
+  </div>
+
+  {/* Content Management Card */}
+  <div class="custom-category-card">
+    <div class="custom-category-icon">💼</div>
+    <span class="custom-category-title">Effortless Content Management</span>
+    <div class="custom-category-description">Manage your posts easily with our intuitive CMS.</div>
+  </div>
+
+  {/* Essential Pages Card */}
+  <div class="custom-category-card">
+    <div class="custom-category-icon">🏠</div>
+    <span class="custom-category-title">All the Essential Pages</span>
+    <div class="custom-category-description">Includes Home, About, Contact, and social links.</div>
+  </div>
+
+  {/* Reader Engagement Card */}
+  <div class="custom-category-card">
+    <div class="custom-category-icon">💌</div>
+    <span class="custom-category-title">Keep Readers Engaged</span>
+    <div class="custom-category-description">Email subscriptions to maintain audience interest.</div>
+  </div>
+
+  {/* Content Organization Card */}
+  <div class="custom-category-card">
+    <div class="custom-category-icon">📂</div>
+    <span class="custom-category-title">Organize Your Content</span>
+    <div class="custom-category-description">Easy categorization for your posts.</div>
+  </div>
 </div>
 
-<div class="custom-category-card">
-  <div class="custom-category-icon">👩‍💻</div>
-  <span class="custom-category-title">User-Friendly for Everyone</span>
-  <div class="custom-category-description">We&apos;ve designed our blogs with beginners in mind. You don&apos;t need to be tech-savvy to create and manage your content.</div>
-</div>
+{/* BENEFITS section */}
+<div className="mt-6">
+  <h5 className="text-3xl font-semibold text-gray-800">Benefits of Owning a Blogging Website</h5>
+  <hr className="mb-3 mt-3" />
+  <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-4 mt-4 mb-6">
 
-<div class="custom-category-card">
-  <div class="custom-category-icon">🔍</div>
-  <span class="custom-category-title">Boost Your Visibility with SEO</span>
-  <div class="custom-category-description">Our packages include basic SEO features to help your blog shine on search engines, making it easy for readers to find you.</div>
-</div>
-
-<div class="custom-category-card">
-  <div class="custom-category-icon">📱</div>
-  <span class="custom-category-title">Looks Great Everywhere</span>
-  <div class="custom-category-description">Whether your readers are on a smartphone or a computer, your blog will look fantastic with our responsive design.</div>
-</div>
-
-<div class="custom-category-card">
-  <div class="custom-category-icon">📱</div>
-  <span class="custom-category-title">Connect with Your Audience on Social Media</span>
-  <div class="custom-category-description">Easily link your blog to your social media accounts and engage with your audience across various platforms.</div>
-</div>
-
-<div class="custom-category-card">
-  <div class="custom-category-icon">💼</div>
-  <span class="custom-category-title">Effortless Content Management</span>
-  <div class="custom-category-description">Say goodbye to blogging hassles. Our efficient Content Management System (CMS) makes managing your posts a breeze.</div>
-</div>
-
-<div class="custom-category-card">
-  <div class="custom-category-icon">🏠</div>
-  <span class="custom-category-title">All the Essential Pages</span>
-  <div class="custom-category-description">Your blog will come with all the essential pages, including Home, About, Contact, and links to your social media profiles.</div>
-</div>
-
-<div class="custom-category-card">
-  <div class="custom-category-icon">💌</div>
-  <span class="custom-category-title">Keep Your Readers Coming Back</span>
-  <div class="custom-category-description">Some packages offer email subscription features, helping you keep your audience informed and engaged.</div>
-</div>
-
-<div class="custom-category-card">
-  <div class="custom-category-icon">✨</div>
-  <span class="custom-category-title">Get Creative with Customizable Templates</span>
-  <div class="custom-category-description">With advanced packages, you&apos;ll have the freedom to customize your blog&apos;s look and feel to match your style.</div>
-</div>
-
-<div class="custom-category-card">
-  <div class="custom-category-icon">📈</div>
-  <span class="custom-category-title">Track Your Success</span>
-  <div class="custom-category-description">Stay on top of your blog&apos;s performance with integrated analytics tools, giving you insights into your readers&apos; behavior.</div>
-</div>
-
-<div class="custom-category-card">
-  <div class="custom-category-icon">📂</div>
-  <span class="custom-category-title">Organize Your Content with Ease</span>
-  <div class="custom-category-description">Categorize your content effortlessly with support for multiple categories.</div>
-</div>
-
-
-      </div>
-
-<h5 className="text-2xl font-semibold text-gray-800 mt-6">Benefits of having a Blog WebSite</h5>
-<p className="text-md text-gray-700 mt-4"><b>Expand Your Reach</b> | A blog website is your ticket to reaching a wider audience. Its a powerful tool to extend your online presence and connect with potential customers globally.</p>
-<p className="text-md text-gray-700 mt-4"><b>Build Trust and Credibility</b> | Blogging establishes you as an industry expert. Share valuable insights and information to gain trust and credibility among your target market.</p>
-<p className="text-md text-gray-700 mt-4"><b>Capture Leads</b> | Your blog can be a lead generation machine. Offer valuable resources, such as ebooks or webinars, in exchange for visitor contact information to build a robust email list.</p>
-<p className="text-md text-gray-700 mt-4"><b>Drive Sales</b> | A blog is a subtle yet effective sales tool. Showcase your products or services through informative posts that guide visitors toward making purchasing decisions.</p>
-<p className="text-md text-gray-700 mt-4"><b>Engage Your Audience</b> | Interact with your audience through comments and social media. Create a community around your brand and engage customers in meaningful conversations.</p>
-<p className="text-md text-gray-700 mt-4"><b>Stay Competitive</b> | In todays digital age, having a blog is a competitive advantage. Keep up with or surpass your competitors by delivering valuable content and insights.</p>
-
-<div className="flex flex-col md:flex-row justify-center items-stretch space-y-4 md:space-y-0 md:space-x-4 my-8">
-    <div className="flex-1 bg-white border border-gray-300 p-4 rounded-lg shadow-md">
-        <h2 className="text-xl font-semibold text-gray-700">SEO Powerhouses</h2>
-        <p className="text-sm text-gray-600">
-            Blogs are excellent for SEO (Search Engine Optimization). Regular, quality content updates boost search engine rankings, drawing more traffic to websites.
-        </p>
+    {/* Establish Authority Card */}
+    <div className="benefit-card">
+      <h6 className="title font-bold text-lg">Establish Authority</h6>
+      <p className="description">Share expertise and become an industry thought leader.</p>
     </div>
 
-    <div className="flex-1 bg-white border border-gray-300 p-4 rounded-lg shadow-md">
-        <h2 className="text-xl font-semibold text-gray-700">Global Reach, Global Earnings</h2>
-        <p className="text-sm text-gray-600">
-            Bloggers can earn in multiple currencies if they have an international audience, tapping into various markets and monetization opportunities.
-        </p>
+    {/* Boost SEO Card */}
+    <div className="benefit-card">
+      <h6 className="title font-bold text-lg">Boost SEO</h6>
+      <p className="description">Enhance search rankings and online visibility.</p>
     </div>
 
-    <div className="flex-1 bg-white border border-gray-300 p-4 rounded-lg shadow-md">
-        <h2 className="text-xl font-semibold text-gray-700">From Hobby to Career</h2>
-        <p className="text-sm text-gray-600">
-            Many bloggers start as hobbyists and eventually turn their passion into a full-time income source, illustrating the potential for blogs to evolve into lucrative careers.
-        </p>
+    {/* Engage Audience Card */}
+    <div className="benefit-card">
+      <h6 className="title font-bold text-lg">Engage with Your Audience</h6>
+      <p className="description">Build a community and connect with readers.</p>
     </div>
+
+    {/* Content Marketing Card */}
+    <div className="benefit-card">
+      <h6 className="title font-bold text-lg">Content Marketing</h6>
+      <p className="description">Drive marketing with informative and engaging content.</p>
+    </div>
+
+    {/* Monetization Opportunities Card */}
+    <div className="benefit-card">
+      <h6 className="title font-bold text-lg">Monetization Opportunities</h6>
+      <p className="description">Earn from ads, affiliates, and product sales.</p>
+    </div>
+
+    {/* Personal Branding Card */}
+    <div className="benefit-card">
+      <h6 className="title font-bold text-lg">Personal Branding</h6>
+      <p className="description">Showcase your unique voice and enhance your brand.</p>
+    </div>
+  </div>
+
+{/* Ideal For Section */}
+<h5 className="text-2xl font-semibold text-gray-800 mt-6">Ideal For</h5>
+<div className="custom-category-card-container">
+
+  {/* Card for Aspiring Influencers */}
+  <div className="custom-category-card">
+    <div className="custom-category-icon">🌟</div>
+    <span className="custom-category-title">Aspiring Influencers</span>
+    <div className="custom--description">
+      Kickstart your influencer path and inspire a global audience.
+    </div>
+  </div>
+
+  {/* Card for Food Bloggers */}
+  <div className="custom-category-card">
+    <div className="custom-category-icon">🍲</div>
+    <span className="custom-category-title">Food Bloggers</span>
+    <div className="custom--description">
+      Captivate food enthusiasts with your culinary adventures.
+    </div>
+  </div>
+
+  {/* Card for Tech Enthusiasts */}
+  <div className="custom-category-card">
+    <div className="custom-category-icon">💻</div>
+    <span className="custom-category-title">Tech Enthusiasts</span>
+    <div className="custom--description">
+      Lead the tech conversation with your insights and reviews.
+    </div>
+  </div>
+
+  {/* Card for Fitness Coaches */}
+  <div className="custom-category-card">
+    <div className="custom-category-icon">🏋️</div>
+    <span className="custom-category-title">Fitness Coaches</span>
+    <div className="custom--description">
+      Empower and motivate with your fitness and health expertise.
+    </div>
+  </div>
+
+  {/* Card for Creative Writers */}
+  <div className="custom-category-card">
+    <div className="custom-category-icon">✍️</div>
+    <span className="custom-category-title">Creative Writers</span>
+    <div className="custom--description">
+      Share your creative journey and connect with fellow writers.
+    </div>
+  </div>
+
+  {/* Card for Travel Experts */}
+  <div className="custom-category-card">
+    <div className="custom-category-icon">✈️</div>
+    <span className="custom-category-title">Travel Experts</span>
+    <div className="custom--description">
+      Guide and inspire with your unique travel stories and tips.
+    </div>
+  </div>
+
+  {/* Card for DIY Crafters */}
+  <div className="custom-category-card">
+    <div className="custom-category-icon">🎨</div>
+    <span className="custom-category-title">DIY Crafters</span>
+    <div className="custom--description">
+      Ignite creativity by sharing your DIY crafts and ideas.
+    </div>
+  </div>
+
+  {/* Card for Parenting Advisors */}
+  <div className="custom-category-card">
+    <div className="custom-category-icon">👪</div>
+    <span className="custom-category-title">Parenting Advisors</span>
+    <div className="custom--description">
+      Offer guidance and build a community with your parenting insights.
+    </div>
+  </div>
+
+</div>
 </div>
 
-
-
+{/* Contact link */}  
+<p className="mt-6 text-md text-gray-700">
+Connect with us for a personalized consultation at{' '}
+<a href="mailto:services@bhamseoanddesignco.com" style={{ color: 'blue' }}>services@bhamseoanddesignco.com</a> or click the button below to get started.
+</p>
+{/* Button for Learning More */}
+<Link href="/contact" legacyBehavior>
+    <a className="inline-block mt-4 mb-6 bg-gradient-to-r from-blue-600 to-blue-800 hover:from-blue-800 hover:to-blue-600 text-white text-lg py-3 px-8 rounded-full transition duration-300 ease-in-out transform hover:-translate-y-1 shadow-lg">
+      Start Blogging
+    </a>
+  </Link>
 </div>
-<section></section>
+</div>
 
  
-<h1 className="text-2xl md:text-3xl lg:text-5xl font-bold text-center mb-8 mt-10 underline decoration-blue-800 decoration-4 underline-offset-8">
-  Blog Package Pricing
-</h1>
+{/* BLOG PACKAGE PRICING TITLE */}
+<div className="relative py-5 px-6 lg:px-12 bg-gradient-to-br from-blue-700 via-blue-800 to-blue-600 rounded-3xl shadow-xl mx-4 my-10">
+  <div className="text-center">
+    <h1 className="text-xl lg:text-3xl font-extrabold text-white mb-2 mt-2 tracking-wide leading-tight hover:text-blue-800 transition-colors duration-300">
+    Blog Package Pricing
+    </h1>
+    <p className="text-md lg:text-lg font-medium text-white mb-2">
+      Find the Ideal Plan for Your Business
+    </p>
+    <span className="inline-block w-16 h-1 bg-indigo-100 rounded"></span>
+  </div>
+</div>
+
+{/* BLOG PACKAGES PRICING */}
 <div className="grid grid-cols-1 sm:grid-cols-2 gap-4">
   {BlogPackageData.map((pkg, index) => (
     <div
@@ -256,7 +356,8 @@ const BlogPackages = () => {
   ))}
 </div>
 
-      <div className="text-center mt-10">
+{/* BLOG CONTACT/FREE QUOTE LINK */}
+<div className="text-center mt-10">
         <p className="text-2xl text-blue-800 font-semibold">
           Interested in our Blog Web Design Package?
         </p>
@@ -269,7 +370,8 @@ const BlogPackages = () => {
           </a>
         </Link>
       </div>
-
+{/* BLUE BORDER BOTTOM */} 
+<div className="border-bottom-blue"></div>
 
     </div>
   );
