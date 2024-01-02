@@ -95,194 +95,204 @@ const CommunityPackages = () => {
                       </p>
                     </div>
 
-    <h4 className="text-4xl mt-4 font-semibold text-gray-800">Empowering<span className="text-yellow-700"> Community </span> Website Package</h4>
-
-
-
-      <p className="text-md text-gray-700 mt-4">Unite and inspire your community with our Empowering Community Website Package. This package is perfectly crafted for non-profits, social groups, and community organizations looking to foster engagement, collaboration, and positive change through an impactful online presence.</p>
+<h4 className="text-4xl mt-4 font-semibold text-gray-800">Empowering<span className="text-yellow-700"> Community </span> Website Package</h4>
+<p className="text-md text-gray-700 mt-4 mb-4">Unite and inspire your community with our Empowering Community Website Package. This package is perfectly crafted for non-profits, social groups, and community organizations looking to foster engagement, collaboration, and positive change through an impactful online presence.</p>
       
       
+<div className="custom-category-card-container">
+
+  {/* Online Presence and Community Engagement */}
+  <div class="custom-category-card">
+    <div class="custom-category-icon">🌐🤝</div>
+    <span class="custom-category-title">Online Presence & Community Engagement</span>
+    <div class="custom-category-description">
+      Enhance your online presence and foster community bonds with interactive features.
+    </div>
+  </div>
+
+  {/* Responsive Design and Event Management */}
+  <div class="custom-category-card">
+    <div class="custom-category-icon">📱📅</div>
+    <span class="custom-category-title">Responsive Design & Event Management</span>
+    <div class="custom-category-description">
+      Ensure device compatibility and efficient event promotion with integrated tools.
+    </div>
+  </div>
+
+  {/* Information Sharing and Communication Tools */}
+  <div class="custom-category-card">
+    <div class="custom-category-icon">📰✉️</div>
+    <span class="custom-category-title">Information Sharing & Communication Tools</span>
+    <div class="custom-category-description">
+      Keep your community informed with news sections and facilitate inquiries with contact tools.
+    </div>
+  </div>
+
+  {/* Member Engagement and Social Connectivity */}
+  <div class="custom-category-card">
+    <div class="custom-category-icon">👥🔗</div>
+    <span class="custom-category-title">Member Engagement & Social Connectivity</span>
+    <div class="custom-category-description">
+      Engage members with personalized features and expand reach with social media integration.
+    </div>
+  </div>
+
+  {/* Customization, Branding, and Fundraising */}
+  <div class="custom-category-card">
+    <div class="custom-category-icon">🎨💰</div>
+    <span class="custom-category-title">Customization, Branding & Fundraising</span>
+    <div class="custom-category-description">
+      Customize your sites design and raise funds with integrated fundraising tools.
+    </div>
+  </div>
+
+  {/* Advanced Communication and CRM */}
+  <div class="custom-category-card">
+    <div class="custom-category-icon">📧📊</div>
+    <span class="custom-category-title">Advanced Communication & CRM</span>
+    <div class="custom-category-description">
+      Optimize member communication and manage efficiently with CRM and analytics tools.
+    </div>
+  </div>
+
+  {/* Custom User Experience */}
+  <div class="custom-category-card">
+    <div class="custom-category-icon">👤</div>
+    <span class="custom-category-title">Custom User Experience</span>
+    <div class="custom-category-description">
+      Personalize your community space to enhance user interaction and satisfaction.
+    </div>
+  </div>
+
+  {/* E-commerce and Online Transactions */}
+  <div class="custom-category-card">
+    <div class="custom-category-icon">💼</div>
+    <span class="custom-category-title">E-commerce & Online Transactions</span>
+    <div class="custom-category-description">
+      Facilitate e-commerce activities and transactions for community-driven commerce.
+    </div>
+  </div>
+</div>
+
+<div className="mt-6">
+  <h5 className="text-3xl font-semibold text-gray-800">Benefits of Owning a Community Website</h5>
+  <hr className="mb-3 mt-3" />
+  <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-4 mt-4 mb-6">
+
+    {/* Inclusive and Accessible Design Card */}
+    <div className="benefit-card">
+      <h6 className="title font-bold text-lg">Inclusive and Accessible Design</h6>
+      <p className="description">Ensuring that everyone in your community feels welcomed and engaged.</p>
+    </div>
+
+    {/* Community Engagement Tools Card */}
+    <div className="benefit-card">
+      <h6 className="title font-bold text-lg">Community Engagement Tools</h6>
+      <p className="description">Features such as forums, event calendars, and membership sign-ups to boost participation.</p>
+    </div>
+
+    {/* Mobile-Friendly Interface Card */}
+    <div className="benefit-card">
+      <h6 className="title font-bold text-lg">Mobile-Friendly Interface</h6>
+      <p className="description">Accessible on all devices for wider reach and engagement.</p>
+    </div>
+
+    {/* Content Management System Card */}
+    <div className="benefit-card">
+      <h6 className="title font-bold text-lg">Content Management System</h6>
+      <p className="description">Easy update and management of community news, events, and resources.</p>
+    </div>
+
+    {/* Social Media Integration Card */}
+    <div className="benefit-card">
+      <h6 className="title font-bold text-lg">Social Media Integration</h6>
+      <p className="description">Seamlessly connect with popular social media platforms to enhance outreach.</p>
+    </div>
+
+  </div>
+</div>
+
+
+      
+      <h5 className="text-2xl font-semibold text-gray-800 mt-6 mb-4">Ideal For</h5>
+<div className="custom-category-card-container">
+
+  {/* Emerging Non-Profit */}
+  <div className="custom-category-card">
+    <div className="custom-category-icon">🌱</div>
+    <span className="custom-category-title">The Emerging Non-Profit</span>
+    <div className="custom--description">
+      Establish and grow your non-profits online presence.
+    </div>
+  </div>
+
+  {/* Local Community Groups */}
+  <div className="custom-category-card">
+    <div className="custom-category-icon">🏘️</div>
+    <span className="custom-category-title">Local Community Groups</span>
+    <div className="custom--description">
+      Enhance local community engagement and connectivity.
+    </div>
+  </div>
+
+  {/* Social Networking Platforms */}
+  <div className="custom-category-card">
+    <div className="custom-category-icon">🤝</div>
+    <span className="custom-category-title">Social Networking Platforms</span>
+    <div className="custom--description">
+      Foster social connections and member interactions.
+    </div>
+  </div>
+
+  {/* Charity Organizations */}
+  <div className="custom-category-card">
+    <div className="custom-category-icon">🎗️</div>
+    <span className="custom-category-title">Charity Organizations</span>
+    <div className="custom--description">
+      Boost awareness and support for your charitable cause.
+    </div>
+  </div>
+
+  {/* Educational Communities */}
+  <div className="custom-category-card">
+    <div className="custom-category-icon">📚</div>
+    <span className="custom-category-title">Educational Communities</span>
+    <div className="custom--description">
+      Create a hub for learning, collaboration, and information sharing.
+    </div>
+  </div>
+
+  {/* Global Networks */}
+  <div className="custom-category-card">
+    <div className="custom-category-icon">🌍</div>
+    <span className="custom-category-title">Global Networks</span>
+    <div className="custom--description">
+      Connect and engage with diverse international communities.
+    </div>
+  </div>
+
+  {/* Advocacy Groups */}
+  <div className="custom-category-card">
+    <div className="custom-category-icon">🔊</div>
+    <span className="custom-category-title">Advocacy Groups</span>
+    <div className="custom--description">
+      Amplify your message and rally support for your cause.
+    </div>
+  </div>
+
+  {/* Professional Associations */}
+  <div className="custom-category-card">
+    <div className="custom-category-icon">💼</div>
+    <span className="custom-category-title">Professional Associations</span>
+    <div className="custom--description">
+      Network and provide resources within your professional community.
+    </div>
+  </div>
+</div>
+
       
       
-      <div className="custom-category-card-container">
-      <div class="custom-category-card">
-  <div class="custom-category-icon">🌐</div>
-  <span class="custom-category-title">Enhance Online Presence</span>
-  <div class="custom-category-description">
-    Build a dynamic and engaging online platform that embodies the spirit of your community and draws more interaction.
-  </div>
-</div>
-
-<div class="custom-category-card">
-  <div class="custom-category-icon">🤝</div>
-  <span class="custom-category-title">Community Engagement</span>
-  <div class="custom-category-description">
-    Foster strong community bonds through interactive features, ensuring active participation and collaboration.
-  </div>
-</div>
-
-<div class="custom-category-card">
-  <div class="custom-category-icon">📱</div>
-  <span class="custom-category-title">Responsive Web Design</span>
-  <div class="custom-category-description">
-    Ensure your website is accessible and efficient across all devices, enhancing user experience for everyone.
-  </div>
-</div>
-
-<div class="custom-category-card">
-  <div class="custom-category-icon">📅</div>
-  <span class="custom-category-title">Event Management</span>
-  <div class="custom-category-description">
-    Seamlessly manage and promote community events with integrated calendars, registration, and RSVP systems.
-  </div>
-</div>
-
-<div class="custom-category-card">
-  <div class="custom-category-icon">📰</div>
-  <span class="custom-category-title">Information Sharing</span>
-  <div class="custom-category-description">
-    Keep your community informed and engaged with dedicated news sections and blogs.
-  </div>
-</div>
-
-<div class="custom-category-card">
-  <div class="custom-category-icon">✉️</div>
-  <span class="custom-category-title">Contact and Inquiry Tools</span>
-  <div class="custom-category-description">
-    Provide easy and accessible ways for members to reach out and connect with you through contact forms and other inquiry tools.
-  </div>
-</div>
-
-<div class="custom-category-card">
-  <div class="custom-category-icon">👥</div>
-  <span class="custom-category-title">Member-Focused Features</span>
-  <div class="custom-category-description">
-    Engage members with personalized profiles, directories, and management systems for a thriving community network.
-  </div>
-</div>
-
-<div class="custom-category-card">
-  <div class="custom-category-icon">🔗</div>
-  <span class="custom-category-title">Social Media Connectivity</span>
-  <div class="custom-category-description">
-    Expand your reach and influence with seamless social media integration, connecting your community across platforms.
-  </div>
-</div>
-
-<div class="custom-category-card">
-  <div class="custom-category-icon">🎨</div>
-  <span class="custom-category-title">Customization and Branding</span>
-  <div class="custom-category-description">
-    Reflect your community’s unique identity with customizable design options that resonate with your brand.
-  </div>
-</div>
-
-<div class="custom-category-card">
-  <div class="custom-category-icon">💰</div>
-  <span class="custom-category-title">Fundraising Tools</span>
-  <div class="custom-category-description">
-    Empower your community with integrated fundraising capabilities to support your causes and initiatives.
-  </div>
-</div>
-
-<div class="custom-category-card">
-  <div class="custom-category-icon">📧</div>
-  <span class="custom-category-title">Communication Tools</span>
-  <div class="custom-category-description">
-    Maintain effective communication with your members through robust email marketing and notification tools.
-  </div>
-</div>
-
-<div class="custom-category-card">
-  <div class="custom-category-icon">📊</div>
-  <span class="custom-category-title">Analytics and CRM</span>
-  <div class="custom-category-description">
-    Gain valuable insights and manage your community more efficiently with advanced analytics and CRM integration.
-  </div>
-</div>
-
-
-
-</div>
-     
-      <h5 className="text-2xl font-semibold text-gray-800 mt-6">Benefits</h5>
-      <p className="text-md text-gray-700 mt-4"><b>Inclusive and Accessible Design:</b> Ensuring that everyone in your community feels welcomed and engaged.</p>
-      <p className="text-md text-gray-700 mt-4"><b>Community Engagement Tools:</b> Features such as forums, event calendars, and membership sign-ups to boost participation.</p>
-      <p className="text-md text-gray-700 mt-4"><b>Mobile-Friendly Interface:</b> Accessible on all devices for wider reach and engagement.</p>
-      <p className="text-md text-gray-700 mt-4"><b>Content Management System:</b> Easy update and management of community news, events, and resources.</p>
-      <p className="text-md text-gray-700 mt-4"><b>Social Media Integration:</b> Seamlessly connect with popular social media platforms to enhance outreach.</p>
-
-      
-      <h5 className="text-2xl font-semibold text-gray-800 mt-6">Ideal For</h5>
-      <div className="custom-category-card-container">
-      <div class="custom-category-card">
-  <div class="custom-category-icon">🌱</div>
-  <span class="custom-category-title">The Emerging Non-Profit</span>
-  <div class="custom-category-description">
-    Perfect for new non-profits eager to establish their digital footprint and connect with the community.
-  </div>
-</div>
-
-<div class="custom-category-card">
-  <div class="custom-category-icon">🏘️</div>
-  <span class="custom-category-title">Local Community Groups</span>
-  <div class="custom-category-description">
-    Ideal for neighborhood associations and community groups looking to strengthen local engagement and communication.
-  </div>
-</div>
-
-<div class="custom-category-card">
-  <div class="custom-category-icon">🤝</div>
-  <span class="custom-category-title">Social Networking Platforms</span>
-  <div class="custom-category-description">
-    Great for platforms focused on building social networks and fostering interactions among members.
-  </div>
-</div>
-
-<div class="custom-category-card">
-  <div class="custom-category-icon">🎗️</div>
-  <span class="custom-category-title">Charity Organizations</span>
-  <div class="custom-category-description">
-    Suited for charities seeking to increase awareness, raise funds, and organize community support.
-  </div>
-</div>
-
-<div class="custom-category-card">
-  <div class="custom-category-icon">📚</div>
-  <span class="custom-category-title">Educational Communities</span>
-  <div class="custom-category-description">
-    Perfect for educational groups and institutions aiming to create a collaborative space for learning and sharing.
-  </div>
-</div>
-
-<div class="custom-category-card">
-  <div class="custom-category-icon">🌍</div>
-  <span class="custom-category-title">Global Networks</span>
-  <div class="custom-category-description">
-    Ideal for organizations with a global reach, looking to connect and engage with international communities.
-  </div>
-</div>
-
-<div class="custom-category-card">
-  <div class="custom-category-icon">🔊</div>
-  <span class="custom-category-title">Advocacy Groups</span>
-  <div class="custom-category-description">
-    Suited for activist groups and advocacy organizations aiming to spread their message and mobilize support.
-  </div>
-</div>
-
-<div class="custom-category-card">
-  <div class="custom-category-icon">💼</div>
-  <span class="custom-category-title">Professional Associations</span>
-  <div class="custom-category-description">
-    Ideal for professional bodies looking to network, share resources, and provide value to members.
-  </div>
-</div>
-
-      </div>
-      
-      
-      <p className="mt-6 text-md text-gray-700">To discuss how we can help your community thrive online, contact us at <a href="mailto:services@bhamseoanddesignco.com">services@bhamseoanddesignco.com</a>, or press the button to get started.</p>
+      <p className="mt-6 text-md text-gray-700">To discuss how we can help your community thrive online, contact us at <a href="mailto:services@bhamseoanddesignco.com" style={{ color: 'orange' }}>services@bhamseoanddesignco.com</a>, or press the button to get started.</p>
       <Link href="/contact" legacyBehavior>
         <a className="inline-block mt-4 mb-6 bg-gradient-to-r from-orange-600 to-orange-800 hover:from-orange-800 hover:to-orange-600 text-white text-lg py-3 px-8 rounded-full transition duration-300 ease-in-out transform hover:-translate-y-1 shadow-lg">
           Build Your Community Space
@@ -291,11 +301,22 @@ const CommunityPackages = () => {
     </div>
   </div>
 
+{/* COMMUNITY PACKAGE PRICING TITLE*/}
+<div className="relative py-5 px-6 lg:px-12 bg-gradient-to-br from-orange-500 via-orange-500 to-orange-600 rounded-3xl shadow-xl mx-4 my-10">
+<div className="text-center">
+<h1 className="text-xl lg:text-3xl font-extrabold text-white mb-2 mt-2 tracking-wide leading-tight hover:text-orange-800 transition-colors duration-300">
+Community Package Pricing
+</h1>
+<p className="text-md lg:text-lg font-medium text-white mb-2">
+Find the Ideal Plan for Your Business
+</p>
+<span className="inline-block w-16 h-1 bg-orange-100 rounded"></span>
+</div>
+</div>
+
+
 
                 <div className="container mx-auto px-4 py-5">
-                <h1 className="text-3xl lg:text-5xl font-bold text-center mb-8 underline decoration-orange-600 decoration-4 underline-offset-8">
-                   Community Packages
-                 </h1>
             <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-6">
               {packages.map((pkg, index) => (
                 <div key={index} className="border border-gray-200 shadow-lg p-4 rounded-lg">
