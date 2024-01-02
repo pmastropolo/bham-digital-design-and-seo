@@ -184,7 +184,7 @@ const EcommercePackages = () => {
 
 {/* Section for Benefits of the Ecommerce Package */}
 <div className="mt-6">
-<h5 className="text-3xl font-semibold text-gray-800">Benefits</h5>
+<h5 className="text-3xl font-semibold text-gray-800">Benefits of Owning a Ecommerce Website</h5>
 <hr className="mb-3 mt-3" />
 <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-4 mt-4">
 
@@ -257,7 +257,7 @@ const EcommercePackages = () => {
 {/* Contact link */}  
 <p className="mt-6 text-md text-gray-700">
 Connect with us for a personalized consultation at{' '}
-<a href="mailto:services@bhamseoanddesignco.com" style={{ color: 'red' }}>services@bhamseoanddesignco.com</a> or click the button below to begin your blogging journey.
+<a href="mailto:services@bhamseoanddesignco.com" style={{ color: 'red' }}>services@bhamseoanddesignco.com</a> or click the button below to get started.
 </p>
 {/* Button for Learning More */}
 <Link href="/contact" legacyBehavior>
