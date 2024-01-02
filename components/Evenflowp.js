@@ -245,9 +245,18 @@ const Evenflowp = () => {
     </div>
   </div>
 
-<h1 className="text-2xl md:text-3xl lg:text-5xl font-bold text-center mb-8 mt-10 underline decoration-slate-400 decoration-4 underline-offset-8">
-  Event Package Pricing
+{/* Event PACKAGE PRICING TITLE*/}
+<div className="relative py-5 px-6 lg:px-12 bg-gradient-to-br from-blue-600 via-blue-700 to-blue-800 rounded-3xl shadow-xl mx-4 my-10">
+<div className="text-center">
+<h1 className="text-xl lg:text-3xl font-extrabold text-white mb-2 mt-2 tracking-wide leading-tight hover:text-blue-950 transition-colors duration-300">
+Event Package Pricing
 </h1>
+<p className="text-md lg:text-lg font-medium text-white mb-2">
+Find the Ideal Plan for Your Business
+</p>
+<span className="inline-block w-16 h-1 bg-blue-100 rounded"></span>
+</div>
+</div>
 
 <div className="grid grid-cols-1 md:grid-cols-3 lg:grid-cols-2 gap-x-4 gap-y-4">
   {evenflowpdata.map((pkg, index) => (
@@ -293,6 +302,10 @@ const Evenflowp = () => {
     </a>
   </Link>
 </div>
+
+{/* BLUE BORDER BOTTOM */} 
+<div className="border-bottom-blue"></div>
+
     </div>
   );
 };
