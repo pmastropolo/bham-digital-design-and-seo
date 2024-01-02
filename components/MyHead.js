@@ -3,7 +3,7 @@ import Head from 'next/head'
 export default function MyHead({ title, description, image, url }) {
     return (
         <Head>
-            <title>{`${title} | Bham SEO and Design Co`}</title>
+            <title>{`${Bham SEO and Web Design Co} | Bham SEO and Web Design Co`}</title>
             <meta name="description" content="Bham SEO and Design Co offers expert SEO and web design services to elevate your online presence. Discover innovative strategies tailored for your success." />
             <meta property="og:title" content={title} key="title" />
             <meta property="og:description" content={description} key="description" />
