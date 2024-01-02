@@ -125,122 +125,142 @@ const portfolioPackages = [
 ];
 
 const Portfolio = () => {
-        return (
-          <div>
-                <div>
-                  <div className="bg-white rounded-lg overflow-hidden shadow-md" style={{ boxShadow: "2px 6px 8px rgba(900, 105, 0.9, 0.4)" }}></div>
-                    <div className="p-4 sm:p-3">
-                      <div className="bg-gradient-to-b from-yellow-700 to-yellow-800 rounded-lg overflow-hidden text-white text-center tracking-wide leading-tight hover:text-yellow-950 transition-colors duration-300 p-8">
-                        <h1 className="text-3xl sm:text-4xl md:text-5xl lg:text-6xl font-bold">
-                        The Ultimate Portfolio Experience
-                        </h1>
-                        <p className="text-sm sm:text-md md:text-lg text-gray-100 mt-2 sm:mt-4">
-                        Craft, Showcase, Inspire: Your Portfolio, Your Story!
-                        </p>
-                      </div>
-              
-<h4 className="text-4xl mt-4 font-semibold text-gray-800">Stunning<span className="text-yellow-700"> Portfolio</span> Website Package</h4>
-<p className="text-md text-gray-700 mt-4">Dazzle the digital world with our Stunning Portfolio Website Package. This exclusive offering is meticulously designed to empower individuals and professionals from various creative domains. Elevate your online presence and leave an indelible mark in your industry with a captivating and visually immersive digital portfolio</p>
-          
+  return (
+    <div>
+      {/* Portfolio Card */}
+      <div className="bg-white rounded-lg overflow-hidden shadow-md" style={{ boxShadow: "2px 6px 8px rgba(900, 105, 0.9, 0.4)" }}>
+        {/* Portfolio Title Section One */}
+        <div className="p-2 sm:p-3">
+          <div className="bg-gradient-to-b from-yellow-700 to-yellow-800 rounded-lg overflow-hidden text-white text-center tracking-wide leading-tight hover:text-yellow-900 transition-colors duration-300 p-8">
+            <h1 className="text-3xl sm:text-4xl md:text-5xl lg:text-6xl font-bold">
+              The Ultimate Portfolio Experience
+            </h1>
+            <p className="text-sm sm:text-md md:text-lg text-gray-100 mt-2 sm:mt-4">
+              Craft, Showcase, Inspire: Your Portfolio, Your Story!
+            </p>
+          </div>
+
+          {/* Portfolio Title Section Two */}
+          <h4 className="text-4xl mt-4 font-semibold text-gray-800">
+            Stunning<span className="text-yellow-700"> Portfolio</span> Website Package
+          </h4>
+          <p className="text-md text-gray-700 mt-4">
+            Dazzle the digital world with our Stunning Portfolio Website Package. This exclusive offering is meticulously designed to empower individuals and professionals from various creative domains. Elevate your online presence and leave an indelible mark in your industry with a captivating and visually immersive digital portfolio.
+          </p>
+                    
+{/* Custom Category Card Container */}
 <div className="custom-category-card-container">
-<div class="custom-category-card">
-  <div class="custom-category-icon">📄</div>
-  <span class="custom-category-title">Multiple Page Options</span>
-  <div class="custom-category-description">
-    Create up to 5 pages, including Home, About, Portfolio, Blog, and Contact. Showcase your work and share your story effortlessly.
+
+  {/* Multiple Page Options Card */}
+  <div class="custom-category-card">
+    <div class="custom-category-icon">📄</div>
+    <span class="custom-category-title">Multiple Page Options</span>
+    <div class="custom-category-description">
+      Create up to 5 pages including Home, About, Portfolio, Blog, and Contact.
+    </div>
+  </div>
+
+  {/* Design Templates Card */}
+  <div class="custom-category-card">
+    <div class="custom-category-icon">🎨</div>
+    <span class="custom-category-title">Design Templates</span>
+    <div class="custom-category-description">
+      Choose from a variety of design templates to match your brand.
+    </div>
+  </div>
+
+  {/* Mobile-Responsive Design Card */}
+  <div class="custom-category-card">
+    <div class="custom-category-icon">📱</div>
+    <span class="custom-category-title">Mobile-Responsive Design</span>
+    <div class="custom-category-description">
+      Your site will look great on all devices, desktop and mobile alike.
+    </div>
+  </div>
+
+  {/* Gallery or Portfolio Section Card */}
+  <div class="custom-category-card">
+    <div class="custom-category-icon">🖼️</div>
+    <span class="custom-category-title">Gallery or Portfolio Section</span>
+    <div class="custom-category-description">
+      Highlight your work with a dedicated gallery or portfolio section.
+    </div>
+  </div>
+
+  {/* SEO Setup Card */}
+  <div class="custom-category-card">
+    <div class="custom-category-icon">🔍</div>
+    <span class="custom-category-title">SEO Setup</span>
+    <div class="custom-category-description">
+      Boost your online visibility with basic SEO setup.
+    </div>
+  </div>
+
+  {/* Social Media Integration Card */}
+  <div class="custom-category-card">
+    <div class="custom-category-icon">🌐</div>
+    <span class="custom-category-title">Social Media Integration</span>
+    <div class="custom-category-description">
+      Connect your site to your social media for expanded reach.
+    </div>
+  </div>
+
+  {/* Contact Form Card */}
+  <div class="custom-category-card">
+    <div class="custom-category-icon">💌</div>
+    <span class="custom-category-title">Contact Form</span>
+    <div class="custom-category-description">
+      A user-friendly contact form for inquiries and collaborations.
+    </div>
+  </div>
+
+  {/* Content Management System (CMS) Card */}
+  <div class="custom-category-card">
+    <div class="custom-category-icon">🖥️</div>
+    <span class="custom-category-title">Content Management System (CMS)</span>
+    <div class="custom-category-description">
+      Update your content easily with our user-friendly CMS.
+    </div>
+  </div>
+
+  {/* Analytics Card */}
+  <div class="custom-category-card">
+    <div class="custom-category-icon">📈</div>
+    <span class="custom-category-title">Analytics</span>
+    <div class="custom-category-description">
+      Get insights into your website's performance with basic analytics.
+    </div>
+  </div>
+
+  {/* Custom Design Options Card */}
+  <div class="custom-category-card">
+    <div class="custom-category-icon">🎨</div>
+    <span class="custom-category-title">Custom Design Options</span>
+    <div class="custom-category-description">
+      Enjoy personalized and interactive designs for your brand.
+    </div>
+  </div>
+
+  {/* Blog Integration Card */}
+  <div class="custom-category-card">
+    <div class="custom-category-icon">📝</div>
+    <span class="custom-category-title">Blog Integration</span>
+    <div class="custom-category-description">
+      Share your insights with integrated blogging features.
+    </div>
+  </div>
+
+  {/* Security and Maintenance Card */}
+  <div class="custom-category-card">
+    <div class="custom-category-icon">🔐</div>
+    <span class="custom-category-title">Security and Maintenance</span>
+    <div class="custom-category-description">
+      Enjoy peace of mind with secure and well-maintained website hosting.
+    </div>
   </div>
 </div>
 
-<div class="custom-category-card">
-  <div class="custom-category-icon">🎨</div>
-  <span class="custom-category-title">Design Templates</span>
-  <div class="custom-category-description">
-    Choose from a selection of design templates, allowing you to customize your website to match your unique personal brand.
-  </div>
-</div>
-
-<div class="custom-category-card">
-  <div class="custom-category-icon">📱</div>
-  <span class="custom-category-title">Mobile-Responsive Design</span>
-  <div class="custom-category-description">
-    Your website will look stunning on any device, ensuring that your portfolio shines on both desktop and mobile screens.
-  </div>
-</div>
-
-<div class="custom-category-card">
-  <div class="custom-category-icon">🖼️</div>
-  <span class="custom-category-title">Gallery or Portfolio Section</span>
-  <div class="custom-category-description">
-    Highlight your creative work with a dedicated gallery or portfolio section, making it easy for visitors to explore your talents.
-  </div>
-</div>
-
-<div class="custom-category-card">
-  <div class="custom-category-icon">🔍</div>
-  <span class="custom-category-title">SEO Setup</span>
-  <div class="custom-category-description">
-    Boost your online visibility with basic SEO setup, helping potential clients discover your portfolio through search engines.
-  </div>
-</div>
-
-<div class="custom-category-card">
-  <div class="custom-category-icon">🌐</div>
-  <span class="custom-category-title">Social Media Integration</span>
-  <div class="custom-category-description">
-    Connect your portfolio to your social media profiles, expanding your reach and engaging with a wider audience.
-  </div>
-</div>
-
-<div class="custom-category-card">
-  <div class="custom-category-icon">💌</div>
-  <span class="custom-category-title">Contact Form</span>
-  <div class="custom-category-description">
-    A user-friendly contact form ensures that potential clients can easily reach out to you for inquiries and collaborations.
-  </div>
-</div>
-
-<div class="custom-category-card">
-  <div class="custom-category-icon">🖥️</div>
-  <span class="custom-category-title">Content Management System (CMS)</span>
-  <div class="custom-category-description">
-    Update your content effortlessly with our user-friendly CMS, so your portfolio is always up to date.
-  </div>
-</div>
-
-<div class="custom-category-card">
-  <div class="custom-category-icon">📈</div>
-  <span class="custom-category-title">Analytics</span>
-  <div class="custom-category-description">
-    Gain insights into your websites performance with basic analytics, helping you understand your audience and their interactions.
-  </div>
-</div>
-
-<div class="custom-category-card">
-  <div class="custom-category-icon">🎨</div>
-  <span class="custom-category-title">Custom Design Options</span>
-  <div class="custom-category-description">
-    Enjoy enhanced design options, including personalized and interactive designs that perfectly match your personal branding.
-  </div>
-</div>
-
-<div class="custom-category-card">
-  <div class="custom-category-icon">📝</div>
-  <span class="custom-category-title">Blog Integration</span>
-  <div class="custom-category-description">
-    Share your knowledge and insights through integrated blogging features, attracting and engaging your target audience.
-  </div>
-</div>
-
-<div class="custom-category-card">
-  <div class="custom-category-icon">🔐</div>
-  <span class="custom-category-title">Security and Maintenance</span>
-  <div class="custom-category-description">
-    Rest easy knowing your portfolio is secure, with ongoing technical support to keep your website running smoothly.
-  </div>
-</div>
-</div>
-
-<h5 className="text-2xl font-semibold text-gray-800 mt-6">Benefits of having a Portfolio WebSite</h5>
+<h5 className="text-2xl font-semibold text-gray-800 mt-6">Benefits</h5>
 <p className="text-md text-gray-700 mt-4"><b>Showcase Your Talent</b> | Display your work professionally to impress clients and employers.</p>
 <p className="text-md text-gray-700 mt-4"><b>Boost Your Image</b> | Elevate your online presence with a sleek, personal portfolio.</p>
 <p className="text-md text-gray-700 mt-4"><b>Unique Branding</b> | Customize your site to stand out and define your personal brand.</p>
@@ -250,64 +270,75 @@ const Portfolio = () => {
 <p className="text-md text-gray-700 mt-4"><b>Engage Your Audience</b> | Connect with your viewers, gather feedback, and share your journey.</p>
 
 
-{/* Section for Key Features of the Portfolio Package */}
-<h5 className="text-2xl font-semibold text-gray-800 mt-6">Ideal For</h5>
+{/* IDEAL FOR SECTION */}
+<h5 className="text-2xl font-semibold text-gray-800 mt-6 mb-4">Ideal For</h5>
 <div className="custom-category-card-container">
-      <div class="custom-category-card">
-        <div class="custom-category-icon">🎨</div>
-        <span class="custom-category-title">Visual Artists</span>
-        <div class="custom-category-description">
-          Showcase your artwork with a stunning digital portfolio. Reflect your personal style and captivate your audience.
-        </div>
+
+  {/* Card for Visual Artists */}
+  <div class="custom-category-card">
+      <div class="custom-category-icon">🎨</div>
+      <span class="custom-category-title">Visual Artists</span>
+      <div>
+        Stunning digital portfolios to showcase your art.
       </div>
+    </div>
 
-      {/* Individual Card for Designers */}
-      <div class="custom-category-card">
-        <div class="custom-category-icon">✏️</div>
-        <span class="custom-category-title">Designers</span>
-        <div class="custom-category-description">
-          Display your innovative design projects. Get a unique platform that highlights your creativity.
-        </div>
+    {/* Card for Designers */}
+    <div class="custom-category-card">
+      <div class="custom-category-icon">✏️</div>
+      <span class="custom-category-title">Designers</span>
+      <div>
+        Creative platforms to highlight your design projects.
       </div>
+    </div>
 
-      {/* Individual Card for Photographers */}
-      <div class="custom-category-card">
-        <div class="custom-category-icon">📷</div>
-        <span class="custom-category-title">Photographers</span>
-        <div class="custom-category-description">
-          Showcase your photography skills. From landscapes to portraits, make an impact with your digital portfolio.
-        </div>
+    {/* Card for Photographers */}
+    <div class="custom-category-card">
+      <div class="custom-category-icon">📷</div>
+      <span class="custom-category-title">Photographers</span>
+      <div>
+        Impactful portfolios for your photography work.
       </div>
+    </div>
 
-      {/* Individual Card for Freelancers */}
-      <div class="custom-category-card">
-        <div class="custom-category-icon">💼</div>
-        <span class="custom-category-title">Freelancers</span>
-        <div class="custom-category-description">
-          Highlight your expertise and services as a freelancer. Create a captivating digital narrative.
-        </div>
+    {/* Card for Freelancers */}
+    <div class="custom-category-card">
+      <div class="custom-category-icon">💼</div>
+      <span class="custom-category-title">Freelancers</span>
+      <div>
+        Showcase your skills and services with a professional flair.
       </div>
-      </div>
-
-
-      
-      {/* Call to Action for Contact */}
-      <p className="mt-6 text-md text-gray-700">To create a portfolio that truly represents you and your work, reach out to us at <a href="mailto:services@bhamseoanddesignco.com">services@bhamseoanddesignco.com</a>, or press the button to get started.</p>
-
-      {/* Contact Button to Launch Portfolio */}
-      <Link href="/contact" legacyBehavior>
-        <a className="inline-block mt-4 bg-gradient-to-r from-yellow-600 to-yellow-800 hover:from-yellow-800 hover:to-yellow-600 text-white text-lg py-3 px-8 rounded-full transition duration-300 ease-in-out transform hover:-translate-y-1 shadow-lg">
-          Launch Your Portfolio Now
-        </a>
-      </Link>
     </div>
   </div>
 
+  {/* Call to Action for Contact */}
+  <p className="mt-6 text-md text-gray-700">
+    To create a portfolio that truly represents you and your work, reach out to us at<a href="mailto:services@bhamseoanddesignco.com" style={{ color: 'orange' }}> services@bhamseoanddesignco.com</a>, or press the button to get started.
+  </p>
 
-<section></section>
-<h1 className="text-3xl lg:text-5xl font-bold text-center mb-8 mt-10 underline decoration-yellow-900 decoration-4 underline-offset-8">
-  Portfolio Package Pricing
-</h1>
+  {/* Contact Button to Launch Portfolio */}
+  <Link href="/contact" legacyBehavior>
+    <a className="inline-block mt-6 mb-6 bg-gradient-to-r from-yellow-600 to-yellow-800 hover:from-yellow-800 hover:to-yellow-600 text-white text-lg py-3 px-8 rounded-full transition duration-300 ease-in-out transform hover:-translate-y-1 shadow-lg">
+      Launch Your Portfolio Now
+    </a>
+  </Link>
+</div>
+  </div>
+
+{/* Portfolio Package Pricing Title */}
+<div className="relative py-5 px-6 lg:px-12 bg-gradient-to-br from-yellow-600 via-yellow-700 to-yellow-800 rounded-3xl shadow-xl mx-4 my-10">
+  <div className="text-center">
+    <h1 className="text-xl lg:text-3xl font-extrabold text-white mb-2 mt-2 tracking-wide leading-tight hover:text-yellow-950 transition-colors duration-300">
+      Portfolio Package Pricing
+    </h1>
+    <p className="text-md lg:text-lg font-medium text-white mb-2">
+      Find the Ideal Plan for Your Business
+    </p>
+    <span className="inline-block w-16 h-1 bg-yellow-100 rounded"></span>
+  </div>
+</div>
+
+{/* Portfolio Packages Grid */}
 <div className="grid grid-cols-1 md:grid-cols-3 lg:grid-cols-2 gap-x-4 gap-y-4">
   {portfolioPackages.map((pkg, index) => (
     <div key={index} className="bg-white rounded-lg overflow-hidden shadow-lg border border-yellow-500 hover:shadow-2xl transition-shadow duration-500 ease-in-out">
@@ -326,7 +357,7 @@ const Portfolio = () => {
           <div className="space-y-2 text-sm text-gray-700">
             <p className="font-bold text-gray-900">Website Pages Included</p>
             {pkg.websiteIncludes.map((include, idx) => (
-              <p key={idx} className="">{include}</p>
+              <p key={idx}>{include}</p>
             ))}
             <p className="bold">Total Pages | {pkg.totalPages}</p>
           </div>
@@ -339,8 +370,8 @@ const Portfolio = () => {
   ))}
 </div>
 
-  {/* Contact Information */}
-  <div className="text-center mt-8">
+{/* Contact Information */}
+<div className="text-center mt-8">
   <p className="text-2xl text-yellow-700 font-semibold">
     Interested in our Business Web Design Package?
   </p>
@@ -352,18 +383,12 @@ const Portfolio = () => {
       Request a Free Price Quote
     </a>
   </Link>
+</div>
 
-          </div>
-        </div>
-
+{/* Yellow Border Bottom */}
+<div className="border-bottom-yellow"></div>
+</div>
    );
 };
 
-
 export default Portfolio;
-
-
-
-
-
-
