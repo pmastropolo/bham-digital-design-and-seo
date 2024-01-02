@@ -186,6 +186,48 @@ img {
   margin-bottom: 2px;
 }
 
+/* BORDER BOTTOM PURPLE */
+.border-bottom-purple {
+  border-bottom: 5px solid purple;
+  margin-top: 6px;
+  margin-bottom: 2px;
+}
+
+/* BORDER BOTTOM BLUE */
+.border-bottom-blue {
+  border-bottom: 5px solid blue;
+  margin-top: 6px;
+  margin-bottom: 2px;
+}
+
+/* BORDER BOTTOM PINK */
+.border-bottom-pink {
+  border-bottom: 5px solid pink;
+  margin-top: 6px;
+  margin-bottom: 2px;
+}
+
+/* BORDER BOTTOM GRAY */
+.border-bottom-gray {
+  border-bottom: 5px solid gray;
+  margin-top: 6px;
+  margin-bottom: 2px;
+}
+
+/* BORDER BOTTOM ORANGE */
+.border-bottom-orange {
+  border-bottom: 5px solid orange;
+  margin-top: 6px;
+  margin-bottom: 2px;
+}
+
+/* BORDER BOTTOM YELLOW */
+.border-bottom-yellow {
+  border-bottom: 5px solid yellow;
+  margin-top: 6px;
+  margin-bottom: 2px;
+}
+
 /* CATEGORY CAROUSEL STYLES */
 .category-carousel {
   display: flex;
