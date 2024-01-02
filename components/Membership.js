@@ -164,43 +164,47 @@ const Membership = () => {
 
 <h5 className="text-2xl font-semibold text-gray-800 mt-6">Ideal For</h5>
 <div className="custom-category-card-container">
-<div class="custom-category-card">
-  <div class="custom-category-icon">🌟 </div>
-  <span class="custom-category-title">Clubs and Societies</span>
-  <div class="custom-category-description">
-  Ideal for social clubs, hobbyist groups, and alumni associations! Our Exclusive Membership Website Package simplifies event organization, news sharing, and community building. Create a central online hub to bring your members closer together.
+
+  {/* Clubs and Societies */}
+  <div class="custom-category-card">
+    <div class="custom-category-icon">🌟</div>
+    <span class="custom-category-title">Clubs & Societies</span>
+    <div>Perfect for clubs and groups to organize events and connect members online.</div>
+  </div>
+
+  {/* Subscription-Based Businesses */}
+  <div class="custom-category-card">
+    <div class="custom-category-icon">🏬</div>
+    <span class="custom-category-title">Subscription Based</span>
+    <div>Ideal for enhancing subscriber engagement and offering exclusive benefits.</div>
+  </div>
+
+  {/* Content Creators */}
+  <div class="custom-category-card">
+    <div class="custom-category-icon">📸</div>
+    <span class="custom-category-title">Content Creators</span>
+    <div>Great for bloggers and creators to monetize and offer premium content.</div>
+  </div>
+
+  {/* Professional Associations */}
+  <div class="custom-category-card">
+    <div class="custom-category-icon">🤝</div>
+    <span class="custom-category-title">Professional Associations</span>
+    <div>Tailor-made for organizations to offer exclusive resources and networking.</div>
   </div>
 </div>
 
-<div class="custom-category-card">
-  <div class="custom-category-icon">🏬</div>
-  <span class="custom-category-title">Subscription-Based Businesses</span>
-  <div class="custom-category-description">
-  Attention, subscription-based businesses! Elevate your subscriber engagement with our Exclusive Membership Website Package. Manage your subscriber base efficiently and offer exclusive perks like early access to new products, discounts, and subscriber-only content. Build lasting customer relationships and drive growth for your business.
-  </div>
-</div>
-
-<div class="custom-category-card">
-  <div class="custom-category-icon">📸</div>
-  <span class="custom-category-title">Content Creators</span>
-  <div class="custom-category-description">
-  Calling all bloggers, YouTubers, and podcasters! Monetize your content with our Exclusive Membership Website Package. Offer premium, members-only content or provide an ad-free experience. Transform your passion into a thriving online business.
-  </div>
-</div>
-
-<div class="custom-category-card">
-  <div class="custom-category-icon">🤝</div>
-  <span class="custom-category-title">Professional Associations</span>
-  <div class="custom-category-description">
-  Hello, professional organizations and associations! Our Exclusive Membership Website Package is tailor-made for you. Build a digital community where members access exclusive resources, network, and gain industry insights. Elevate your organizations digital presence and provide unparalleled value to your members.
-  </div>
-</div>
-</div>
       
+      
+{/* GET IN TOUCH EMAIL YELLOW */}  
+<p className="mt-6 text-md text-gray-700">
+To create a thriving online membership platform, connect with us at{' '}
+<a href="mailto:services@bhamseoanddesignco.com" style={{ color: 'orange' }}>services@bhamseoanddesignco.com</a> or click the button below to explore your options.
+</p>  
 
-      <p className="mt-6 text-md text-gray-700">To create a thriving online membership platform, connect with us at services@bhamseoanddesignco.com, or click the button below to explore your options.</p>
-      <Link href="/contact" legacyBehavior>
-      <a className="inline-block mt-4 mb-6 bg-gradient-to-r from-yellow-400 to-yellow-600 hover:from-yellow-600 hover:to-yellow-400 text-white text-lg py-3 px-8 rounded-full transition duration-300 ease-in-out transform hover:-translate-y-1 shadow-lg">
+{/* CONTACT LINK */}      
+<Link href="/contact" legacyBehavior>
+<a className="inline-block mt-4 mb-6 bg-gradient-to-r from-yellow-400 to-yellow-600 hover:from-yellow-600 hover:to-yellow-400 text-white text-lg py-3 px-8 rounded-full transition duration-300 ease-in-out transform hover:-translate-y-1 shadow-lg">
   Join the Membership
 </a>
       </Link>
@@ -209,11 +213,20 @@ const Membership = () => {
 
 
 
+{/* MEMBERSHIP PACKAGE PRICING TITLE*/}
+<div className="relative py-5 px-6 lg:px-12 bg-gradient-to-br from-yellow-400 via-yellow-500 to-yellow-600 rounded-3xl shadow-xl mx-4 my-10">
+<div className="text-center">
+<h1 className="text-xl lg:text-3xl font-extrabold text-white mb-2 mt-2 tracking-wide leading-tight hover:text-yellow-950 transition-colors duration-300">
+Membership Package Pricing
+</h1>
+<p className="text-md lg:text-lg font-medium text-white mb-2">
+Find the Ideal Plan for Your Business
+</p>
+<span className="inline-block w-16 h-1 bg-yellow-100 rounded"></span>
+</div>
+</div>
 
-<h1 className="text-3xl lg:text-5xl font-bold text-center mb-8 mt-10 underline decoration-yellow-300 decoration-4 underline-offset-8">
-        Membership Package Pricing
-      </h1>
-      <div className="grid grid-cols-1 md:grid-cols-3 lg:grid-cols-2 gap-x-4 gap-y-4">
+<div className="grid grid-cols-1 md:grid-cols-3 lg:grid-cols-2 gap-x-4 gap-y-4">
   {membershipPackages.map((pkg, index) => (
     <div key={index} className="bg-white rounded-lg overflow-hidden shadow-lg border border-yellow-500 hover:shadow-2xl transition-shadow duration-500 ease-in-out">
       <div className="flex flex-col h-full">
@@ -257,6 +270,10 @@ const Membership = () => {
     </a>
   </Link>
 </div>
+
+{/* YELLOW BORDER BOTTOM */} 
+<div className="border-bottom-orange"></div>
+
     </div>
   );
 };
