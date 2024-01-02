@@ -88,22 +88,18 @@ const RealEstate = () => {
           <div className="p-4 sm:p-3">
           <div className="bg-gradient-to-b from-blue-400 to-blue-600 rounded-lg overflow-hidden text-white text-center tracking-wide leading-tight hover:text-blue-200 transition-colors duration-300 p-8">
         <h1 className="text-3xl sm:text-4xl md:text-5xl lg:text-6xl font-bold">
-              Real Estate Elevated, Results Amplified
+              Real Estate Elevated
               </h1>
               <p className="text-sm sm:text-md md:text-lg text-gray-100 mt-2 sm:mt-4">
-              Unlock the power of a stunning personal website.
+              Results Amplified
               </p>
             </div>
     
-<h4 className="text-4xl mt-2 font-semibold text-gray-800">Premier <span className="text-blue-400">Real Estate</span> Website Package</h4>
-<p className="text-md text-gray-700 mt-4">Elevate your property business with our Premier Real Estate Website Package. Designed for real estate agents, brokers, and property managers, this package offers a sophisticated platform to showcase properties, attract potential buyers or tenants, and streamline the real estate transaction process.</p>
+<h4 className="text-4xl mt-2 font-semibold text-gray-800 mt-6">Premier <span className="text-blue-400">Real Estate</span> Website Package</h4>
+<p className="text-md text-gray-700 mt-4 mb-4">Elevate your property business with our Premier Real Estate Website Package. Designed for real estate agents, brokers, and property managers, this package offers a sophisticated platform to showcase properties, attract potential buyers or tenants, and streamline the real estate transaction process.</p>
 
       <div className="custom-category-card-container">
-      <div class="custom-category-card">
-  <div class="custom-category-icon">🏡</div>
-  <span class="custom-category-title">Clean Design</span>
-  <div class="custom-category-description">Impress your clients with a professional look.</div>
-</div>
+
 
 <div class="custom-category-card">
   <div class="custom-category-icon">📱</div>
@@ -136,12 +132,6 @@ const RealEstate = () => {
 </div>
 
 <div class="custom-category-card">
-  <div class="custom-category-icon">🌐</div>
-  <span class="custom-category-title">Local SEO</span>
-  <div class="custom-category-description">Boosts your visibility in local searches.</div>
-</div>
-
-<div class="custom-category-card">
   <div class="custom-category-icon">📝</div>
   <span class="custom-category-title">Integrated Blog</span>
   <div class="custom-category-description">Share market insights and news.</div>
@@ -158,77 +148,105 @@ const RealEstate = () => {
   <span class="custom-category-title">CRM Integration</span>
   <div class="custom-category-description">Efficient lead management.</div>
 </div>
-
-<div class="custom-category-card">
-  <div class="custom-category-icon">📈</div>
-  <span class="custom-category-title">Analytics Suite</span>
-  <div class="custom-category-description">Track performance and optimize.</div>
 </div>
 
-<div class="custom-category-card">
-  <div class="custom-category-icon">🌍</div>
-  <span class="custom-category-title">Multi-Language Support</span>
-  <div class="custom-category-description">Reach a global audience.</div>
+{/* BENEFITS section */}
+<div className="mt-6">
+  <h5 className="text-3xl font-semibold text-gray-800">Benefits of Owning a Real Estate Website</h5>
+  <hr className="mb-3 mt-3" />
+  <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-4 mt-4 mb-6">
+
+    {/* Always Open Card */}
+    <div className="benefit-card">
+      <h6 className="title font-bold text-lg">Always Open</h6>
+      <p className="description">Your properties shine online 24/7, always accessible to potential buyers.</p>
+    </div>
+
+    {/* Reach Far and Wide Card */}
+    <div className="benefit-card">
+      <h6 className="title font-bold text-lg">Reach Far and Wide</h6>
+      <p className="description">Attract buyers from everywhere, not just locally.</p>
+    </div>
+
+    {/* Showcase Like a Pro Card */}
+    <div className="benefit-card">
+      <h6 className="title font-bold text-lg">Showcase Like a Pro</h6>
+      <p className="description">Stunning virtual tours and galleries make your listings irresistible.</p>
+    </div>
+
+    {/* Generate & Track Leads Card */}
+    <div className="benefit-card">
+      <h6 className="title font-bold text-lg">Generate & Track Leads</h6>
+      <p className="description">Easily collect and manage client inquiries right from your site.</p>
+    </div>
+
+    {/* Build Your Brand Card */}
+    <div className="benefit-card">
+      <h6 className="title font-bold text-lg">Build Your Brand</h6>
+      <p className="description">Stand out with a sleek website that boosts your professional image.</p>
+    </div>
+
+    {/* Smart Insights Card */}
+    <div className="benefit-card">
+      <h6 className="title font-bold text-lg">Smart Insights</h6>
+      <p className="description">Get the edge with analytics that reveal what buyers really want.</p>
+    </div>
+  </div>
 </div>
-</div>
 
-<h5 className="text-2xl font-semibold text-gray-800 mt-6">Benefits</h5>
-      <p className="text-md text-gray-700 mt-4"><b>Elegant Property Galleries:</b> Showcase properties with high-resolution images and detailed descriptions.</p>
-      <p className="text-md text-gray-700 mt-4"><b>Enhanced Visibility:</b> Reach more potential buyers and sellers online.</p>
-
-<p className="text-md text-gray-700 mt-4"><b>Property Showcase:</b> Display listings with high-quality images and details.</p>
-
-<p className="text-md text-gray-700 mt-4"><b>Easy Communication:</b> Provide contact forms for inquiries and lead capture.</p>
-
-<p className="text-md text-gray-700 mt-4"><b>Market Insights:</b> Share valuable information through integrated blogs.</p>
-
-<p className="text-md text-gray-700 mt-4"><b>Analytics & Optimization:</b> Track performance and improve your real estate business.</p>
-
+  {/* IDEAL FOR SECTION */}
 <h5 className="text-2xl font-semibold text-gray-800 mt-6">Ideal For</h5>
-
 <div className="custom-category-card-container">
-<div class="custom-category-card">
-  <div class="custom-category-icon">🏠</div>
-  <span class="custom-category-title">Real Estate Agents</span>
-  <div class="custom-category-desfcription">
-    Showcase property listings, reach a wider audience, and provide resources for clients.
-  </div>
-</div>
+ {/* Real Estate Agents Card */}
+ <div class="custom-category-card">
+      <div class="custom-category-icon">🏠</div>
+      <span class="custom-category-title">Real Estate Agents</span>
+      <div class="custom--description">
+        Showcase property listings, reach a wider audience, and provide resources for clients.
+      </div>
+    </div>
 
-<div class="custom-category-card">
-  <div class="custom-category-icon">🏢</div>
-  <span class="custom-category-title">Property Managers</span>
-  <div class="custom-category-desfcription">
-    Efficiently manage properties, communicate with tenants, and offer online rent payments.
-  </div>
-</div>
+    {/* Property Managers Card */}
+    <div class="custom-category-card">
+      <div class="custom-category-icon">🏢</div>
+      <span class="custom-category-title">Property Managers</span>
+      <div class="custom--description">
+        Efficiently manage properties, communicate with tenants, and offer online rent payments.
+      </div>
+    </div>
 
-<div class="custom-category-card">
-  <div class="custom-category-icon">🏘️</div>
-  <span class="custom-category-title">Real Estate Investors</span>
-  <div class="custom-category-descrfiption">
-    Track market trends, find investment opportunities, and connect with sellers or agents.
-  </div>
-</div>
+    {/* Real Estate Investors Card */}
+    <div class="custom-category-card">
+      <div class="custom-category-icon">🏘️</div>
+      <span class="custom-category-title">Real Estate Investors</span>
+      <div class="custom--description">
+        Track market trends, find investment opportunities, and connect with sellers or agents.
+      </div>
+    </div>
 
-<div class="custom-category-card">
-  <div class="custom-category-icon">🏡</div>
-  <span class="custom-category-title">Homebuyers and Sellers</span>
-  <div class="custom-category-descrfiption">
-    Search for properties, obtain market insights, and connect with agents for transactions.
+    {/* Homebuyers and Sellers Card */}
+    <div class="custom-category-card">
+      <div class="custom-category-icon">🏡</div>
+      <span class="custom-category-title">Homebuyers and Sellers</span>
+      <div class="custom--description">
+        Search for properties, obtain market insights, and connect with agents for transactions.
+      </div>
+    </div>
   </div>
-</div>
-</div>
-      
-      
-      
-      <p className="mt-6 text-md text-gray-700">To create a dynamic online presence for your real estate business, contact us at <a href="mailto:services@bhamseoanddesignco.com">services@bhamseoanddesignco.com</a>, or click the button below to start a conversation.</p>
-         
-<Link href="/contact" legacyBehavior>
-  <a className="inline-block mt-4 mb-6 bg-gradient-to-r from-blue-600 to-blue-800 hover:from-blue-800 hover:to-blue-600 text-white text-lg py-3 px-8 rounded-full transition duration-300 ease-in-out transform hover:-translate-y-1 shadow-lg">
-          Explore Real Estate
-        </a>
-      </Link>
+
+  {/* Contact Information */}
+  <p className="mt-6 text-md text-gray-700">
+    To create a dynamic online presence for your real estate business, contact us at
+    <a href="mailto:services@bhamseoanddesignco.com" style={{ color: 'blue' }}> services@bhamseoanddesignco.com</a>, 
+    or click the button below to get started.
+  </p>
+
+  {/* Contact Link */}
+  <Link href="/contact" legacyBehavior>
+    <a className="inline-block mt-4 mb-6 bg-gradient-to-r from-blue-600 to-blue-800 hover:from-blue-800 hover:to-blue-600 text-white text-lg py-3 px-8 rounded-full transition duration-300 ease-in-out transform hover:-translate-y-1 shadow-lg">
+      Explore Real Estate
+    </a>
+  </Link>
     </div>
 </div>
 
@@ -291,9 +309,10 @@ Find the Ideal Plan for Your Business
     </a>
   </Link>
 </div>
+
 {/* BLUE BORDER BOTTOM */} 
 <div className="border-bottom-blue"></div>
-  
+
         </div>
    );
 };
