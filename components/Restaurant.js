@@ -2,93 +2,83 @@ import React from 'react';
 import Link from 'next/link';
 
 const restaurantPackages = [
-        {
-                "name": "Basic Restaurant Web Presence Package",
-                "price": "$800 - $2,000",
-                "duration": "3 Weeks",
-                "features": [
-                  "- Sleek, Mobile-Responsive Design",
-                  "- Basic Menu Display",
-                  "- Contact Form with Location Map",
-                  "- Social Media Integration"
-                ],
-                "websiteIncludes": [
-                  "Home Page with Restaurant Overview",
-                  "Menu Page with Food Categories",
-                  "About Us Page for Restaurant Story",
-                  "Contact Page with Map and Inquiry Form"
-                ],
-                "totalPages": "4-5",
-                "idealFor": "Small Restaurants, Cafes, or Food Trucks Seeking Basic Online Presence and Menu Display."
-              },
-
-              {
-                "name": "Enhanced Restaurant Marketing Package",
-                "price": "$2,500 - $5,000",
-                "duration": "5 Weeks",
-                "features": [
-                  "- Interactive Menu with Images",
-                  "- Online Reservation System",
-                  "- SEO Optimization for Local Visibility",
-                  "- Email Newsletter Signup for Promotions"
-                ],
-                "websiteIncludes": [
-                  "Dynamic Home Page with Specials Highlight",
-                  "Detailed Menu Pages with Gallery",
-                  "Reservation and Booking Page",
-                  "Customer Reviews and Testimonials Section"
-                ],
-                "totalPages": "6-10",
-                "idealFor": "Mid-Size Restaurants Looking to Enhance Online Booking and Marketing Capabilities."
-              },
-
-              {
-                "name": "Premium Restaurant Online Experience Package",
-                "price": "$6,000 - $10,000",
-                "duration": "7 Weeks",
-                "features": [
-                  "- Custom, High-End Web Design",
-                  "- Advanced SEO and Social Media Strategy",
-                  "- Integrated E-Commerce for Online Orders",
-                  "- Multilingual Menu and Pages"
-                ],
-                "websiteIncludes": [
-                  "Custom Home Page with Interactive Features",
-                  "Online Ordering and Delivery System",
-                  "Event and Catering Information Pages",
-                  "Gallery Page with High-Quality Images"
-                ],
-                "totalPages": "10-15",
-                "idealFor": "High-End Restaurants and Chains Seeking Advanced Online Ordering and Brand Experience."
-              },
-
-              {
-                "name": "Elite Full-Service Restaurant Digital Suite",
-                "price": "$12,000+",
-                "duration": "10+ Weeks",
-                "features": [
-                  "- State-of-the-Art Website with Cutting-Edge Design",
-                  "- Full Online Booking and Order Management System",
-                  "- Comprehensive Digital Marketing and SEO Campaigns",
-                  "- Custom Mobile App Development for Enhanced Engagement"
-                ],
-                "websiteIncludes": [
-                  "Innovative Landing Pages for Each Service",
-                  "Integrated CRM for Customer Loyalty Programs",
-                  "Detailed Food and Beverage Menus with Nutrition Info",
-                  "Blogs and Articles for Engagement and SEO"
-                ],
-                "totalPages": "20+",
-                "idealFor": "Large Restaurant Enterprises or Franchises Needing a Comprehensive Digital Ecosystem with Mobile App."
-              }
-              
-              
-              
-              
-
+  {
+    "name": "Basic Restaurant Web Presence Package",
+    "price": "$800 - $2,000",
+    "duration": "3 Weeks",
+    "features": [
+      "- Sleek, Mobile-Responsive Design",
+      "- Basic Menu Display",
+      "- Contact Form with Location Map",
+      "- Social Media Integration"
+    ],
+    "websiteIncludes": [
+      "Home Page with Restaurant Overview",
+      "Menu Page with Food Categories",
+      "About Us Page for Restaurant Story",
+      "Contact Page with Map and Inquiry Form"
+    ],
+    "totalPages": "4-5",
+    "idealFor": "Small Restaurants, Cafes, or Food Trucks Seeking Basic Online Presence and Menu Display."
+  },
+  {
+    "name": "Enhanced Restaurant Marketing Package",
+    "price": "$2,500 - $5,000",
+    "duration": "5 Weeks",
+    "features": [
+      "- Interactive Menu with Images",
+      "- Online Reservation System",
+      "- SEO Optimization for Local Visibility",
+      "- Email Newsletter Signup for Promotions"
+    ],
+    "websiteIncludes": [
+      "Dynamic Home Page with Specials Highlight",
+      "Detailed Menu Pages with Gallery",
+      "Reservation and Booking Page",
+      "Customer Reviews and Testimonials Section"
+    ],
+    "totalPages": "6-10",
+    "idealFor": "Mid-Size Restaurants Looking to Enhance Online Booking and Marketing Capabilities."
+  },
+  {
+    "name": "Premium Restaurant Online Experience Package",
+    "price": "$6,000 - $10,000",
+    "duration": "7 Weeks",
+    "features": [
+      "- Custom, High-End Web Design",
+      "- Advanced SEO and Social Media Strategy",
+      "- Integrated E-Commerce for Online Orders",
+      "- Multilingual Menu and Pages"
+    ],
+    "websiteIncludes": [
+      "Custom Home Page with Interactive Features",
+      "Online Ordering and Delivery System",
+      "Event and Catering Information Pages",
+      "Gallery Page with High-Quality Images"
+    ],
+    "totalPages": "10-15",
+    "idealFor": "High-End Restaurants and Chains Seeking Advanced Online Ordering and Brand Experience."
+  },
+  {
+    "name": "Elite Full-Service Restaurant Digital Suite",
+    "price": "$12,000+",
+    "duration": "10+ Weeks",
+    "features": [
+      "- State-of-the-Art Website with Cutting-Edge Design",
+      "- Full Online Booking and Order Management System",
+      "- Comprehensive Digital Marketing and SEO Campaigns",
+      "- Custom Mobile App Development for Enhanced Engagement"
+    ],
+    "websiteIncludes": [
+      "Innovative Landing Pages for Each Service",
+      "Integrated CRM for Customer Loyalty Programs",
+      "Detailed Food and Beverage Menus with Nutrition Info",
+      "Blogs and Articles for Engagement and SEO"
+    ],
+    "totalPages": "20+",
+    "idealFor": "Large Restaurant Enterprises or Franchises Needing a Comprehensive Digital Ecosystem with Mobile App."
+  }
 ];
-
-
 
 const Restaurant = () => {
   return (
@@ -105,17 +95,16 @@ const Restaurant = () => {
               </p>
             </div>
         
-    <h4 className="text-4xl mt-2 font-semibold text-gray-800">Gourmet <span className="text-emerald-800">Restaurant </span>Website Package</h4>
+<h4 className="text-4xl mt-2 font-semibold text-gray-800">Gourmet <span className="text-emerald-800">Restaurant </span>Website Package</h4>
+<p className="text-md text-gray-700 mt-4">Enhance your culinary presence online with our Gourmet Restaurant Website Package. Designed for restaurants, cafes, and culinary businesses, this package provides an enticing platform to showcase your menu, ambiance, and unique dining experiences to attract more food enthusiasts.</p>
       
-      <p className="text-md text-gray-700 mt-4">Enhance your culinary presence online with our Gourmet Restaurant Website Package. Designed for restaurants, cafes, and culinary businesses, this package provides an enticing platform to showcase your menu, ambiance, and unique dining experiences to attract more food enthusiasts.</p>
-      
-      <div className="custom-category-card-container">
-      <div class="custom-category-card">
-  <div class="custom-category-icon">🌐</div>
-  <span class="custom-category-title">Web Presence</span>
-  <div class="custom-category-description">
-    Establish a strong online identity that captivates your audience and showcases your culinary expertise.
-  </div>
+<div className="custom-category-card-container">
+<div class="custom-category-card">
+<div class="custom-category-icon">🌐</div>
+<span class="custom-category-title">Web Presence</span>
+<div class="custom-category-description">
+Establish a strong online identity that captivates your audience and showcases your culinary expertise.
+</div>
 </div>
 
 <div class="custom-category-card">
