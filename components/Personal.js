@@ -2,97 +2,83 @@ import React from 'react';
 import Link from 'next/link';
 
 const personalPackages = [
-
-        {
-                "name": "Personal Blog Starter Package",
-                "price": "$500 - $1,200",
-                "duration": "3 Weeks",
-                "features": [
-                  "- Basic Responsive Design",
-                  "- User-Friendly Blogging Platform",
-                  "- Social Media Integration",
-                  "- Basic SEO Setup"
-                ],
-                "websiteIncludes": [
-                  "Home Page with Blog Feed",
-                  "About Me Page",
-                  "Blog Post Pages",
-                  "Contact Form Page"
-                ],
-                "totalPages": "4-6",
-                "idealFor": "Individuals Starting a Personal Blog or Hobby Site."
-              },
-              
-
-
-        {
-                "name": "Professional Personal Website Package",
-                "price": "$1,500 - $3,000",
-                "duration": "5 Weeks",
-                "features": [
-                  "- Customized Design Reflecting Personal Brand",
-                  "- Enhanced SEO for Better Online Presence",
-                  "- Portfolio or Gallery Integration",
-                  "- Blog with Advanced Features"
-                ],
-                "websiteIncludes": [
-                  "Custom Home Page",
-                  "Professional Portfolio or Gallery Page",
-                  "Detailed About/Bio Page",
-                  "Contact Page with Enhanced Functionality"
-                ],
-                "totalPages": "5-8",
-                "idealFor": "Professionals, Artists, or Freelancers Looking to Showcase Their Work and Expand Their Reach."
-              },
-              
-
-
-
-        {
-                "name": "Advanced Personal Branding Website Package",
-                "price": "$3,500 - $6,000",
-                "duration": "8 Weeks",
-                "features": [
-                  "- High-End Custom Design",
-                  "- Advanced SEO and Social Media Integration",
-                  "- Interactive Content Features",
-                  "- E-commerce Integration for Merchandising"
-                ],
-                "websiteIncludes": [
-                  "Personalized Landing Page",
-                  "Comprehensive Blog with Categories",
-                  "Professional Portfolio Showcasing Work",
-                  "Online Store for Products or Services"
-                ],
-                "totalPages": "10-15",
-                "idealFor": "Influencers, Creatives, or Entrepreneurs Seeking a Robust Platform for Personal Branding and E-commerce."
-              },
-              
-
-
-        {
-                "name": "Elite Personal Web Presence and Marketing Suite",
-                "price": "$7,000+",
-                "duration": "12+ Weeks",
-                "features": [
-                  "- State-of-the-Art Website Design",
-                  "- Comprehensive Digital Marketing Tools",
-                  "- Full-Scale SEO and Analytics",
-                  "- Custom Mobile App for Enhanced Engagement"
-                ],
-                "websiteIncludes": [
-                  "Advanced Custom Home Page",
-                  "Interactive Multimedia Portfolio",
-                  "Integrated Personal Blog with Rich Media",
-                  "Personalized Mobile App for Direct Engagement"
-                ],
-                "totalPages": "15+",
-                "idealFor": "High-Profile Individuals or Public Figures Seeking an Extensive Online Presence with Advanced Marketing and Engagement Tools."
-              }   
-    ];
-    
-
-
+  {
+    "name": "Personal Blog Starter Package",
+    "price": "$500 - $1,200",
+    "duration": "3 Weeks",
+    "features": [
+      "- Basic Responsive Design",
+      "- User-Friendly Blogging Platform",
+      "- Social Media Integration",
+      "- Basic SEO Setup"
+    ],
+    "websiteIncludes": [
+      "Home Page with Blog Feed",
+      "About Me Page",
+      "Blog Post Pages",
+      "Contact Form Page"
+    ],
+    "totalPages": "4-6",
+    "idealFor": "Individuals Starting a Personal Blog or Hobby Site."
+  },
+  {
+    "name": "Professional Personal Website Package",
+    "price": "$1,500 - $3,000",
+    "duration": "5 Weeks",
+    "features": [
+      "- Customized Design Reflecting Personal Brand",
+      "- Enhanced SEO for Better Online Presence",
+      "- Portfolio or Gallery Integration",
+      "- Blog with Advanced Features"
+    ],
+    "websiteIncludes": [
+      "Custom Home Page",
+      "Professional Portfolio or Gallery Page",
+      "Detailed About/Bio Page",
+      "Contact Page with Enhanced Functionality"
+    ],
+    "totalPages": "5-8",
+    "idealFor": "Professionals, Artists, or Freelancers Looking to Showcase Their Work and Expand Their Reach."
+  },
+  {
+    "name": "Advanced Personal Branding Website Package",
+    "price": "$3,500 - $6,000",
+    "duration": "8 Weeks",
+    "features": [
+      "- High-End Custom Design",
+      "- Advanced SEO and Social Media Integration",
+      "- Interactive Content Features",
+      "- E-commerce Integration for Merchandising"
+    ],
+    "websiteIncludes": [
+      "Personalized Landing Page",
+      "Comprehensive Blog with Categories",
+      "Professional Portfolio Showcasing Work",
+      "Online Store for Products or Services"
+    ],
+    "totalPages": "10-15",
+    "idealFor": "Influencers, Creatives, or Entrepreneurs Seeking a Robust Platform for Personal Branding and E-commerce."
+  },
+  {
+    "name": "Elite Personal Web Presence and Marketing Suite",
+    "price": "$7,000+",
+    "duration": "12+ Weeks",
+    "features": [
+      "- State-of-the-Art Website Design",
+      "- Comprehensive Digital Marketing Tools",
+      "- Full-Scale SEO and Analytics",
+      "- Custom Mobile App for Enhanced Engagement"
+    ],
+    "websiteIncludes": [
+      "Advanced Custom Home Page",
+      "Interactive Multimedia Portfolio",
+      "Integrated Personal Blog with Rich Media",
+      "Personalized Mobile App for Direct Engagement"
+    ],
+    "totalPages": "15+",
+    "idealFor": "High-Profile Individuals or Public Figures Seeking an Extensive Online Presence with Advanced Marketing and Engagement Tools."
+  }
+];
 
 const Personal = () => {
         return (
