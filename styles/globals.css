@@ -228,6 +228,20 @@ img {
   margin-bottom: 2px;
 }
 
+/* BORDER BOTTOM INDIGO */
+.border-bottom-indigo {
+  border-bottom: 5px solid indigo;
+  margin-top: 6px;
+  margin-bottom: 2px;
+}
+
+/* BORDER BOTTOM EMERALD */
+.border-bottom-emerald {
+  border-bottom: 5px solid emerald;
+  margin-top: 6px;
+  margin-bottom: 2px;
+}
+
 /* CATEGORY CAROUSEL STYLES */
 .category-carousel {
   display: flex;
