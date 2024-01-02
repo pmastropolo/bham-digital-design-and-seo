@@ -261,10 +261,20 @@ const Personal = () => {
 
 
 
-<h1 className="text-3xl lg:text-5xl font-bold text-center mb-8 mt-10 underline decoration-pink-900 decoration-4 underline-offset-8">
-        Personal Package Pricing
-      </h1>
-      <div className="grid grid-cols-1 md:grid-cols-3 lg:grid-cols-2 gap-x-4 gap-y-4">
+{/* PERSONAL PACKAGE PRICING TITLE */}
+<div className="relative py-5 px-6 lg:px-12 bg-gradient-to-br from-pink-500 via-pink-500 to-pink-600 rounded-3xl shadow-xl mx-4 my-10">
+  <div className="text-center">
+    <h1 className="text-xl lg:text-3xl font-extrabold text-white mb-2 mt-2 tracking-wide leading-tight hover:text-pink-800 transition-colors duration-300">
+    Personal Package Pricing
+    </h1>
+    <p className="text-md lg:text-lg font-medium text-white mb-2">
+      Find the Ideal Plan for Your Business
+    </p>
+    <span className="inline-block w-16 h-1 bg-pink-100 rounded"></span>
+  </div>
+</div>
+
+<div className="grid grid-cols-1 md:grid-cols-3 lg:grid-cols-2 gap-x-4 gap-y-4">
   {personalPackages.map((pkg, index) => (
     <div key={index} className="bg-white rounded-lg overflow-hidden shadow-lg border border-pink-900 hover:shadow-2xl transition-shadow duration-500 ease-in-out">
       <div className="flex flex-col h-full">
@@ -295,6 +305,7 @@ const Personal = () => {
   ))}
 </div>
 
+{/* FREE PRICE QUOTE */} 
 <div className="text-center mt-8">
   <p className="text-2xl text-pink-900 font-semibold">
     Interested in our Personal Web Design Package?
@@ -308,9 +319,12 @@ const Personal = () => {
     </a>
   </Link>
 </div>
+
+{/* PINK BORDER BOTTOM */} 
+<div className="border-bottom-pink"></div>
+
     </div>
   );
 };
-
 
 export default Personal;
