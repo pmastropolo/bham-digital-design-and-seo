@@ -100,145 +100,166 @@ const Evenflowp = () => {
     Streamlined <span className="text-slate-400">Event</span> Website Package
         </h4>
 
-      <p className="text-md text-gray-700 mt-4">Simplify and enhance your event planning with our Streamlined Event Management Website Package. This package is designed for event organizers, businesses, and individuals who want to create an impactful and user-friendly online platform for managing and promoting events effectively.</p>
+      <p className="text-md text-gray-700 mt-4 mb-4">Simplify and enhance your event planning with our Streamlined Event Management Website Package. This package is designed for event organizers, businesses, and individuals who want to create an impactful and user-friendly online platform for managing and promoting events effectively.</p>
       
       <div className="custom-category-card-container">
-      <div class="custom-category-card">
-  <div class="custom-category-icon">🎉</div>
-  <span class="custom-category-title">Event Showcase</span>
-  <div class="custom-category-description">Highlight your events elegantly with a simple and appealing design.</div>
-</div>
 
+{/* Event Showcase and Information */}
 <div class="custom-category-card">
-  <div class="custom-category-icon">📅</div>
-  <span class="custom-category-title">Event Information</span>
-  <div class="custom-category-description">Provide basic event details and schedules for attendees convenience.</div>
+  <div class="custom-category-icon">🎉📅</div>
+  <span class="custom-category-title">Event Showcase & Information</span>
+  <div class="custom-category-description">Elegantly highlight your events with essential details and schedules.</div>
 </div>
 
+{/* Communication and Social Media */}
 <div class="custom-category-card">
-  <div class="custom-category-icon">📞</div>
-  <span class="custom-category-title">Contact Form</span>
-  <div class="custom-category-description">Offer a means for inquiries and questions through a user-friendly contact form.</div>
+  <div class="custom-category-icon">📞🌐</div>
+  <span class="custom-category-title">Communication and Social Media</span>
+  <div class="custom-category-description">User-friendly contact forms and social media integration for effective promotion.</div>
 </div>
 
+{/* Home Page Focus and Event Listing */}
 <div class="custom-category-card">
-  <div class="custom-category-icon">🌐</div>
-  <span class="custom-category-title">Social Media Integration</span>
-  <div class="custom-category-description">Promote your events effectively by integrating social media sharing features.</div>
+  <div class="custom-category-icon">🏡📋</div>
+  <span class="custom-category-title">Home Page | Event Listing</span>
+  <div class="custom-category-description">Prominently showcase upcoming events on the home page with detailed listings.</div>
 </div>
 
+{/* Registration, Ticketing, and Maps */}
 <div class="custom-category-card">
-  <div class="custom-category-icon">🏡</div>
-  <span class="custom-category-title">Home Page Highlight</span>
-  <div class="custom-category-description">Showcase upcoming events prominently on the home page to attract attention.</div>
+  <div class="custom-category-icon">🎟️🗺️</div>
+  <span class="custom-category-title">Registration, Ticketing & Maps</span>
+  <div class="custom-category-description">Online registration and ticket sales, complemented by interactive maps for venues.</div>
 </div>
 
+{/* Email Newsletter and Gallery */}
 <div class="custom-category-card">
-  <div class="custom-category-icon">📋</div>
-  <span class="custom-category-title">Event Listing</span>
-  <div class="custom-category-description">Display a comprehensive list of events with advanced filters for easy browsing.</div>
+  <div class="custom-category-icon">✉️📷</div>
+  <span class="custom-category-title">Email Newsletter | Gallery</span>
+  <div class="custom-category-description">Inform attendees with newsletters and display event highlights in a photo gallery.</div>
 </div>
 
+{/* Branding and E-commerce */}
 <div class="custom-category-card">
-  <div class="custom-category-icon">🎟️</div>
-  <span class="custom-category-title">Registration and Ticketing</span>
-  <div class="custom-category-description">Enable online event registration and ticket purchasing for attendees.</div>
+  <div class="custom-category-icon">🎨💼</div>
+  <span class="custom-category-title">Branding | E-commerce</span>
+  <div class="custom-category-description">Tailor your site’s design to your brand and integrate e-commerce for merchandise sales.</div>
 </div>
 
+{/* Interactive Features */}
 <div class="custom-category-card">
-  <div class="custom-category-icon">🗺️</div>
-  <span class="custom-category-title">Interactive Maps</span>
-  <div class="custom-category-description">Include interactive maps and venue details for event location clarity.</div>
+  <div class="custom-category-icon">🛠️</div>
+  <span class="custom-category-title">Interactive Features</span>
+  <div class="custom-category-description">Engage visitors with interactive features like quizzes, polls, and live chats.</div>
 </div>
 
+{/* Analytics and Insights */}
 <div class="custom-category-card">
-  <div class="custom-category-icon">✉️</div>
-  <span class="custom-category-title">Email Newsletter</span>
-  <div class="custom-category-description">Keep attendees informed with email newsletter integration for event updates.</div>
-</div>
-
-<div class="custom-category-card">
-  <div class="custom-category-icon">📷</div>
-  <span class="custom-category-title">Photo Gallery</span>
-  <div class="custom-category-description">Showcase past event memories with a photo gallery.</div>
-</div>
-
-<div class="custom-category-card">
-  <div class="custom-category-icon">🎨</div>
-  <span class="custom-category-title">Custom Branding</span>
-  <div class="custom-category-description">Create a unique and high-end design tailored to your brand.</div>
-</div>
-
-<div class="custom-category-card">
-  <div class="custom-category-icon">💼</div>
-  <span class="custom-category-title">E-commerce Integration</span>
-  <div class="custom-category-description">Offer merchandise sales through integrated e-commerce capabilities.</div>
+  <div class="custom-category-icon">📊</div>
+  <span class="custom-category-title">Analytics & Insights</span>
+  <div class="custom-category-description">Track event success and audience engagement with robust analytics tools.</div>
 </div>
 </div>
 
-<h5 className="text-2xl font-semibold text-gray-800 mt-6">Benefits</h5>
-<p className="text-md text-gray-700 mt-4"><b>Professional Event Presence:</b> Impress attendees with a sleek and professional online platform that reflects the quality of your event.</p>    
-<p className="text-md text-gray-700 mt-4"><b>Effortless Event Management:</b> Streamline event planning, promotion, and management with intuitive tools and features.</p>
-<p className="text-md text-gray-700 mt-4"><b>Enhanced Attendee Engagement:</b> Engage your audience with interactive content, schedules, and registration options.</p>
-<p className="text-md text-gray-700 mt-4"><b>Increased Visibility:</b> Boost event visibility through SEO optimization and social media integration, attracting a larger audience.</p>
-<p className="text-md text-gray-700 mt-4"><b>Seamless Ticketing:</b> Simplify ticketing and registration processes, making it convenient for attendees to secure their spots.</p>
-<p className="text-md text-gray-700 mt-4"><b>Comprehensive Information Hub:</b> Provide attendees with all the necessary event details, maps, and resources in one accessible location.</p>
-<p className="text-md text-gray-700 mt-4"><b>Post-Event Engagement:</b> Keep the excitement alive post-event with galleries, feedback forums, and announcements.</p>
+<div className="mt-6">
+  <h5 className="text-3xl font-semibold text-gray-800">Benefits of Owning an Event Website</h5>
+  <hr className="mb-3 mt-3" />
+  <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-4 mt-4">
 
-      <h5 className="text-2xl font-semibold text-gray-800 mt-6">Ideal For</h5>
+    {/* Pro Event Presence Card */}
+    <div className="benefit-card">
+      <h6 className="title font-bold text-lg">Pro Event Presence</h6>
+      <p className="description">Showcase your event with a sophisticated online platform, making a lasting impression on attendees.</p>
+    </div>
+
+    {/* Easy Event Management Card */}
+    <div className="benefit-card">
+      <h6 className="title font-bold text-lg">Easy Event Management</h6>
+      <p className="description">Efficiently organize and promote your event with user-friendly tools and features.</p>
+    </div>
+
+    {/* Boosted Attendee Interaction Card */}
+    <div className="benefit-card">
+      <h6 className="title font-bold text-lg">Boosted Attendee Interaction</h6>
+      <p className="description">Captivate your audience with interactive elements and easy registration.</p>
+    </div>
+
+    {/* Streamlined Ticketing Card */}
+    <div className="benefit-card">
+      <h6 className="title font-bold text-lg">Streamlined Ticketing</h6>
+      <p className="description">Offer hassle-free ticketing and sign-ups for a smooth attendee experience.</p>
+    </div>
+
+    {/* All-in-One Info Hub Card */}
+    <div className="benefit-card">
+      <h6 className="title font-bold text-lg">All-in-One Info Hub</h6>
+      <p className="description">Centralize all event details, directions, and resources for attendee convenience.</p>
+    </div>
+
+    {/* Post-Event Connection Card */}
+    <div className="benefit-card">
+      <h6 className="title font-bold text-lg">Post-Event Connection</h6>
+      <p className="description">Maintain engagement after the event with photo galleries, feedback, and updates.</p>
+    </div>
+
+  </div>
+</div>
+
+
+      <h5 className="text-2xl font-semibold text-gray-800 mt-6 mb-4">Ideal For</h5>
       <div className="custom-category-card-container">
       <div class="custom-category-card">
   <div class="custom-category-icon">🏘️</div>
-  <span class="custom-category-title">Local and Community Events</span>
-  <div class="custom-category-description">Perfect for organizing small local gatherings and community events.</div>
+  <span class="custom-category-title">Local and Community</span>
+  <div class="custom--description">Perfect for organizing small local gatherings and community events.</div>
 </div>
 
 <div class="custom-category-card">
   <div class="custom-category-icon">🎪</div>
-  <span class="custom-category-title">Conferences, Festivals</span>
-  <div class="custom-category-description">Ideal for managing conferences, festivals, and medium-scale events.</div>
+  <span class="custom-category-title">Conferences | Festivals</span>
+  <div class="custom--description">Ideal for managing conferences, festivals, and medium-scale events.</div>
 </div>
 
 <div class="custom-category-card">
   <div class="custom-category-icon">🏢</div>
-  <span class="custom-category-title">Large-Scale Events, Trade Shows</span>
-  <div class="custom-category-description">Tailored for large-scale events, trade shows, and industry expos.</div>
+  <span class="custom-category-title">Large-Scale Events | Trade Shows</span>
+  <div class="custom--description">Tailored for large-scale events, trade shows, and industry expos.</div>
 </div>
 
 <div class="custom-category-card">
   <div class="custom-category-icon">🌎</div>
   <span class="custom-category-title">National and International Event Series</span>
-  <div class="custom-category-description">Designed for managing national and international event series.</div>
+  <div class="custom--description">Designed for managing national and international event series.</div>
 </div>
 
 <div class="custom-category-card">
   <div class="custom-category-icon">🎤</div>
   <span class="custom-category-title">Music and Arts Festivals</span>
-  <div class="custom-category-description">Perfect for organizing large music and arts festivals.</div>
+  <div class="custom--description">Perfect for organizing large music and arts festivals.</div>
 </div>
 
 <div class="custom-category-card">
   <div class="custom-category-icon">🏆</div>
   <span class="custom-category-title">Awards Ceremonies</span>
-  <div class="custom-category-description">Ideal for planning and promoting awards ceremonies.</div>
+  <div class="custom--description">Ideal for planning and promoting awards ceremonies.</div>
 </div>
 
 <div class="custom-category-card">
   <div class="custom-category-icon">🌟</div>
-  <span class="custom-category-title">Celebrity and Entertainment Events</span>
-  <div class="custom-category-description">Tailored for managing celebrity appearances and entertainment events.</div>
+  <span class="custom-category-title">Celebrity | Entertainment</span>
+  <div class="custom--description">Tailored for managing celebrity appearances and entertainment events.</div>
 </div>
 
 <div class="custom-category-card">
   <div class="custom-category-icon">🎓</div>
   <span class="custom-category-title">Educational Conferences</span>
-  <div class="custom-category-description">Perfect for educational conferences and seminars.</div>
+  <div class="custom--description">Perfect for educational conferences and seminars.</div>
 </div>
 </div>     
     
       <p className="mt-6 text-md text-gray-700">To revolutionize your event management experience, reach out to us at <a href="mailto:services@bhamseoanddesignco.com">services@bhamseoanddesignco.com</a>, or click the button below for more information.</p>
       <Link href="/contact" legacyBehavior>
-        <a className="inline-block mt-4 bg-gradient-to-r from-slate-400 to-blue-800 hover:from-blue-800 hover:to-blue-600 text-white text-lg py-3 px-8 rounded-full transition duration-300 ease-in-out transform hover:-translate-y-1 shadow-lg">
+        <a className="inline-block mt-4 mb-4 bg-gradient-to-r from-slate-400 to-slate-800 hover:from-slate-800 hover:to-slate-600 text-white text-lg py-3 px-8 rounded-full transition duration-300 ease-in-out transform hover:-translate-y-1 shadow-lg">
           Plan Your Event
         </a>
       </Link>
@@ -246,9 +267,9 @@ const Evenflowp = () => {
   </div>
 
 {/* Event PACKAGE PRICING TITLE*/}
-<div className="relative py-5 px-6 lg:px-12 bg-gradient-to-br from-blue-600 via-blue-700 to-blue-800 rounded-3xl shadow-xl mx-4 my-10">
+<div className="relative py-5 px-6 lg:px-12 bg-gradient-to-br from-slate-400 via-slate-500 to-slate-800 rounded-3xl shadow-xl mx-4 my-10">
 <div className="text-center">
-<h1 className="text-xl lg:text-3xl font-extrabold text-white mb-2 mt-2 tracking-wide leading-tight hover:text-blue-950 transition-colors duration-300">
+<h1 className="text-xl lg:text-3xl font-extrabold text-white mb-2 mt-2 tracking-wide leading-tight hover:text-slate-950 transition-colors duration-300">
 Event Package Pricing
 </h1>
 <p className="text-md lg:text-lg font-medium text-white mb-2">
@@ -303,8 +324,8 @@ Find the Ideal Plan for Your Business
   </Link>
 </div>
 
-{/* BLUE BORDER BOTTOM */} 
-<div className="border-bottom-blue"></div>
+{/* GRAY BORDER BOTTOM */} 
+<div className="border-bottom-gray"></div>
 
     </div>
   );
