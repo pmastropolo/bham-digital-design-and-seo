@@ -182,14 +182,45 @@ const EcommercePackages = () => {
 </div>
 </div>
 
-{/* BENEFITS SECTION */} 
-<h5 className="text-2xl font-semibold text-gray-800 mt-6">Benefits</h5>
-<p className="text-md text-gray-700 mt-2"><b>Global Reach</b><br></br>Sell to customers worldwide, expanding your market effortlessly.</p>
-<p className="text-md text-gray-700 mt-2"><b>Available 24/7</b><br></br>Your store never closes, increasing sales potential day and night.</p>
-<p className="text-md text-gray-700 mt-2"><b>Lower Costs</b><br></br>Enjoy reduced overhead compared to brick-and-mortar stores.</p>
-<p className="text-md text-gray-700 mt-2"><b>Scalability</b><br></br>Start small and expand as your business grows.</p>
-<p className="text-md text-gray-700 mt-2"><b>Competitive Edge</b><br></br>Stay ahead in the digital age with an online presence.</p>
-<p className="text-md text-gray-700 mt-4"><b>Join the e-commerce revolution! Start your journey to success today. Your e-commerce store could be the next big thing in the digital marketplace.</b></p>
+{/* Section for Benefits of the Ecommerce Package */}
+<div className="mt-6">
+<h5 className="text-3xl font-semibold text-gray-800">Benefits</h5>
+<hr className="mb-3 mt-3" />
+<div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-4 mt-4">
+
+{/* Availability 24/7 Card */}
+<div className="benefit-card">
+<h6 className="title font-bold text-lg">Availability 24/7</h6>
+<p className="description">Open non-stop for sales & leads.</p>
+</div>
+
+{/* Global Reach Card */}
+<div className="benefit-card">
+<h6 className="title font-bold text-lg">Global Reach</h6>
+<p className="description">Sell to customers worldwide.</p>
+</div>
+
+{/* Lower Costs Card */}
+<div className="benefit-card">
+<h6 className="title font-bold text-lg">Lower Costs</h6>
+<p className="description">Enjoy reduced overhead.</p>
+</div>
+
+{/* Scalability Card */}
+<div className="benefit-card">
+<h6 className="title font-bold text-lg">Scalability</h6>
+<p className="description">Start small and expand.</p>
+</div>
+
+{/* Lead Generation Card */}
+<div className="benefit-card">
+<h6 className="title font-bold text-lg">Competitive Edge</h6>
+<p className="description">Stay ahead in the digital age.</p>
+</div>
+</div>
+<p className="text-md text-gray-700 mt-4"><b>Join the e-commerce revolution! Start your journey to success today. Your e-commerce store could be the next big thing in the digital marketplace.</b></p> 
+</div>
+
 
 {/* IDEAL FOR SECTION */}
 <h5 className="text-2xl font-semibold text-gray-800 mt-6">Ideal For</h5>
