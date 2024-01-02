@@ -251,18 +251,25 @@ const Health = () => {
 
 {/* Contact link */}
 <Link href="/contact" legacyBehavior>
-  <a className="inline-block mt-4 bg-gradient-to-r from-gray-600 to-gray-800 hover:from-gray-800 hover:to-gray-600 text-white text-lg py-3 px-8 rounded-full transition duration-300 ease-in-out transform hover:-translate-y-1 shadow-lg">
-    Prioritize Health
-  </a>
+<a className="inline-block mt-4 bg-gradient-to-r from-gray-600 to-gray-800 hover:from-gray-800 hover:to-gray-600 text-white text-lg py-3 px-8 rounded-full transition duration-300 ease-in-out transform hover:-translate-y-1 shadow-lg">
+Prioritize Health
+</a>
 </Link>
 </div>
 </div>
 
-
-{/* Main heading for the section */}
-<h1 className="text-2xl md:text-3xl lg:text-5xl font-bold text-center mb-8 mt-10 underline decoration-gray-800 decoration-4 underline-offset-8">
-  Health Package Pricing
+{/* HEALTH PACKAGE PRICING TITLE*/}
+<div className="relative py-5 px-6 lg:px-12 bg-gradient-to-br from-gray-500 via-gray-500 to-gray-600 rounded-3xl shadow-xl mx-4 my-10">
+<div className="text-center">
+<h1 className="text-xl lg:text-3xl font-extrabold text-white mb-2 mt-2 tracking-wide leading-tight hover:text-red-800 transition-colors duration-300">
+Health Package Pricing
 </h1>
+<p className="text-md lg:text-lg font-medium text-white mb-2">
+Find the Ideal Plan for Your Business
+</p>
+<span className="inline-block w-16 h-1 bg-gray-100 rounded"></span>
+</div>
+</div>
 
 {/* Container for the health packages, laid out in a responsive grid */}
 <div className="grid grid-cols-1 md:grid-cols-3 lg:grid-cols-2 gap-x-4 gap-y-4">
