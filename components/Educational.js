@@ -2,121 +2,113 @@ import React from 'react';
 import Link from 'next/link';
 
 const educationalPackageData = [
-
-        {
-                "name": "Starter Academic Website Package",
-                "price": "$1,500-$3,000",
-                "duration": "8 Weeks",
-
-                "features": [
-                        "- Up To 10 Pages | Home, About, Courses/Programs, Admissions, Contact, Etc.",
-                        "- Basic Template-Based Design With Institution Branding",
-                        "- Mobile Responsive Layout",
-                        "- Basic SEO Setup For Educational Content",
-                        "- Contact Form & Basic Location Map",
-                        "- Simple Course Listings Or Program Descriptions",
-                        "- Basic CMS For Content Updates"
-                ],
-
-                "websiteIncludes": [
-                        "Home",
-                        "About Us",
-                        "Course | Program Overview",
-                        "Admissions Information",
-                        "Contact Page with Form & Map",
-                        "Faculty & Staff Overview",
-                        "News & Events",
-                        "Gallery | Media",
-                        "Testimonials",
-                        "FAQ"
-                ],
-
-                "totalPages": "10",
-                "idealFor": "Small Educational Institutions Or Individual Educators Starting With Online Presence."
-        },
-
-
-        {
-                "name": "Enhanced Learning Website Package",
-                "price": "$3,000 - $7,000",
-                "duration": "16 Weeks",
-                "features": [
-                        "- Expanded Content Pages Including Faculty, Events, And Student Testimonials",
-                        "- Enhanced Design Customization",
-                        "- Advanced SEO Features",
-                        "- Interactive Contact Forms And Maps",
-                        "- Detailed Course And Program Listings",
-                        "- User Friendly CMS With Enhanced Capabilities"
-                ],
-                "websiteIncludes": [
-                        "Individual Course | Program Details",
-                        "Faculty | Staff Individual Profile Pages",
-                        "Upcoming Events Calendar",
-                        "Student Life | Activities",
-                        "Alumni",
-                        "Research & Innovation Highlights",
-                        "Partnerships & Collaborations",
-                        "Detailed Testimonials | Success Stories",
-                        "Blog or News Update Section"
-                ],
-                "totalPages": "15-20",
-                "idealFor": "Growing Educational Institutions Needing A More Comprehensive Online Platform."
-              },
-
-              {
-                "name": "Premium Educational Experience Package",
-                "price": " $7,000-$15,000",
-                "duration": "24 Weeks",
-                "features": [
-                  "- Extensive Range Of Custom Pages",
-                  "- High-End Custom Design Tailored To Brand Identity",
-                  "- Comprehensive SEO And Marketing Tools",
-                  "- Dynamic Contact Forms And Interactive Features",
-                  "- In-Depth Course And Faculty Information Pages",
-                  "- Advanced CMS With Multi-User Access"
-                ],
-                "websiteIncludes": [
-                  "Dedicated Pages for Each Department or Faculty",
-                  "In-Depth Admissions Procedure and Guidelines Pages",
-                  "Interactive Campus/Virtual Tour Page",
-                  "Advanced Research and Publications Page",
-                  "Comprehensive Alumni Network Page",
-                  "Online Learning Resources or E-Library Page",
-                  "International Students Information Page",
-                  "Community Engagement and Outreach Page",
-                  "Detailed Career and Placement Services Page"
-                ],
-                "totalPages": "25-30 Pages",
-                "idealFor": "Established Educational Institutions Seeking A Robust And Feature-Rich Website."
-              },
-              {
-                "name": "Elite University Web Suite",
-                "price": "$15,000+",
-                "duration": "6 Months+",
-                "features": [
-                  "- Comprehensive Custom Web Design",
-                  "- Full Range SEO And Digital Marketing Integration",
-                  "- Multi Language Support And Global Accessibility Features",
-                  "- Advanced Interactivity With Virtual Tours, Maps, And More",
-                  "- Comprehensive Course, Faculty, And Departmental Pages",
-                  "- High-End Scalable CMS With Full Customization"
-                ],
-                "websiteIncludes": [
-                  "Multilingual Versions of Key Pages",
-                  "Advanced Interactive Campus Map",
-                  "Extensive Online Course Catalog with Interactive Features",
-                  "Specialized Pages for Major Research Initiatives",
-                  "Comprehensive Fundraising and Donations Page",
-                  "Detailed Governance and Policies Page",
-                  "Student and Faculty Portals",
-                  "Integration with External Educational Platforms",
-                  "Advanced Custom Pages for Unique University Needs"
-                ],
-                "totalPages": "35+ Pages",
-                "idealFor": "Large Universities And Educational Enterprises Requiring A Top-Tier, Extensive Web Presence."
-              }
-
-        ];
+  {
+    "name": "Starter Academic Website Package",
+    "price": "$1,500-$3,000",
+    "duration": "8 Weeks",
+    "features": [
+      "- Up To 10 Pages | Home, About, Courses/Programs, Admissions, Contact, Etc.",
+      "- Basic Template-Based Design With Institution Branding",
+      "- Mobile Responsive Layout",
+      "- Basic SEO Setup For Educational Content",
+      "- Contact Form & Basic Location Map",
+      "- Simple Course Listings Or Program Descriptions",
+      "- Basic CMS For Content Updates"
+    ],
+    "websiteIncludes": [
+      "Home",
+      "About Us",
+      "Course | Program Overview",
+      "Admissions Information",
+      "Contact Page with Form & Map",
+      "Faculty & Staff Overview",
+      "News & Events",
+      "Gallery | Media",
+      "Testimonials",
+      "FAQ"
+    ],
+    "totalPages": "10",
+    "idealFor": "Small Educational Institutions Or Individual Educators Starting With Online Presence."
+  },
+  {
+    "name": "Enhanced Learning Website Package",
+    "price": "$3,000 - $7,000",
+    "duration": "16 Weeks",
+    "features": [
+      "- Expanded Content Pages Including Faculty, Events, And Student Testimonials",
+      "- Enhanced Design Customization",
+      "- Advanced SEO Features",
+      "- Interactive Contact Forms And Maps",
+      "- Detailed Course And Program Listings",
+      "- User Friendly CMS With Enhanced Capabilities"
+    ],
+    "websiteIncludes": [
+      "Individual Course | Program Details",
+      "Faculty | Staff Individual Profile Pages",
+      "Upcoming Events Calendar",
+      "Student Life | Activities",
+      "Alumni",
+      "Research & Innovation Highlights",
+      "Partnerships & Collaborations",
+      "Detailed Testimonials | Success Stories",
+      "Blog or News Update Section"
+    ],
+    "totalPages": "15-20",
+    "idealFor": "Growing Educational Institutions Needing A More Comprehensive Online Platform."
+  },
+  {
+    "name": "Premium Educational Experience Package",
+    "price": " $7,000-$15,000",
+    "duration": "24 Weeks",
+    "features": [
+      "- Extensive Range Of Custom Pages",
+      "- High-End Custom Design Tailored To Brand Identity",
+      "- Comprehensive SEO And Marketing Tools",
+      "- Dynamic Contact Forms And Interactive Features",
+      "- In-Depth Course And Faculty Information Pages",
+      "- Advanced CMS With Multi-User Access"
+    ],
+    "websiteIncludes": [
+      "Dedicated Pages for Each Department or Faculty",
+      "In-Depth Admissions Procedure and Guidelines Pages",
+      "Interactive Campus/Virtual Tour Page",
+      "Advanced Research and Publications Page",
+      "Comprehensive Alumni Network Page",
+      "Online Learning Resources or E-Library Page",
+      "International Students Information Page",
+      "Community Engagement and Outreach Page",
+      "Detailed Career and Placement Services Page"
+    ],
+    "totalPages": "25-30 Pages",
+    "idealFor": "Established Educational Institutions Seeking A Robust And Feature-Rich Website."
+  },
+  {
+    "name": "Elite University Web Suite",
+    "price": "$15,000+",
+    "duration": "6 Months+",
+    "features": [
+      "- Comprehensive Custom Web Design",
+      "- Full Range SEO And Digital Marketing Integration",
+      "- Multi Language Support And Global Accessibility Features",
+      "- Advanced Interactivity With Virtual Tours, Maps, And More",
+      "- Comprehensive Course, Faculty, And Departmental Pages",
+      "- High-End Scalable CMS With Full Customization"
+    ],
+    "websiteIncludes": [
+      "Multilingual Versions of Key Pages",
+      "Advanced Interactive Campus Map",
+      "Extensive Online Course Catalog with Interactive Features",
+      "Specialized Pages for Major Research Initiatives",
+      "Comprehensive Fundraising and Donations Page",
+      "Detailed Governance and Policies Page",
+      "Student and Faculty Portals",
+      "Integration with External Educational Platforms",
+      "Advanced Custom Pages for Unique University Needs"
+    ],
+    "totalPages": "35+ Pages",
+    "idealFor": "Large Universities And Educational Enterprises Requiring A Top-Tier, Extensive Web Presence."
+  }
+];
 
 const Educational = () => {
                 return (
