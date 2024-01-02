@@ -177,19 +177,13 @@ const Evenflowp = () => {
 </div>
 
 <h5 className="text-2xl font-semibold text-gray-800 mt-6">Benefits</h5>
-<p className="text-md text-gray-700 mt-4"><b>Professional Event Presence:</b> Impress attendees with a sleek and professional online platform that reflects the quality of your event.</p>
-    
-    <p className="text-md text-gray-700 mt-4"><b>Effortless Event Management:</b> Streamline event planning, promotion, and management with intuitive tools and features.</p>
-    
-    <p className="text-md text-gray-700 mt-4"><b>Enhanced Attendee Engagement:</b> Engage your audience with interactive content, schedules, and registration options.</p>
-    
-    <p className="text-md text-gray-700 mt-4"><b>Increased Visibility:</b> Boost event visibility through SEO optimization and social media integration, attracting a larger audience.</p>
-    
-    <p className="text-md text-gray-700 mt-4"><b>Seamless Ticketing:</b> Simplify ticketing and registration processes, making it convenient for attendees to secure their spots.</p>
-    
-    <p className="text-md text-gray-700 mt-4"><b>Comprehensive Information Hub:</b> Provide attendees with all the necessary event details, maps, and resources in one accessible location.</p>
-    
-    <p className="text-md text-gray-700 mt-4"><b>Post-Event Engagement:</b> Keep the excitement alive post-event with galleries, feedback forums, and announcements.</p>
+<p className="text-md text-gray-700 mt-4"><b>Professional Event Presence:</b> Impress attendees with a sleek and professional online platform that reflects the quality of your event.</p>    
+<p className="text-md text-gray-700 mt-4"><b>Effortless Event Management:</b> Streamline event planning, promotion, and management with intuitive tools and features.</p>
+<p className="text-md text-gray-700 mt-4"><b>Enhanced Attendee Engagement:</b> Engage your audience with interactive content, schedules, and registration options.</p>
+<p className="text-md text-gray-700 mt-4"><b>Increased Visibility:</b> Boost event visibility through SEO optimization and social media integration, attracting a larger audience.</p>
+<p className="text-md text-gray-700 mt-4"><b>Seamless Ticketing:</b> Simplify ticketing and registration processes, making it convenient for attendees to secure their spots.</p>
+<p className="text-md text-gray-700 mt-4"><b>Comprehensive Information Hub:</b> Provide attendees with all the necessary event details, maps, and resources in one accessible location.</p>
+<p className="text-md text-gray-700 mt-4"><b>Post-Event Engagement:</b> Keep the excitement alive post-event with galleries, feedback forums, and announcements.</p>
 
       <h5 className="text-2xl font-semibold text-gray-800 mt-6">Ideal For</h5>
       <div className="custom-category-card-container">
@@ -240,14 +234,8 @@ const Evenflowp = () => {
   <span class="custom-category-title">Educational Conferences</span>
   <div class="custom-category-description">Perfect for educational conferences and seminars.</div>
 </div>
-
 </div>     
     
-
-
-
-
-
       <p className="mt-6 text-md text-gray-700">To revolutionize your event management experience, reach out to us at <a href="mailto:services@bhamseoanddesignco.com">services@bhamseoanddesignco.com</a>, or click the button below for more information.</p>
       <Link href="/contact" legacyBehavior>
         <a className="inline-block mt-4 bg-gradient-to-r from-slate-400 to-blue-800 hover:from-blue-800 hover:to-blue-600 text-white text-lg py-3 px-8 rounded-full transition duration-300 ease-in-out transform hover:-translate-y-1 shadow-lg">
@@ -256,8 +244,6 @@ const Evenflowp = () => {
       </Link>
     </div>
   </div>
-
-
 
 <h1 className="text-2xl md:text-3xl lg:text-5xl font-bold text-center mb-8 mt-10 underline decoration-slate-400 decoration-4 underline-offset-8">
   Event Package Pricing
