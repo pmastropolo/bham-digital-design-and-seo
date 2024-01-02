@@ -277,13 +277,7 @@ Establish a strong online identity that captivates your audience and showcases y
   </div>
 </div>
 
-
-
-
       </div>
-      
-      
-      
       
       <p className="mt-6 text-md text-gray-700">To take your restaurants online presence to the next level, contact us at <a href="mailto:services@bhamseoanddesignco.com">services@bhamseoanddesignco.com</a>, or click the button below to get started.</p>
       <Link href="/contact" legacyBehavior>
@@ -295,9 +289,19 @@ Establish a strong online identity that captivates your audience and showcases y
   </div>
 
 
-<h1 className="text-3xl lg:text-5xl font-bold text-center mb-8 mt-10 underline decoration-emerald-900 decoration-4 underline-offset-8">
+{/* Restaurant PACKAGE PRICING TITLE*/}
+<div className="relative py-5 px-6 lg:px-12 bg-gradient-to-br from-emerald-600 via-emerald-700 to-emerald-800 rounded-3xl shadow-xl mx-4 my-10">
+<div className="text-center">
+<h1 className="text-xl lg:text-3xl font-extrabold text-white mb-2 mt-2 tracking-wide leading-tight hover:text-emerald-950 transition-colors duration-300">
 Restaurant Package Pricing
 </h1>
+<p className="text-md lg:text-lg font-medium text-white mb-2">
+Find the Ideal Plan for Your Business
+</p>
+<span className="inline-block w-16 h-1 bg-emerald-100 rounded"></span>
+</div>
+</div>
+
 <div className="grid grid-cols-1 md:grid-cols-3 lg:grid-cols-2 gap-x-4 gap-y-4">
   {restaurantPackages.map((pkg, index) => (
     <div key={index} className="bg-white rounded-lg overflow-hidden shadow-lg border border-emerald-800 hover:shadow-2xl transition-shadow duration-500 ease-in-out">
@@ -344,7 +348,10 @@ Restaurant Package Pricing
   </Link>
 
           </div>
-        </div>
+
+{/* EMERALD BORDER BOTTOM */} 
+<div className="border-bottom-emerald"></div>
+</div>
 
    );
 };
