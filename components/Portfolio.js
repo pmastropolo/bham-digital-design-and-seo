@@ -228,7 +228,7 @@ const Portfolio = () => {
     <div class="custom-category-icon">📈</div>
     <span class="custom-category-title">Analytics</span>
     <div class="custom-category-description">
-      Get insights into your website's performance with basic analytics.
+      Get insights into your websites performance with basic analytics.
     </div>
   </div>
 
@@ -391,4 +391,6 @@ const Portfolio = () => {
    );
 };
 
+
 export default Portfolio;
+
