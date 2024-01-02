@@ -2,90 +2,83 @@ import React from 'react';
 import Link from 'next/link';
 
 const realestatePackages = [
-  
-{
-        "name": "Realtor Starter Website Package",
-        "price": "$1,200 - $2,500",
-        "duration": "4 Weeks",
-        "features": [
-                "- Clean and Professional Design",
-                "- Basic Property Listing Functionality",
-                "- Contact Form with Lead Capture",
-                "- Mobile-Responsive Layout"
-        ],
-        "websiteIncludes": [
-                "Home Page with Featured Listings",
-                "About Page for Realtor or Agency Profile",
-                "Property Listings Page",
-                          "Contact Page with Form"
-                        ],
-                        "totalPages": "4-6",
-                        "idealFor": "Individual Realtors or Small Agencies Looking to Establish an Online Presence."
-                      },
-
-                      {
-  "name": "Enhanced Real Estate Website Package",
-  "price": "$3,000 - $6,000",
-  "duration": "6 Weeks",
-  "features": [
-    "- Advanced Property Search Features",
-    "- High-Quality Image Galleries for Listings",
-    "- SEO Optimization for Local Market",
-    "- Integrated Blog for Market Insights"
-  ],
-  "websiteIncludes": [
-    "Dynamic Home Page with Search Functionality",
-    "Detailed Property Pages",
-    "Agent Profiles with Listings",
-    "Client Testimonials and Reviews Page"
-  ],
-  "totalPages": "10-15",
-  "idealFor": "Growing Real Estate Agencies Seeking to Enhance Online User Experience and Listing Visibility."
-},
-
-{
-        "name": "Premium Real Estate Agency Website Package",
-        "price": "$7,000 - $12,000",
-        "duration": "10 Weeks",
-        "features": [
-          "- Custom, High-End Web Design",
-          "- Interactive Maps and Virtual Tours",
-          "- CRM and Lead Management Integration",
-          "- Comprehensive SEO and Analytics Suite"
-        ],
-        "websiteIncludes": [
-          "Customized Landing Pages for Featured Properties",
-          "Neighborhood Guides and Market Trends",
-          "Advanced Search with Filters",
-          "Dedicated Resource Center for Buyers and Sellers"
-        ],
-        "totalPages": "20-30",
-        "idealFor": "Established Real Estate Firms Looking for a Comprehensive and Interactive Online Platform."
-      },
-      
-      {
-        "name": "Elite Real Estate Digital Platform Package",
-        "price": "$15,000+",
-        "duration": "16+ Weeks",
-        "features": [
-          "- State-of-the-Art Platform Design",
-          "- Full-Scale Property Listing Database",
-          "- Automated Marketing and Lead Nurturing Tools",
-          "- Multi-Language Support for Global Reach"
-        ],
-        "websiteIncludes": [
-          "Ultra-Modern Home Page with Featured Properties",
-          "Extensive Property Database with User Accounts",
-          "Agent and Broker Profile Pages",
-          "Investor Relations and Market Analytics Section"
-        ],
-        "totalPages": "30+",
-        "idealFor": "Top-Tier Real Estate Agencies and Property Developers Needing an Advanced Digital Solution for Global Real Estate Markets."
-      }
-      
-
+  {
+    "name": "Realtor Starter Website Package",
+    "price": "$1,200 - $2,500",
+    "duration": "4 Weeks",
+    "features": [
+      "- Clean and Professional Design",
+      "- Basic Property Listing Functionality",
+      "- Contact Form with Lead Capture",
+      "- Mobile-Responsive Layout"
+    ],
+    "websiteIncludes": [
+      "Home Page with Featured Listings",
+      "About Page for Realtor or Agency Profile",
+      "Property Listings Page",
+      "Contact Page with Form"
+    ],
+    "totalPages": "4-6",
+    "idealFor": "Individual Realtors or Small Agencies Looking to Establish an Online Presence."
+  },
+  {
+    "name": "Enhanced Real Estate Website Package",
+    "price": "$3,000 - $6,000",
+    "duration": "6 Weeks",
+    "features": [
+      "- Advanced Property Search Features",
+      "- High-Quality Image Galleries for Listings",
+      "- SEO Optimization for Local Market",
+      "- Integrated Blog for Market Insights"
+    ],
+    "websiteIncludes": [
+      "Dynamic Home Page with Search Functionality",
+      "Detailed Property Pages",
+      "Agent Profiles with Listings",
+      "Client Testimonials and Reviews Page"
+    ],
+    "totalPages": "10-15",
+    "idealFor": "Growing Real Estate Agencies Seeking to Enhance Online User Experience and Listing Visibility."
+  },
+  {
+    "name": "Premium Real Estate Agency Website Package",
+    "price": "$7,000 - $12,000",
+    "duration": "10 Weeks",
+    "features": [
+      "- Custom, High-End Web Design",
+      "- Interactive Maps and Virtual Tours",
+      "- CRM and Lead Management Integration",
+      "- Comprehensive SEO and Analytics Suite"
+    ],
+    "websiteIncludes": [
+      "Customized Landing Pages for Featured Properties",
+      "Neighborhood Guides and Market Trends",
+      "Advanced Search with Filters",
+      "Dedicated Resource Center for Buyers and Sellers"
+    ],
+    "totalPages": "20-30",
+    "idealFor": "Established Real Estate Firms Looking for a Comprehensive and Interactive Online Platform."
+  },
+  {
+    "name": "Elite Real Estate Digital Platform Package",
+    "price": "$15,000+",
+    "duration": "16+ Weeks",
+    "features": [
+      "- State-of-the-Art Platform Design",
+      "- Full-Scale Property Listing Database",
+      "- Automated Marketing and Lead Nurturing Tools",
+      "- Multi-Language Support for Global Reach"
+    ],
+    "websiteIncludes": [
+      "Ultra-Modern Home Page with Featured Properties",
+      "Extensive Property Database with User Accounts",
+      "Agent and Broker Profile Pages",
+      "Investor Relations and Market Analytics Section"
+    ],
+    "totalPages": "30+",
+    "idealFor": "Top-Tier Real Estate Agencies and Property Developers Needing an Advanced Digital Solution for Global Real Estate Markets."
+  }
 ];
-
 
 const RealEstate = () => {
   return (
@@ -102,12 +95,8 @@ const RealEstate = () => {
               </p>
             </div>
     
-         
-      
-
 <h4 className="text-4xl mt-2 font-semibold text-gray-800">Premier <span className="text-blue-400">Real Estate</span> Website Package</h4>
 <p className="text-md text-gray-700 mt-4">Elevate your property business with our Premier Real Estate Website Package. Designed for real estate agents, brokers, and property managers, this package offers a sophisticated platform to showcase properties, attract potential buyers or tenants, and streamline the real estate transaction process.</p>
-
 
       <div className="custom-category-card-container">
       <div class="custom-category-card">
