@@ -359,10 +359,10 @@ const Educational = () => {
     </Link>
 
           </div>
-        </div>
-
+{/* PURPLE BORDER BOTTOM */} 
+<div className="border-bottom-purple"></div>
+</div>
    );
 };
               
-
 export default Educational;
