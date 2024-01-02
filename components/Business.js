@@ -2,12 +2,10 @@ import React from 'react';
 import Link from 'next/link';
 
 const businessPackages = [
-  
   {
     "name": "Starter Business Website Package",
     "price": "$1,000 - $2,500",
     "duration": "5 Weeks",
-
     "features": [
       "- Up to 5 Pages | Home, About Us, Services, Contact, One Additional Page",
       "- Basic Template-Based Design",
@@ -17,35 +15,30 @@ const businessPackages = [
       "- Contact Form and Basic Location Map",
       "- Standard Security Features"
     ],
-
     "websiteIncludes": [
       "Home",
       "About Us",
       "Services",
       "Contact",
       "One additional page | Customizable, Typically used for Special Content"
-  
     ],
     "totalPages": "5",
     "idealFor": "Ideal for Small Businesses or Startups Needing a Basic Online Presence."
   },
-
   {
     "name": "Professional Business Website Package",
     "price": "$2,500 - $5,000",
     "duration": "16 Weeks",
-
     "features": [
-  "- Up to 10 Pages including a Blog or News Section",
-  "- Customized Design Aligned with Brand Identity",
-  "- Enhanced Mobile Responsiveness",
-  "- Basic CMS for Content Management",
-  "- Intermediate SEO Optimization",
-  "- Email Subscription Setup",
-  "- Basic Analytics Integration",
-  "- Enhanced Security Features"
+      "- Up to 10 Pages including a Blog or News Section",
+      "- Customized Design Aligned with Brand Identity",
+      "- Enhanced Mobile Responsiveness",
+      "- Basic CMS for Content Management",
+      "- Intermediate SEO Optimization",
+      "- Email Subscription Setup",
+      "- Basic Analytics Integration",
+      "- Enhanced Security Features"
     ],
-
     "websiteIncludes": [  
       "Home Page",
       "About Us Page",
@@ -59,12 +52,10 @@ const businessPackages = [
     "totalPages": "10",
     "idealFor": "Growing Businesses Requiring a More Robust Website for Expanding Their Online Presence."
   },
-
   {
     "name": "Advanced Business Website Package",
     "price": "$5,000 - $10,000",
     "duration": "20 Weeks",
-
     "features": [
       "- Up to 20 Pages with Advanced Functionalities",
       "- Fully Custom and Interactive Design",
@@ -76,7 +67,6 @@ const businessPackages = [
       "- Advanced Security Features like SSL Certificates",
       "- Ongoing Technical Support for a Specified Period"
     ],
-
     "websiteIncludes": [
       "Home Page",
       "About Us Page",
@@ -90,12 +80,10 @@ const businessPackages = [
     "totalPages": "20",
     "idealFor": "Established Businesses Seeking a Comprehensive and Dynamic Website to Reflect Their brand and Scale Operations."
   },
-
-{
+  {
     "name": "Enterprise Business Website Package",
     "price": "$10,000+",
     "duration": "6 Months",
-
     "features": [
       "- Unlimited Pages With Custom Functionalities",
       "- High-End Bespoke Design Tailored To Unique Brand Requirements",
@@ -107,7 +95,6 @@ const businessPackages = [
       "- Extensive Analytics, Reporting, And A/B Testing",
       "- Dedicated Project Management And Ongoing Support"
     ],
-
     "websiteIncludes": [
       "Home Page",
       "About Us Page",
@@ -130,9 +117,7 @@ const businessPackages = [
     "totalPages": "No Limit",
     "idealFor": "Large Corporations or Enterprises Requiring a Top-Tier Website with Extensive Customization, Integrations, and the Highest Level of Functionality."
   }
-
 ];
-
 
 const Business = () => {
   return (
