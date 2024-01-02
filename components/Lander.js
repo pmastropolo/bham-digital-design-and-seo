@@ -80,10 +80,10 @@ const Lander = () => {
         <div className="p-4 sm:p-3">
           <div className="bg-gradient-to-b from-orange-500 to-orange-600 rounded-lg overflow-hidden text-white text-center tracking-wide leading-tight hover:text-orange-200 transition-colors duration-300 p-8">
             <h1 className="text-3xl sm:text-4xl md:text-5xl lg:text-6xl font-bold">
-            The Ultimate Portfolio Experience
+            The Ultimate Landing Page
             </h1>
             <p className="text-sm sm:text-md md:text-lg text-gray-100 mt-2 sm:mt-4">
-            Craft, Showcase, Inspire: Your Portfolio, Your Story!
+            landing page web design
             </p>
           </div>
   
@@ -105,14 +105,6 @@ const Lander = () => {
   <span class="custom-category-title">Contact Forms</span>
   <div class="custom-category-description">
     Capture visitor information and inquiries with user-friendly contact forms.
-  </div>
-</div>
-
-<div class="custom-category-card">
-  <div class="custom-category-icon">🔍</div>
-  <span class="custom-category-title">SEO Optimization</span>
-  <div class="custom-category-description">
-    Improve your landing pages visibility in search engine results with basic SEO fundamentals.
   </div>
 </div>
 
@@ -149,14 +141,6 @@ const Lander = () => {
 </div>
 
 <div class="custom-category-card">
-  <div class="custom-category-icon">🎯</div>
-  <span class="custom-category-title">A/B Testing</span>
-  <div class="custom-category-description">
-    Maximize conversion rates through A/B testing, refining your landing page for better results.
-  </div>
-</div>
-
-<div class="custom-category-card">
   <div class="custom-category-icon">📧</div>
   <span class="custom-category-title">E-mail Marketing</span>
   <div class="custom-category-description">
@@ -172,83 +156,101 @@ const Lander = () => {
   </div>
 </div>
 
-<div class="custom-category-card">
-  <div class="custom-category-icon">📊</div>
-  <span class="custom-category-title">CRM Integration</span>
-  <div class="custom-category-description">
-    Efficiently manage leads with CRM integration, streamlining your lead management process.
-  </div>
-</div>
 
-<div class="custom-category-card">
-  <div class="custom-category-icon">🛠️</div>
-  <span class="custom-category-title">Ongoing Support</span>
-  <div class="custom-category-description">
-    Receive ongoing optimization, support, and strategic insights for your marketing campaigns.
-  </div>
-</div>
 </div>
 
 {/* BENEFITS SECTION */}
-<h5 className="text-2xl font-semibold text-gray-800 mt-6">Benefits</h5>
+<h5 className="text-2xl font-semibold text-gray-800 mt-6">Benefits of Owning a Landing Page Website</h5>
+<div className="mt-6">
+  <hr className="mb-3 mt-3" />
+  <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-4 mt-4 mb-6">
 
-{/* BENEFIT DESCRIPTIONS */}
-<p className="text-md text-gray-700 mt-4"><b>Boost Conversions</b><br></br>Increase your conversion rates with focused messaging.</p>
-<p className="text-md text-gray-700 mt-4"><b>Simplify Your Message</b><br></br>Deliver a clear, distraction-free pitch.</p>
-<p className="text-md text-gray-700 mt-4"><b>Collect Valuable Data</b><br></br>Gather insights to tailor your marketing.</p>
-<p className="text-md text-gray-700 mt-4"><b>Enhance Credibility</b><br></br>Build trust and professionalism.</p>
-<p className="text-md text-gray-700 mt-4"><b>Track Performance</b><br></br>Analyze metrics for informed decisions.</p>
-<p className="text-md text-gray-700 mt-4"><b>Increase ROI</b><br></br>Maximize returns on your marketing investment.</p>
+    {/* Boost Conversions Card */}
+    <div className="benefit-card">
+      <h6 className="title font-bold text-lg">Boost Conversions</h6>
+      <p className="description">Increase your conversion rates with focused messaging.</p>
+    </div>
+
+    {/* Simplify Your Message Card */}
+    <div className="benefit-card">
+      <h6 className="title font-bold text-lg">Simplify Your Message</h6>
+      <p className="description">Deliver a clear, distraction-free pitch.</p>
+    </div>
+
+    {/* Collect Valuable Data Card */}
+    <div className="benefit-card">
+      <h6 className="title font-bold text-lg">Collect Valuable Data</h6>
+      <p className="description">Gather insights to tailor your marketing.</p>
+    </div>
+
+    {/* Enhance Credibility Card */}
+    <div className="benefit-card">
+      <h6 className="title font-bold text-lg">Enhance Credibility</h6>
+      <p className="description">Build trust and professionalism.</p>
+    </div>
+
+    {/* Track Performance Card */}
+    <div className="benefit-card">
+      <h6 className="title font-bold text-lg">Track Performance</h6>
+      <p className="description">Analyze metrics for informed decisions.</p>
+    </div>
+
+    {/* Increase ROI Card */}
+    <div className="benefit-card">
+      <h6 className="title font-bold text-lg">Increase ROI</h6>
+      <p className="description">Maximize returns on your marketing investment.</p>
+    </div>
+
+  </div>
+</div>
+
 
 {/* IDEAL FOR */}
 <h5 className="text-2xl font-semibold text-gray-800 mt-6">Ideal For</h5>
-
 <div className="custom-category-card-container">
+
   {/* Startups */}
   <div className="custom-category-card">
-  <div className="custom-category-icon">🚀</div>
-  <span className="custom-category-title">Startups</span>
-  <div className="custom-category-descriphtion">
-    {/* Description for Startups */}
-    Get your new business off the ground quickly with our Basic Landing Page Design Package. Its perfect for startups looking to establish an online presence and capture initial customer interest.
+    <div className="custom-category-icon">🚀</div>
+    <span className="custom-category-title">Startups</span>
+    <div className="custom--description">
+      Quick-launch your startup with our basic design package for immediate online presence.
+    </div>
   </div>
-</div>
 
-{/* Small Businesses */}
-<div className="custom-category-card">
-  <div className="custom-category-icon">💼</div>
-  <span className="custom-category-title">Small Businesses</span>
-  <div className="custom-category-descrihption">
-    {/* Description for Small Businesses */}
-    Our Enhanced Landing Page Package with Analytics is tailored for small businesses. Generate leads and track visitor engagement to grow your customer base effectively.
+  {/* Small Businesses */}
+  <div className="custom-category-card">
+    <div className="custom-category-icon">💼</div>
+    <span className="custom-category-title">Small Businesses</span>
+    <div className="custom--description">
+      Grow your business with enhanced designs and analytics to generate and track leads.
+    </div>
   </div>
-</div>
 
-{/* Marketing Campaigns */}
-<div className="custom-category-card">
-  <div className="custom-category-icon">📈</div>
-  <span className="custom-category-title">Marketing Campaigns</span>
-  <div className="custom-category-descrihption">
-    {/* Description for Marketing Campaigns */}
-    The Premium Conversion-Optimized Landing Page Package is designed for marketing campaigns and product launches. Maximize conversion rates, integrate email marketing, and boost your online presence.
+  {/* Marketing Campaigns */}
+  <div className="custom-category-card">
+    <div className="custom-category-icon">📈</div>
+    <span className="custom-category-title">Marketing Campaigns</span>
+    <div className="custom--description">
+      Optimize conversions for campaigns and product launches with our premium package.
+    </div>
   </div>
-</div>
 
-{/* Digital Marketing Professionals */}
-<div className="custom-category-card">
-  <div className="custom-category-icon">🌐</div>
-  <span className="custom-category-title">Digital Marketing Professionals</span>
-  <div className="custom-category-descrhiption">
-    {/* Description for Digital Marketing Professionals */}
-    If youre a digital marketing professional handling large-scale campaigns, our Elite Full-Service Landing Page and Campaign Management package is ideal. It offers comprehensive strategies, multiple landing pages, and ongoing support to ensure your marketing efforts shine.
+  {/* Digital Marketing Professionals */}
+  <div className="custom-category-card">
+    <div className="custom-category-icon">🌐</div>
+    <span className="custom-category-title">Digital Marketing Professionals</span>
+    <div className="custom--description">
+      Our elite package offers end-to-end solutions for extensive campaign management.
+    </div>
   </div>
-</div>
+
 </div>
          
 {/* LANDING PAGE INFORMATION */}
 <p className="mt-6 text-md text-gray-700">
   Launch your next campaign with a high-converting landing page. Contact us at{' '}
-  <a href="mailto:services@bhamseoanddesignco.com">services@bhamseoanddesignco.com</a>, or click the button below for a detailed consultation.
+  <a href="mailto:services@bhamseoanddesignco.com" style={{ color: 'orange' }}>services@bhamseoanddesignco.com</a>, or click the button below for a detailed consultation.
 </p>
 
 <Link href="/contact" legacyBehavior>
