@@ -2,87 +2,82 @@ import React from 'react';
 import Link from 'next/link';
 
 const entertainmentPackageData = [
-
-        {
-                "name": "Entertainment Basics Web Package",
-                "price": "$1,000 - $2,500",
-                "duration": "4 Weeks",
-                "features": [
-                  "- Responsive Design for All Devices",
-                  "- Basic Event Listing and Information",
-                  "- Social Media Integration for Fan Engagement",
-                  "- Contact Form and Basic Booking Features"
-                ],
-                "websiteIncludes": [
-                  "Home Page with Introduction",
-                  "About Us Page for Background and History",
-                  "Events Calendar or Listing Page",
-                  "Contact and Booking Information Page"
-                ],
-                "totalPages": "4-6",
-                "idealFor": "Local Bands, Small Theaters, or Entertainment Startups Seeking Basic Online Presence."
-              },
-
-              {
-                "name": "Professional Entertainment Showcase Package",
-                "price": "$3,000 - $6,000",
-                "duration": "6 Weeks",
-                "features": [
-                  "- Custom Design with Multimedia Integration",
-                  "- Online Ticket Booking System",
-                  "- Advanced SEO for Better Online Visibility",
-                  "- Interactive Photo and Video Galleries"
-                ],
-                "websiteIncludes": [
-                  "Dynamic Home Page with Featured Content",
-                  "Detailed Event and Performance Pages",
-                  "Media Gallery with High-Quality Images and Videos",
-                  "Fan Interaction Section with Social Media Feeds"
-                ],
-                "totalPages": "8-12",
-                "idealFor": "Professional Entertainers, Medium-Sized Venues, or Entertainment Companies."
-              },
-
-              {
-                "name": "Advanced Entertainment Portal Package",
-                "price": "$7,000 - $10,000",
-                "duration": "8 Weeks",
-                "features": [
-                  "- High-End Custom Web Design",
-                  "- Integrated E-Commerce for Merchandise Sales",
-                  "- Comprehensive Event Management Tools",
-                  "- Email Marketing and Fan Club Features"
-                ],
-                "websiteIncludes": [
-                  "Custom Landing Pages for Different Entertainment Segments",
-                  "E-Commerce Section for Merchandise",
-                  "VIP and Fan Club Membership Areas",
-                  "Interactive Event Calendar with Online Booking"
-                ],
-                "totalPages": "15-20",
-                "idealFor": "Larger Entertainment Entities, Concert Venues, or Production Companies."
-              },
-
-              {
-                "name": "Elite Entertainment Experience Platform",
-                "price": "$12,000+",
-                "duration": "12+ Weeks",
-                "features": [
-                  "- State-of-the-Art Web and Mobile Experience",
-                  "- Virtual Event and Streaming Capabilities",
-                  "- Comprehensive CRM and Analytics Suite",
-                  "- Multi-Language Support for Global Audiences"
-                ],
-                "websiteIncludes": [
-                  "Sophisticated Main Portal with Interactive Features",
-                  "Dedicated Artist or Performer Pages",
-                  "Live Streaming and Virtual Event Features",
-                  "Advanced Ticketing and Reservation Systems"
-                ],
-                "totalPages": "20+",
-                "idealFor": "Major Entertainment Brands, Large Venues, and International Event Organizers."
-              }             
-
+  {
+    "name": "Entertainment Basics Web Package",
+    "price": "$1,000 - $2,500",
+    "duration": "4 Weeks",
+    "features": [
+      "- Responsive Design for All Devices",
+      "- Basic Event Listing and Information",
+      "- Social Media Integration for Fan Engagement",
+      "- Contact Form and Basic Booking Features"
+    ],
+    "websiteIncludes": [
+      "Home Page with Introduction",
+      "About Us Page for Background and History",
+      "Events Calendar or Listing Page",
+      "Contact and Booking Information Page"
+    ],
+    "totalPages": "4-6",
+    "idealFor": "Local Bands, Small Theaters, or Entertainment Startups Seeking Basic Online Presence."
+  },
+  {
+    "name": "Professional Entertainment Showcase Package",
+    "price": "$3,000 - $6,000",
+    "duration": "6 Weeks",
+    "features": [
+      "- Custom Design with Multimedia Integration",
+      "- Online Ticket Booking System",
+      "- Advanced SEO for Better Online Visibility",
+      "- Interactive Photo and Video Galleries"
+    ],
+    "websiteIncludes": [
+      "Dynamic Home Page with Featured Content",
+      "Detailed Event and Performance Pages",
+      "Media Gallery with High-Quality Images and Videos",
+      "Fan Interaction Section with Social Media Feeds"
+    ],
+    "totalPages": "8-12",
+    "idealFor": "Professional Entertainers, Medium-Sized Venues, or Entertainment Companies."
+  },
+  {
+    "name": "Advanced Entertainment Portal Package",
+    "price": "$7,000 - $10,000",
+    "duration": "8 Weeks",
+    "features": [
+      "- High-End Custom Web Design",
+      "- Integrated E-Commerce for Merchandise Sales",
+      "- Comprehensive Event Management Tools",
+      "- Email Marketing and Fan Club Features"
+    ],
+    "websiteIncludes": [
+      "Custom Landing Pages for Different Entertainment Segments",
+      "E-Commerce Section for Merchandise",
+      "VIP and Fan Club Membership Areas",
+      "Interactive Event Calendar with Online Booking"
+    ],
+    "totalPages": "15-20",
+    "idealFor": "Larger Entertainment Entities, Concert Venues, or Production Companies."
+  },
+  {
+    "name": "Elite Entertainment Experience Platform",
+    "price": "$12,000+",
+    "duration": "12+ Weeks",
+    "features": [
+      "- State-of-the-Art Web and Mobile Experience",
+      "- Virtual Event and Streaming Capabilities",
+      "- Comprehensive CRM and Analytics Suite",
+      "- Multi-Language Support for Global Audiences"
+    ],
+    "websiteIncludes": [
+      "Sophisticated Main Portal with Interactive Features",
+      "Dedicated Artist or Performer Pages",
+      "Live Streaming and Virtual Event Features",
+      "Advanced Ticketing and Reservation Systems"
+    ],
+    "totalPages": "20+",
+    "idealFor": "Major Entertainment Brands, Large Venues, and International Event Organizers."
+  }
 ];
 
 const Entertainment = () => {
