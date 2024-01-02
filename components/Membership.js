@@ -2,96 +2,88 @@ import React from 'react';
 import Link from 'next/link';
 
 const membershipPackages = [
-
-        {
-                "name": "Basic Membership Starter Package",
-                "price": "$1,500 - $3,000",
-                "duration": "4 Weeks",
-                "features": [
-                  "- User-Friendly Membership Sign-Up",
-                  "- Basic Member Profile Management",
-                  "- Mobile-Responsive Design",
-                  "- Simple Member-Only Content Access"
-                ],
-                "websiteIncludes": [
-                  "Home Page with Membership Overview",
-                  "About Page with Organization Information",
-                  "Membership Sign-Up Page",
-                  "Members-Only Blog or News Section"
-                ],
-                "totalPages": "5-7",
-                "idealFor": "Small Clubs, Groups, or Communities Starting Their Membership Platform Online."
-              },
-
-              {
-                "name": "Enhanced Membership Engagement Package",
-                "price": "$3,500 - $6,000",
-                "duration": "6 Weeks",
-                "features": [
-                  "- Advanced Membership Profiles",
-                  "- Interactive Event Calendar",
-                  "- Member Forums or Discussion Boards",
-                  "- Email Integration for Newsletters"
-                ],
-                "websiteIncludes": [
-                  "Dynamic Home Page with Member Features",
-                  "Detailed About and FAQ Sections",
-                  "Event Listings and Registration",
-                  "Member Directory and Forums"
-                ],
-                "totalPages": "10-15",
-                "idealFor": "Growing Organizations and Networks Looking to Boost Member Engagement and Provide More Value."
-              },
-
-              {
-                "name": "Premium Membership Experience Package",
-                "price": "$7,000 - $10,000",
-                "duration": "8 Weeks",
-                "features": [
-                  "- Custom Design Tailored to Community",
-                  "- Advanced Member Dashboard",
-                  "- Online Payment and Subscription Management",
-                  "- Integrated Social Media Features"
-                ],
-                "websiteIncludes": [
-                  "Customized Landing Pages for Members",
-                  "Resource Library or Knowledge Base",
-                  "Membership Tier and Benefits Pages",
-                  "Interactive Member Activities and Rewards Section"
-                ],
-                "totalPages": "15-20",
-                "idealFor": "Mid-Sized to Large Organizations Seeking a Premium Online Experience for Members."
-              },
-              
-              {
-                "name": "Elite Membership Platform Suite",
-                "price": "$12,000+",
-                "duration": "12+ Weeks",
-                "features": [
-                  "- State-of-the-Art Platform Features",
-                  "- Comprehensive CRM and Member Analytics",
-                  "- Mobile App Integration",
-                  "- Multi-Layered Security and Data Protection"
-                ],
-                "websiteIncludes": [
-                  "Advanced Custom Interface and User Experience",
-                  "Extensive Member Management Tools",
-                  "E-Commerce Integration for Merchandise and Subscriptions",
-                  "Custom API Integrations and Tech Support"
-                ],
-                "totalPages": "20+",
-                "idealFor": "Large Scale Membership Organizations and Clubs Needing a Comprehensive and Fully-Integrated Online System."
-              }
-        ];     
-              
-
+  {
+    "name": "Basic Membership Starter Package",
+    "price": "$1,500 - $3,000",
+    "duration": "4 Weeks",
+    "features": [
+      "- User-Friendly Membership Sign-Up",
+      "- Basic Member Profile Management",
+      "- Mobile-Responsive Design",
+      "- Simple Member-Only Content Access"
+    ],
+    "websiteIncludes": [
+      "Home Page with Membership Overview",
+      "About Page with Organization Information",
+      "Membership Sign-Up Page",
+      "Members-Only Blog or News Section"
+    ],
+    "totalPages": "5-7",
+    "idealFor": "Small Clubs, Groups, or Communities Starting Their Membership Platform Online."
+  },
+  {
+    "name": "Enhanced Membership Engagement Package",
+    "price": "$3,500 - $6,000",
+    "duration": "6 Weeks",
+    "features": [
+      "- Advanced Membership Profiles",
+      "- Interactive Event Calendar",
+      "- Member Forums or Discussion Boards",
+      "- Email Integration for Newsletters"
+    ],
+    "websiteIncludes": [
+      "Dynamic Home Page with Member Features",
+      "Detailed About and FAQ Sections",
+      "Event Listings and Registration",
+      "Member Directory and Forums"
+    ],
+    "totalPages": "10-15",
+    "idealFor": "Growing Organizations and Networks Looking to Boost Member Engagement and Provide More Value."
+  },
+  {
+    "name": "Premium Membership Experience Package",
+    "price": "$7,000 - $10,000",
+    "duration": "8 Weeks",
+    "features": [
+      "- Custom Design Tailored to Community",
+      "- Advanced Member Dashboard",
+      "- Online Payment and Subscription Management",
+      "- Integrated Social Media Features"
+    ],
+    "websiteIncludes": [
+      "Customized Landing Pages for Members",
+      "Resource Library or Knowledge Base",
+      "Membership Tier and Benefits Pages",
+      "Interactive Member Activities and Rewards Section"
+    ],
+    "totalPages": "15-20",
+    "idealFor": "Mid-Sized to Large Organizations Seeking a Premium Online Experience for Members."
+  },
+  {
+    "name": "Elite Membership Platform Suite",
+    "price": "$12,000+",
+    "duration": "12+ Weeks",
+    "features": [
+      "- State-of-the-Art Platform Features",
+      "- Comprehensive CRM and Member Analytics",
+      "- Mobile App Integration",
+      "- Multi-Layered Security and Data Protection"
+    ],
+    "websiteIncludes": [
+      "Advanced Custom Interface and User Experience",
+      "Extensive Member Management Tools",
+      "E-Commerce Integration for Merchandise and Subscriptions",
+      "Custom API Integrations and Tech Support"
+    ],
+    "totalPages": "20+",
+    "idealFor": "Large Scale Membership Organizations and Clubs Needing a Comprehensive and Fully-Integrated Online System."
+  }
+];  
 
 const Membership = () => {
   return (
 
-
-
-      <div>
+<div>
                   <div className="bg-white rounded-lg overflow-hidden shadow-md" style={{ boxShadow: "2px 6px 8px rgba(255, 255, 0, 0.4)" }}>
                     <div className="p-4 sm:p-3">
                       <div className="bg-gradient-to-b from-yellow-500 to-yellow-600 rounded-lg overflow-hidden text-white text-center tracking-wide leading-tight hover:text-yellow-950 transition-colors duration-300 p-8">
@@ -103,15 +95,10 @@ const Membership = () => {
                         </p>
                       </div>
               
-      <h4 className="text-4xl mt-4 font-semibold text-gray-800">Exclusive<span className="text-yellow-500"> Membership</span> Website Package</h4>
-
-
-      <p className="text-md text-gray-700 mt-4">Foster a vibrant community with our Exclusive Membership Website Package. This package is ideal for organizations, clubs, and online platforms looking to build and manage a membership-based community, offering exclusive content, services, or products to their members.</p>
+<h4 className="text-4xl mt-4 font-semibold text-gray-800">Exclusive<span className="text-yellow-500"> Membership</span> Website Package</h4>
+<p className="text-md text-gray-700 mt-4">Foster a vibrant community with our Exclusive Membership Website Package. This package is ideal for organizations, clubs, and online platforms looking to build and manage a membership-based community, offering exclusive content, services, or products to their members.</p>
       
-
-
-
-      <div className="custom-category-card-container">
+<div className="custom-category-card-container">
       <div class="custom-category-card">
   <div class="custom-category-icon">🤝</div>
   <span class="custom-category-title">User-Friendly Membership Sign-Up</span>
