@@ -1,142 +1,127 @@
 import React from 'react';
 import Link from 'next/link';
 
-
 const portfolioPackages = [
-  
   {
     "name": "Basic Portfolio Website Package",
-    "price": " $500 - $1,500",
+    "price": "$500 - $1,500",
     "duration": "3 Weeks",
-
     "features": [
-  "- Up To 5 Pages | Home, About, Portfolio, Blog, Contact",
-  "- Selection Of Basic Design Templates",
-  "- Mobile-Responsive Design",
-  "- Gallery Or Portfolio Section To Showcase Work",
-  "- Basic SEO Setup",
-  "- Social Media Integration",
-  "- Simple Contact Form"
+      "- Up To 5 Pages | Home, About, Portfolio, Blog, Contact",
+      "- Selection Of Basic Design Templates",
+      "- Mobile-Responsive Design",
+      "- Gallery Or Portfolio Section To Showcase Work",
+      "- Basic SEO Setup",
+      "- Social Media Integration",
+      "- Simple Contact Form"
     ],
-
     "websiteIncludes": [
-        "Home Page",
-        "About Page",
-        "Portfolio Page",
-        "Blog Page",
-        "Contact Page"
-  
+      "Home Page",
+      "About Page",
+      "Portfolio Page",
+      "Blog Page",
+      "Contact Page"
     ],
     "totalPages": "5",
     "idealFor": "New Professionals, Freelancers, Or Artists Wanting To Establish An Online Presence."
   },
-
   {
     "name": "Professional Portfolio Website Package",
     "price": "$1,500 - $3,000",
     "duration": "8 Weeks",
-
     "features": [
-        "- Up To 10 Pages With Enhanced Design Options",
-        "- Customized Design To Align With Personal Branding",
-        "- Interactive Portfolio With Categorization",
-        "- Blog Integration For Content Marketing",
-        "- Enhanced SEO Optimization",
-        "- CMS For Easy Content Updates",
-        "- Basic Analytics For Visitor Tracking"
+      "- Up To 10 Pages With Enhanced Design Options",
+      "- Customized Design To Align With Personal Branding",
+      "- Interactive Portfolio With Categorization",
+      "- Blog Integration For Content Marketing",
+      "- Enhanced SEO Optimization",
+      "- CMS For Easy Content Updates",
+      "- Basic Analytics For Visitor Tracking"
     ],
-
     "websiteIncludes": [  
-        "Home Page",
-        "About Me/Us Page",
-        "Portfolio Page",
-        "Blog Page",
-        "Contact Page",
-        "Services Page",
-        "Testimonials Page",
-        "FAQ Page",
-        "Privacy Policy Page",
-        "Custom Page"
+      "Home Page",
+      "About Me/Us Page",
+      "Portfolio Page",
+      "Blog Page",
+      "Contact Page",
+      "Services Page",
+      "Testimonials Page",
+      "FAQ Page",
+      "Privacy Policy Page",
+      "Custom Page"
     ],
     "totalPages": "10",
     "idealFor": "Ideal For Established Professionals Or Creative Individuals Seeking A More Refined And Robust Platform To Showcase Their Work."
   },
-
   {
     "name": "Premium Portfolio Website Package",
     "price": "$3,000 - $6,000",
     "duration": "12 Weeks",
-
     "features": [
-        "- Up To 15 Pages With Advanced Functionality",
-        "- Fully Custom And Interactive Website Design",
-        "- Advanced Portfolio Features (E.G., High-Quality Image Galleries, Video Integration)",
-        "- Comprehensive SEO Strategy",
-        "- Advanced CMS With Rich Content Management",
-        "- Email Marketing And Subscription Setup",
-        "- Enhanced Security Features",
-        "- Detailed Analytics And Performance Reports"
+      "- Up To 15 Pages With Advanced Functionality",
+      "- Fully Custom And Interactive Website Design",
+      "- Advanced Portfolio Features (E.G., High-Quality Image Galleries, Video Integration)",
+      "- Comprehensive SEO Strategy",
+      "- Advanced CMS With Rich Content Management",
+      "- Email Marketing And Subscription Setup",
+      "- Enhanced Security Features",
+      "- Detailed Analytics And Performance Reports"
     ],
-
     "websiteIncludes": [
-        "Home Page",
-        "About Me/Us Page",
-        "Individual Portfolio Pages (Multiple)",
-        "Blog Page",
-        "Contact Page",
-        "Services Page",
-        "Client Testimonials Page",
-        "FAQ Page",
-        "Privacy Policy Page",
-        "Gallery Page",
-        "Video Showcase Page",
-        "Custom Integration Page",
-        "Email Marketing Page",
-        "Security Information Page",
-        "Custom Page"
+      "Home Page",
+      "About Me/Us Page",
+      "Individual Portfolio Pages (Multiple)",
+      "Blog Page",
+      "Contact Page",
+      "Services Page",
+      "Client Testimonials Page",
+      "FAQ Page",
+      "Privacy Policy Page",
+      "Gallery Page",
+      "Video Showcase Page",
+      "Custom Integration Page",
+      "Email Marketing Page",
+      "Security Information Page",
+      "Custom Page"
     ],
     "totalPages": "15",
     "idealFor": "High-Profile Professionals, Seasoned Freelancers, Or Artists Who Require A Top-Tier Portfolio Website With Advanced Features."
   },
-
   {
-        "name": "Elite Portfolio Website Package",
-        "price": "$6,000+",
-        "duration": "24 Weeks",
-    
-        "features": [
-                "- Unlimited Pages With Bespoke Functionalities",
-                "- High-End, Unique Design Tailored To Specific Needs And Brand Identity",
-                "- Advanced Interactive Portfolio Showcases (VR/AR Capabilities, 3D Models, Etc.)",
-                "- Full-Scale SEO And Digital Marketing Services",
-                "- Multilingual Support For International Reach",
-                "- Custom Integrations (E.G., Client Portals, CRM Systems)",
-                "- Comprehensive Security And Regular Maintenance",
-                "- Ongoing Technical Support And Content Updates"
-        ],
-    
-        "websiteIncludes": [
-                "Home Page",
-                "About Me/Us Page",
-                "Advanced Portfolio Pages (Multiple, With VR/AR Capabilities)",
-                "Multilingual Pages",
-                "Blog Page",
-                "Contact Page",
-                "Services Page",
-                "Client Portal Page",
-                "Custom CRM Integration Page",
-                "SEO and Marketing Pages",
-                "Security and Maintenance Info Page",
-                "Technical Support Page",
-                "Content Update Page",
-                "Privacy Policy Page",
-                "Terms and Conditions Page",
-                "Any Additional Custom Pages As Required"
-        ],
-        "totalPages": "Unlimted",
-        "idealFor": "Perfect for Top-Level Professionals, Renowned Artists, Or Influencers Needing A Highly Personalized And Feature-Rich Website To Match Their Stature"
-      }
-
+    "name": "Elite Portfolio Website Package",
+    "price": "$6,000+",
+    "duration": "24 Weeks",
+    "features": [
+      "- Unlimited Pages With Bespoke Functionalities",
+      "- High-End, Unique Design Tailored To Specific Needs And Brand Identity",
+      "- Advanced Interactive Portfolio Showcases (VR/AR Capabilities, 3D Models, Etc.)",
+      "- Full-Scale SEO And Digital Marketing Services",
+      "- Multilingual Support For International Reach",
+      "- Custom Integrations (E.G., Client Portals, CRM Systems)",
+      "- Comprehensive Security And Regular Maintenance",
+      "- Ongoing Technical Support And Content Updates"
+    ],
+    "websiteIncludes": [
+      "Home Page",
+      "About Me/Us Page",
+      "Advanced Portfolio Pages (Multiple, With VR/AR Capabilities)",
+      "Multilingual Pages",
+      "Blog Page",
+      "Contact Page",
+      "Services Page",
+      "Client Portal Page",
+      "Custom CRM Integration Page",
+      "SEO and Marketing Pages",
+      "Security and Maintenance Info Page",
+      "Technical Support Page",
+      "Content Update Page",
+      "Privacy Policy Page",
+      "Terms and Conditions Page",
+      "Any Additional Custom Pages As Required"
+    ],
+    "totalPages": "Unlimited",
+    "idealFor": "Perfect for Top-Level Professionals, Renowned Artists, Or Influencers Needing A Highly Personalized And Feature-Rich Website To Match Their Stature"
+  }
 ];
 
 const Portfolio = () => {
@@ -154,10 +139,9 @@ const Portfolio = () => {
                         </p>
                       </div>
               
-      <h4 className="text-4xl mt-4 font-semibold text-gray-800">Stunning<span className="text-yellow-700"> Portfolio</span> Website Package</h4>
-      <p className="text-md text-gray-700 mt-4">Dazzle the digital world with our Stunning Portfolio Website Package. This exclusive offering is meticulously designed to empower individuals and professionals from various creative domains. Elevate your online presence and leave an indelible mark in your industry with a captivating and visually immersive digital portfolio</p>
-      
-     
+<h4 className="text-4xl mt-4 font-semibold text-gray-800">Stunning<span className="text-yellow-700"> Portfolio</span> Website Package</h4>
+<p className="text-md text-gray-700 mt-4">Dazzle the digital world with our Stunning Portfolio Website Package. This exclusive offering is meticulously designed to empower individuals and professionals from various creative domains. Elevate your online presence and leave an indelible mark in your industry with a captivating and visually immersive digital portfolio</p>
+          
 <div className="custom-category-card-container">
 <div class="custom-category-card">
   <div class="custom-category-icon">📄</div>
