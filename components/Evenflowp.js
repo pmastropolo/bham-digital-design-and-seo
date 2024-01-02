@@ -21,7 +21,6 @@ const evenflowpdata = [
     "totalPages": "4-6",
     "idealFor": "Local and Community Events, Small Gatherings."
   },
-
   {
     "name": "Professional Event Promotion Package",
     "price": "$2,500 - $5,000",
@@ -60,7 +59,6 @@ const evenflowpdata = [
     "totalPages": "15-20",
     "idealFor": "Large-Scale Events, Trade Shows, and Industry Expos."
   },
-
   {
     "name": "Elite Full-Service Event Digital Platform",
     "price": "$12,000+",
@@ -80,7 +78,6 @@ const evenflowpdata = [
     "totalPages": "20+",
     "idealFor": "National and International Event Series, Large Music and Arts Festivals."
   }
-  
 ];
 
 const Evenflowp = () => {
