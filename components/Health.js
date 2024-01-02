@@ -98,108 +98,82 @@ const Health = () => {
 <h4 className="text-4xl font-semibold text-gray-800 mt-4">Comprehensive <span className="text-gray-400">Health</span> Web Design Package</h4>
 <p className="text-md text-gray-700 mt-2 mb-2">Promote a healthier lifestyle and well-being with our Wellness and Health Website Package. This package is perfect for healthcare providers, fitness trainers, wellness coaches, and anyone looking to create an informative and engaging online presence in the health and wellness industry.</p>
                 
-{/* Container for custom category cards */}
-<div className="custom-category-card-container">
 
-  {/* Healthcare Providers */}
+<div className="custom-category-card-container">
+  {/* Healthcare Providers and Fitness Trainers */}
   <div className="custom-category-card">
-    <div className="custom-category-icon">🏥</div>
-    <span className="custom-category-title">Healthcare Providers</span>
+    <div className="custom-category-icon">🏥🏋️‍♂️</div>
+    <span className="custom-category-title">Healthcare Providers & Fitness Trainers</span>
     <div className="custom-category-description">
-      Promote a healthier lifestyle and well-being with our Wellness and Health Website Package. This package offers aesthetically pleasing layouts tailored to health and wellness themes.
+      Perfect for healthcare and fitness professionals looking to promote wellness and provide health information online.
     </div>
   </div>
-  {/* Fitness Trainers */}
+
+  {/* Wellness Coaches and Easy Scheduling */}
   <div className="custom-category-card">
-    <div className="custom-category-icon">🏋️‍♂️</div>
-    <span className="custom-category-title">Fitness Trainers</span>
+    <div className="custom-category-icon">🧘‍♀️📅</div>
+    <span className="custom-category-title">Wellness Coaches & Easy Scheduling</span>
     <div className="custom-category-description">
-      Create an informative and engaging online presence in the health and wellness industry with our Wellness and Health Website Package. Share valuable health tips, articles, and insights with an integrated blog.
+      Ideal for wellness coaches offering seamless scheduling for consultations and sessions.
     </div>
   </div>
-  {/* Wellness Coaches */}
+
+  {/* Professional Design and Mobile-Responsive Layout */}
   <div className="custom-category-card">
-    <div className="custom-category-icon">🧘‍♀️</div>
-    <span className="custom-category-title">Wellness Coaches</span>
+    <div className="custom-category-icon">✨📱</div>
+    <span className="custom-category-title">Professional Design & Mobile-Responsive Layout</span>
     <div className="custom-category-description">
-      Prioritize health and well-being with our Wellness and Health Website Package. It ensures a seamless experience across all devices for all users.
+      Stylish and responsive website designs to capture your audiences attention on any device.
     </div>
   </div>
-  {/* Easy Scheduling */}
+
+  {/* SEO and Informative Content */}
   <div className="custom-category-card">
-    <div className="custom-category-icon">📅</div>
-    <span className="custom-category-title">Easy Scheduling</span>
+    <div className="custom-category-icon">🚀📚</div>
+    <span className="custom-category-title">SEO & Informative Content</span>
     <div className="custom-category-description">
-      Make appointment scheduling easy with our Wellness and Health Website Package. It includes features for consultations or sessions.
+      Enhance your online visibility with SEO and provide valuable health and wellness content.
     </div>
   </div>
-{/* Professional Design */}
-<div class="custom-category-card">
-  <div class="custom-category-icon">✨</div>
-  <span class="custom-category-title">Professional Design</span>
-  <div class="custom-category-description">
-    Transform your health website with a stunning and professional design that captures your audiences attention.
+
+  {/* Contact Features and Health Blog */}
+  <div className="custom-category-card">
+    <div className="custom-category-icon">📅💡</div>
+    <span className="custom-category-title">Contact Features & Health Blog</span>
+    <div className="custom-category-description">
+      Easy contact and booking features combined with an informative health blog or tips section.
+    </div>
   </div>
-</div>
-{/* Mobile-Responsive Layout */}
-<div class="custom-category-card">
-  <div class="custom-category-icon">📱</div>
-  <span class="custom-category-title">Mobile-Responsive Layout</span>
-  <div class="custom-category-description">
-    Your website will look great on any device! Our mobile-responsive design ensures that visitors have a seamless experience on smartphones and tablets.
+
+  {/* Customization and Patient Engagement */}
+  <div className="custom-category-card">
+    <div className="custom-category-icon">🛠️🤝</div>
+    <span className="custom-category-title">Customization & Patient Engagement</span>
+    <div className="custom-category-description">
+      Tailored website solutions to engage patients with testimonials, reviews, and resources.
+    </div>
   </div>
-</div>
-{/* Search Engine Optimization (SEO) */}
-<div class="custom-category-card">
-  <div class="custom-category-icon">🚀</div>
-  <span class="custom-category-title">Search Engine Optimization (SEO)</span>
-  <div class="custom-category-description">
-    We will boost your online visibility with basic SEO techniques, making it easier for potential clients to find you in local searches.
+
+  {/* Interactive Features */}
+  <div className="custom-category-card">
+    <div className="custom-category-icon">📱🖥️</div>
+    <span className="custom-category-title">Interactive Features</span>
+    <div className="custom-category-description">
+      Engage your audience with interactive elements like quizzes, polls, and live chats.
+    </div>
   </div>
-</div>
-{/* Informative Content */}
-<div class="custom-category-card">
-  <div class="custom-category-icon">📚</div>
-  <span class="custom-category-title">Informative Content</span>
-  <div class="custom-category-description">
-    Educate and inform your audience with content tailored to the health and wellness industry, providing valuable insights.
+
+  {/* Analytics and CRM */}
+  <div className="custom-category-card">
+    <div className="custom-category-icon">📊</div>
+    <span className="custom-category-title">Analytics & CRM</span>
+    <div className="custom-category-description">
+      Gain valuable insights and manage your audience efficiently with CRM and analytics tools.
+    </div>
   </div>
-</div>
-{/* Contact/Booking Features card */}
-<div class="custom-category-card">
-  <div class="custom-category-icon">📅</div>
-  <span class="custom-category-title">Contact and Booking Features</span>
-  <div class="custom-category-description">
-    Stay connected with clients using convenient contact forms and appointment booking systems that simplify communication.
-  </div>
-</div>
-{/* Health Blog or Tips card */}
-<div class="custom-category-card">
-  <div class="custom-category-icon">💡</div>
-  <span class="custom-category-title">Health Blog or Tips Section</span>
-  <div class="custom-category-description">
-    Share your expertise with a dedicated health blog or tips section, offering valuable advice and guidance to your audience.
-  </div>
-</div>
-{/* Customization card */}
-<div class="custom-category-card">
-  <div class="custom-category-icon">🛠️</div>
-  <span class="custom-category-title">Customization</span>
-  <div class="custom-category-description">
-    We tailor your website to meet your unique needs, whether youre a healthcare provider, clinic, or wellness coach.
-  </div>
-</div>
- {/* Patient Engagement card */}
-<div class="custom-category-card">
-  <div class="custom-category-icon">🤝</div>
-  <span class="custom-category-title">Patient Engagement</span>
-  <div class="custom-category-description">
-    Engage your patients with features like testimonials, reviews, and educational resources, building trust and loyalty.
-  </div>
-</div>
 
 {/* Subheading for the section 'Why Invest?' */}
-<h5 className="text-2xl font-semibold text-gray-800 mt-6">Why Invest?</h5>
+<h5 className="text-2xl font-semibold text-gray-800 mt-6">Benefits of Owning a Health & Wellness Website</h5>
 <div className="grid grid-cols-1 md:grid-cols-2 gap-6">
  {/* Professionalism card */}
  <div className="bg-white rounded-lg overflow-hidden shadow-md mt-6">
@@ -251,7 +225,7 @@ const Health = () => {
 
 {/* Contact link */}
 <Link href="/contact" legacyBehavior>
-<a className="inline-block mt-4 bg-gradient-to-r from-gray-600 to-gray-800 hover:from-gray-800 hover:to-gray-600 text-white text-lg py-3 px-8 rounded-full transition duration-300 ease-in-out transform hover:-translate-y-1 shadow-lg">
+<a className="inline-block mt-4 mb-4 bg-gradient-to-r from-gray-600 to-gray-800 hover:from-gray-800 hover:to-gray-600 text-white text-lg py-3 px-8 rounded-full transition duration-300 ease-in-out transform hover:-translate-y-1 shadow-lg">
 Prioritize Health
 </a>
 </Link>
@@ -336,6 +310,7 @@ Request a Free Price Quote
 </Link>
 
 </div>
+
 
 {/* GRAY BORDER BOTTOM */} 
 <div className="border-bottom-gray"></div>
