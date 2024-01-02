@@ -97,115 +97,93 @@ const Entertainment = () => {
 <h4 className="text-4xl mt-4 font-semibold text-gray-800">Vibrant<span className="text-indigo-400"> Entertainment</span> Website Package</h4>
 <p className="text-md text-gray-700 mt-4 mb-6">Engage and captivate your audience with our Vibrant Entertainment Website Package. This package is perfectly suited for artists, performers, event organizers, and entertainment companies looking to create an engaging, visually stunning, and interactive online presence.</p>
 
+{/* Custom Category Card Container */}
 <div className="custom-category-card-container">
 
-{/* Responsive Design CARD */}
-<div class="custom-category-card">
-<div class="custom-category-icon">🖥️</div>
-  <span class="custom-category-title">Responsive Design</span>
-  <div class="custom-category-description">
-    Your website will look great and function smoothly on desktops, tablets, and mobile devices.
+  {/* Responsive Design Card */}
+  {/* React comment: Responsive Design Feature */}
+  <div class="custom-category-card">
+    <div class="custom-category-icon">🖥️</div>
+    <span class="custom-category-title">Responsive Design</span>
+    <div class="custom-category-description">
+      Your website will look great and function smoothly on all devices.
+    </div>
+  </div>
+
+  {/* Social Media Integration Card */}
+  {/* React comment: Social Media Integration Feature */}
+  <div class="custom-category-card">
+    <div class="custom-category-icon">📱</div>
+    <span class="custom-category-title">Social Media Integration</span>
+    <div class="custom-category-description">
+      Connect with your audience through seamless integration with social media platforms.
+    </div>
+  </div>
+
+  {/* Contact Form Card */}
+  {/* React comment: Contact Form Feature */}
+  <div class="custom-category-card">
+    <div class="custom-category-icon">📝</div>
+    <span class="custom-category-title">Contact Form</span>
+    <div class="custom-category-description">
+      Make it easy for fans and clients to get in touch with you or inquire about bookings.
+    </div>
+  </div>
+
+  {/* Multimedia Integration Card */}
+  {/* React comment: Multimedia Integration Feature */}
+  <div class="custom-category-card">
+    <div class="custom-category-icon">📸</div>
+    <span class="custom-category-title">Multimedia Integration</span>
+    <div class="custom-category-description">
+      Showcase your talent with high-quality images, videos, and interactive media galleries.
+    </div>
+  </div>
+
+  {/* Event Management Card */}
+  {/* React comment: Event Listing and Comprehensive Event Management Feature */}
+  <div class="custom-category-card">
+    <div class="custom-category-icon">📅</div>
+    <span class="custom-category-title">Event Management</span>
+    <div class="custom-category-description">
+      List your events and manage them efficiently with powerful tools.
+    </div>
+  </div>
+
+  {/* Online Ticket Booking and E-Commerce Card */}
+  {/* React comment: Online Ticket Booking and E-Commerce Feature */}
+  <div class="custom-category-card">
+    <div class="custom-category-icon">🎫</div>
+    <span class="custom-category-title">Ticket Booking & E-Commerce</span>
+    <div class="custom-category-description">
+      Enable online ticket booking and sell products related to your entertainment brand.
+    </div>
+  </div>
+
+  {/* Fan Engagement Card */}
+  {/* React comment: Fan Engagement Feature */}
+  <div class="custom-category-card">
+    <div class="custom-category-icon">🎉</div>
+    <span class="custom-category-title">Fan Engagement</span>
+    <div class="custom-category-description">
+      Interact with your fans through social media feeds and engagement features.
+    </div>
+  </div>
+
+  {/* VIP and Membership Areas Card */}
+  {/* React comment: VIP and Fan Club Membership Areas Feature */}
+  <div class="custom-category-card">
+    <div class="custom-category-icon">🌟</div>
+    <span class="custom-category-title">VIP & Membership Areas</span>
+    <div class="custom-category-description">
+      Create exclusive spaces for your loyal supporters and fans.
+    </div>
   </div>
 </div>
 
-{/* SOCIAL MEDIA CARD */}
-<div class="custom-category-card">
-<div class="custom-category-icon">📱</div>
-<span class="custom-category-title">Social Media Integration</span>
-<div class="custom-category-description">
-Connect with your audience through seamless integration with popular social media platforms.
-</div>
-</div>
-
-{/* CONTACT FORM CARD */}
-<div class="custom-category-card">
-<div class="custom-category-icon">📝</div>
-<span class="custom-category-title">Contact Form</span>
-<div class="custom-category-description">
-Make it easy for fans and clients to get in touch with you or inquire about bookings.
-</div>
-</div>
-
-{/* MULTIMEDIA CARD */}
-<div class="custom-category-card">
-<div class="custom-category-icon">📸</div>
-<span class="custom-category-title">Multimedia Integration</span>
-<div class="custom-category-description">
-Showcase your talent with high-quality images, videos, and interactive media galleries.
-</div>
-</div>
-
-{/* EVENT LISTING CARD */}
-<div class="custom-category-card">
-<div class="custom-category-icon">📅</div>
-<span class="custom-category-title">Event Listing and Information</span>
-<div class="custom-category-description">
-Keep your audience informed about upcoming events, performances, and shows.
-</div>
-</div>
-
-{/* ONLINE TICKET BOOKING CARD */}
-<div class="custom-category-card">
-<div class="custom-category-icon">🎫</div>
-<span class="custom-category-title">Online Ticket Booking System</span>
-<div class="custom-category-description">
-Enable fans to purchase tickets or book seats for your events conveniently.
-</div>
-</div>
-
-<div class="custom-category-card">
-<div class="custom-category-icon">🌐</div>
-<span class="custom-category-title">Advanced SEO</span>
-<div class="custom-category-description">
-Improve online visibility and reach a wider audience through search engine optimization.
-</div>
-</div>
-
-<div class="custom-category-card">
-<div class="custom-category-icon">🎉</div>
-<span class="custom-category-title">Fan Engagement</span>
-<div class="custom-category-description">
-Interact with your fans and followers through social media feeds and engagement features.
-</div>
-</div>
-
-<div class="custom-category-card">
-<div class="custom-category-icon">💼</div>
-<span class="custom-category-title">E-Commerce for Merchandise Sales</span>
-<div class="custom-category-description">
-Sell merchandise, tickets, or other products related to your entertainment brand.
-</div>
-</div>
-
-<div class="custom-category-card">
-<div class="custom-category-icon">📊</div>
-<span class="custom-category-title">Comprehensive Event Management</span>
-<div class="custom-category-description">
-Efficiently manage and promote your events with powerful tools.
-</div>
-</div>
-
-<div class="custom-category-card">
-<div class="custom-category-icon">🌟</div>
-<span class="custom-category-title">VIP and Fan Club Membership Areas</span>
-<div class="custom-category-description">
-Create exclusive spaces for your loyal supporters and fans.
-</div>
-</div>
-
-<div class="custom-category-card">
-<div class="custom-category-icon">🌍</div>
-<span class="custom-category-title">Multi-Language Support</span>
-<div class="custom-category-description">
-Reach a global audience by offering your website in multiple languages.
-</div>
-</div>
-</div>
-
-
 {/* BENEFITS section */}
 <div className="mt-6">
-  <h5 className="text-3xl font-semibold text-gray-800">Benefits</h5>
+  <h5 className="text-3xl font-semibold text-gray-800">Benefits of Owning an Entertainment Website</h5>
   <hr className="mb-3 mt-3" />
   <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-4 mt-4 mb-6">
 
@@ -238,109 +216,74 @@ Reach a global audience by offering your website in multiple languages.
       <h6 className="title font-bold text-lg">Analytics and Insights</h6>
       <p className="description">Get valuable audience insights to guide your decisions.</p>
     </div>
-
   </div>
 </div>
 
-
-
 {/* Ideal For Section */}
 <h5 className="text-3xl font-semibold text-gray-800 mt-6 mb-4">Ideal For</h5>
-
-{/* Container for Category Cards */}
 <div className="custom-category-card-container">
 
-  {/* Card for Local Bands */}
-  <div class="custom-category-card">
-    <div class="custom-category-icon">🎸</div>
-    <span class="custom-category-title">Local Bands</span>
-    <div>Perfect for showcasing your music and upcoming gigs.</div>
-  </div>
-
-  {/* Card for Small Theaters */}
+  {/* Performing Arts Card */}
   <div class="custom-category-card">
     <div class="custom-category-icon">🎭</div>
-    <span class="custom-category-title">Small Theaters</span>
-    <div>Great for promoting your shows and engaging with audiences.</div>
+    <span class="custom-category-title">Performing Arts</span>
+    <div>Showcasing talent in music, theater, and performances.</div>
   </div>
 
-  {/* Card for Entertainment Startups */}
-  <div class="custom-category-card">
-    <div class="custom-category-icon">🎤</div>
-    <span class="custom-category-title">Entertainment Startups</span>
-    <div class="custom--description">
-    Ideal for quickly establishing your online presence.
-    </div>
-  </div>
-
-  {/* Card for Event Organizers */}
+  {/* Event Management Card */}
   <div class="custom-category-card">
     <div class="custom-category-icon">🎪</div>
-    <span class="custom-category-title">Event Organizers</span>
-    <div class="custom--description">Effective for promoting and managing your events.</div>
+    <span class="custom-category-title">Event Management</span>
+    <div>For planners and organizers of diverse events.</div>
   </div>
 
-  {/* Card for Party Planners */}
-  <div class="custom-category-card">
-    <div class="custom-category-icon">🎉</div>
-    <span class="custom-category-title">Party Planners</span>
-    <div>Showcase your services & highlight upcoming events.</div>
-  </div>
-
-  {/* Card for Circus Performers */}
-  <div class="custom-category-card">
-    <div class="custom-category-icon">🤹‍♀️</div>
-    <span class="custom-category-title">Circus Performers</span>
-    <div class="custom--description">Display your acts and schedule, & connect with fans.</div>
-  </div>
-
-  {/* Card for Gaming Communities */}
-  <div class="custom-category-card">
-    <div class="custom-category-icon">🎮</div>
-    <span class="custom-category-title">Gaming Communities</span>
-    <div class="custom--description">Promote your tournaments and share the latest news and events.</div>
-  </div>
-
-  {/* Card for Film Production Houses */}
+  {/* Entertainment Industry Card */}
   <div class="custom-category-card">
     <div class="custom-category-icon">📽️</div>
-    <span class="custom-category-title">Film Production Houses</span>
-    <div class="custom--description">Ideal for showcasing your films and upcoming projects.</div>
+    <span class="custom-category-title">Entertainment Industry</span>
+    <div>For startups and studios in film, gaming, and media.</div>
   </div>
 
-  {/* Card for Music Festivals */}
-  <div class="custom-category-card">
-    <div class="custom-category-icon">🎶</div>
-    <span class="custom-category-title">Music Festivals</span>
-    <div class="custom--description">Announce lineups, sell tickets, and provide event info easily.</div>
-  </div>
-
-  {/* Card for Carnivals and Fairs */}
-  <div class="custom-category-card">
-    <div class="custom-category-icon">🎪</div>
-    <span class="custom-category-title">Carnivals and Fairs</span>
-    <div class="custom--description"> Promote your attractions, schedules, and ticket sales.</div>
-  </div>
-
-  {/* Card for Theme Parks */}
+  {/* Recreational Attractions Card */}
   <div class="custom-category-card">
     <div class="custom-category-icon">🏰</div>
-    <span class="custom-category-title">Theme Parks</span>
-    <div class="custom--description">Show off your rides, entertainment, and visitor info.</div>
+    <span class="custom-category-title">Recreational Attractions</span>
+    <div>Attractions and locations like theme parks and fairs.</div>
   </div>
 
-  {/* Card for Art Galleries */}
+  {/* Creative Showcases Card */}
   <div class="custom-category-card">
     <div class="custom-category-icon">🎨</div>
-    <span class="custom-category-title">Art Galleries</span>
-    <div class="custom--description">Display your exhibitions and featured artists.</div>
+    <span class="custom-category-title">Creative Showcases</span>
+    <div>Artists and galleries displaying creative works.</div>
+  </div>
+
+  {/* Community and Social Interaction Card */}
+  <div class="custom-category-card">
+    <div class="custom-category-icon">🤝</div>
+    <span class="custom-category-title">Community and Social</span>
+    <div>Enhancing local community engagement and social ties.</div>
+  </div>
+
+  {/* Global Outreach Card */}
+  <div class="custom-category-card">
+    <div class="custom-category-icon">🌍</div>
+    <span class="custom-category-title">Global Outreach</span>
+    <div>For businesses catering to an international audience.</div>
+  </div>
+
+  {/* Business Growth Card */}
+  <div class="custom-category-card">
+    <div class="custom-category-icon">📈</div>
+    <span class="custom-category-title">Business Growth</span>
+    <div>Focused on online marketing and revenue growth.</div>
   </div>
 </div>
 
 {/* GET IN TOUCH EMAIL PURPLE */}  
 <p className="mt-6 text-md text-gray-700">
 To start building your entertainment empire online, get in touch with us at{' '}
-<a href="mailto:services@bhamseoanddesignco.com" style={{ color: 'purple' }}>services@bhamseoanddesignco.com</a> or click the button below to begin your blogging journey.
+<a href="mailto:services@bhamseoanddesignco.com" style={{ color: 'purple' }}>services@bhamseoanddesignco.com</a> or click the button below to get started.
 </p>    
       
 {/* CONTACT LINK */}        
@@ -351,8 +294,6 @@ To start building your entertainment empire online, get in touch with us at{' '}
       </Link>
     </div>
   </div>
-
-
 
 {/* Entertainment PACKAGE PRICING TITLE */}
 <div className="relative py-5 px-6 lg:px-12 bg-gradient-to-br from-indigo-500 via-indigo-500 to-indigo-600 rounded-3xl shadow-xl mx-4 my-10">
