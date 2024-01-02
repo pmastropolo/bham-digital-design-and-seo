@@ -121,39 +121,23 @@ const businessPackages = [
 
 const Business = () => {
   return (
-    <div>
-<div className="bg-white rounded-lg overflow-hidden" style={{ boxShadow: "0px 4px 6px rgba(0, 255, 0, 0.1)" }}>
+
+<div>
 <div className="bg-white rounded-lg overflow-hidden shadow-md" style={{ boxShadow: "0px 3px 2px rgba(0, 128, 0, 0.5)" }}>
-    <div className="p-2 sm:p-3">
-      <div className="bg-gradient-to-b from-green-500 to-green-700 rounded-lg overflow-hidden text-white text-center tracking-wide leading-tight hover:text-green-900 transition-colors duration-300 p-8">
-        <h1 className="text-3xl sm:text-4xl md:text-5xl lg:text-6xl font-bold">
-        Redefining Business with Web Design
-        </h1>
-        <p className="text-sm sm:text-md md:text-lg text-gray-100 mt-2 sm:mt-4">
-        Redefine your businesss online presence with our web design solutions.
-        </p>
-      </div>
-    </div>
+<div className="p-2 sm:p-3">
+<div className="bg-gradient-to-b from-green-400 to-green-500 rounded-lg overflow-hidden text-white text-center tracking-wide leading-tight hover:text-green-800 transition-colors duration-300 p-8">
 
-    <div className="p-3">
+{/* Business TITLE ONE*/}
+<h1 className="text-3xl sm:text-4xl md:text-5xl lg:text-6xl font-bold">Redefining Business</h1>
+<p className="text-sm sm:text-md md:text-lg text-gray-100 mt-2 sm:mt-4">Redefine your businesss online presence with our web design solutions.</p>
+</div>
 
-<h4 className="text-4xl font-semibold text-gray-800 mt-2">Professional <span className="text-green-600">Business</span> Website Package</h4>
-<p className="text-md text-gray-700 mt-2">Transform your companys online image with our Professional Business Website Package. This package is expertly designed for corporations, small businesses, and professionals keen on enhancing their digital footprint with a sophisticated and user-friendly website.</p>
+{/* Business TITLE TWO */}
+<h4 className="text-4xl font-semibold text-gray-800 mt-4">Professional <span className="text-green-600">Business</span> Website Package</h4>
+<p className="text-md text-gray-700 mt-2 mb-4">Transform your companys online image with our Professional Business Website Package. This package is expertly designed for corporations, small businesses, and professionals keen on enhancing their digital footprint with a sophisticated and user-friendly website.</p>
  
 <div class="custom-category-card-container">
-{/* MOBILE-RESPONSIVE LAYOUT SECTION */}
-<div class="custom-category-card">
-<div class="custom-category-icon">📱</div>
-<span class="custom-category-title">Mobile-Responsive Layout</span>
-<div class="custom-category-description">Take your business everywhere! Our designs ensure your site looks great on all devices.</div>
-</div>
 
-{/* SEO OPTIMIZATION SECTION */}
-<div class="custom-category-card">
-<div class="custom-category-icon">🔍</div>
-<span class="custom-category-title">SEO Optimization</span>
-<div class="custom-category-description">Climb the search engine ranks and get noticed by more customers.</div>
-</div>
 
 {/* SOCIAL MEDIA INTEGRATION SECTION */}
 <div class="custom-category-card">
@@ -162,12 +146,6 @@ const Business = () => {
 <div class="custom-category-description">Connect your site seamlessly with social media for greater reach and engagement.</div>
 </div>
 
-{/* CONTACT FORM SECTION */}
-<div class="custom-category-card">
-<div class="custom-category-icon">✉️</div>
-<span class="custom-category-title">Contact Form</span>
-<div class="custom-category-description">Make it easy for clients to reach out with user-friendly contact forms.</div>
-</div>
 
 {/* SECURITY FEATURES SECTION */}
 <div class="custom-category-card">
@@ -176,40 +154,33 @@ const Business = () => {
 <div class="custom-category-description">Protect your site and customer data with top-notch security.</div>
 </div>
 
-{/* CUSTOMIZABLE PAGES SECTION */}
-<div class="custom-category-card">
-<div class="custom-category-icon">🖌️</div>
-<span class="custom-category-title">Customizable Pages</span>
-<div class="custom-category-description">Express your brands unique style with fully customizable web pages.</div>
-</div>
+  {/* Responsive Design */}
+  <div class="custom-category-card">
+    <div class="custom-category-icon">📱</div>
+    <span class="custom-category-title">Responsive Design</span>
+    <div class="custom-category-description">Optimized for all devices, ensuring a seamless user experience.</div>
+  </div>
 
-{/* INVITING HOME PAGE SECTION */}
-<div class="custom-category-card">
-<div class="custom-category-icon">🏠</div>
-<span class="custom-category-title">Inviting Home Page</span>
-<div class="custom-category-description">Create a compelling first impression that captivates visitors.</div>
-</div>
-
-{/* ABOUT US PAGE SECTION */}
-<div class="custom-category-card">
-<div class="custom-category-icon">👥</div>
-<span class="custom-category-title">About Us Page</span>
-<div class="custom-category-description">Share your story and connect personally with customers.</div>
-</div>
+  {/* SEO Optimization */}
+  <div class="custom-category-card">
+    <div class="custom-category-icon">🔍</div>
+    <span class="custom-category-title">SEO Optimization</span>
+    <div class="custom-category-description">Enhance your search engine ranking and online visibility.</div>
+  </div>
 
 {/* SERVICES OR PRODUCTS PAGE SECTION */}
 <div class="custom-category-card">
 <div class="custom-category-icon">💼</div>
-<span class="custom-category-title">Services or Products Page</span>
+<span class="custom-category-title">Services | Products</span>
 <div class="custom-category-description">Showcase what you offer in a compelling, clear format.</div>
 </div>
 
-{/* CONTACT PAGE SECTION */}
-<div class="custom-category-card">
-<div class="custom-category-icon">📞</div>
-<span class="custom-category-title">Contact Page</span>
-<div class="custom-category-description">Ensure customers can easily find ways to get in touch.</div>
-</div>
+ {/* Contact and Communication */}
+ <div class="custom-category-card">
+    <div class="custom-category-icon">✉️</div>
+    <span class="custom-category-title">Contact | Communication</span>
+    <div class="custom-category-description">User-friendly contact options to connect with clients.</div>
+  </div>
 
 {/* BLOG & NEWS SECTION */}
 <div class="custom-category-card">
@@ -221,16 +192,14 @@ const Business = () => {
 {/* CMS - CONTENT MANAGEMENT SYSTEM SECTION */}
 <div class="custom-category-card">
 <div class="custom-category-icon">💻</div>
-<span class="custom-category-title">CMS - Content Management System</span>
+<span class="custom-category-title">CMS | Content Management System</span>
 <div class="custom-category-description">Manage your content effortlessly, keeping your site fresh and engaging.</div>
 </div>
 </div>
-</div>
-
 
 {/* Section for Benefits of the Business Package */}
 <div className="mt-6">
-<h5 className="text-3xl font-semibold text-gray-800">Benefits</h5>
+<h5 className="text-3xl font-semibold text-gray-800">Benefits of Owning a Business Website</h5>
 <hr className="mb-3 mt-3" />
 <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-4 mt-4">
         
@@ -320,7 +289,6 @@ Elevate Your Business Today
 </Link>
 </div>
 </div>
-
 
 
 {/* BUSINESS PACKAGE PRICING TITLE*/}
