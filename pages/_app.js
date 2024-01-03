@@ -41,17 +41,17 @@ export default function App({ Component, pageProps }) {
       <NavBar />
       <Script 
         strategy="lazyOnload" 
-        src={`https://www.googletagmanager.com/gtag/js?id=G-NV8SR6JZTG`} 
+        src={`https://www.googletagmanager.com/gtag/js?id=G-82JN7Y105W`} 
       />
       <Script 
-        id="google-analytics-script" // Added id attribute
+        id="google-analytics-script" 
         strategy="lazyOnload"
       >
         {`
           window.dataLayer = window.dataLayer || [];
           function gtag(){dataLayer.push(arguments);}
           gtag('js', new Date());
-          gtag('config', 'G-NV8SR6JZTG', {
+          gtag('config', 'G-82JN7Y105W', {
             page_path: window.location.pathname,
           });
         `}
