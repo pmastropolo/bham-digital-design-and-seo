@@ -22,6 +22,9 @@ const Footer = () => {
                     <Link href="/privacy" legacyBehavior>
                         <a className="block mb-2">Privacy Policy</a>
                     </Link>
+                    <Link href="/terms" legacyBehavior>
+                        <a className="block mb-2">Terms and Conditions</a>
+                    </Link>
                 </div>
                 <div className="w-full sm:w-auto mb-4 sm:mb-0">
                     <span className="font-bold mb-2 block">Services</span>
@@ -50,3 +53,4 @@ const Footer = () => {
 };
 
 export default Footer;
+
