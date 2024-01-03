@@ -317,11 +317,102 @@ const SeoPackagePage = () => {
 </div>
 
 <div id="seo-packages-pricing">
-            <h1 className="text-3xl font-bold my-4">Our SEO Packages</h1>
+            <h1 className="text-5xl font-bold mb-4 mt-4 my-4">All SEO Packages Include</h1>
+            
+<div>
+ {/* IDEAL FOR SECTION */}
+
+<div className="custom-category-card-container">
+ {/* Real Estate Agents Card */}
+ <div class="custom-category-card">
+      <div class="custom-category-icon">📱💻</div>
+      <span class="custom-category-title">Mobile Responsiveness</span>
+      <div class="custom--description">
+      Your website will look stunning and function perfectly on all devices.
+      </div>
+    </div>
+
+    {/*  Social Media Card */}
+    <div class="custom-category-card">
+      <div class="custom-category-icon">📱</div>
+      <span class="custom-category-title">Social Media Integration</span>
+      <div class="custom--description">
+      Connect your website with social media profiles.
+      </div>
+    </div>
+
+    {/* Competitor Analysis Card */}
+    <div class="custom-category-card">
+      <div class="custom-category-icon">🏘️</div>
+      <span class="custom-category-title">Competitor Analysis</span>
+      <div class="custom--description">
+      Understand your competitors strategies to stay ahead.
+      </div>
+    </div>
+
+    {/* Homebuyers and Sellers Card */}
+    <div class="custom-category-card">
+      <div class="custom-category-icon">🏡</div>
+      <span class="custom-category-title">Basic Link Cleanup</span>
+      <div class="custom--description">
+      Identifying and removing harmful or low-quality backlinks.
+      </div>
+    </div>
+
+    {/* Homebuyers and Sellers Card */}
+    <div class="custom-category-card">
+      <div class="custom-category-icon">🏡</div>
+      <span class="custom-category-title">Content Updates</span>
+      <div class="custom--description">
+      Periodic content updates to keep your website fresh and relevant.
+      </div>
+    </div>
+
+        {/* Homebuyers and Sellers Card */}
+        <div class="custom-category-card">
+      <div class="custom-category-icon">🏡</div>
+      <span class="custom-category-title">Technical Support</span>
+      <div class="custom--description">
+      Periodic content updates to keep your website fresh and relevant.
+      </div>
+    </div>
+
+        {/* Homebuyers and Sellers Card */}
+        <div class="custom-category-card">
+      <div class="custom-category-icon">🏡</div>
+      <span class="custom-category-title">Local SEO</span>
+      <div class="custom--description">
+      Boost visibility in local search results.
+      </div>
+    </div>
+
+            {/* Homebuyers and Sellers Card */}
+            <div class="custom-category-card">
+      <div class="custom-category-icon">🏡</div>
+      <span class="custom-category-title">Keyword Monitoring</span>
+      <div class="custom--description">
+      Dominate search rankings with our keyword tracking.
+      </div>
+    </div>
+
+  </div>
+  </div>
+  {/* PERSONAL PACKAGE PRICING TITLE */}
+<div className="relative py-5 px-6 lg:px-12 bg-gradient-to-br from-gray-500 via-gray-500 to-gray-600 rounded-3xl shadow-xl mx-4 my-10">
+  <div className="text-center">
+    <h1 className="text-xl lg:text-3xl font-extrabold text-white mb-2 mt-2 tracking-wide leading-tight hover:text-gray-800 transition-colors duration-300">
+SEO Package Pricing
+    </h1>
+    <p className="text-md lg:text-lg font-medium text-white mb-2">
+      Find the Ideal Plan for Your Business
+    </p>
+    <span className="inline-block w-16 h-1 bg-gray-100 rounded"></span>
+  </div>
+</div>
             <SEOPackages />
         </div>
         <div id="free-quote">
-
+        <div className="border-bottom-gray"></div>
 </div>
         </div> 
 
@@ -329,3 +420,4 @@ const SeoPackagePage = () => {
 };
 
 export default SeoPackagePage;
+
