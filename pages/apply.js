@@ -206,6 +206,15 @@ Our team can provide regular updates to ensure that your website remains current
     </div>
 </div>
 
+{/* QUESTION SIX CONTD - WHAT ARE KPIS */}
+<div class="cat-car">
+  <span class="cat-title">What are Key Performance Indicators | KPI</span>
+  <div class="cat-de">
+KPIs are metrics used to measure the success of SEO campaign. They include improved rankings, increased website traffic, higher engagement rates, and more conversions or sales. We provide regular reports to track these metrics and show the impact of our SEO efforts.
+  </div>
+</div>
+
+
 {/* QUESTION SEVEN - What's Included in Your SEO Services? */}
 <div className="cat-car">
     <span className="cat-title">Whats Included in Your SEO Services?</span>
