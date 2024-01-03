@@ -1,6 +1,7 @@
 import Link from 'next/link';
 import { FaPaintBrush, FaSearch, FaDigitalOcean } from 'react-icons/fa';
 import Image from 'next/image';
+import { NextSeo } from 'next-seo';
 
 export default function Home() {
 
@@ -9,6 +10,50 @@ export default function Home() {
   const stars = Array.from({ length: numberOfStars }, (_, index) => index);
 
   return (
+     <>
+   <NextSeo
+       title="Home Page - Bham SEO and Web Design Co"
+      description="Bham SEO and Web Design Co offers expert Web Design and SEO Services to businesses and organizations in Birmingham, Alabaster, Hoover, and Mountain Brook, Alabama, as well as nationwide. Our team of dedicated professionals specializes in creating stunning websites that not only look great but also perform exceptionally well in search engine rankings. With our comprehensive SEO strategies, we help businesses improve their online visibility, drive organic traffic, and achieve higher search engine rankings. Whether you're looking for a responsive website, SEO optimization, or a digital marketing partner, we've got you covered. Elevate your online presence with Bham SEO and Web Design Co."
+      additionalMetaTags={[
+        { name: 'keywords', content: 'web design, SEO, Birmingham, Alabama' },
+        { name: 'author', content: 'Peyton' },
+        { name: 'designer', content: 'Web Design Expert' },
+        { name: 'seo-expert', content: 'SEO Specialist' },
+        { name: 'service-area', content: 'Birmingham, Montgomery, Mobile, Huntsville, Nationwide, Pelham, Trussville, Crestline Heights, Maylene, Elliotsville, Shoal Creek, Calera, Cahaba Heights, Gardendale, Helena, Homewood, Hoover, Mountain Brook, Vestavia Hills, Columbiana, Indian Springs Village, Montevallo' },
+        { name: 'industry', content: 'Digital Marketing' },
+        { name: 'contact-email', content: 'services@bhamseoanddesignco.com' },
+      ]}
+      additionalLinkTags={[
+        {
+          rel: 'canonical',
+          href: 'https://bhamseoanddesignco.com/',
+        },
+      ]}
+      
+      openGraph={{
+        type: 'website',
+        locale: 'en_US',
+        url: 'https://bhamseoanddesignco.com/',
+        site_name: 'Bham SEO and Web Design Co',
+        images: [
+          {
+            url: 'https://bhamseoanddesignco.com/images/logggggooooooo.jpg',
+            width: 1200,
+            height: 630,
+            alt: 'Bham SEO and Web Design Co Logo Image',
+          },
+        ],
+      }}
+      twitter={{
+        cardType: 'summary_large_image',
+        images: [
+          {
+            url: 'https://bhamseoanddesignco.com/images/logggggooooooo.jpg',
+            alt: 'Bham SEO and Web Design Co Logo Image',
+          },
+        ],
+      }}
+     />
  
     <div className="starry-background w-full min-h-screen bg-black">
 
@@ -185,5 +230,6 @@ export default function Home() {
 </div>
       </main>
     </div>
+    </>
   );
 }
