@@ -47,7 +47,10 @@ What sets us apart is our commitment to tailoring each project to our clients un
         </li>
         <li className="toc-item mb-2">
             <a className="toc-link inline-block bg-indigo-600 hover:bg-indigo-700 text-white py-2 px-4 rounded-lg shadow-md" href="#seo-questions">SEO Questions</a>
-        </li>         
+        </li> 
+        <li className="toc-item mb-2">
+            <a className="toc-link inline-block bg-indigo-600 hover:bg-indigo-700 text-white py-2 px-4 rounded-lg shadow-md" href="#seo-deff">SEO Keywords & Defintions</a>
+        </li>           
     </ul>
 </nav>
 
@@ -273,9 +276,99 @@ Brainstorm relevant keywords related to your business and services |  Analyze yo
 </div>
 
 </div>
-                </div>
-            </div>
-    
+</div>
+
+<div id="seo-deff"></div>
+<div className="bg-white text-center py-10 px-6 md:px-10 shadow-xl rounded-xl mt-20 mb-10 relative overflow-hidden">
+
+    <h2 className="text-5xl md:text-6xl font-extrabold text-gray-800 mb-6">SEO Keywords & Definitions</h2>
+   
+    <p className="text-lg md:text-xl mb-8 text-gray-600">A comprehensive guide to understanding SEO.</p>
+    <div className="grid grid-cols-1 md:grid-cols-2 gap-6">
+    <div className="bg-white-100 p-6 rounded-lg shadow-md hover:shadow-xl transition-shadow duration-300 ease-in-out">
+            <h3 className="font-semibold text-xl text-gray-800">SEO | Search Engine Optimization</h3>
+            <p className="text-gray-600 mt-2">Increasing the quantity and quality of traffic to a website through organic search engine results.</p>
+        </div>
+        <div className="bg-white-100 p-6 rounded-lg shadow-md hover:shadow-xl transition-shadow duration-300 ease-in-out">
+            <h3 className="font-semibold text-xl text-gray-800">Keyword</h3>
+            <p className="text-gray-600 mt-2">A specific word or phrase describing webpage content, used in search engines by users.</p>
+        </div>
+        <div className="bg-white-100 p-6 rounded-lg shadow-md hover:shadow-xl transition-shadow duration-300 ease-in-out">
+    <h3 className="font-semibold text-xl text-gray-800">Backlink</h3>
+    <p className="text-gray-600 mt-2">A link from one website to another, signaling to search engines the contents value.</p>
+</div>
+<div className="bg-white-100 p-6 rounded-lg shadow-md hover:shadow-xl transition-shadow duration-300 ease-in-out">
+    <h3 className="font-semibold text-xl text-gray-800">PageRank</h3>
+    <p className="text-gray-600 mt-2">Googles algorithm for ranking web pages in search results.</p>
+</div>
+<div className="bg-white-100 p-6 rounded-lg shadow-md hover:shadow-xl transition-shadow duration-300 ease-in-out">
+    <h3 className="font-semibold text-xl text-gray-800">SERP | Search Engine Results Page</h3>
+    <p className="text-gray-600 mt-2">The page showing search results in response to a query.</p>
+</div>
+<div className="bg-white-100 p-6 rounded-lg shadow-md hover:shadow-xl transition-shadow duration-300 ease-in-out">
+    <h3 className="font-semibold text-xl text-gray-800">Meta Tags</h3>
+    <p className="text-gray-600 mt-2">HTML tags providing metadata like description and keywords for search engines.</p>
+</div>
+<div className="bg-white-100 p-6 rounded-lg shadow-md hover:shadow-xl transition-shadow duration-300 ease-in-out">
+    <h3 className="font-semibold text-xl text-gray-800">Organic Traffic</h3>
+    <p className="text-gray-600 mt-2">Visitors coming from unpaid search engine results.</p>
+</div>
+<div className="bg-white-100 p-6 rounded-lg shadow-md hover:shadow-xl transition-shadow duration-300 ease-in-out">
+    <h3 className="font-semibold text-xl text-gray-800">Anchor Text</h3>
+    <p className="text-gray-600 mt-2">Clickable text in a hyperlink, indicating the content of the links destination.</p>
+</div>
+<div className="bg-white-100 p-6 rounded-lg shadow-md hover:shadow-xl transition-shadow duration-300 ease-in-out">
+    <h3 className="font-semibold text-xl text-gray-800">Domain Authority</h3>
+    <p className="text-gray-600 mt-2">A score predicting a websites ranking potential in search results.</p>
+</div>
+<div className="bg-white-100 p-6 rounded-lg shadow-md hover:shadow-xl transition-shadow duration-300 ease-in-out">
+    <h3 className="font-semibold text-xl text-gray-800">On-Page SEO</h3>
+    <p className="text-gray-600 mt-2">Optimizing individual web pages for higher rankings and more relevant traffic.</p>
+</div>
+<div className="bg-white-100 p-6 rounded-lg shadow-md hover:shadow-xl transition-shadow duration-300 ease-in-out">
+    <h3 className="font-semibold text-xl text-gray-800">Off-Page SEO</h3>
+    <p className="text-gray-600 mt-2">External actions to impact rankings within search engine results pages.</p>
+</div>
+<div className="bg-white-100 p-6 rounded-lg shadow-md hover:shadow-xl transition-shadow duration-300 ease-in-out">
+    <h3 className="font-semibold text-xl text-gray-800">Content Marketing</h3>
+    <p className="text-gray-600 mt-2">Creating and sharing online material to generate interest in products or services.</p>
+</div>
+<div className="bg-white-100 p-6 rounded-lg shadow-md hover:shadow-xl transition-shadow duration-300 ease-in-out">
+    <h3 className="font-semibold text-xl text-gray-800">Alt Text | Alternative Text</h3>
+    <p className="text-gray-600 mt-2">Image descriptions helping search engines understand image content.</p>
+</div>
+<div className="bg-white-100 p-6 rounded-lg shadow-md hover:shadow-xl transition-shadow duration-300 ease-in-out">
+    <h3 className="font-semibold text-xl text-gray-800">Sitemap</h3>
+    <p className="text-gray-600 mt-2">A file with information about site pages and their relationships.</p>
+</div>
+<div className="bg-white-100 p-6 rounded-lg shadow-md hover:shadow-xl transition-shadow duration-300 ease-in-out">
+    <h3 className="font-semibold text-xl text-gray-800">Crawl</h3>
+    <p className="text-gray-600 mt-2">The process by which search engines discover web pages.</p>
+</div>
+<div className="bg-white-100 p-6 rounded-lg shadow-md hover:shadow-xl transition-shadow duration-300 ease-in-out">
+    <h3 className="font-semibold text-xl text-gray-800">Indexing</h3>
+    <p className="text-gray-600 mt-2">Storing and organizing content for fast and accurate information retrieval.</p>
+</div>
+<div className="bg-white-100 p-6 rounded-lg shadow-md hover:shadow-xl transition-shadow duration-300 ease-in-out">
+    <h3 className="font-semibold text-xl text-gray-800">Long-Tail Keywords</h3>
+    <p className="text-gray-600 mt-2">Specific phrases used by visitors close to a point-of-purchase.</p>
+</div>
+<div className="bg-white-100 p-6 rounded-lg shadow-md hover:shadow-xl transition-shadow duration-300 ease-in-out">
+    <h3 className="font-semibold text-xl text-gray-800">Bounce Rate</h3>
+    <p className="text-gray-600 mt-2">The rate of visitors who leave a site after viewing only one page.</p>
+</div>
+<div className="bg-white-100 p-6 rounded-lg shadow-md hover:shadow-xl transition-shadow duration-300 ease-in-out">
+            <h3 className="font-semibold text-xl text-gray-800">Conversion Rate</h3>
+            <p className="text-gray-600 mt-2">The percentage of visitors who take a desired action on a site.</p>
+        </div>
+        <div className="bg-white-100 p-6 rounded-lg shadow-md hover:shadow-xl transition-shadow duration-300 ease-in-out">
+            <h3 className="font-semibold text-xl text-gray-800">Responsive Design</h3>
+            <p className="text-gray-600 mt-2">Designing websites to respond to user behavior and environment, like screen size.</p>
+        </div>
+</div>
+</div>
+</div>
+
     );
 };
   
