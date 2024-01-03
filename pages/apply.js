@@ -268,7 +268,7 @@ Brainstorm relevant keywords related to your business and services |  Analyze yo
 <div className="cat-car">
     <span className="cat-title">How Will We Communicate and How Often?</span>
     <div className="cat-de">
-        Communication is key. We will set up regular meetings (weekly or monthly) and provide frequent email updates. You qill also have a dedicated account manager as your point of contact.
+        Communication is key. We will set up regular meetings (weekly or monthly) and provide frequent email updates.
     </div>
 </div>
 
