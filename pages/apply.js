@@ -239,14 +239,6 @@ KPIs are metrics used to measure the success of SEO campaign. They include impro
     </div>
 </div>
 
-{/* QUESTION ELEVEN - Can You Provide Case Studies or References? */}
-<div className="cat-car">
-    <span className="cat-title">Can You Provide Case Studies or References?</span>
-    <div className="cat-de">
-        Certainly! We have several case studies and client references that demonstrate our success in various projects. We would be happy to share these with you.
-    </div>
-</div>
-
 {/* QUESTION TWELVE - What Are Your Payment Terms and Contract Length? */}
 <div className="cat-car">
     <span className="cat-title">What Are Your Payment Terms and Contract Length?</span>
