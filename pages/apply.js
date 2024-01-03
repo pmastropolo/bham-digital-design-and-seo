@@ -263,6 +263,15 @@ KPIs are metrics used to measure the success of SEO campaign. They include impro
     </div>
 </div>
 
+{/* QUESTION -  How can I determine the most relevant keywords for my business and location order to optimize my website for local SEO? */}
+<div class="cat-car">
+  <span class="cat-title">How can I determine the most relevant keywords for my business and location order to optimize my website for local SEO?</span>
+  <div class="cat-de">
+Brainstorm relevant keywords related to your business and services |  Analyze your competitors websites for keyword ideas | Include location specific keywords to target local customers | Analyze local search queries to find popular keywords | Consider using long tail keywords for more targeted results
+  </div>
+</div>
+
+
 {/* QUESTION FOURTEEN - How Will We Communicate and How Often? */}
 <div className="cat-car">
     <span className="cat-title">How Will We Communicate and How Often?</span>
