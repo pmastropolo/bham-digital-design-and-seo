@@ -154,8 +154,8 @@ Our team can provide regular updates to ensure that your website remains current
   </div>
 </div>
 
-{/* WEB DESIGN SECTION */}
-<h2 id="seo-questions" className="text-4xl font-extrabold text-indigo-600 mt-12 mb-8">SEO ( Search Engine Optimization )</h2>
+{/* SEO SECTION */}
+<h2 id="seo-questions" className="text-3xl font-extrabold text-indigo-600 mt-12 mb-8">SEO | Search Engine Optimization</h2>
 
 {/* QUESTION ONE - What is SEO and How Does it Work? */}
 <div className="cat-car">
