@@ -3,12 +3,13 @@ import { useState, useEffect } from 'react';
 import { useRouter } from 'next/router';
 import Footer from "../components/Footer";
 import NavBar from "../components/Navbar";
-import MyHead from "../components/MyHead";
 import NProgress from 'nprogress';
 import '../public/nprogress.css';
 import { ToastContainer } from 'react-toastify';
 import 'react-toastify/dist/ReactToastify.css';
 import Script from 'next/script';
+import { DefaultSeo } from 'next-seo';
+import SEO from '../seo.config.js';
 
 export default function App({ Component, pageProps }) {
   const [isLoading, setIsLoading] = useState(false);
@@ -37,7 +38,6 @@ export default function App({ Component, pageProps }) {
 
   return (
     <>
-    <MyHead />
       <NavBar />
       <Script 
         strategy="lazyOnload" 
@@ -56,6 +56,7 @@ export default function App({ Component, pageProps }) {
           });
         `}
       </Script>
+      <DefaultSeo {...SEO} />
       <Component {...pageProps} />
       <ToastContainer />
       {isLoading && <div className="nprogress-custom-parent"><div className="nprogress-custom-bar"/></div>}
