@@ -1,0 +1,16 @@
+{
+        "@context": "http://schema.org",
+        "@type": "LocalBusiness",
+        "name": "Bham SEO and Web Design Co",
+        "address": {
+          "@type": "PostalAddress",
+          "streetAddress": "100 Sunflower Place",
+          "addressLocality": "Alabaster",
+          "addressRegion": "AL",
+          "postalCode": "35007"
+        },
+        "telephone": "(205) 705-7145",
+        "openingHours": "Mo-Fr 09:00-17:00",
+        "url": "https://bhamseoanddesignco.com/"
+      }
+      
