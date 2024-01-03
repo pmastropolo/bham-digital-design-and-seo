@@ -118,7 +118,7 @@ What sets us apart is our commitment to tailoring each project to our clients un
 <div class="cat-car">
   <span class="cat-title">How Do We Handle Website Maintenance?</span>
   <div class="cat-de">
-    We offer ongoing maintenance packages to keep your website updated, secure, and performing optimally. These packages can be tailored to your specific needs.
+Our team can provide regular updates to ensure that your website remains current, secure, and performing optimally.
   </div>
 </div>
 
