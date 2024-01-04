@@ -184,7 +184,7 @@ const EcommercePackages = () => {
 
 {/* Section for Benefits of the Ecommerce Package */}
 <div className="mt-6">
-<h5 className="text-3xl font-semibold text-gray-800">Benefits of Owning a Ecommerce Website</h5>
+<h5 className="text-3xl font-semibold text-gray-800">Benefits of Owning an Ecommerce Website</h5>
 <hr className="mb-3 mt-3" />
 <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-4 mt-4">
 
