@@ -20,6 +20,13 @@ const Footer = () => {
                     <Link href="/apply" legacyBehavior>
                         <a className="block mb-2">About Us & FAQ</a>
                     </Link>
+                          <span className="font-bold mb-2 block">Forms</span>
+                    <Link href="/seoConsultation" legacyBehavior>
+                        <a className="block mb-2">SEO Form</a>
+                    </Link>
+                    <Link href="/webDesignConsultation" legacyBehavior>
+                        <a className="block mb-2">Website Design Form</a>
+                    </Link>
                     
                 </div>
                 <div className="w-full sm:w-auto mb-4 sm:mb-0">
