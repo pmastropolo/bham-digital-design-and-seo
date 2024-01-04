@@ -316,16 +316,18 @@ const SeoPackagePage = () => {
     </div>
 </div>
 
-<div id="seo-packages-pricing">
-            <h1 className="text-5xl font-bold mb-4 mt-4 my-4">All SEO Packages Include</h1>
-            
-<div>
- {/* IDEAL FOR SECTION */}
+<div id="seo-packages-pricing" 
+     className="text-center mt-7 py-8 bg-gradient-to-r from-blue-200 to-green-200">
+    <h1 className="text-5xl font-bold text-gray-800 mb-2 bg-emerald-50 p-3 rounded-md shadow-lg mx-auto w-auto inline-block">
+        All SEO Packages Below Include:
+    </h1>
+           
+
 
 <div className="custom-category-card-container">
- {/* Real Estate Agents Card */}
+ {/* Mobile Responsiveness Card */}
  <div class="custom-category-card">
-      <div class="custom-category-icon">📱💻</div>
+      <div class="custom-category-icon">📱💻🔍</div>
       <span class="custom-category-title">Mobile Responsiveness</span>
       <div class="custom--description">
       Your website will look stunning and function perfectly on all devices.
@@ -334,7 +336,7 @@ const SeoPackagePage = () => {
 
     {/*  Social Media Card */}
     <div class="custom-category-card">
-      <div class="custom-category-icon">📱</div>
+      <div class="custom-category-icon">📱🔗💬</div>
       <span class="custom-category-title">Social Media Integration</span>
       <div class="custom--description">
       Connect your website with social media profiles.
@@ -343,7 +345,7 @@ const SeoPackagePage = () => {
 
     {/* Competitor Analysis Card */}
     <div class="custom-category-card">
-      <div class="custom-category-icon">🏘️</div>
+      <div class="custom-category-icon">🏘️🔎📈</div>
       <span class="custom-category-title">Competitor Analysis</span>
       <div class="custom--description">
       Understand your competitors strategies to stay ahead.
@@ -352,7 +354,7 @@ const SeoPackagePage = () => {
 
     {/* Homebuyers and Sellers Card */}
     <div class="custom-category-card">
-      <div class="custom-category-icon">🏡</div>
+      <div class="custom-category-icon">🧹🔗🚫</div>
       <span class="custom-category-title">Basic Link Cleanup</span>
       <div class="custom--description">
       Identifying and removing harmful or low-quality backlinks.
@@ -361,7 +363,7 @@ const SeoPackagePage = () => {
 
     {/* Homebuyers and Sellers Card */}
     <div class="custom-category-card">
-      <div class="custom-category-icon">🏡</div>
+      <div class="custom-category-icon">🔄✍️📰</div>
       <span class="custom-category-title">Content Updates</span>
       <div class="custom--description">
       Periodic content updates to keep your website fresh and relevant.
@@ -370,7 +372,7 @@ const SeoPackagePage = () => {
 
         {/* Homebuyers and Sellers Card */}
         <div class="custom-category-card">
-      <div class="custom-category-icon">🏡</div>
+      <div class="custom-category-icon">🛠️🤝💡</div>
       <span class="custom-category-title">Technical Support</span>
       <div class="custom--description">
       Periodic content updates to keep your website fresh and relevant.
@@ -379,16 +381,16 @@ const SeoPackagePage = () => {
 
         {/* Homebuyers and Sellers Card */}
         <div class="custom-category-card">
-      <div class="custom-category-icon">🏡</div>
+      <div class="custom-category-icon">📍🏙️🔍</div>
       <span class="custom-category-title">Local SEO</span>
       <div class="custom--description">
       Boost visibility in local search results.
       </div>
     </div>
 
-            {/* Homebuyers and Sellers Card */}
+            {/* KEYWORD Card */}
             <div class="custom-category-card">
-      <div class="custom-category-icon">🏡</div>
+      <div class="custom-category-icon">🏆🔍📊</div>
       <span class="custom-category-title">Keyword Monitoring</span>
       <div class="custom--description">
       Dominate search rankings with our keyword tracking.
@@ -397,7 +399,9 @@ const SeoPackagePage = () => {
 
   </div>
   </div>
-  {/* PERSONAL PACKAGE PRICING TITLE */}
+
+  <div>
+  {/* SEO PRICING TITLE */}
 <div className="relative py-5 px-6 lg:px-12 bg-gradient-to-br from-gray-500 via-gray-500 to-gray-600 rounded-3xl shadow-xl mx-4 my-10">
   <div className="text-center">
     <h1 className="text-xl lg:text-3xl font-extrabold text-white mb-2 mt-2 tracking-wide leading-tight hover:text-gray-800 transition-colors duration-300">
@@ -412,6 +416,20 @@ SEO Package Pricing
             <SEOPackages />
         </div>
         <div id="free-quote">
+            {/* FREE PRICE QUOTE */} 
+<div className="text-center mt-8">
+  <p className="text-2xl text-slate-900 font-semibold">
+    Interested in our SEO Packages?
+  </p>
+  <p className="text-lg text-gray-600">
+    Contact us today to request a <span className="text-slate-700">free price quote</span>.
+  </p>
+  <Link href="/contact" legacyBehavior>
+    <a className="inline-block bg-slate-900 hover:bg-slate-950 text-white text-lg py-3 px-12 mb-6 mt-4 rounded-md transition duration-300 transform hover:-translate-y-1 shadow-md">
+      Request a Free Price Quote
+    </a>
+  </Link>
+</div>
         <div className="border-bottom-gray"></div>
 </div>
         </div> 
@@ -420,4 +438,3 @@ SEO Package Pricing
 };
 
 export default SeoPackagePage;
-
