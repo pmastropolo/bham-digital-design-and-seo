@@ -347,7 +347,7 @@ Find the Ideal Plan for Your Business
         </Link>
       </div>
 </div>
-
+<div className="border-bottom-orange"></div>
           </div>
         );
       };
