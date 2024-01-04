@@ -14,7 +14,7 @@ const SeoPackagePage = () => {
             <div className="flex flex-wrap justify-center gap-4 mb-8">
                     <a href="#keyword-research" className="px-4 py-2 bg-blue-500 text-white rounded hover:bg-blue-600">SEO Services</a>
                     <a href="#seo-packages-pricing" className="px-4 py-2 bg-blue-500 text-white rounded hover:bg-blue-600">SEO Packages Pricing</a>
-                    <a href="#free-quote" className="px-4 py-2 bg-blue-500 text-white rounded hover:bg-blue-600">Free Quote</a>
+                    <a href="#free-quote" className="px-4 py-2 bg-blue-500 text-white rounded hover:bg-blue-600">Consultation Form</a>
 
                 </div>
 
