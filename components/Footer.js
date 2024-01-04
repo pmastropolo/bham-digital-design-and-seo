@@ -34,9 +34,6 @@ const Footer = () => {
                     <Link href="/PackagePage" legacyBehavior>
                         <a className="block mb-2">Website Design</a>
                     </Link>
-                    <Link href="/digitalmarketingg" legacyBehavior>
-                        <a className="block mb-2">Digital Marketing</a>
-                    </Link>
                     <Link href="/seopackagepage" legacyBehavior> 
                         <a className="block mb-2">SEO | Search Engine Optimization</a>
                     </Link>
