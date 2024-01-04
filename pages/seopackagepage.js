@@ -418,15 +418,18 @@ SEO Package Pricing
         <div id="free-quote">
             {/* FREE PRICE QUOTE */} 
 <div className="text-center mt-8">
-  <p className="text-2xl text-slate-900 font-semibold">
-    Interested in our SEO Packages?
+  <p className="text-4xl mb-4 text-slate-900 font-semibold">
+  Looking to Enhance Your Websites SEO?
   </p>
   <p className="text-lg text-gray-600">
-    Contact us today to request a <span className="text-slate-700">free price quote</span>.
+  Discover how our specialized SEO services can elevate your online presence.
+  </p> 
+  <p className="text-lg text-gray-600">
+  Begin with an initial consultation to understand the unique needs of your business.
   </p>
-  <Link href="/contact" legacyBehavior>
-    <a className="inline-block bg-slate-900 hover:bg-slate-950 text-white text-lg py-3 px-12 mb-6 mt-4 rounded-md transition duration-300 transform hover:-translate-y-1 shadow-md">
-      Request a Free Price Quote
+  <Link href="/seoConsultation" legacyBehavior>
+    <a className="inline-block bg-slate-600 hover:bg-slate-950 text-white text-lg py-3 px-12 mb-6 mt-4 rounded-md transition duration-300 transform hover:-translate-y-1 shadow-md">
+     Start SEO Form
     </a>
   </Link>
 </div>
