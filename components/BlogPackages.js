@@ -157,7 +157,7 @@ const BlogPackages = () => {
   {/* Reader Engagement Card */}
   <div class="custom-category-card">
     <div class="custom-category-icon">💌</div>
-    <span class="custom-category-title">Keep Readers Engaged</span>
+    <span class="custom-category-title">Keeping Readers Engaged</span>
     <div class="custom-category-description">Email subscriptions to maintain audience interest.</div>
   </div>
 
@@ -356,20 +356,25 @@ Connect with us for a personalized consultation at{' '}
   ))}
 </div>
 
-{/* BLOG CONTACT/FREE QUOTE LINK */}
-<div className="text-center mt-10">
-        <p className="text-2xl text-blue-800 font-semibold">
-          Interested in our Blog Web Design Package?
-        </p>
-        <p className="text-lg text-gray-600">
-          Contact us today to request a <span className="text-blue-700">free price quote</span>.
-        </p>
-        <Link href="/contact" legacyBehavior>
-          <a className="inline-block bg-blue-700 hover:bg-blue-900 text-white text-lg py-3 px-12 mb-10 mt-4 rounded-md transition duration-300 transform hover:-translate-y-1 shadow-md">
-            Request a Free Price Quote
-          </a>
-        </Link>
-      </div>
+{/* BLOG CONSULTATION REQUEST LINK */}
+<div className="text-center mt-10 bg-white py-8 px-6 rounded-lg shadow-lg mx-auto max-w-2xl">
+  <h2 className="text-3xl text-blue-800 font-bold mb-4">
+    Elevate Your Blog with Expert Guidance
+  </h2>
+  <p className="text-xl text-gray-700 mb-6">
+    Kickstart your journey with a <span className="underline decoration-blue-700 decoration-2">complimentary initial consultation</span>. Our Blog Web Design Package is tailored to meet your unique needs.
+  </p>
+  <Link href="/webDesignConsultation" legacyBehavior>
+    <a className="inline-block bg-blue-700 hover:bg-blue-800 text-white text-lg font-medium py-3 px-8 rounded-full transition duration-300 ease-in-out transform hover:scale-105 shadow-sm">
+      Begin Consultation
+    </a>
+  </Link>
+  <p className="text-sm text-gray-500 mt-4">
+    Lets craft a strategy that brings your vision to life.
+  </p>
+</div>
+
+
 {/* BLUE BORDER BOTTOM */} 
 <div className="border-bottom-blue"></div>
 
@@ -378,3 +383,4 @@ Connect with us for a personalized consultation at{' '}
 };
 
 export default BlogPackages;
+
