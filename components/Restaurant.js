@@ -103,7 +103,7 @@ const Restaurant = () => {
   {/* Web Presence Card */}
   <div class="custom-category-card">
     <div class="custom-category-icon">🌐</div>
-    <span class="custom-category-title">Web Presence</span>
+    <span class="custom-category-title">Online Website Presence</span>
     <div class="custom-category-description">
       Create a captivating online identity to highlight your culinary skills.
     </div>
@@ -166,7 +166,7 @@ const Restaurant = () => {
   {/* Marketing Tools Card */}
   <div class="custom-category-card">
     <div class="custom-category-icon">📣</div>
-    <span class="custom-category-title">Marketing Tools</span>
+    <span class="custom-category-title">Marketing Tools | Promotions</span>
     <div class="custom-category-description">
       Advanced tools for promotions and digital marketing.
     </div>
