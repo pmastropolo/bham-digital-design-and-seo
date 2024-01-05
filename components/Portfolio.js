@@ -128,10 +128,10 @@ const Portfolio = () => {
   return (
     <div>
       {/* Portfolio Card */}
-      <div className="bg-white rounded-lg overflow-hidden shadow-md" style={{ boxShadow: "2px 6px 8px rgba(900, 105, 0.9, 0.4)" }}>
+      <div className="bg-white rounded-lg overflow-hidden shadow-md">
         {/* Portfolio Title Section One */}
         <div className="p-2 sm:p-3">
-          <div className="bg-gradient-to-b from-yellow-700 to-yellow-800 rounded-lg overflow-hidden text-white text-center tracking-wide leading-tight hover:text-yellow-900 transition-colors duration-300 p-8">
+          <div className="bg-gradient-to-b from-cyan-200 to-cyan-500 rounded-lg overflow-hidden text-white text-center tracking-wide leading-tight hover:text-cyan-600 transition-colors duration-300 p-8">
             <h1 className="text-3xl sm:text-4xl md:text-5xl lg:text-6xl font-bold">
               The Ultimate Portfolio Experience
             </h1>
@@ -142,7 +142,7 @@ const Portfolio = () => {
 
           {/* Portfolio Title Section Two */}
           <h4 className="text-4xl mt-4 font-semibold text-gray-800">
-            Stunning<span className="text-yellow-700"> Portfolio</span> Website Package
+            Stunning<span className="text-cyan-400"> Portfolio</span> Website Package
           </h4>
           <p className="text-md text-gray-700 mt-4 mb-4">
             Dazzle the digital world with our Stunning Portfolio Website Package. This exclusive offering is meticulously designed to empower individuals and professionals from various creative domains. Elevate your online presence and leave an indelible mark in your industry with a captivating and visually immersive digital portfolio.
@@ -315,12 +315,12 @@ const Portfolio = () => {
 
   {/* Call to Action for Contact */}
   <p className="mt-6 text-md text-gray-700">
-    To create a portfolio that truly represents you and your work, reach out to us at<a href="mailto:services@bhamseoanddesignco.com" style={{ color: 'orange' }}> services@bhamseoanddesignco.com</a>, or press the button to get started.
+    To create a portfolio that truly represents you and your work, reach out to us at<a href="mailto:services@bhamseoanddesignco.com" style={{ color: 'blue' }}> services@bhamseoanddesignco.com</a>, or press the button to get started.
   </p>
 
   {/* Contact Button to Launch Portfolio */}
   <Link href="/contact" legacyBehavior>
-    <a className="inline-block mt-6 mb-6 bg-gradient-to-r from-yellow-600 to-yellow-800 hover:from-yellow-800 hover:to-yellow-600 text-white text-lg py-3 px-8 rounded-full transition duration-300 ease-in-out transform hover:-translate-y-1 shadow-lg">
+    <a className="inline-block mt-6 mb-6 bg-gradient-to-r from-cyan-600 to-cyan-800 hover:from-cyan-800 hover:to-cyan-600 text-white text-lg py-3 px-8 rounded-full transition duration-300 ease-in-out transform hover:-translate-y-1 shadow-lg">
       Launch Your Portfolio Now
     </a>
   </Link>
@@ -328,26 +328,26 @@ const Portfolio = () => {
   </div>
 
 {/* Portfolio Package Pricing Title */}
-<div className="relative py-5 px-6 lg:px-12 bg-gradient-to-br from-yellow-600 via-yellow-700 to-yellow-800 rounded-3xl shadow-xl mx-4 my-10">
+<div className="relative py-5 px-6 lg:px-12 bg-gradient-to-br from-cyan-400 via-cyan-500 to-cyan-500 rounded-3xl shadow-xl mx-4 my-10">
   <div className="text-center">
-    <h1 className="text-xl lg:text-3xl font-extrabold text-white mb-2 mt-2 tracking-wide leading-tight hover:text-yellow-950 transition-colors duration-300">
+    <h1 className="text-xl lg:text-3xl font-extrabold text-white mb-2 mt-2 tracking-wide leading-tight hover:text-cyan-950 transition-colors duration-300">
       Portfolio Package Pricing
     </h1>
     <p className="text-md lg:text-lg font-medium text-white mb-2">
       Find the Ideal Plan for Your Business
     </p>
-    <span className="inline-block w-16 h-1 bg-yellow-100 rounded"></span>
+    <span className="inline-block w-16 h-1 bg-cyan-100 rounded"></span>
   </div>
 </div>
 
 {/* Portfolio Packages Grid */}
 <div className="grid grid-cols-1 md:grid-cols-3 lg:grid-cols-2 gap-x-4 gap-y-4">
   {portfolioPackages.map((pkg, index) => (
-    <div key={index} className="bg-white rounded-lg overflow-hidden shadow-lg border border-yellow-700 hover:shadow-2xl transition-shadow duration-500 ease-in-out">
+    <div key={index} className="bg-white rounded-lg overflow-hidden shadow-lg border border-cyan-400 hover:shadow-2xl transition-shadow duration-500 ease-in-out">
       <div className="flex flex-col h-full"> 
         <div className="p-4">
-          <h3 className="text-2xl font-semibold mb-1 tracking-wide leading-relaxed text-gray-800 hover:text-yellow-800 transition-colors duration-300 ease-in-out">{pkg.name}</h3>
-          <p className="text-md mb-1 font-medium text-yellow-700">{pkg.price}</p>
+          <h3 className="text-2xl font-semibold mb-1 tracking-wide leading-relaxed text-gray-800 hover:text-cyan-800 transition-colors duration-300 ease-in-out">{pkg.name}</h3>
+          <p className="text-md mb-1 font-medium text-cyan-400">{pkg.price}</p>
           <hr className="mb-2" />
           <p className="text-gray-800 mb-3"><strong>Duration |</strong> {pkg.duration}</p>
           <div className="bg-gray-50 p-2 rounded-lg mb-2">
@@ -364,7 +364,7 @@ const Portfolio = () => {
             <p className="bold">Total Pages | {pkg.totalPages}</p>
           </div>
         </div>
-        <div className="bg-yellow-900 p-4 text-white mt-auto"> 
+        <div className="bg-cyan-500 p-4 text-white mt-auto"> 
           {pkg.idealFor}
         </div>
       </div>
@@ -374,25 +374,24 @@ const Portfolio = () => {
 
 {/* Contact Information */}
 <div className="text-center mt-8">
-  <p className="text-2xl text-yellow-700 font-semibold">
+  <p className="text-2xl text-cyan-500 font-semibold">
     Interested in our Business Web Design Package?
   </p>
   <p className="text-lg text-gray-600">
-    Contact us today to request a <span className="text-yellow-700">free price quote</span>.
+    Contact us today to request a <span className="text-cyan-400">free price quote</span>.
   </p>
   <Link href="/contact" legacyBehavior>
-    <a className="inline-block bg-yellow-700 hover:bg-yellow-800 text-white text-lg py-3 px-12 mb-6 mt-4 rounded-md transition duration-300 transform hover:-translate-y-1 shadow-md">
+    <a className="inline-block bg-cyan-500 hover:bg-cyan-700 text-white text-lg py-3 px-12 mb-6 mt-4 rounded-md transition duration-300 transform hover:-translate-y-1 shadow-md">
       Request a Free Price Quote
     </a>
   </Link>
 </div>
 
 {/* Yellow Border Bottom */}
-<div className="border-bottom-brown"></div>
+<div className="border-bottom-blue"></div>
 </div>
    );
 };
 
 
 export default Portfolio;
-
