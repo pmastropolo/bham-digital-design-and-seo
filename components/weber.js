@@ -10,6 +10,7 @@ const WeberPackagesPage = () => {
       description: 'Start selling online effortlessly and expand your business reach with an e-commerce website.',
       icon: <FaShoppingCart />,
       id: 'ecommerce-package',
+      link: <Link href="/ecommerce-website" legacyBehavior><a className="text-red-800 underline hover:text-blue-900">Learn more</a></Link>,
     },
  
     {
@@ -17,6 +18,7 @@ const WeberPackagesPage = () => {
       description: 'Share your ideas and stories with the world through an engaging and informative blog website.',
       icon: <FaBlog />,
       id: 'blog-package',
+      link: <Link href="/blog-website" legacyBehavior><a className="text-blue-700 underline hover:text-blue-200">Learn more</a></Link>,
     },
 
     {
@@ -24,6 +26,7 @@ const WeberPackagesPage = () => {
       description: 'Elevate your companys image and attract more customers with a professional business website.',
       icon: <FaBriefcase />,
       id: 'business-package',
+      link: <Link href="/business-website" legacyBehavior><a className="text-green-800 underline hover:text-blue-900">Learn more</a></Link>,
     },
 
     {
@@ -31,6 +34,7 @@ const WeberPackagesPage = () => {
       description: 'Impress clients and stand out in your field by showcasing your work and skills on a stunning portfolio website.',
       icon: <FaUser />,
       id: 'portfolio-package',
+      link: <Link href="/portfolio-website" legacyBehavior><a className="text-orange-800 underline hover:text-blue-900">Learn more</a></Link>,
     },
 
     {
@@ -38,6 +42,7 @@ const WeberPackagesPage = () => {
       description: 'Transform education and foster learning opportunities with websites for institutions and e-learning.',
       icon: <FaSchool />,
       id: 'educational-package',
+      link: <Link href="/educational-website" legacyBehavior><a className="text-purple-800 underline hover:text-blue-900">Learn more</a></Link>,
     },
 
     {
@@ -45,6 +50,7 @@ const WeberPackagesPage = () => {
       description: 'Empower non-profits and drive positive change with dedicated websites for community organizations.',
       icon: <FaUserCircle />,
       id: 'community-package',
+      link: <Link href="/community-website" legacyBehavior><a className="text-orange-800 underline hover:text-blue-900">Learn more</a></Link>,
     },
 
     {
@@ -52,6 +58,7 @@ const WeberPackagesPage = () => {
       description: 'Craft a unique online presence and share your passions with a personal website.',
       icon: <FaHeart />,
       id: 'personal-package',
+      link: <Link href="/personal-website" legacyBehavior><a className="text-pink-800 underline hover:text-blue-900">Learn more</a></Link>,
     },
 
     {
@@ -59,6 +66,7 @@ const WeberPackagesPage = () => {
       description: 'Fuel your marketing campaigns with compelling landing pages that convert visitors into customers.',
       icon: <FaLaptop />,
       id: 'landingpage-package',
+      link: <Link href="/landing-page-website" legacyBehavior><a className="text-orange-900 underline hover:text-blue-900">Learn more</a></Link>,
     },
 
     {
@@ -66,6 +74,7 @@ const WeberPackagesPage = () => {
       description: 'Simplify event management and bookings with user-friendly websites',
       icon: <FaCalendarAlt />,
       id: 'event-package',
+      link: <Link href="/event-website" legacyBehavior><a className="text-purple-700 underline hover:text-blue-900">Learn more</a></Link>,
     },
 
     {
@@ -73,6 +82,7 @@ const WeberPackagesPage = () => {
       description: 'Inspire a healthier lifestyle and promote well-being with dedicated health and wellness websites.',
       icon: <FaHospital />,
       id: 'health-package',
+      link: <Link href="/health-and-wellness-website" legacyBehavior><a className="text-slate-800 underline hover:text-blue-900">Learn more</a></Link>,
     },
 
     {
@@ -80,6 +90,7 @@ const WeberPackagesPage = () => {
       description: 'Effortlessly buy, sell, and rent properties while finding the perfect place or buyer with real estate websites.',
       icon: <FaHome />,
       id: 'realestate-package',
+      link: <Link href="/real-estate-website" legacyBehavior><a className="text-green-800 underline hover:text-blue-900">Learn more</a></Link>,
     },
 
     {
@@ -87,6 +98,7 @@ const WeberPackagesPage = () => {
       description: 'Keep your audience entertained and informed with engaging websites in the world of entertainment and media.',
       icon: <FaFilm />,
       id: 'health-package',
+      link: <Link href="/entertainment-website" legacyBehavior><a className="text-indigo-700 underline hover:text-blue-900">Learn more</a></Link>,
     },
 
     {
@@ -94,6 +106,7 @@ const WeberPackagesPage = () => {
       description: 'Enhance your food-related business, attract hungry customers, and boost sales with enticing websites.',
       icon: <FaUtensils />,
       id: 'restaurant-package',
+      link: <Link href="/restaurant-website" legacyBehavior><a className="text-green-700 underline hover:text-blue-900">Learn more</a></Link>,
     },
 
     {
@@ -101,6 +114,7 @@ const WeberPackagesPage = () => {
       description: 'Build and grow exclusive online communities with ease using membership-based platform websites.',
       icon: <FaUsers />,
       id: 'membership-package',
+      link: <Link href="/membership-website" legacyBehavior><a className="text-yellow-800 underline hover:text-blue-900">Learn more</a></Link>,
     },
   ];
 
@@ -175,7 +189,7 @@ const WeberPackagesPage = () => {
                     <span className="text-3xl ml-2">{service.icon}</span>
                   </div>
                   <p className="text-gray-600">{service.description}</p>
-
+                  <p className="text-indigo-600">{service.link}</p>
                 </div>
               </div>
             ))}
@@ -183,80 +197,20 @@ const WeberPackagesPage = () => {
         </div>
 
         <div className="text-center mt-8">
-  <p className="text-2xl text-slate-900 font-semibold">
-    Interested in our Web Design Packages?
+  <p className="text-3xl md:text-4xl text-slate-900 font-bold">
+    🔥 Ready to Ignite Your Web Presence? 🔥
   </p>
-  <p className="text-lg text-gray-600">
-  Begin with an initial consultation to understand the unique needs of your business.
+  <p className="text-xl text-gray-600 mt-4 mb-6">
+    Dive into a transformative journey with our bespoke Web Design Packages! Initiate a consultation now and unlock the power of exceptional web design tailored to catapult your business to staggering heights of success. Dont just compete; dominate your market with a stunning, high-performance website!
   </p>
   <Link href="/webDesignConsultation" legacyBehavior>
-    <a className="inline-block bg-slate-900 hover:bg-slate-950 text-white text-lg py-3 px-12 mb-6 mt-4 rounded-md transition duration-300 transform hover:-translate-y-1 shadow-md">
-     Start Form
+    <a className="inline-block bg-red-600 hover:bg-red-700 text-white text-lg py-3 px-12 rounded-lg transition duration-300 transform hover:-translate-y-1 hover:scale-105 shadow-lg">
+       Launch Your Consultation Now! 
     </a>
   </Link>
-</div>
-
-<div class="grid-container">
-<div className="border-bottom-gray"></div>
-<Link href="/ecommerce-website" legacyBehavior>
-  <a className="grid-item">E-commerce</a>
-</Link>
-
-<Link href="/blog-website" legacyBehavior>
-  <a className="grid-item">Blog</a>
-</Link>
-
-<Link href="/business-website" legacyBehavior>
-  <a className="grid-item">Business</a>
-</Link>
-
-<Link href="/portfolio-website" legacyBehavior>
-  <a className="grid-item">Portfolio</a>
-</Link>
-
-<Link href="/educational-website" legacyBehavior>
-  <a className="grid-item">Educational</a>
-</Link>
-
-<Link href="/community-website" legacyBehavior>
-  <a className="grid-item">Community</a>
-</Link>
-
-<Link href="/personal-website" legacyBehavior>
-  <a className="grid-item">Personal</a>
-</Link>
-
-<Link href="/landing-page-website" legacyBehavior>
-  <a className="grid-item">Landing Page</a>
-</Link>
-
-<Link href="/event-website" legacyBehavior>
-  <a className="grid-item">Event</a>
-</Link>
-
-<Link href="/health-and-wellness-website" legacyBehavior>
-  <a className="grid-item">Health</a>
-</Link>
-
-<Link href="/real-estate-website" legacyBehavior>
-  <a className="grid-item">Real Estate</a>
-</Link>
-
-<Link href="/entertainment-website" legacyBehavior>
-  <a className="grid-item">Entertainment</a>
-</Link>
-
-<Link href="/restaurant-website" legacyBehavior>
-  <a className="grid-item">Restaurant</a>
-</Link>
-
-<Link href="/membership-website" legacyBehavior>
-  <a className="grid-item">Membership</a>
-</Link>
-</div>
-   
-     
+</div> 
         <div className="p-6"></div>
+
 
       </section>
     
