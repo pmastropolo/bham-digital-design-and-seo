@@ -166,7 +166,7 @@ const Health = () => {
   {/* Analytics and CRM */}
   <div className="custom-category-card">
     <div className="custom-category-icon">📊</div>
-    <span className="custom-category-title">Analytics & CRM</span>
+    <span className="custom-category-title">Analytics | Customer Relationship Management</span>
     <div className="custom-category-description">
       Gain valuable insights and manage your audience efficiently with CRM and analytics tools.
     </div>
@@ -302,7 +302,7 @@ Contact us today to request a <span className="text-gray-400">free price quote</
 </p>
 
 {/* Link to the contact page */}
-<Link href="/contact" legacyBehavior>
+<Link href="/webDesignConsultation" legacyBehavior>
 {/* Call-to-action button */}
 <a className="inline-block bg-gray-800 hover:bg-gray-900 text-white text-lg py-3 px-12 mb-6 mt-4 rounded-md transition duration-300 transform hover:-translate-y-1 shadow-md">
 Request a Free Price Quote
@@ -319,3 +319,4 @@ Request a Free Price Quote
   };
 
 export default Health;
+
