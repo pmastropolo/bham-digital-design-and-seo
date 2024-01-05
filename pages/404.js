@@ -1,31 +1,34 @@
-import Head from "next/head";
+import React from 'react';
 import Link from 'next/link';
-import Image from 'next/image';
+import { NextSeo } from 'next-seo';
 
-export default function Custom404() {
-    return (
-        <>
-            <Head>
-                <title>404 Page not found</title>
-                <meta name="My site" content="Content not found" />
-                <meta name="viewport" content="width=device-width, initial-scale=1" />
-                <link rel="icon" href="/images/favicon.ico" />
-            </Head>
-            <div className="w-auto max-w-3xl bg-white rounded-xl m-auto my-20 pb-10 text-black text-center">
-                <Image 
-                  src="https://img.freepik.com/free-vector/page-found-concept-illustration_114360-1869.jpg" 
-                  alt="Page Not Found"
-                  width={800} 
-                  height={600} 
-                  className="w-full md:w-8/12 m-auto rounded-xl"
-                />
-                <p className="font-mono text-xl md:text-2xl py-5 md:py-10">Sorry The page you are looking for cant be found</p>            
-                <Link href="/">
-                  <a className="bg-green-400 py-2 px-4 rounded-md text-2xl hover:bg-zinc-800 hover:text-white transition-all duration-300" style={{fontFamily:"poppins", fontWeight:"500"}}>
-                    Homepage
-                  </a>
-                </Link>
-            </div>
-        </>
-    );
-}
+const NotFoundPage = () => {
+  return (
+    <>
+      <NextSeo
+        title="404 Not Found | Bham SEO & Design Co."
+        description="The page you are looking for might have been removed, had its name changed, or is temporarily unavailable."
+        noindex={true}  
+        nofollow={true} 
+      />
+      <div className="flex items-center justify-center h-screen bg-gray-100 text-center">
+        <div>
+          <h1 className="text-6xl font-bold text-gray-800">404</h1>
+          <p className="text-2xl md:text-3xl font-light text-gray-600 mt-2 mb-6">
+            Page Not Found
+          </p>
+          <p className="mb-8 text-gray-500">
+            Oops! The page youre looking for doesnt seem to exist.
+          </p>
+          <Link href="/">
+            <a className="px-4 py-2 bg-blue-500 text-white rounded hover:bg-blue-600 transition-colors">
+              Return Home
+            </a>
+          </Link>
+        </div>
+      </div>
+    </>
+  );
+};
+
+export default NotFoundPage;
