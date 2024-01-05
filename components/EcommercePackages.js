@@ -117,7 +117,7 @@ const ecommercePackages = [
 const EcommercePackages = () => {
   return (
 <div>
-<div className="bg-white rounded-lg overflow-hidden shadow-md" style={{ boxShadow: "0px 3px 2px rgba(255, 0, 0, 0.5)" }}>
+<div className="bg-white rounded-lg overflow-hidden shadow-md mt-10" style={{ boxShadow: "0px 3px 2px rgba(255, 0, 0, 0.5)" }}>
 <div className="p-2 sm:p-3">
 <div className="bg-gradient-to-b from-red-600 to-red-800 rounded-lg overflow-hidden text-white text-center tracking-wide leading-tight hover:text-red-900 transition-colors duration-300 p-8">
 
@@ -330,3 +330,4 @@ Find the Ideal Plan for Your Business
 };
 
 export default EcommercePackages;
+
