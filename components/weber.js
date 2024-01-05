@@ -182,7 +182,7 @@ const WeberPackagesPage = () => {
           </div>
         </div>
 
-                      <div className="text-center mt-8">
+        <div className="text-center mt-8">
   <p className="text-2xl text-slate-900 font-semibold">
     Interested in our Web Design Packages?
   </p>
@@ -196,10 +196,68 @@ const WeberPackagesPage = () => {
   </Link>
 </div>
 
+<div class="grid-container">
 <div className="border-bottom-gray"></div>
- 
+<Link href="/ecommerce-website" legacyBehavior>
+  <a className="grid-item">E-commerce</a>
+</Link>
+
+<Link href="/blog-website" legacyBehavior>
+  <a className="grid-item">Blog</a>
+</Link>
+
+<Link href="/business-website" legacyBehavior>
+  <a className="grid-item">Business</a>
+</Link>
+
+<Link href="/portfolio-website" legacyBehavior>
+  <a className="grid-item">Portfolio</a>
+</Link>
+
+<Link href="/educational-website" legacyBehavior>
+  <a className="grid-item">Educational</a>
+</Link>
+
+<Link href="/community-website" legacyBehavior>
+  <a className="grid-item">Community</a>
+</Link>
+
+<Link href="/personal-website" legacyBehavior>
+  <a className="grid-item">Personal</a>
+</Link>
+
+<Link href="/landing-page-website" legacyBehavior>
+  <a className="grid-item">Landing Page</a>
+</Link>
+
+<Link href="/event-website" legacyBehavior>
+  <a className="grid-item">Event</a>
+</Link>
+
+<Link href="/health-and-wellness-website" legacyBehavior>
+  <a className="grid-item">Health</a>
+</Link>
+
+<Link href="/real-estate-website" legacyBehavior>
+  <a className="grid-item">Real Estate</a>
+</Link>
+
+<Link href="/entertainment-website" legacyBehavior>
+  <a className="grid-item">Entertainment</a>
+</Link>
+
+<Link href="/restaurant-website" legacyBehavior>
+  <a className="grid-item">Restaurant</a>
+</Link>
+
+<Link href="/membership-website" legacyBehavior>
+  <a className="grid-item">Membership</a>
+</Link>
+</div>
+   
      
         <div className="p-6"></div>
+
       </section>
     
   );
