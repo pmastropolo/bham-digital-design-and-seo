@@ -15,11 +15,9 @@ export default function Home() {
        title="Home Page - Bham SEO and Web Design Co"
       description="Bham SEO and Web Design Co offers expert Web Design and SEO Services to businesses and organizations in Birmingham, Alabaster, Hoover, and Mountain Brook, Alabama, as well as nationwide. Our team of dedicated professionals specializes in creating stunning websites that not only look great but also perform exceptionally well in search engine rankings. With our comprehensive SEO strategies, we help businesses improve their online visibility, drive organic traffic, and achieve higher search engine rankings. Whether you're looking for a responsive website, SEO optimization, or a digital marketing partner, we've got you covered. Elevate your online presence with Bham SEO and Web Design Co."
       additionalMetaTags={[
-        { name: 'keywords', content: 'web design, SEO, Birmingham, Alabama' },
         { name: 'author', content: 'Peyton' },
         { name: 'designer', content: 'Web Design Expert' },
         { name: 'seo-expert', content: 'SEO Specialist' },
-        { name: 'service-area', content: 'Birmingham, Montgomery, Mobile, Huntsville, Nationwide, Pelham, Trussville, Crestline Heights, Maylene, Elliotsville, Shoal Creek, Calera, Cahaba Heights, Gardendale, Helena, Homewood, Hoover, Mountain Brook, Vestavia Hills, Columbiana, Indian Springs Village, Montevallo' },
         { name: 'industry', content: 'Digital Marketing' },
         { name: 'contact-email', content: 'services@bhamseoanddesignco.com' },
       ]}
