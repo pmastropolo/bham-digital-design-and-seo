@@ -1,38 +1,71 @@
 import React from 'react';
 import { NextSeo } from 'next-seo';
 import Link from 'next/link';
+import Membership from '../components/Membership';                              // MEMBERSHIP COMPONENT
 
 const MembershipWebsiteServices = () => {
   return (
       <>
           <NextSeo
-              title="Membership Website Development Services | Bham Web Design and SEO Co."
-              description="Bham Web Design and SEO Co. offers professional membership website development services. Create exclusive and engaging websites for your membership-based organization."
+              title="🌟 Membership Website Development Services | Bham Web Design and SEO Co."
+              description="🔐 Bham Web Design and SEO Co. offers professional membership website development services. Create exclusive and engaging websites for your membership-based organization."
               openGraph={{
-                  title: 'Membership Website Development Services | Bham Web Design and SEO Co.',
-                  description: 'Bham Web Design and SEO Co. offers professional membership website development services. Create exclusive and engaging websites for your membership-based organization.',
+                  title: '🌟 Membership Website Development Services | Bham Web Design and SEO Co.',
+                  description: '🔐 Bham Web Design and SEO Co. offers professional membership website development services. Create exclusive and engaging websites for your membership-based organization.',
                   url: 'https://bhamseoanddesignco.com/membership-website-services',
                   type: 'website',
               }}
           />
-          <div className="bg-white text-center p-10 shadow-lg rounded-lg mb-10 z-10 relative">
-              <h2 className="text-5xl font-extrabold text-gray-800 mt-4 mb-6">Membership Website Development Services</h2>
-              <p className="text-lg text-gray-600 mb-8">Create exclusive and engaging websites for your membership-based organization.</p>
-              <div className="max-w-3xl mx-auto">
-                  <p className="text-xl text-gray-800 mb-4">At Bham Web Design and SEO Co., we specialize in crafting membership websites that cater to the unique needs of your organization. Whether you run a professional association, a nonprofit, or any other membership-based group, our membership website development services can help you create an engaging online platform for your members.</p>
-                  <p className="text-xl text-gray-800 mb-4">Our membership website development services include:</p>
-                  <ul className="list-disc pl-6">
-                      <li className="text-lg text-gray-800 mb-2">Custom website design and development</li>
-                      <li className="text-lg text-gray-800 mb-2">Member registration and login features</li>
-                      <li className="text-lg text-gray-800 mb-2">Exclusive member-only content areas</li>
-                      <li className="text-lg text-gray-800 mb-2">Payment processing for memberships</li>
-                      <li className="text-lg text-gray-800 mb-2">Member communication tools</li>
-                      <li className="text-lg text-gray-800 mb-2">Event management and registration</li>
-                      <li className="text-lg text-gray-800 mb-2">Mobile-responsive design for all devices</li>
-                  </ul>
-                  <p className="text-xl text-gray-800 mb-4">Ready to create an exclusive and engaging website for your membership-based organization? Contact us today to discuss your membership website project and provide your members with a top-notch online experience.</p>
-              </div>
-          </div>
+
+<div className="bg-gradient-to-r from-yellow-400 to-yellow-500 mt-6 text-white py-16 px-6 shadow-2xl rounded-3xl mb-12 overflow-hidden">
+  <div className="animate-pulse absolute inset-0 z-0 opacity-20">
+    <div className="absolute inset-0 bg-yellow-600 rounded-full filter blur-3xl"></div>
+    <div className="absolute bottom-0 right-0 bg-yellow-500 rounded-full w-80 h-80 filter blur-3xl"></div>
+  </div>
+
+  <div className="relative z-10">
+    <h2 className="text-6xl font-bold text-center mb-6">
+      Membership Website Development Services 
+    </h2>
+    <p className="text-3xl text-center mb-8">
+      Create Exclusive and Engaging Websites for Your Membership-Based Organization 🏢
+    </p>
+
+    <div className="max-w-3xl mx-auto bg-white/90 backdrop-blur-sm rounded-xl p-8">
+      <p className="text-2xl font-semibold text-gray-900 mb-6">
+        Join Bham Web Design and SEO Co. in elevating your membership-based organization with a custom-designed website. Our expertise lies in creating platforms that cater specifically to the needs of professional associations, nonprofits, and other member-centric groups, providing an engaging and exclusive online space for your members.
+      </p>
+
+      <h3 className="text-2xl font-bold text-gray-900 mb-4">
+        Explore Our Membership Website Services:
+      </h3>
+
+      <ul className="list-disc pl-10 text-xl text-gray-800 mb-6 space-y-2 text-left">
+        <li><strong>Custom Design</strong> | Tailored website design and development for your organization.</li>
+        <li><strong>Member Registration</strong> | Secure member registration and login features.</li>
+        <li><strong>Exclusive Content</strong> | Member-only content areas to add value and exclusivity.</li>
+        <li><strong>Payment Processing</strong> | Easy membership management with payment processing.</li>
+        <li><strong>Member Communication</strong> | Effective member communication tools for outreach.</li>
+        <li><strong>Event Management</strong> | Event management and registration for community engagement.</li>
+        <li><strong>Mobile-Responsive</strong> | Accessibility on all devices with mobile-responsive design.</li>
+      </ul>
+
+      <p className="text-2xl font-semibold text-gray-900 mb-8">
+        Ready to provide your members with a premium online experience? Reach out to us today to start your membership website project and enhance your organizations digital presence.
+      </p>
+
+      <div className="text-center">
+      <Link href="/webDesignConsultation" legacyBehavior>
+          <a className="bg-yellow-500 hover:bg-yellow-700 text-white text-lg py-3 px-8 rounded-full transition duration-300 ease-in-out transform hover:scale-110">
+            🚀 Launch Your Membership Site Now!
+          </a>
+        </Link>
+      </div>
+    </div>
+  </div>
+</div>
+
+          <Membership />
       </>
   );
 }
