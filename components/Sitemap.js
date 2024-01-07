@@ -1,4 +1,4 @@
-import React from 'react';
+, yuimport React from 'react';
 import Link from 'next/link';
 
 const Sitemap = () => {
