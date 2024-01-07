@@ -166,19 +166,22 @@ const Sitemap = () => {
 
 {/* SEO Bessemer */}
 <li>
-    <Link href="/seo-services-in-clanton-al" legacyBehavior><a className="text-2xl text-blue-600 hover:text-blue-800 transition duration-300 font-medium">SEO Services in Clanton, AL</a></Link>
+  <Link href="/seo-services-in-clanton-al" legacyBehavior><a className="text-2xl text-blue-600 hover:text-blue-800 transition duration-300 font-medium">SEO Services in Clanton, AL</a></Link>
 </li>
 
 {/* SEO Columbiana */}
-    <li>
-        <Link href="/seo-services-in-columbiana-al" legacyBehavior><a className="text-2xl text-blue-600 hover:text-blue-800 transition duration-300 font-medium">SEO Services in Columbiana, AL</a></Link>
-    </li>
+<li>
+  <Link href="/seo-services-in-columbiana-al" legacyBehavior><a className="text-2xl text-blue-600 hover:text-blue-800 transition duration-300 font-medium">SEO Services in Columbiana, AL</a></Link>
+</li>
+    
     <li className="mb-8">
         <Link href="/seo-services-in-fultondale-al" legacyBehavior><a className="text-2xl text-blue-700 hover:text-blue-900 transition duration-300 font-medium">SEO Services in Fultondale, AL</a></Link>
     </li>
+    
     <li className="mb-8">
         <Link href="/seo-services-in-gardendale-al" legacyBehavior><a className="text-2xl text-blue-700 hover:text-blue-900 transition duration-300 font-medium">SEO Services in Gardendale, AL</a></Link>
     </li>
+    
     <li className="mb-8">
         <Link href="/seo-services-in-greystone-al" legacyBehavior><a className="text-2xl text-blue-700 hover:text-blue-900 transition duration-300 font-medium">SEO Services in Greystone, AL</a></Link>
     </li>
