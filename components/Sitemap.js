@@ -233,7 +233,7 @@ const Sitemap = () => {
     </li>
   
                 
-
+  {/* Term Header */}
 <h3 className="text-3xl font-semibold text-blue-500 mb-12 text-center">Terms</h3>
 
 <ul className="list-inside pl-8 mt-4 space-y-2">
