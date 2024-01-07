@@ -234,25 +234,35 @@ const Sitemap = () => {
   
                 
 
-  <h3 className="text-3xl font-semibold text-blue-500 mb-12 text-center">Terms</h3>
+<h3 className="text-3xl font-semibold text-blue-500 mb-12 text-center">Terms</h3>
 
-                <li className="mb-8">
-                    <Link href="/billingTerms" legacyBehavior><a className="text-2xl text-blue-700 hover:text-blue-900 transition duration-300 font-medium">Payment Guidelines</a></Link>
-                </li>
-                <li className="mb-8">
-                    <Link href="/terms" legacyBehavior><a className="text-2xl text-blue-700 hover:text-blue-900 transition duration-300 font-medium">Terms & Conditions</a></Link>
-                </li>
-                <li className="mb-8">
-                    <Link href="/privacy" legacyBehavior><a className="text-2xl text-blue-700 hover:text-blue-900 transition duration-300 font-medium">Privacy Policy</a></Link>
-                </li>
-            </ul>
+<ul className="list-inside pl-8 mt-4 space-y-2">
+  {/* Payment Guidelines */}
+  <li className="mb-8">
+    <Link href="/billingTerms" legacyBehavior>
+      <a className="text-2xl text-blue-700 hover:text-blue-900 transition duration-300 font-medium">Payment Guidelines</a>
+    </Link>
+  </li>
 
+  {/* Terms & Conditions */}
+  <li className="mb-8">
+    <Link href="/terms" legacyBehavior>
+      <a className="text-2xl text-blue-700 hover:text-blue-900 transition duration-300 font-medium">Terms & Conditions</a>
+    </Link>
+  </li>
 
+  {/* Privacy Policy */}
+  <li className="mb-8">
+    <Link href="/privacy" legacyBehavior>
+      <a className="text-2xl text-blue-700 hover:text-blue-900 transition duration-300 font-medium">Privacy Policy</a>
+    </Link>
+  </li>
+</ul>
 
-            <div className="border-bottom-gr"></div>
-        </div>
+  {/* Border bottom gray */}
+<div className="border-bottom-gr"></div>
+</div>
 
-   
     );
 }
 
