@@ -4,7 +4,7 @@ import Link from 'next/link';
 const Sitemap = () => {
     return (
         <div className="sitemap mt-12 mb-20 max-w-4xl mx-auto">
-            <h2 className="text-3xl font-semibold text-cyan-400 mb-12 text-center">Site Map</h2>
+            <h2 className="text-3xl font-semibold text-cyan-400 mb-12 text-center">Website Navigation</h2>
             <ul className="list-none p-0">
 
 
