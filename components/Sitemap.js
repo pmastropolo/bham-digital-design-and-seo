@@ -3,28 +3,30 @@ import Link from 'next/link';
 
 const Sitemap = () => {
     return (
-        <div className="sitemap mt-12 mb-20 max-w-4xl mx-auto">
-            <h2 className="text-3xl font-semibold text-cyan-400 mb-12 text-center">Website Navigation</h2>
-            <ul className="list-none p-0">
-
-                <li className="mb-8">
-                    <Link href="/" legacyBehavior><a className="text-2xl text-blue-700 hover:text-blue-900 transition duration-300 font-medium">Homepage</a></Link>
-                </li>
-
-                <li className="mb-8">
-                    <Link href="/apply" legacyBehavior><a className="text-2xl text-blue-700 hover:text-blue-900 transition duration-300 font-medium">About Us & FAQ</a></Link>
-                </li>
-
-                <li className="mb-8">
-                    <Link href="/contact" legacyBehavior><a className="text-2xl text-blue-700 hover:text-blue-900 transition duration-300 font-medium">Contact</a></Link>
-                </li>
-
-                <h3 className="text-3xl font-semibold text-cyan-400 mb-12 text-center">Website Design & Development</h3>
-
-
-                <li className="mb-8">
-                    <Link href="/PackagePage" legacyBehavior><a className="text-2xl text-blue-700 hover:text-blue-900 transition duration-300 font-medium">Web Design</a></Link>
-                </li>
+<div className="sitemap mt-12 mb-20 max-w-4xl mx-auto">
+  <h2 className="text-3xl font-semibold text-cyan-400 mb-12 text-center">Website Navigation</h2>
+  <ul className="list-none p-0">
+    <li className="mb-8">
+      <Link href="/" legacyBehavior>
+        <a className="text-2xl text-blue-700 hover:text-blue-900 transition duration-300 font-medium">Homepage</a>
+      </Link>
+    </li>
+    <li className="mb-8">
+      <Link href="/apply" legacyBehavior>
+        <a className="text-2xl text-blue-700 hover:text-blue-900 transition duration-300 font-medium">About Us & FAQ</a>
+      </Link>
+    </li>
+    <li className="mb-8">
+      <Link href="/contact" legacyBehavior>
+        <a className="text-2xl text-blue-700 hover:text-blue-900 transition duration-300 font-medium">Contact</a>
+      </Link>
+    </li>
+    <h3 className="text-3xl font-semibold text-cyan-400 mb-12 text-center">Website Design & Development</h3>
+    <li className="mb-8">
+      <Link href="/PackagePage" legacyBehavior>
+        <a className="text-2xl text-blue-700 hover:text-blue-900 transition duration-300 font-medium">Web Design</a>
+      </Link>
+    </li>
                     
                     
     <ul className="list-inside pl-8 mt-4 space-y-2">
