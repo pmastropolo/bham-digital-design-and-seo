@@ -15,10 +15,12 @@ const SEOAlabaster = () => {
                     type: 'website',
                 }}
             />
-            <div className="bg-white text-center p-10 shadow-lg rounded-lg mb-10 z-10 relative">
-                <h2 className="text-5xl font-extrabold text-gray-800 mt-4 mb-6">SEO Services in Alabaster, AL</h2>
-                {/* Add your SEO services content for Alabaster here */}
-            </div>
+<div className="bg-white-center p-10 shadow rounded-lg mb-10 z-10 relative">
+    <h2 className="text-5xl font-extrabold text-gray-800 mt-4 mb-6">SEO Services in Alabaster, AL</h2>
+    <p className="text-lg text-gray-600 mb-4">Looking to improve your online presence and visibility in Alabaster, AL? At Bham Web Design & SEO Co., we offer SEO services that can help drive more organic traffic to your website and increase your search engine rankings.</p>
+    <p className="text-lg text-gray-600 mb-4">Our team of experts specializes in developing customized SEO strategies tailored to meet the unique needs of businesses in Alabaster. Whether you need assistance with optimizing your website content, improving your local search visibility, or enhancing your overall SEO strategy, we have the knowledge and experience to deliver results.</p>
+    <p className="text-lg text-gray-600 mb-4">Contact Bham Web Design & SEO Co. today to learn more about our SEO services in Alabaster and how we can help your business thrive online.</p>
+</div>
         </>
     );
 }
