@@ -174,29 +174,55 @@ const Sitemap = () => {
   <Link href="/seo-services-in-columbiana-al" legacyBehavior><a className="text-2xl text-blue-600 hover:text-blue-800 transition duration-300 font-medium">SEO Services in Columbiana, AL</a></Link>
 </li>
     
-    <li className="mb-8">
-        <Link href="/seo-services-in-fultondale-al" legacyBehavior><a className="text-2xl text-blue-700 hover:text-blue-900 transition duration-300 font-medium">SEO Services in Fultondale, AL</a></Link>
-    </li>
-    
-    <li className="mb-8">
-        <Link href="/seo-services-in-gardendale-al" legacyBehavior><a className="text-2xl text-blue-700 hover:text-blue-900 transition duration-300 font-medium">SEO Services in Gardendale, AL</a></Link>
-    </li>
-    
-    <li className="mb-8">
-        <Link href="/seo-services-in-greystone-al" legacyBehavior><a className="text-2xl text-blue-700 hover:text-blue-900 transition duration-300 font-medium">SEO Services in Greystone, AL</a></Link>
-    </li>
-    <li className="mb-8">
-        <Link href="/seo-services-in-helena-al" legacyBehavior><a className="text-2xl text-blue-700 hover:text-blue-900 transition duration-300 font-medium">SEO Services in Helena, AL</a></Link>
-    </li>
-    <li className="mb-8">
-        <Link href="/seo-services-in-homewood-al" legacyBehavior><a className="text-2xl text-blue-700 hover:text-blue-900 transition duration-300 font-medium">SEO Services in Homewood, AL</a></Link>
-    </li>
-    <li className="mb-8">
-        <Link href="/seo-services-in-hoover-al" legacyBehavior><a className="text-2xl text-blue-700 hover:text-blue-900 transition duration-300 font-medium">SEO Services in Hoover, AL</a></Link>
-    </li>
-    <li className="mb-8">
-        <Link href="/seo-services-in-hueytown-al" legacyBehavior><a className="text-2xl text-blue-700 hover:text-blue-900 transition duration-300 font-medium">SEO Services in Hueytown, AL</a></Link>
-    </li>
+<li className="mb-8">
+  {/* SEO Services in Fultondale, AL */}
+  <Link href="/seo-services-in-fultondale-al" legacyBehavior>
+    <a className="text-2xl text-blue-700 hover:text-blue-900 transition duration-300 font-medium">SEO Services in Fultondale, AL</a>
+  </Link>
+</li>
+
+<li className="mb-8">
+  {/* SEO Services in Gardendale, AL */}
+  <Link href="/seo-services-in-gardendale-al" legacyBehavior>
+    <a className="text-2xl text-blue-700 hover:text-blue-900 transition duration-300 font-medium">SEO Services in Gardendale, AL</a>
+  </Link>
+</li>
+
+<li className="mb-8">
+  {/* SEO Services in Greystone, AL */}
+  <Link href="/seo-services-in-greystone-al" legacyBehavior>
+    <a className="text-2xl text-blue-700 hover:text-blue-900 transition duration-300 font-medium">SEO Services in Greystone, AL</a>
+  </Link>
+</li>
+
+<li className="mb-8">
+  {/* SEO Services in Helena, AL */}
+  <Link href="/seo-services-in-helena-al" legacyBehavior>
+    <a className="text-2xl text-blue-700 hover:text-blue-900 transition duration-300 font-medium">SEO Services in Helena, AL</a>
+  </Link>
+</li>
+
+<li className="mb-8">
+  {/* SEO Services in Homewood, AL */}
+  <Link href="/seo-services-in-homewood-al" legacyBehavior>
+    <a className="text-2xl text-blue-700 hover:text-blue-900 transition duration-300 font-medium">SEO Services in Homewood, AL</a>
+  </Link>
+</li>
+
+<li className="mb-8">
+  {/* SEO Services in Hoover, AL */}
+  <Link href="/seo-services-in-hoover-al" legacyBehavior>
+    <a className="text-2xl text-blue-700 hover:text-blue-900 transition duration-300 font-medium">SEO Services in Hoover, AL</a>
+  </Link>
+</li>
+
+<li className="mb-8">
+  {/* SEO Services in Hueytown, AL */}
+  <Link href="/seo-services-in-hueytown-al" legacyBehavior>
+    <a className="text-2xl text-blue-700 hover:text-blue-900 transition duration-300 font-medium">SEO Services in Hueytown, AL</a>
+  </Link>
+</li>
+
     <li className="mb-8">
         <Link href="/seo-services-in-irondale-al" legacyBehavior><a className="text-2xl text-blue-700 hover:text-blue-900 transition duration-300 font-medium">SEO Services in Irondale, AL</a></Link>
     </li>
