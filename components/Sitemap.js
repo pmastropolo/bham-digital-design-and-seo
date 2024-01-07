@@ -144,21 +144,32 @@ const Sitemap = () => {
   {/* SEO Title Header */}
 <h3 className="text-3xl font-semibold text-blue-500 mb-12 text-center">SEO</h3>
 
+ {/* SEO Alabaster */}
 <li className="mb-8">
-        <Link href="/seo-services-in-alabaster-al" legacyBehavior><a className="text-2xl text-blue-600 hover:text-blue-800 transition duration-300 font-medium">SEO Services in Alabaster, AL</a></Link>
-    </li>
-    <li className="mb-8">
-        <Link href="/seo-services-in-bessemer-al" legacyBehavior><a className="text-2xl text-blue-600 hover:text-blue-800 transition duration-300 font-medium">SEO Services in Bessemer, AL</a></Link>
-    </li>
-    <li>
-        <Link href="/seo-services-in-birmingham-al" legacyBehavior><a className="text-2xl text-blue-600 hover:text-blue-800 transition duration-300 font-medium">SEO Services in Birmingham, AL</a></Link>
-    </li>
-    <li>
-        <Link href="/seo-services-in-chelsea-al" legacyBehavior><a className="text-2xl text-blue-600 hover:text-blue-800 transition duration-300 font-medium">SEO Services in Chelsea, AL</a></Link>
-    </li>
-    <li>
-        <Link href="/seo-services-in-clanton-al" legacyBehavior><a className="text-2xl text-blue-600 hover:text-blue-800 transition duration-300 font-medium">SEO Services in Clanton, AL</a></Link>
-    </li>
+    <Link href="/seo-services-in-alabaster-al" legacyBehavior><a className="text-2xl text-blue-600 hover:text-blue-800 transition duration-300 font-medium">SEO Services in Alabaster, AL</a></Link>
+</li>
+
+ {/* SEO Bessemer */}
+<li className="mb-8">
+    <Link href="/seo-services-in-bessemer-al" legacyBehavior><a className="text-2xl text-blue-600 hover:text-blue-800 transition duration-300 font-medium">SEO Services in Bessemer, AL</a></Link>
+</li>
+
+ {/* SEO Birmingham */}
+<li>
+    <Link href="/seo-services-in-birmingham-al" legacyBehavior><a className="text-2xl text-blue-600 hover:text-blue-800 transition duration-300 font-medium">SEO Services in Birmingham, AL</a></Link>
+</li>
+
+{/* SEO Chelsea */}
+<li>
+    <Link href="/seo-services-in-chelsea-al" legacyBehavior><a className="text-2xl text-blue-600 hover:text-blue-800 transition duration-300 font-medium">SEO Services in Chelsea, AL</a></Link>
+</li>
+
+{/* SEO Bessemer */}
+<li>
+    <Link href="/seo-services-in-clanton-al" legacyBehavior><a className="text-2xl text-blue-600 hover:text-blue-800 transition duration-300 font-medium">SEO Services in Clanton, AL</a></Link>
+</li>
+
+{/* SEO Columbiana */}
     <li>
         <Link href="/seo-services-in-columbiana-al" legacyBehavior><a className="text-2xl text-blue-600 hover:text-blue-800 transition duration-300 font-medium">SEO Services in Columbiana, AL</a></Link>
     </li>
