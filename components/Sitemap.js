@@ -39,56 +39,108 @@ const Sitemap = () => {
         <a className="text-2xl text-blue-700 hover:text-blue-900 transition duration-300 font-medium">Web Design</a>
       </Link>
     </li>
-                    
-                    
-    <ul className="list-inside pl-8 mt-4 space-y-2">
-                        
-    <li className="mb-8">
-        <Link href="/blog-website" legacyBehavior><a className="text-2xl text-blue-600 hover:text-blue-800 transition duration-300 font-medium">Blog Website</a></Link>
-    </li>
-    <li className="mb-8">
-        <Link href="/business-website" legacyBehavior><a className="text-2xl text-blue-600 hover:text-blue-800 transition duration-300 font-medium">Business Website</a></Link>
-    </li>
-    <li className="mb-8">
-        <Link href="/community-website" legacyBehavior><a className="text-2xl text-blue-600 hover:text-blue-800 transition duration-300 font-medium">Community Website</a></Link>
-    </li>
-    <li className="mb-8">
-        <Link href="/ecommerce-website" legacyBehavior><a className="text-2xl text-blue-600 hover:text-blue-800 transition duration-300 font-medium">Ecommerce Website</a></Link>
-    </li>
-    <li className="mb-8">
-        <Link href="/educational-website" legacyBehavior><a className="text-2xl text-blue-600 hover:text-blue-800 transition duration-300 font-medium">Educational Website</a></Link>
-    </li>
-    <li className="mb-8">
-        <Link href="/entertainment-website" legacyBehavior><a className="text-2xl text-blue-600 hover:text-blue-800 transition duration-300 font-medium">Entertainment Website</a></Link>
-    </li>
-    <li className="mb-8">
-        <Link href="/event-website" legacyBehavior><a className="text-2xl text-blue-600 hover:text-blue-800 transition duration-300 font-medium">Event Website</a></Link>
-    </li>
-    <li className="mb-8">
-        <Link href="/health-and-wellness-website" legacyBehavior><a className="text-2xl text-blue-600 hover:text-blue-800 transition duration-300 font-medium">Health and Wellness Website</a></Link>
-    </li>
-    <li className="mb-8">
-        <Link href="/landing-page-website" legacyBehavior><a className="text-2xl text-blue-600 hover:text-blue-800 transition duration-300 font-medium">Landing Page Website</a></Link>
-    </li>
-    <li className="mb-8">
-        <Link href="/membership-website" legacyBehavior><a className="text-2xl text-blue-600 hover:text-blue-800 transition duration-300 font-medium">Membership Website</a></Link>
-    </li>
-    <li className="mb-8">
-        <Link href="/personal-website" legacyBehavior><a className="text-2xl text-blue-600 hover:text-blue-800 transition duration-300 font-medium">Personal Website</a></Link>
-    </li>
-    <li className="mb-8">
-        <Link href="/portfolio-website" legacyBehavior><a className="text-2xl text-blue-600 hover:text-blue-800 transition duration-300 font-medium">Portfolio Website</a></Link>
-    </li>
-    <li className="mb-8">
-        <Link href="/real-estate-website" legacyBehavior><a className="text-2xl text-blue-600 hover:text-blue-800 transition duration-300 font-medium">Real Estate Website</a></Link>
-    </li>
-    <li className="mb-8">
-        <Link href="/restaurant-website" legacyBehavior><a className="text-2xl text-blue-600 hover:text-blue-800 transition duration-300 font-medium">Restaurant Website</a></Link>
-    </li>
+    
+<ul className="list-inside pl-8 mt-4 space-y-2">
+
+  {/* Blog Website */}
+  <li className="mb-8">
+    <Link href="/blog-website" legacyBehavior>
+      <a className="text-2xl text-blue-600 hover:text-blue-800 transition duration-300 font-medium">Blog Website</a>
+    </Link>
+  </li>
+  
+  {/* Business Website */}
+  <li className="mb-8">
+    <Link href="/business-website" legacyBehavior>
+      <a className="text-2xl text-blue-600 hover:text-blue-800 transition duration-300 font-medium">Business Website</a>
+    </Link>
+  </li>
+  
+  {/* Community Website */}
+  <li className="mb-8">
+    <Link href="/community-website" legacyBehavior>
+      <a className="text-2xl text-blue-600 hover:text-blue-800 transition duration-300 font-medium">Community Website</a>
+    </Link>
+  </li>
+  
+  {/* Ecommerce Website */}
+  <li className="mb-8">
+    <Link href="/ecommerce-website" legacyBehavior>
+      <a className="text-2xl text-blue-600 hover:text-blue-800 transition duration-300 font-medium">Ecommerce Website</a>
+    </Link>
+  </li>
+  
+  {/* Educational Website */}
+  <li className="mb-8">
+    <Link href="/educational-website" legacyBehavior>
+      <a className="text-2xl text-blue-600 hover:text-blue-800 transition duration-300 font-medium">Educational Website</a>
+    </Link>
+  </li>
+  
+  {/* Entertainment Website */}
+  <li className="mb-8">
+    <Link href="/entertainment-website" legacyBehavior>
+      <a className="text-2xl text-blue-600 hover:text-blue-800 transition duration-300 font-medium">Entertainment Website</a>
+    </Link>
+  </li>
+  
+  {/* Event Website */}
+  <li className="mb-8">
+    <Link href="/event-website" legacyBehavior>
+      <a className="text-2xl text-blue-600 hover:text-blue-800 transition duration-300 font-medium">Event Website</a>
+    </Link>
+  </li>
+  
+  {/* Health and Wellness Website */}
+  <li className="mb-8">
+    <Link href="/health-and-wellness-website" legacyBehavior>
+      <a className="text-2xl text-blue-600 hover:text-blue-800 transition duration-300 font-medium">Health and Wellness Website</a>
+    </Link>
+  </li>
+  
+  {/* Landing Page Website */}
+  <li className="mb-8">
+    <Link href="/landing-page-website" legacyBehavior>
+      <a className="text-2xl text-blue-600 hover:text-blue-800 transition duration-300 font-medium">Landing Page Website</a>
+    </Link>
+  </li>
+  
+  {/* Membership Website */}
+  <li className="mb-8">
+    <Link href="/membership-website" legacyBehavior>
+      <a className="text-2xl text-blue-600 hover:text-blue-800 transition duration-300 font-medium">Membership Website</a>
+    </Link>
+  </li>
+  
+  {/* Personal Website */}
+  <li className="mb-8">
+    <Link href="/personal-website" legacyBehavior>
+      <a className="text-2xl text-blue-600 hover:text-blue-800 transition duration-300 font-medium">Personal Website</a>
+    </Link>
+  </li>
+  
+  {/* Portfolio Website */}
+  <li className="mb-8">
+    <Link href="/portfolio-website" legacyBehavior>
+      <a className="text-2xl text-blue-600 hover:text-blue-800 transition duration-300 font-medium">Portfolio Website</a>
+    </Link>
+  </li>
+  
+  {/* Real Estate Website */}
+  <li className="mb-8">
+    <Link href="/real-estate-website" legacyBehavior>
+      <a className="text-2xl text-blue-600 hover:text-blue-800 transition duration-300 font-medium">Real Estate Website</a>
+    </Link>
+  </li>
+  
+  {/* Restaurant Website */}
+  <li className="mb-8">
+    <Link href="/restaurant-website" legacyBehavior>
+      <a className="text-2xl text-blue-600 hover:text-blue-800 transition duration-300 font-medium">Restaurant Website</a>
+    </Link>
+  </li>
 </ul>
-
-
-
+                    
 <h3 className="text-3xl font-semibold text-blue-500 mb-12 text-center">SEO</h3>
 
 <li className="mb-8">
