@@ -30,6 +30,25 @@ a {
   width: 8px; 
 }
 
+/* styles/Sitemap.css */
+.sitemap ul {
+  list-style: none;
+  padding: 0;
+}
+
+.sitemap li {
+  margin-bottom: 10px;
+}
+
+.sitemap a {
+  color: blue;
+  text-decoration: none;
+}
+
+.sitemap a:hover {
+  text-decoration: underline;
+}
+
 /* SCROLLBAR TRACK STYLE */
 ::-webkit-scrollbar-track {
   background: #f1f1f1; 
