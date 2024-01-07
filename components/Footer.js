@@ -16,6 +16,7 @@ const Footer = () => {
           <Link href="/contact" legacyBehavior><a className="block mb-2">Contact</a></Link>
           <Link href="/apply" legacyBehavior><a className="block mb-2">About Us & FAQ</a></Link>
           <Link href="/serviceareas" legacyBehavior><a className="block mb-2">Service Areas</a></Link>
+          <Link href="/site-map" legacyBehavior><a className="block mb-2">Sitemap</a></Link>
         </div>
 
         {/* Our Expertise Section */}
@@ -55,3 +56,4 @@ const Footer = () => {
 };
 
 export default Footer;
+
