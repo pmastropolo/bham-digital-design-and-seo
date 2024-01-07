@@ -4,29 +4,37 @@ import Link from 'next/link';
 const Sitemap = () => {
     return (
 <div className="sitemap mt-12 mb-20 max-w-4xl mx-auto">
+  
+   {/* Website Navigation Header */}
   <h2 className="text-3xl font-semibold text-cyan-400 mb-12 text-center">Website Navigation</h2>
   <ul className="list-none p-0">
+    
+    {/* Homepage */}
     <li className="mb-8">
-        {/* Homepage */}
       <Link href="/" legacyBehavior>
         <a className="text-2xl text-blue-700 hover:text-blue-900 transition duration-300 font-medium">Homepage</a>
       </Link>
     </li>
+    
     {/* About Us & FAQ */}
     <li className="mb-8">
       <Link href="/apply" legacyBehavior>
         <a className="text-2xl text-blue-700 hover:text-blue-900 transition duration-300 font-medium">About Us & FAQ</a>
       </Link>
     </li>
+    
     {/* Contact */}
     <li className="mb-8">
       <Link href="/contact" legacyBehavior>
         <a className="text-2xl text-blue-700 hover:text-blue-900 transition duration-300 font-medium">Contact</a>
       </Link>
     </li>
+    
+     {/* Web Design Title/Header*/}
     <h3 className="text-3xl font-semibold text-cyan-400 mb-12 text-center">Website Design & Development</h3>
+    
+    {/* Web Design */}
     <li className="mb-8">
-      {/* Web Design */}
       <Link href="/PackagePage" legacyBehavior>
         <a className="text-2xl text-blue-700 hover:text-blue-900 transition duration-300 font-medium">Web Design</a>
       </Link>
