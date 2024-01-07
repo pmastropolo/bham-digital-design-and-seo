@@ -141,6 +141,7 @@ const Sitemap = () => {
   </li>
 </ul>
                     
+  {/* SEO Title Header */}
 <h3 className="text-3xl font-semibold text-blue-500 mb-12 text-center">SEO</h3>
 
 <li className="mb-8">
