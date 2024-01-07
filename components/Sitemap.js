@@ -7,6 +7,7 @@ const Sitemap = () => {
   
    {/* Website Navigation Header */}
   <h2 className="text-3xl font-semibold text-cyan-400 mb-12 text-center">Website Navigation</h2>
+  <ul className="list-none p-0">
     
     {/* Homepage */}
     <li className="mb-8">
@@ -296,6 +297,7 @@ const Sitemap = () => {
       <a className="text-2xl text-blue-700 hover:text-blue-900 transition duration-300 font-medium">Privacy Policy</a>
     </Link>
   </li>
+</ul>
 </ul>
 
   {/* Border bottom gray */}
