@@ -7,7 +7,6 @@ const Sitemap = () => {
   
    {/* Website Navigation Header */}
   <h2 className="text-3xl font-semibold text-cyan-400 mb-12 text-center">Website Navigation</h2>
-  <ul className="list-none p-0">
     
     {/* Homepage */}
     <li className="mb-8">
