@@ -31,6 +31,7 @@ const WebDesignChelsea = () => {
                             <p className="mb-2 text-left">Known for excellent schools like Chelsea High School and a strong sense of community.</p>
                             <p className="mb-2 text-left">Offers outdoor activities in scenic landscapes, including hiking trails.</p>
                             <p className="mb-2 text-left">Frequent community events and festivals, such as Chelsea Fest.</p>
+                            <p className="text-slate-800 mb-4 text-left"><b>Zip Codes</b> | 35043, 35051</p>
                         </div>
                         {/* Image Section */}
                         <div className="w-full md:w-1/2 flex items-center justify-center">
