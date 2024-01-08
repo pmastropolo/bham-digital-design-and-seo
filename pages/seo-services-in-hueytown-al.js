@@ -97,7 +97,6 @@ const SEOHueytown = () => {
 <h2 className="text-4xl font-bold text-gray-800 mb-4 mt-2">Things to Do | Hueytown</h2>
 <div className="mt-4">
 <p className="mb-3 text-indigo-500"><b className="underline text-lg"><a href="https://autobahnspeed.com/">Autobahn Indoor Speedway</a></b><br></br>Indoor go-kart racing and adrenaline-packed sports activities.</p>
-<p className="mb-3 text-indigo-500"><b className="underline text-lg"><a href="https://www.rtjgolf.com/oxmoorvalley/">RTJ at Oxmoor Valley Golf Course</a></b><br></br>A picturesque golf course on former mining land, perfect for golf enthusiasts.</p>
 <p className="mb-3 text-indigo-500"><b className="underline text-lg"><a href="https://redmountainpark.org/">Red Mountain Park</a></b><br></br>One of Americas largest urban parks with hiking, biking, and zip-lining.</p>
 <p className="mb-3 text-indigo-500"><b className="underline text-lg"><a href="https://www.tannehill.org/">Tannehill Ironworks Historical State Park</a></b><br></br>A park spread across 1500 acres showcasing Alabamas industrial past.</p>
 <p className="mb-3 text-indigo-500"><b className="underline text-lg"><a href="https://cat-n-bird.com/">Cat-n-Bird Winery</a></b><br></br>Boutique winery offering unique wine blends and tastings near Hueytown.</p>
