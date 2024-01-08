@@ -57,7 +57,7 @@ const SEOClanton = () => {
             />
         </div>
         {/* Text Section */}
-        <div className="w-full md:w-1/2 text-gray-700 text-center md:text-center">
+        <div className="w-full md:w-1/2 text-gray-700 text-center md:text-center mt-4">
             <h2 className="text-4xl font-bold text-gray-800 mb-4">Best Things to Do in Clanton, AL</h2>
             <div className="mt-4">
                 <p className="mb-2 text-indigo-500"><b>Peach Park</b> | Enjoy delicious peach-themed treats.</p>
