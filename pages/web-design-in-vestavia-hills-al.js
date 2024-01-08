@@ -28,7 +28,7 @@ const WebDesignVestaviaHills = () => {
                         {/* Text Section */}
                         <div className="w-full md:w-1/2 text-gray-700">
                             <h2 className="text-3xl font-bold text-gray-800 mb-4 text-left">Discover Vestavia Hills, AL</h2>
-                            <p className="text-red-600 mb-4 text-left"><b>County</b> | Jefferson</p>
+                            <p className="text-slate-500 mb-4 text-left"><b>County</b> | Jefferson</p>
                             <p className="mb-2 text-left">Rich history of iron ore mining, contributing to the areas growth.</p>
                             <p className="mb-2 text-left">Officially incorporated as a city on November 8, 1950, through the merger of several communities.</p>
                             <p className="mb-2 text-left">Named after the historic estate Vestavia, believed to be a combination of Vesta | Roman goddess of the hearth & via meaning way.</p>
@@ -70,18 +70,16 @@ const WebDesignVestaviaHills = () => {
                         </div>
                         {/* Text Section */}
                         <div className="w-full md:w-1/2 text-gray-700 text-center md:text-center mt-4">
-                            <h2 className="text-4xl font-bold text-gray-800 mb-4">Best Things to Do in Vestavia Hills, AL</h2>
+                            <h2 className="text-4xl font-bold text-gray-800 mb-4 text-left mt-4">Best Things to Do in Vestavia Hills</h2>
                             <div className="mt-4">
-                            <p className="mb-2 text-indigo-500"><b>Explore Parks</b> | Visit Wald Park, Vestavia Hills Park, and McCallum Park for outdoor fun.</p>
-<p className="mb-2 text-indigo-500"><b>Hiking Adventures</b> | Hike Red Mountain Parks scenic trails.</p>
-<p className="mb-2 text-indigo-500"><b>Shop</b> | Discover boutiques and dining at Vestavia Hills City Center.</p>
-<p className="mb-2 text-indigo-500"><b>Golf</b> | Tee off at Vestavia Country Club or Vestavia Hills Golf Course.</p>
-<p className="mb-2 text-indigo-500"><b>Culture</b> | Explore art and culture at Vestavia Hills Library in the Forest.</p>
-<p className="mb-2 text-indigo-500"><b>Dine Out</b> | Enjoy diverse cuisine at local restaurants.</p>
-<p className="mb-2 text-indigo-500"><b>Community Events</b> | Attend local festivals and connect with neighbors.</p>
-<p className="mb-2 text-indigo-500"><b>Fitness</b> | Stay active at fitness centers and yoga studios.</p>
-<p className="mb-2 text-indigo-500"><b>Altadena Valley Animal Clinic</b> | Visit for animal encounters and programs.</p>
-<p className="mb-2 text-indigo-500"><b>Relax and Enjoy Views</b> | Take in scenic beauty of the hills and valleys.</p>
+
+            <p className="mb-2 text-indigo-500 text-left"><b className="underline text-lg"><a href="https://vhparksandrec.com/location/wald-park/">Wald Park</a></b> | Enjoy Outdoor Fun.</p>
+            <p className="mb-2 text-indigo-500 text-left"><b className="underline text-lg"><a href="https://redmountainpark.org/">Red Mountain Park</a></b> | Hike Scenic Trails.</p>
+            <p className="mb-2 text-indigo-500 text-left"><b className="underline text-lg"><a href="https://www.vestaviacc.com/">Vestavia Country Club</a></b> | 18-hole Golf Course.</p>
+            <p className="mb-2 text-indigo-500 text-left"><b className="underline text-lg"><a href="http://vestavialibrary.org/">Vestavia Hills Library</a></b> | Explore Art & Culture.</p>
+            <p className="mb-2 text-indigo-500 text-left"><b className="underline text-lg"><a href="https://vhal.org/sibyl-temple-history/">Temple of Sibyl</a></b> | Inspired by Italys Temple of Sibyl.</p>
+            <p className="mb-2 text-indigo-500 text-left"><b className="underline text-lg"><a href="https://www.altadenavalleyanimalclinic.com/">Altadena Valley Animal Clinic</a></b> | Visit For Animal Encounters & Programs.</p>
+
                             </div>
                         </div>
                     </div>
