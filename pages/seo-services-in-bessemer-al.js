@@ -49,15 +49,17 @@ const SEOBessemer = () => {
                 <section className="mt-4">
                     <div className="bg-slate-100 p-6 rounded-lg shadow-lg flex flex-wrap md:flex-nowrap">
                         <div className="w-full md:w-1/2 flex justify-center items-center">
+                        <a href="https://commons.wikimedia.org/wiki/File:The_Bright_Star,_Bessemer,_Alabama.jpg" target="_blank" rel="noopener noreferrer">
                         <Image
-                src="/images/bessemeralabamaadventure.jpg"
-                alt="Best things to do in Alabama"
+                src="https://upload.wikimedia.org/wikipedia/commons/thumb/f/f2/The_Bright_Star%2C_Bessemer%2C_Alabama.jpg/504px-The_Bright_Star%2C_Bessemer%2C_Alabama.jpg?20180605110020"
+                alt="The Bright Star, Bessemer, Alabama."
                 width={400} 
                 height={300} 
                 className="rounded-lg"
             />
+            </a>
                         </div>
-                        <div className="w-full md:w-1/2 text-gray-700 text-center md:text-center">
+                        <div className="w-full md:w-1/2 text-gray-700 text-center md:text-center mt-4">
                             <h2 className="text-4xl font-bold text-gray-800 mb-4">Best Things to Do in Bessemer, AL</h2>
                             <div className="mt-4">
                                 <p className="mb-2 text-indigo-500"><b>Bessemer Hall of History Museum</b> | Citys historical artifacts.</p>
