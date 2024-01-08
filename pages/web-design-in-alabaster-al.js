@@ -26,7 +26,7 @@ const WebDesignAlabaster = () => {
                         {/* Text Section */}
                         <div className="w-full md:w-1/2 text-gray-700">
                             <h2 className="text-3xl font-bold text-gray-800 mb-4 text-left">Discover Alabaster, AL</h2>
-                            <p className="text-red-600 mb-4 text-left"><b>County</b> | Shelby</p>
+                            <p className="text-slate-600 mb-4 text-left"><b>County</b> | Shelby</p>
                             <p className="mb-2 text-left">Named after the calcium carbonate mineral, Alabaster has a rich mining history.</p>
                             <p className="mb-2 text-left">George L. Scott Sr. founded the Alabaster Lime Co., known as - Scott Rock.</p>
                             <p className="mb-2 text-left">In 1952, the citys first bank was established, led by George L. Scott Jr., the first mayor.</p>
