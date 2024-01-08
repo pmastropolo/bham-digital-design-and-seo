@@ -35,13 +35,15 @@ const SEOBessemer = () => {
                             <p className="text-purple-800 mb-4 text-left"><b>Zip Codes</b> | 35111, 35023, 35022, 35021, 35020</p>
                         </div>
                         <div className="w-full md:w-1/2 flex items-center justify-center">
+                    <a href="https://commons.wikimedia.org/wiki/File:Bessemer_Academy_Alabama.jpg" target="_blank" rel="noopener noreferrer">
                         <Image
-                src="/images/bessemeralabama.jpg"
-                alt="Image of Bessemer, Alabama"
+                src="https://upload.wikimedia.org/wikipedia/commons/d/dd/Bessemer_Academy_Alabama.jpg?20141029035405"
+                alt="Bessemer Academy, Bessemer Alabama pre school thru High school"
                 width={400} 
                 height={300} 
                 className="rounded-lg"
             />
+            </a>
                         </div>
                     </div>
                 </section>
