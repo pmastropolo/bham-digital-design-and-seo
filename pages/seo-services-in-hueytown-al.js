@@ -145,8 +145,4 @@ const SEOHueytown = () => {
 }
 
 export default SEOHueytown;
-        </>
-    );
-}
-
-export default SEOHueytown;
+  
