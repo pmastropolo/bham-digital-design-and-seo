@@ -45,7 +45,7 @@ const WebDesignChelsea = () => {
                     </div>
                 </section>
 
-                <section className="mt-8">
+                <section className="mt-4">
                     <div className="bg-slate-100 p-6 rounded-lg shadow-lg flex flex-wrap md:flex-nowrap">
                         {/* Image Section */}
                         <div className="w-full md:w-1/2 flex justify-center items-center">
@@ -72,7 +72,7 @@ const WebDesignChelsea = () => {
                     </div>
                 </section>
 
-                <section className="mb-8 mt-2">
+                <section className="mt-4">
                     <div className="bg-white p-6 rounded-lg shadow-lg flex flex-wrap md:flex-nowrap">
                         {/* Text Section */}
                         <div className="w-full md:w-1/2 text-gray-700">
