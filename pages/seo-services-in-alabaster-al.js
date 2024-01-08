@@ -66,7 +66,7 @@ const SEOAlabaster = () => {
             </a>
                         </div>
                         {/* Text Section */}
-                        <div className="w-full md:w-1/2 text-gray-700 text-center md:text-center">
+                        <div className="w-full md:w-1/2 text-gray-700 text-center md:text-center mt-4">
                             <h2 className="text-4xl font-bold text-gray-800 mb-4">Best Things to Do in Alabaster, AL</h2>
                             <div className="mt-4">
                                 <p className="mb-2 text-indigo-500"><b>Buck Creek Trail</b> | Scenic trails and events.</p>
