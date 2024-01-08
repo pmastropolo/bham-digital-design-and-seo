@@ -91,13 +91,15 @@ const SEOBessemer = () => {
             </div>
         </div>
         <div className="w-full md:w-1/2 flex items-center justify-center">
-        <Image
-                src="/images/sweethomealabama.jpg"
-                alt="SEO Visual"
+                      <a href="https://commons.wikimedia.org/wiki/File:Alabama-Tennessee-state-line-207-11-altn1.jpg" target="_blank" rel="noopener noreferrer">
+            <Image
+                src="https://upload.wikimedia.org/wikipedia/commons/thumb/0/0a/Alabama-Tennessee-state-line-207-11-altn1.jpg/1200px-Alabama-Tennessee-state-line-207-11-altn1.jpg?20161031223120"
+                alt="Alabama welcome sign Sweet Home, Alabama at the border between Giles County, Tennessee, and Lauderdale County, Alabama, in the southern United States."
                 width={400} 
                 height={300} 
                 className="rounded-lg"
             />
+              </a>
         </div>
     </div>
 </section>
