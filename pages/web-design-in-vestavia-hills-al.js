@@ -124,31 +124,6 @@ const WebDesignVestaviaHills = () => {
                     </div>
                 </section>
             </div>
-
-
-
-
-              <div className="bg-white text-center p-10 shadow-lg rounded-lg mb-10 z-10 relative">
-              <h2 className="text-5xl font-extrabold text-gray-800 mt-4 mb-6">Web Design Services in Vestavia Hills, AL</h2>
-              <p className="text-gray-600 mb-4">Nickname | The Jewel City</p>
-
-             
-            </div>
-            
-
-        
-        
-        
-        
-        
-        
-        
-        
-        
-        
-        
-        
-        
         </>
     );
 }
