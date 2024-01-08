@@ -25,13 +25,13 @@ const WebDesignBessemer = () => {
                     <div className="bg-white p-6 rounded-lg shadow-lg flex flex-wrap md:flex-nowrap">
                         <div className="w-full md:w-1/2 text-gray-700">
                             <h2 className="text-3xl font-bold text-gray-800 mb-4 text-left">Explore Bessemer, AL Heritage</h2>
-                            <p className="text-purple-900 mb-4 text-left"><b>County</b> | Jefferson</p>
+                            <p className="text-slate-900 mb-4 text-left"><b>County</b> | Jefferson</p>
                             <p className="mb-2 text-left">Founded in 1887, Bessemer rapidly grew due to the steel industry.</p>
                             <p className="mb-2 text-left">Tannehill Ironworks State Park preserves a 19th-century iron furnace and hosts trade events.</p>
                             <p className="mb-2 text-left">Home to The Bright Star, opened in 1907, known for Greek-style seafood and steaks.</p>
                             <p className="mb-2 text-left">The Bessemer Hall of History Museum showcases local artifacts and history.</p>
                             <p className="mb-2 text-left">Alabama Adventure & Splash Adventure offers water attractions and roller coasters.</p>
-                            <p className="text-purple-800 mb-4 text-left"><b>Zip Codes</b> | 35111, 35023, 35022, 35021, 35020</p>
+                            <p className="text-slate-800 mb-4 text-left"><b>Zip Codes</b> | 35111, 35023, 35022, 35021, 35020</p>
                         </div>
                         <div className="w-full md:w-1/2 flex items-center justify-center">
                     <a href="https://commons.wikimedia.org/wiki/File:Bessemer_Academy_Alabama.jpg" target="_blank" rel="noopener noreferrer">
