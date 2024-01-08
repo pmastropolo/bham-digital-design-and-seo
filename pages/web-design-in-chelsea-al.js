@@ -34,28 +34,32 @@ const WebDesignChelsea = () => {
                         </div>
                         {/* Image Section */}
                         <div className="w-full md:w-1/2 flex items-center justify-center">
+                        <a href="https://commons.wikimedia.org/wiki/File:Chelsea,_Alabama.JPG" target="_blank" rel="noopener noreferrer">
                             <Image
-                                src="/images/ccccccc.jpg"
-                                alt="Image of Chelsea, Alabama"
+                                src="https://upload.wikimedia.org/wikipedia/commons/thumb/4/49/Chelsea%2C_Alabama.JPG/1200px-Chelsea%2C_Alabama.JPG?20120225194048"
+                                alt="This is a photograph of Chelsea, Alabama"
                                 width={400}
                                 height={300}
                                 className="rounded-lg"
                             />
+                            </a>
                         </div>
                     </div>
                 </section>
 
-                <section className="mt-4">
+                <section className="mt-8">
                     <div className="bg-slate-100 p-6 rounded-lg shadow-lg flex flex-wrap md:flex-nowrap">
                         {/* Image Section */}
                         <div className="w-full md:w-1/2 flex justify-center items-center">
+                        <a href="https://commons.wikimedia.org/wiki/File:Chelsea,_Alabama_City_Hall.JPG" target="_blank" rel="noopener noreferrer">
                             <Image
-                                src="/images/chelsealabama.jpg"
-                                alt="Best things to do in Alabama"
+                                src="https://upload.wikimedia.org/wikipedia/commons/a/a5/Chelsea%2C_Alabama_City_Hall.JPG"
+                                alt="This is a photograph of the City Hall in Chelsea, Alabama."
                                 width={400}
                                 height={300}
                                 className="rounded-lg max-w-sm"
                             />
+                            </a>
                         </div>
                         {/* Text Section */}
                         <div className="w-full md:w-1/2 text-gray-700 text-center md:text-center">
@@ -72,7 +76,7 @@ const WebDesignChelsea = () => {
                     </div>
                 </section>
 
-                <section className="mt-4">
+                <section className="mb-8 mt-2">
                     <div className="bg-white p-6 rounded-lg shadow-lg flex flex-wrap md:flex-nowrap">
                         {/* Text Section */}
                         <div className="w-full md:w-1/2 text-gray-700">
@@ -95,13 +99,15 @@ const WebDesignChelsea = () => {
                         </div>
                         {/* Image Section */}
                         <div className="w-full md:w-1/2 flex items-center justify-center">
-                            <Image
-                                src="/images/sweethomealabama.jpg"
-                                alt="SEO Visual"
-                                width={400}
-                                height={300}
-                                className="rounded-lg"
-                            />
+                        <a href="https://commons.wikimedia.org/wiki/File:Alabama-Tennessee-state-line-207-11-altn1.jpg" target="_blank" rel="noopener noreferrer">
+            <Image
+                src="https://upload.wikimedia.org/wikipedia/commons/thumb/0/0a/Alabama-Tennessee-state-line-207-11-altn1.jpg/1200px-Alabama-Tennessee-state-line-207-11-altn1.jpg?20161031223120"
+                alt="Alabama welcome sign Sweet Home, Alabama at the border between Giles County, Tennessee, and Lauderdale County, Alabama, in the southern United States."
+                width={400} 
+                height={300} 
+                className="rounded-lg"
+            />
+              </a>
                         </div>
                     </div>
                 </section>
