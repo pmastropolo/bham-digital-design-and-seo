@@ -17,7 +17,7 @@ const WebDesignWilsonville = () => {
                 }}
             />
 
-    <div className="bg-white text-center p-10 shadow-lg rounded-lg mb-10 z-10 relative">
+<div className="bg-white text-center p-10 shadow-lg rounded-lg mb-10 z-10 relative">
                 <h2 className="text-5xl font-extrabold text-gray-800 mt-4 mb-6">Web Design Services in Wilsonville, AL</h2>
                 <p className="text-gray-600 mb-4">Wilsonville has six active churches inside the town limits.</p>
 
@@ -40,15 +40,15 @@ const WebDesignWilsonville = () => {
                         </div>
                         {/* Image Section */}
                         <div className="w-full md:w-1/2 flex items-center justify-center">
-                        <a href="https://commons.wikimedia.org/wiki/File:Alabama-Tennessee-state-line-207-11-altn1.jpg" target="_blank" rel="noopener noreferrer">
-            <Image
-                src="https://upload.wikimedia.org/wikipedia/commons/thumb/0/0a/Alabama-Tennessee-state-line-207-11-altn1.jpg/1200px-Alabama-Tennessee-state-line-207-11-altn1.jpg?20161031223120"
-                alt="Alabama welcome sign Sweet Home, Alabama at the border between Giles County, Tennessee, and Lauderdale County, Alabama, in the southern United States."
+                        <a href="https://commons.wikimedia.org/wiki/File:Alabaster_City_Hall.jpg" target="_blank" rel="noopener noreferrer">
+                        <Image
+                src="https://upload.wikimedia.org/wikipedia/commons/3/35/Alabaster_City_Hall.jpg?20160316195729"
+                alt="Alabaster City Hall"
                 width={400} 
                 height={300} 
                 className="rounded-lg"
             />
-              </a>
+            </a>
                         </div>
                     </div>
                 </section>
@@ -57,15 +57,15 @@ const WebDesignWilsonville = () => {
                     <div className="bg-slate-100 p-6 rounded-lg shadow-lg flex flex-wrap md:flex-nowrap">
                         {/* Image Section */}
                         <div className="w-full md:w-1/2 flex justify-center items-center">
-                        <a href="https://commons.wikimedia.org/wiki/File:Alabama-Tennessee-state-line-207-11-altn1.jpg" target="_blank" rel="noopener noreferrer">
-            <Image
-                src="https://upload.wikimedia.org/wikipedia/commons/thumb/0/0a/Alabama-Tennessee-state-line-207-11-altn1.jpg/1200px-Alabama-Tennessee-state-line-207-11-altn1.jpg?20161031223120"
-                alt="Alabama welcome sign Sweet Home, Alabama at the border between Giles County, Tennessee, and Lauderdale County, Alabama, in the southern United States."
+                        <a href="https://commons.wikimedia.org/wiki/File:Alabaster,_Alabama_City_Hall.JPG" target="_blank" rel="noopener noreferrer">
+                        <Image
+                src="https://upload.wikimedia.org/wikipedia/commons/thumb/5/51/Alabaster%2C_Alabama_City_Hall.JPG/1200px-Alabaster%2C_Alabama_City_Hall.JPG?20120226115852"
+                alt="This is a photograph of the city hall in Alabaster, Alabama."
                 width={400} 
                 height={300} 
-                className="rounded-lg"
+                className="rounded-lg max-w-sm"
             />
-              </a>
+            </a>
                         </div>
                         {/* Text Section */}
                         <div className="w-full md:w-1/2 text-gray-700 text-center md:text-center mt-4">
