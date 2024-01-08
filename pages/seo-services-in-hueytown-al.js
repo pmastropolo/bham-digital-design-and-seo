@@ -1,23 +1,6 @@
 import React from 'react';
 import { NextSeo } from 'next-seo';
 import Link from 'next/link';
-
-const SEOHueytown = () => {
-    return (
-        <>
-            <NextSeo
-                title="SEO Services in Hueytown, AL | Bham Web Design and SEO Co."
-                description="Bham Web Design and SEO Co. offers top-notch SEO services in Hueytown, AL. Explore our customized SEO solutions designed to elevate your Hueytown business's online presence."
-                openGraph={{
-                    title: 'SEO Services in Hueytown, AL | Bham Web Design and SEO Co.',
-                    description: 'Bham Web Design and SEO Co. offers top-notch SEO services in Hueytown, AL. Explore our customized SEO solutions designed to elevate your Hueytown businesss online presence.',
-                    url: 'https://bhamseoanddesignco.com/seo-services-hueytown-al',
-                    type: 'website',
-                }}
-            />
-import React from 'react';
-import { NextSeo } from 'next-seo';
-import Link from 'next/link';
 import Image from 'next/image';
 
 const SEOHueytown = () => {
