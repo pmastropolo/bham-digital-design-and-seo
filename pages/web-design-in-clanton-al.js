@@ -49,13 +49,15 @@ const WebDesignClanton = () => {
     <div className="bg-slate-100 p-6 rounded-lg shadow-lg flex flex-wrap md:flex-nowrap">
         {/* Image Section */}
         <div className="w-full md:w-1/2 flex justify-center items-center">
+        <a href="https://commons.wikimedia.org/wiki/File:Watertower_shaped_like_a_peach,_Clanton,_Alabama_LCCN2010640907.tif" target="_blank" rel="noopener noreferrer">
             <Image
-                src="/images/clantonnnn.jpg"
-                alt="Best things to do in Clanton, Alabama"
+                src="https://upload.wikimedia.org/wikipedia/commons/thumb/2/20/Watertower_shaped_like_a_peach%2C_Clanton%2C_Alabama_LCCN2010640907.tif/lossy-page1-600px-Watertower_shaped_like_a_peach%2C_Clanton%2C_Alabama_LCCN2010640907.tif.jpg?20160828113115"
+                alt="Watertower shaped like a peach, Clanton, Alabama"
                 width={400}
                 height={300}
                 className="rounded-lg max-w-sm"
             />
+            </a>
         </div>
         {/* Text Section */}
         <div className="w-full md:w-1/2 text-gray-700 text-center md:text-center mt-4">
