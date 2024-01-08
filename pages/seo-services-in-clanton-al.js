@@ -33,13 +33,15 @@ const SEOClanton = () => {
             </div>
             {/* Image Section */}
             <div className="w-full md:w-1/2 flex items-center justify-center">
+            <a href="https://commons.wikimedia.org/wiki/File:US31nAL22wRoadSigns-ClantonAL_(38293295875).jpg" target="_blank" rel="noopener noreferrer">
                 <Image
-                    src="/images/clantonpeach.jpg"
+                    src="https://upload.wikimedia.org/wikipedia/commons/thumb/1/13/US31nAL22wRoadSigns-ClantonAL_%2838293295875%29.jpg/1200px-US31nAL22wRoadSigns-ClantonAL_%2838293295875%29.jpg?20181125204830"
                     alt="Image of Clanton, Alabama"
                     width={400}
                     height={300}
                     className="rounded-lg"
                 />
+                </a>
                             </div>
         </div>
     </section>
