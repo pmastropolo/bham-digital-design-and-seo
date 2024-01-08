@@ -96,20 +96,13 @@ const SEOHueytown = () => {
 <div className="w-full md:w-1/2 text-gray-700 text-center mt-4">
 <h2 className="text-4xl font-bold text-gray-800 mb-4 mt-2">Things to Do | Hueytown</h2>
 <div className="mt-4">
-<p className="mb-3 text-indigo-500"><b className="underline text-lg"><a href="https://www.alabamaadventure.com/">Alabama Adventure & Splash Adventure</a></b><br></br>A theme park offering thrilling rides and water adventures.</p>
-<p className="mb-3 text-indigo-500"><b className="underline text-lg"><a href="#">High Ore Line Trail</a></b><br></br>Ideal for cycling and walking, connecting to Red Mountain Park and Jones Valley Trail.</p>
-<p className="mb-3 text-indigo-500"><b className="underline text-lg"><a href="#">Gips Place</a></b><br></br>A popular blues venue in nearby Bessemer for live music and entertainment.</p>
 <p className="mb-3 text-indigo-500"><b className="underline text-lg"><a href="https://autobahnspeed.com/">Autobahn Indoor Speedway</a></b><br></br>Indoor go-kart racing and adrenaline-packed sports activities.</p>
 <p className="mb-3 text-indigo-500"><b className="underline text-lg"><a href="https://www.rtjgolf.com/oxmoorvalley/">RTJ at Oxmoor Valley Golf Course</a></b><br></br>A picturesque golf course on former mining land, perfect for golf enthusiasts.</p>
-<p className="mb-3 text-indigo-500"><b className="underline text-lg"><a href="#">John Wesley Hall Grist Mill</a></b><br></br>Historical gristmill offering insights into early industrial practices.</p>
-<p className="mb-3 text-indigo-500"><b className="underline text-lg"><a href="#">The Bessemer Hall of History Museum</a></b><br></br>Museum located in an old railway terminal, showcasing regional history.</p>
 <p className="mb-3 text-indigo-500"><b className="underline text-lg"><a href="https://redmountainpark.org/">Red Mountain Park</a></b><br></br>One of Americas largest urban parks with hiking, biking, and zip-lining.</p>
-<p className="mb-3 text-indigo-500"><b className="underline text-lg"><a href="#">Doughboy Monument at DeBardeleben Park</a></b><br></br>Historic monument honoring World War I soldiers, located in Bessemer.</p>
-<p className="mb-3 text-indigo-500"><b className="underline text-lg"><a href="https://www.thebrightstar.com/">Bright Star Restaurant</a></b><br></br>Famous for its Southern home-cooking and seafood in nearby Bessemer.</p>
 <p className="mb-3 text-indigo-500"><b className="underline text-lg"><a href="https://www.tannehill.org/">Tannehill Ironworks Historical State Park</a></b><br></br>A park spread across 1500 acres showcasing Alabamas industrial past.</p>
 <p className="mb-3 text-indigo-500"><b className="underline text-lg"><a href="https://cat-n-bird.com/">Cat-n-Bird Winery</a></b><br></br>Boutique winery offering unique wine blends and tastings near Hueytown.</p>
 <p className="mb-3 text-indigo-500"><b className="underline text-lg"><a href="https://www.rickwood.com/">Rickwood Field</a></b><br></br>The oldest professional baseball park in the USA, located northeast of Hueytown.</p>
-<p className="mb-3 text-indigo-500"><b className="underline text-lg"><a href="#">Allison Bonnett Park</a></b><br></br>A family-friendly park in Downtown Hueytown with recreational facilities.</p>
+<p className="mb-3 text-indigo-500"><b className="underline text-lg"><a href="https://www.hueytownal.gov/departments/parks_and_recreation/parks/allison_bonnett_park.php">Allison Bonnett Park</a></b><br></br>A family-friendly park in Downtown Hueytown with recreational facilities.</p>
 <p className="mb-3 text-indigo-500"><b className="underline text-lg"><a href="https://bobsykes.com/">Bob Sykes Bar-B-Q</a></b><br></br>Legendary barbecue restaurant in Bessemer known for its authentic Southern dishes.</p>
                             </div>
                         </div>
