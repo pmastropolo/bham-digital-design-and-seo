@@ -37,28 +37,33 @@ const SEOAlabaster = () => {
                         </div>
         {/* Image Section with Next.js Image component */}
         <div className="w-full md:w-1/2 flex items-center justify-center">
-            <Image
-                src="/images/alabasteralabama.jpg"
-                alt="Image of Alabaster"
+        <a href="https://commons.wikimedia.org/wiki/File:Alabaster_City_Hall.jpg" target="_blank" rel="noopener noreferrer">
+                        <Image
+                src="https://upload.wikimedia.org/wikipedia/commons/3/35/Alabaster_City_Hall.jpg?20160316195729"
+                alt="Alabaster City Hall"
                 width={400} 
                 height={300} 
                 className="rounded-lg"
             />
+            </a>
                         </div>
                     </div>
                 </section>
 
+             
                 <section className="mt-4">
                     <div className="bg-slate-100 p-6 rounded-lg shadow-lg flex flex-wrap md:flex-nowrap">
                         {/* Image Section */}
                         <div className="w-full md:w-1/2 flex justify-center items-center">
+                        <a href="https://commons.wikimedia.org/wiki/File:Alabaster,_Alabama_City_Hall.JPG" target="_blank" rel="noopener noreferrer">
                         <Image
-                src="/images/alabasterimage.jpg"
-                alt="Best things to do in Alabama"
+                src="https://upload.wikimedia.org/wikipedia/commons/thumb/5/51/Alabaster%2C_Alabama_City_Hall.JPG/1200px-Alabaster%2C_Alabama_City_Hall.JPG?20120226115852"
+                alt="This is a photograph of the city hall in Alabaster, Alabama."
                 width={400} 
                 height={300} 
                 className="rounded-lg max-w-sm"
             />
+            </a>
                         </div>
                         {/* Text Section */}
                         <div className="w-full md:w-1/2 text-gray-700 text-center md:text-center">
@@ -90,7 +95,7 @@ const SEOAlabaster = () => {
                 </Link>
 
                 {/* SEO Packages Button with Link */}
-                <Link href="/seopackagepage" legacyBehavior>
+                <Link href="/SEOpackages" legacyBehavior>
                     <a className="inline-block bg-blue-500 hover:bg-blue-700 text-white mb-4 py-2 px-4 rounded">
                         View SEO Packages
                     </a>
@@ -98,13 +103,15 @@ const SEOAlabaster = () => {
             </div>
         </div>
         <div className="w-full md:w-1/2 flex items-center justify-center">
+        <a href="https://commons.wikimedia.org/wiki/File:Alabama-Tennessee-state-line-207-11-altn1.jpg" target="_blank" rel="noopener noreferrer">
             <Image
-                src="/images/sweethomealabama.jpg"
-                alt="SEO Visual"
+                src="https://upload.wikimedia.org/wikipedia/commons/thumb/0/0a/Alabama-Tennessee-state-line-207-11-altn1.jpg/1200px-Alabama-Tennessee-state-line-207-11-altn1.jpg?20161031223120"
+                alt="Alabama welcome sign Sweet Home, Alabama at the border between Giles County, Tennessee, and Lauderdale County, Alabama, in the southern United States."
                 width={400} 
                 height={300} 
                 className="rounded-lg"
             />
+              </a>
         </div>
     </div>
 </section>
@@ -114,3 +121,4 @@ const SEOAlabaster = () => {
 }
 
 export default SEOAlabaster;
+
