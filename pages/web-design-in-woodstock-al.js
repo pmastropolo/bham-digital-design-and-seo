@@ -20,6 +20,7 @@ const WebDesignWoodstock = () => {
     <h1 className="text-4xl md:text-6xl font-extrabold text-transparent bg-clip-text bg-gradient-to-r from-slate-700 via-white to-indigo-200 my-4 animate-gradient">
         Web Design Services in Woodstock, AL
     </h1>
+
     <p className="text-white text-opacity-90 mb-8 text-lg md:text-xl leading-loose max-w-xl md:max-w-3xl mx-auto">
         Empowering your businesss online presence with our expert web design and SEO solutions.
     </p>
@@ -31,6 +32,7 @@ const WebDesignWoodstock = () => {
     </div>
     <div className="absolute top-0 left-0 w-full h-full overflow-hidden z-0">
 </div>
+
 
 {/* Discover Section */}
 <div className="max-w-7xl mx-auto">
@@ -47,8 +49,8 @@ const WebDesignWoodstock = () => {
             <p className="mb-4">Since incorporation, it has steadily grown as a suburban community.</p>
             <p className="mb-4 animate-fade-in-up delay-400">Woodstock has a diverse local economy, with businesses ranging from retail to manufacturing.</p>
             <p className="mb-4 animate-fade-in-up delay-500">Known for its strong community spirit and local pride.</p>
-            <p className="text-gray-600"><b>County</b> | <span className="font-semibold text-indigo-900">Bibb</span></p>
-            <p className="text-gray-600"><b>Zip Code</b> | <span className="font-semibold text-indigo-900">35188</span></p>
+            <p className="text-gray-600"><b>County</b> | Bibb</p>
+            <p className="text-gray-600"><b>Zip Code</b> | 35188</p>
         </div>
 
         <div className="mt-auto">
@@ -90,6 +92,7 @@ const WebDesignWoodstock = () => {
     </div>
 </div>
 
+
 {/* Elevate Your Business Title Section */}
 <div className="bg-gradient-to-br from-gray-100 to-blue-50 p-8 rounded-3xl shadow-2xl">
 <h2 className="text-5xl font-bold text-gray-800 mb-6 text-center">Elevate Your Business with Web Design</h2>
@@ -116,7 +119,9 @@ In the digital age, a compelling online presence is more than just a luxury. Its
             </div>
         </div>
     </div>
-    </div>        
+    </div>
+
+           
         </>
     );
 }
