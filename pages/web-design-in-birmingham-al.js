@@ -51,6 +51,7 @@ const WebDesignBirmingham = () => {
 <p className="mb-2 text-left">Birmingham has undergone significant economic and demographic changes, transitioning from a primary industrial center to a modern city with a strong presence in <span className="font-semibold text-indigo-900">education, healthcare, and banking</span>.</p>
 
 <p className="text-gray-600"><b>County</b> | <span className="font-semibold text-indigo-900">Jefferson</span></p>
+<p className="text-gray-600"><b>Zip Codes</b> | <span className="font-semibold text-indigo-900"></span></p>
         </div>
 
         <div className="mt-auto">
