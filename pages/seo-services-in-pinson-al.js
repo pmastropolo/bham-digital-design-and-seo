@@ -2,23 +2,23 @@ import React from 'react';
 import { NextSeo } from 'next-seo';
 import Link from 'next/link';
 
-const WebDesignPinson = () => {
+const SEOPinson = () => {
     return (
         <>
             <NextSeo
-                title="Web Design Services in Pinson, AL | Bham Web Design and SEO Co."
-                description="Bham Web Design and SEO Co. specializes in web design services in Pinson, AL. Explore our customized web solutions designed to enhance your online presence in Pinson."
+                title="SEO Services in Pinson, AL | Bham Web Design and SEO Co."
+                description="Bham Web Design and SEO Co. offers top-notch SEO services in Pinson, AL. Explore our customized SEO solutions designed to elevate your Pinson business's online presence."
                 openGraph={{
-                    title: 'Web Design Services in Pinson, AL | Bham Web Design and SEO Co.',
-                    description: 'Bham Web Design and SEO Co. specializes in web design services in Pinson, AL. Explore our customized web solutions designed to enhance your online presence in Pinson.',
-                    url: 'https://bhamseoanddesignco.com/web-design-pinson-al',
+                    title: 'SEO Services in Pinson, AL | Bham Web Design and SEO Co.',
+                    description: 'Bham Web Design and SEO Co. offers top-notch SEO services in Pinson, AL. Explore our customized SEO solutions designed to elevate your Pinson businesss online presence.',
+                    url: 'https://bhamseoanddesignco.com/seo-services-pinson-al',
                     type: 'website',
                 }}
             />
 
 <div className="bg-gradient-to-br from-slate-700 to-indigo-800 text-center py-12 px-6 shadow-xl rounded-2xl mt-10 mb-12 transform hover:scale-105 transition duration-500 ease-in-out relative overflow-hidden">
     <h1 className="text-4xl md:text-6xl font-extrabold text-transparent bg-clip-text bg-gradient-to-r from-slate-700 via-white to-indigo-200 my-4 animate-gradient">
-        Web Design Services in Pinson, AL
+        SEO Services in Pinson, AL
     </h1>
 
     <p className="text-white text-opacity-90 mb-8 text-lg md:text-xl leading-loose max-w-xl md:max-w-3xl mx-auto">
@@ -55,7 +55,7 @@ const WebDesignPinson = () => {
         </div>
 
         <div className="mt-auto">
-        <Link href="/PackagePage" legacyBehavior>
+        <Link href="/seopackagepage" legacyBehavior>
                     <a className="inline-block bg-blue-500 hover:bg-blue-700 text-white py-2 px-4 rounded transition duration-300">
                         Elevate Your Pinson Business Online
                     </a>
@@ -88,11 +88,11 @@ const WebDesignPinson = () => {
 
 {/* Elevate Your Business Title Section */}
 <div className="bg-gradient-to-br from-gray-100 to-blue-50 p-8 rounded-3xl shadow-2xl">
-<h2 className="text-5xl font-bold text-gray-800 mb-6 text-center">Elevate Your Business with Web Design</h2>
+<h2 className="text-5xl font-bold text-gray-800 mb-6 text-center">Elevate Your Business with SEO</h2>
 
 {/* Elevate Your Business Section */}
 <p className="mt-6 mb-8 text-lg md:text-md text-gray-700">
-In the digital age, a compelling online presence is more than just a luxury. Its a necessity. Our web design solutions are strategically crafted to meet the unique needs and goals of your local business. Blending innovative design with cutting-edge functionality, we ensure your site stands out in a crowded digital landscape.
+We seamlessly integrate cutting-edge web design with advanced SEO techniques, ensuring that your website not only captivates visitors but also effectively aligns with your business objectives. By staying at the forefront of the latest SEO trends while adhering to proven design principles, we deliver a website that is visually stunning, functionally powerful, and optimized for organic growth. Our approach centers on engaging your target audience, enhancing your brands online footprint, and generating measurable business results through SEO-driven strategies.
 </p>
 
                 {/* Contact Us Button */}
@@ -102,10 +102,10 @@ In the digital age, a compelling online presence is more than just a luxury. Its
                 </a>
                 </Link>
 
-                {/* Web Design Form Button */}
-                <Link href="/webDesignConsultation" legacyBehavior>
+                {/* SEO Form Button */}
+                <Link href="/seoConsultation" legacyBehavior>
                 <a className="inline-block bg-blue-600 hover:bg-indigo-800 text-white py-2 px-6 rounded-full transition duration-300 transform hover:scale-110 mx-2">
-                    Start Web Design Initial Consultation
+                    Start SEO Initial Consultation
                 </a>
                 </Link>
             </div>
@@ -117,4 +117,4 @@ In the digital age, a compelling online presence is more than just a luxury. Its
     );
 }
 
-export default WebDesignPinson;
+export default SEOPinson;
