@@ -27,7 +27,7 @@ const WebDesignShelby = () => {
     <div className="py-4 px-6 mb-4 md:mb-6 mt-4 bg-white bg-opacity-20 rounded-lg">
         <p className="text-lg md:text-xl text-white">
             <span className="block mb-2 text-2xl md:text-3xl text-indigo-300">Fun Fact</span>
-            Leeds is home to the world-famous Barber Motorsports Museum & Racetrack.
+         
         </p>
     </div>
     <div className="absolute top-0 left-0 w-full h-full overflow-hidden z-0">
