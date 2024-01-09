@@ -1,7 +1,6 @@
 import React from 'react';
 import { NextSeo } from 'next-seo';
 import Link from 'next/link';
-import Image from 'next/image';
 
 const WebDesignClanton = () => {
     return (
@@ -17,103 +16,108 @@ const WebDesignClanton = () => {
                 }}
             />
 
-<div className="bg-white text-center p-10 shadow-lg rounded-lg mb-10 z-10 relative">
-    <h2 className="text-5xl font-extrabold text-gray-800 mt-4 mb-6">Web Design Services in Clanton, AL</h2>
-    <p className="text-gray-600 mb-4">Fun Fact | Clanton is known for its Peach Festival</p>
+<div className="bg-gradient-to-br from-slate-950 to-indigo-950 text-center py-12 px-6 shadow-xl rounded-2xl mt-10 mb-12 transform hover:scale-105 transition duration-500 ease-in-out relative overflow-hidden">
+    <h1 className="text-4xl md:text-6xl font-extrabold text-transparent bg-clip-text bg-gradient-to-r from-slate-700 via-white to-indigo-200 my-4 animate-gradient">
+        Web Design Services in Clanton, AL
+    </h1>
 
-    <section className="mb-4">
-        <div className="bg-white p-6 rounded-lg shadow-lg flex flex-wrap md:flex-nowrap">
-            {/* Text Section */}
-            <div className="w-full md:w-1/2 text-gray-700">
-                <h2 className="text-3xl font-bold text-gray-800 mb-4 text-left">Explore Clanton, AL Heritage</h2>
-                <p className="text-red-600 mb-4 text-left"><b>County</b> | Chilton</p>
-                <p className="mb-2 text-left">Named after James H. Clanton, its a charming city with a rich history.</p>
-                <p className="mb-2 text-left">Famous for its Peach Park, offering delicious peach-themed treats.</p>
-                <p className="mb-2 text-left">Proud home to the annual Peach Festival, a local tradition.</p>
-                <p className="mb-2 text-left">Explore historic sites like the Clanton Confederate Memorial.</p>
-            </div>
-            {/* Image Section */}
-            <div className="w-full md:w-1/2 flex items-center justify-center">
-            <a href="https://commons.wikimedia.org/wiki/File:US31nAL22wRoadSigns-ClantonAL_(38293295875).jpg" target="_blank" rel="noopener noreferrer">
-                <Image
-                    src="https://upload.wikimedia.org/wikipedia/commons/thumb/1/13/US31nAL22wRoadSigns-ClantonAL_%2838293295875%29.jpg/1200px-US31nAL22wRoadSigns-ClantonAL_%2838293295875%29.jpg?20181125204830"
-                    alt="Image of Clanton, Alabama"
-                    width={400}
-                    height={300}
-                    className="rounded-lg"
-                />
-                </a>
-                            </div>
-        </div>
-    </section>
+    <p className="text-white text-opacity-90 mb-8 text-lg md:text-xl leading-loose max-w-xl md:max-w-3xl mx-auto">
+        Empowering your businesss online presence with our expert web design and SEO solutions.
+    </p>
+    <div className="py-4 px-6 mb-4 md:mb-6 mt-4 bg-white bg-opacity-20 rounded-lg">
+        <p className="text-lg md:text-xl text-white">
+            <span className="block mb-2 text-2xl md:text-3xl text-indigo-300">Fun Fact</span>
+            Clanton is known for its Peach Festival.
+        </p>
+    </div>
+    <div className="absolute top-0 left-0 w-full h-full overflow-hidden z-0">
+</div>
 
-    <section className="mt-4">
-    <div className="bg-slate-100 p-6 rounded-lg shadow-lg flex flex-wrap md:flex-nowrap">
-        {/* Image Section */}
-        <div className="w-full md:w-1/2 flex justify-center items-center">
-        <a href="https://commons.wikimedia.org/wiki/File:Watertower_shaped_like_a_peach,_Clanton,_Alabama_LCCN2010640907.tif" target="_blank" rel="noopener noreferrer">
-            <Image
-                src="https://upload.wikimedia.org/wikipedia/commons/thumb/2/20/Watertower_shaped_like_a_peach%2C_Clanton%2C_Alabama_LCCN2010640907.tif/lossy-page1-600px-Watertower_shaped_like_a_peach%2C_Clanton%2C_Alabama_LCCN2010640907.tif.jpg?20160828113115"
-                alt="Watertower shaped like a peach, Clanton, Alabama"
-                width={400}
-                height={300}
-                className="rounded-lg max-w-sm"
-            />
-            </a>
+
+{/* Discover Section */}
+<div className="max-w-7xl mx-auto">
+    <div className="flex flex-col md:flex-row gap-8">
+        <div className="flex-1 flex flex-col">
+            <div className="bg-gradient-to-br from-gray-50 to-blue-100 p-8 rounded-2xl shadow-lg mb-8 flex-grow transform transition duration-500 hover:shadow-2xl">
+
+                {/* Discover Title */}
+                <h2 className="text-4xl font-bold text-gray-800">Discover Clanton</h2>  
+                    <div className="p-8 rounded-2xl shadow-lg mb-4 flex-1 hover:shadow-2xl">
+                    <p className="mb-2 text-left">Named after <span className="font-semibold text-indigo-900">James H. Clanton</span>, its a charming city with a <span className="text-indigo-500">rich history</span>.</p>
+<p className="mb-2 text-left"><span className="text-indigo-500">Famous</span> for its <span className="font-semibold text-indigo-900">Peach Park</span>, offering <span className="font-semibold text-indigo-500">delicious peach-themed treats</span>.</p>
+<p className="mb-2 text-left"><span className="text-indigo-500">Proud home</span> to the <span className="font-semibold text-indigo-900">annual Peach Festival</span>, a <span className="font-semibold text-indigo-500">local tradition</span>.</p>
+<p className="mb-2 text-left">Explore <span className="text-indigo-500">historic sites</span> like the <span className="font-semibold text-indigo-900">Clanton Confederate Memorial</span>.</p>
+
+<p className="text-gray-600">Countys | <span className="text-indigo-900">Chilton</span></p>
+<p className="text-gray-600">Zip Codes | <span className="text-indigo-900">35045, 35046</span></p>
         </div>
-        {/* Text Section */}
-        <div className="w-full md:w-1/2 text-gray-700 text-center md:text-center mt-4">
-            <h2 className="text-4xl font-bold text-gray-800 mb-4">Best Things to Do in Clanton, AL</h2>
-            <div className="mt-4">
-                <p className="mb-2 text-indigo-500"><b>Peach Park</b> | Enjoy delicious peach-themed treats.</p>
-                <p className="mb-2 text-indigo-500"><b>Peach Festival</b> | Experience the local Peach Festival tradition.</p>
-                <p className="mb-2 text-indigo-500"><b>Clanton Confederate Memorial</b> | Explore historic sites.</p>
-                <p className="mb-2 text-indigo-500"><b>Chilton County History Museum</b> | Learn about the countys history.</p>
-                <p className="mb-2 text-indigo-500"><b>Cedar Creek Reservoir</b> | Fishing and outdoor activities.</p>
-                <p className="text-gray-600 mb-4 text-left"><b>Zip Codes</b> | 35045, 35046</p>
+
+        <div className="mt-auto">
+        <Link href="/PackagePage" legacyBehavior>
+                    <a className="inline-block bg-blue-500 hover:bg-blue-700 text-white py-2 px-4 rounded transition duration-300">
+                        Elevate Your Clanton Business Online
+                    </a>
+                    </Link>
+                </div>
             </div>
+        </div>
+
+
+        <div className="flex-1 flex flex-col">
+    <div className="rounded-lg shadow-md mb-6 flex-grow" style={{ backgroundColor: 'rgba(255, 255, 255, 0.5)' }}>
+    <h2 className="text-4xl font-bold text-indigo-950 mt-5 mb-6 text-center">Explore Clanton</h2>
+
+        <p className="text-indigo-950 text-lg mb-1"><b>Peach Park</b></p>
+<p className="mb-2 text-white text-lg">Enjoy delicious peach-themed treats.</p>
+
+<p className="text-indigo-950 text-lg mb-1"><b>Peach Festival</b></p>
+<p className="mb-2 text-white text-lg">Experience the local Peach Festival tradition.</p>
+
+<p className="text-indigo-950 text-lg mb-1"><b>Clanton Confederate Memorial</b></p>
+<p className="mb-2 text-white text-lg">Explore historic sites.</p>
+
+<p className="text-indigo-950 text-lg mb-1"><b>Chilton County History Museum</b></p>
+<p className="mb-2 text-white text-lg">Learn about the countys history.</p>
+
+<p className="text-indigo-950 text-lg mb-1"><b>Cedar Creek Reservoir</b></p>
+<p className="mb-2 text-white text-lg">Fishing and outdoor activities.</p>
+
+
+
+
         </div>
     </div>
-</section>
+</div>
 
-<section className="mt-4">
-    <div className="bg-white p-6 rounded-lg shadow-lg flex flex-wrap md:flex-nowrap">
-        {/* Text Section */}
-        <div className="w-full md:w-1/2 text-gray-700">
-            <h2 className="text-3xl font-bold text-gray-800 mb-4">Elevate Your Business in Clanton with Our Web Design Expertise</h2>
-            <p>In the digital age, a compelling online presence is more than just a luxury. Its a necessity. At Bham Web Design and SEO Co., we understand the heartbeat of Clanton, AL. Our web design solutions are not just aesthetically pleasing but also strategically crafted to meet the unique needs and goals of your local business.</p>
-            <p className="mt-4">We blend innovative design with cutting-edge functionality, ensuring your site stands out in a crowded digital landscape. With our finger on the pulse of current trends and timeless design principles, we promise a website that not only looks stunning but also drives growth, engages your audience, and elevates your brand.</p>
-            <div className="mt-6 gap-8">
+
+{/* Elevate Your Business Title Section */}
+<div className="bg-gradient-to-br from-gray-100 to-blue-50 p-8 rounded-3xl shadow-2xl">
+<h2 className="text-5xl font-bold text-gray-800 mb-5 text-center">Elevate Your Business with Web Design</h2>
+
+{/* Elevate Your Business Section */}
+<p className="mt-6 mb-8 text-lg md:text-md text-gray-700">
+In the digital age, a compelling online presence is more than just a luxury. Its a necessity. Our web design solutions are strategically crafted to meet the unique needs and goals of your local business. Blending innovative design with cutting-edge functionality, we ensure your site stands out in a crowded digital landscape.
+</p>
+
+                {/* Contact Us Button */}
                 <Link href="/contact" legacyBehavior>
-                    <a className="inline-block bg-blue-500 hover:bg-blue-700 text-white mr-4 mb-4 py-2 px-4 rounded">
-                        Contact Us
-                    </a>
+                <a className="inline-block bg-blue-600 hover:bg-cyan-800 text-white mb-4 py-2 px-6 rounded-full transition duration-300 transform hover:scale-110 mx-2">
+                    Contact Us
+                </a>
                 </Link>
-                {/* Web Design Packages Button with Link */}
-                <Link href="/PackagePage" legacyBehavior>
-                    <a className="inline-block bg-blue-500 hover:bg-blue-700 text-white mb-4 py-2 px-4 rounded">
-                        View Web Design Packages
-                    </a>
+
+                {/* Web Design Form Button */}
+                <Link href="/webDesignConsultation" legacyBehavior>
+                <a className="inline-block bg-blue-600 hover:bg-indigo-800 text-white py-2 px-6 rounded-full transition duration-300 transform hover:scale-110 mx-2">
+                    Start Web Design Initial Consultation
+                </a>
                 </Link>
             </div>
-        </div>
-        {/* Image Section */}
-        <div className="w-full md:w-1/2 flex items-center justify-center">
-        <a href="https://commons.wikimedia.org/wiki/File:Alabama-Tennessee-state-line-207-11-altn1.jpg" target="_blank" rel="noopener noreferrer">
-            <Image
-                src="https://upload.wikimedia.org/wikipedia/commons/thumb/0/0a/Alabama-Tennessee-state-line-207-11-altn1.jpg/1200px-Alabama-Tennessee-state-line-207-11-altn1.jpg?20161031223120"
-                alt="Alabama welcome sign Sweet Home, Alabama at the border between Giles County, Tennessee, and Lauderdale County, Alabama, in the southern United States."
-                width={400} 
-                height={300} 
-                className="rounded-lg"
-            />
-              </a>
         </div>
     </div>
-</section>
-            </div>
         </>
     );
 }
 
 export default WebDesignClanton;
+
