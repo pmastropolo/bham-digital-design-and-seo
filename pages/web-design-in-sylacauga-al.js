@@ -65,8 +65,8 @@ const WebDesignSylacauga = () => {
 
 
 <div className="flex-1 flex flex-col">
-            <div className="bg-white p-6 rounded-lg shadow-md mb-6 flex-grow">
-                <h2 className="text-3xl font-semibold text-gray-800 mb-4">Best Things to Do in Sylacauga, AL</h2>
+<div className="rounded-lg shadow-md mb-6 flex-grow" style={{ backgroundColor: 'rgba(255, 255, 255, 0.5)' }}>
+            <h2 className="text-4xl font-bold text-indigo-950 mt-5 mb-6 text-center">Best Things to Do in Sylacauga</h2>
 
                 <p className="text-indigo-950 text-lg mb-1">
     <strong>FarmLinks Golf Course</strong>
