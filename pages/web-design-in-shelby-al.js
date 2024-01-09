@@ -24,12 +24,7 @@ const WebDesignShelby = () => {
     <p className="text-white text-opacity-90 mb-8 text-lg md:text-xl leading-loose max-w-xl md:max-w-3xl mx-auto">
         Empowering your businesss online presence with our expert web design and SEO solutions.
     </p>
-    <div className="py-4 px-6 mb-4 md:mb-6 mt-4 bg-white bg-opacity-20 rounded-lg">
-        <p className="text-lg md:text-xl text-white">
-            <span className="block mb-2 text-2xl md:text-3xl text-indigo-300">Fun Fact</span>
-         
-        </p>
-    </div>
+
     <div className="absolute top-0 left-0 w-full h-full overflow-hidden z-0">
 </div>
 
