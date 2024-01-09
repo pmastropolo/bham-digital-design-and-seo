@@ -49,7 +49,7 @@ const WebDesignBessemer = () => {
                             <p className="mb-2 text-left">Home to <span className="font-semibold text-indigo-900">The Bright Star,</span> opened in <span className="font-semibold text-indigo-900">1907,</span> known for Greek-style seafood and steaks.</p>
                             <p className="mb-2 text-left"><span className="font-semibold text-indigo-900">The Bessemer Hall of History Museum</span> showcases local artifacts and history.</p>
                             <p className="mb-2 text-left"><span className="font-semibold text-indigo-900">Alabama Adventure & Splash Adventure</span> offers water attractions and roller coasters.</p>
-<p className="text-gray-600">Countys | <span className="text-indigo-900">Jefferson</span></p>
+<p className="text-gray-600">County | <span className="text-indigo-900">Jefferson</span></p>
 <p className="text-gray-600">Zip Codes | <span className="text-indigo-900">35111, 35023, 35022, 35021, 35020</span></p>
         </div>
 
