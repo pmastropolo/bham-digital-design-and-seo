@@ -41,7 +41,7 @@ const WebDesignPinson = () => {
             <div className="bg-gradient-to-br from-gray-50 to-blue-100 p-8 rounded-2xl shadow-lg mb-8 flex-grow transform transition duration-500 hover:shadow-2xl">
 
                 {/* Discover Title */}
-                <h2 className="text-4xl font-bold text-gray-800 mb-6">Discover Pinson, AL</h2>  
+                <h2 className="text-4xl font-bold text-gray-800 mb-4">Discover Pinson</h2>  
                     <div className="p-8 rounded-2xl shadow-lg mb-8 flex-1 hover:shadow-2xl">
 
                     <p className="mb-4">Pinson, originally <span className="font-semibold text-indigo-900">Hagoods Crossroads</span>, was settled by General Andrew Jacksons soldiers in the 19th century. The town was renamed to Pinson in <span className="font-semibold text-indigo-900">1837</span>, evolving from its early beginnings in the Creek War.</p>
