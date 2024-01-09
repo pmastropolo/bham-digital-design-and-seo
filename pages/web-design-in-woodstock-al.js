@@ -47,8 +47,8 @@ const WebDesignWoodstock = () => {
             <p className="mb-4">Since incorporation, it has steadily grown as a suburban community.</p>
             <p className="mb-4 animate-fade-in-up delay-400">Woodstock has a diverse local economy, with businesses ranging from retail to manufacturing.</p>
             <p className="mb-4 animate-fade-in-up delay-500">Known for its strong community spirit and local pride.</p>
-            <p className="text-gray-600 animate-fade-in-up delay-600"><b>County</b> | Bibb</p>
-            <p className="text-gray-600 animate-fade-in-up delay-600"><b>Zip Code</b> | 35188</p>
+            <p className="text-gray-600"><b>County</b> | <span className="font-semibold text-indigo-900">Bibb</span></p>
+            <p className="text-gray-600"><b>Zip Code</b> | <span className="font-semibold text-indigo-900">35188</span></p>
         </div>
 
         <div className="mt-auto">
