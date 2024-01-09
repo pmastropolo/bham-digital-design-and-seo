@@ -27,7 +27,7 @@ const WebDesignBirmingham = () => {
     <div className="py-4 px-6 mb-4 md:mb-6 mt-4 bg-white bg-opacity-20 rounded-lg">
         <p className="text-lg md:text-xl text-white">
             <span className="block mb-2 text-2xl md:text-3xl text-indigo-300">Fun Fact</span>
-            Home to the great scientists & inventors Matthew Boulton, James Watt and William Murdoch, leading Birmingham to be the first manufacturing town in the world.
+            Home To The Great Scientists & Inventors Matthew Boulton, James Watt And William Murdoch, Leading Birmingham To Be The First Manufacturing Town In The World.
         </p>
     </div>
     <div className="absolute top-0 left-0 w-full h-full overflow-hidden z-0">
