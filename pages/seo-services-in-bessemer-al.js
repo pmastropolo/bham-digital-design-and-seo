@@ -17,97 +17,124 @@ const SEOBessemer = () => {
                 }}
             />
 
+<div className="bg-gradient-to-br from-slate-950 to-indigo-950 text-center py-12 px-6 shadow-xl rounded-2xl mt-10 mb-12 transform hover:scale-105 transition duration-500 ease-in-out relative overflow-hidden">
+    <h1 className="text-4xl md:text-6xl font-extrabold text-transparent bg-clip-text bg-gradient-to-r from-slate-700 via-white to-indigo-200 my-4 animate-gradient">
+        SEO Services in Bessemer, AL
+    </h1>
 
-            <div className="bg-white text-center p-10 shadow-lg rounded-lg mb-10 z-10 relative">
-                <h2 className="text-5xl font-extrabold text-gray-800 mt-4 mb-6">SEO Services in Bessemer, AL</h2>
-                <p className="text-gray-600 mb-4">Nickname | The Marvel City</p>
+    <p className="text-white text-opacity-90 mb-8 text-lg md:text-xl leading-loose max-w-xl md:max-w-3xl mx-auto">
+        Empowering your businesss online presence with our expert web design and SEO solutions.
+    </p>
+    <div className="py-4 px-6 mb-4 md:mb-6 mt-4 bg-white bg-opacity-20 rounded-lg">
+        <p className="text-lg md:text-xl text-white">
+            <span className="block mb-2 text-2xl md:text-3xl text-indigo-300">Nick Name</span>
+            The Marvel City.
+        </p>
+    </div>
+    <div className="absolute top-0 left-0 w-full h-full overflow-hidden z-0">
+</div>
 
-                <section className="mb-4">
-                    <div className="bg-white p-6 rounded-lg shadow-lg flex flex-wrap md:flex-nowrap">
-                        <div className="w-full md:w-1/2 text-gray-700">
-                            <h2 className="text-3xl font-bold text-gray-800 mb-4 text-left">Explore Bessemer, AL Heritage</h2>
-                            <p className="text-purple-900 mb-4 text-left"><b>County</b> | Jefferson</p>
-                            <p className="mb-2 text-left">Founded in 1887, Bessemer rapidly grew due to the steel industry.</p>
-                            <p className="mb-2 text-left">Tannehill Ironworks State Park preserves a 19th-century iron furnace and hosts trade events.</p>
-                            <p className="mb-2 text-left">Home to The Bright Star, opened in 1907, known for Greek-style seafood and steaks.</p>
-                            <p className="mb-2 text-left">The Bessemer Hall of History Museum showcases local artifacts and history.</p>
-                            <p className="mb-2 text-left">Alabama Adventure & Splash Adventure offers water attractions and roller coasters.</p>
-                            <p className="text-purple-800 mb-4 text-left"><b>Zip Codes</b> | 35111, 35023, 35022, 35021, 35020</p>
-                        </div>
-                        <div className="w-full md:w-1/2 flex items-center justify-center">
-                    <a href="https://commons.wikimedia.org/wiki/File:Bessemer_Academy_Alabama.jpg" target="_blank" rel="noopener noreferrer">
-                        <Image
-                src="https://upload.wikimedia.org/wikipedia/commons/d/dd/Bessemer_Academy_Alabama.jpg?20141029035405"
-                alt="Bessemer Academy, Bessemer Alabama pre school thru High school"
-                width={400} 
-                height={300} 
-                className="rounded-lg"
-            />
-            </a>
-                        </div>
-                    </div>
-                </section>
 
-                <section className="mt-4">
-                    <div className="bg-slate-100 p-6 rounded-lg shadow-lg flex flex-wrap md:flex-nowrap">
-                        <div className="w-full md:w-1/2 flex justify-center items-center">
-                        <a href="https://commons.wikimedia.org/wiki/File:The_Bright_Star,_Bessemer,_Alabama.jpg" target="_blank" rel="noopener noreferrer">
-                        <Image
-                src="https://upload.wikimedia.org/wikipedia/commons/thumb/f/f2/The_Bright_Star%2C_Bessemer%2C_Alabama.jpg/504px-The_Bright_Star%2C_Bessemer%2C_Alabama.jpg?20180605110020"
-                alt="The Bright Star, Bessemer, Alabama."
-                width={400} 
-                height={300} 
-                className="rounded-lg"
-            />
-            </a>
-                        </div>
-                        <div className="w-full md:w-1/2 text-gray-700 text-center md:text-center mt-4">
-                            <h2 className="text-4xl font-bold text-gray-800 mb-4">Best Things to Do in Bessemer, AL</h2>
-                            <div className="mt-4">
-                                <p className="mb-2 text-indigo-500"><b>Bessemer Hall of History Museum</b> | Citys historical artifacts.</p>
-                                <p className="mb-2 text-indigo-500"><b>Alabama Adventure & Splash Adventure</b> | Fun park for all ages.</p>
-                                <p className="mb-2 text-indigo-500"><b>DeBardeleben Park</b> | Historic downtown park.</p>
-                                <p className="mb-2 text-indigo-500"><b>Watercress Darter National Wildlife Refuge</b> | Endangered fish, photography, hiking.</p>
-                                <p className="mb-2 text-indigo-500"><b>Alabama Wine Trail</b> | Local vineyards, award-winning wines.</p>
-                                <p className="mb-2 text-indigo-500"><b>Bessemer Farmers Market</b> | Fresh, local produce.</p>
-                            </div>
-                        </div>
-                    </div>
-                </section>
+{/* Discover Section */}
+<div className="max-w-7xl mx-auto">
+    <div className="flex flex-col md:flex-row gap-8">
+        <div className="flex-1 flex flex-col">
+            <div className="bg-gradient-to-br from-gray-50 to-blue-100 p-8 rounded-2xl shadow-lg mb-8 flex-grow transform transition duration-500 hover:shadow-2xl">
 
-                <section className="mt-4">
-    <div className="bg-white p-6 rounded-lg shadow-lg flex flex-wrap md:flex-nowrap">
-        <div className="w-full md:w-1/2 text-gray-700">
-            <h2 className="text-3xl font-bold text-gray-800 mb-4">Boost Your Bessemer Business with SEO-Optimized Web Design</h2>
-            <p>In todays digital landscape, a strong online presence is crucial for success. At Bham Web Design and SEO Co., we are deeply rooted in the Bessemer, AL community. Our web design and development services are meticulously crafted to maximize the online visibility and performance of your Bessemer-based business.</p>
-            <p className="mt-4">We seamlessly integrate cutting-edge web design with advanced SEO techniques, ensuring that your website not only captivates visitors but also effectively aligns with your business objectives. By staying at the forefront of the latest SEO trends while adhering to proven design principles, we deliver a website that is visually stunning, functionally powerful, and optimized for organic growth. Our approach centers on engaging your target audience, enhancing your brands online footprint, and generating measurable business results through SEO-driven strategies.</p>
-            <div className="mt-6 gap-8">
-                <Link href="/contact" legacyBehavior>
-                    <a className="inline-block bg-blue-500 hover:bg-blue-700 text-white mr-4 mb-4 py-2 px-4 rounded">
-                        Contact Us
+                {/* Discover Title */}
+                <h2 className="text-4xl font-bold text-gray-800">Discover Bessemer</h2>  
+                    <div className="p-8 rounded-2xl shadow-lg mb-4 flex-1 hover:shadow-2xl">
+                    <p className="mb-2 text-left">Founded in <span className="font-semibold text-indigo-900">1887,</span> Bessemer rapidly grew due to the steel industry.</p>
+                            <p className="mb-2 text-left"><span className="font-semibold text-indigo-900">Tannehill Ironworks State Park</span> preserves a 19th-century iron furnace and hosts trade events.</p>
+                            <p className="mb-2 text-left">Home to <span className="font-semibold text-indigo-900">The Bright Star,</span> opened in <span className="font-semibold text-indigo-900">1907,</span> known for Greek-style seafood and steaks.</p>
+                            <p className="mb-2 text-left"><span className="font-semibold text-indigo-900">The Bessemer Hall of History Museum</span> showcases local artifacts and history.</p>
+                            <p className="mb-2 text-left"><span className="font-semibold text-indigo-900">Alabama Adventure & Splash Adventure</span> offers water attractions and roller coasters.</p>
+<p className="text-gray-600">Countys | <span className="text-indigo-900">Jefferson</span></p>
+<p className="text-gray-600">Zip Codes | <span className="text-indigo-900">35111, 35023, 35022, 35021, 35020</span></p>
+        </div>
+
+        <div className="mt-auto">
+        <Link href="/seopackagepage" legacyBehavior>
+                    <a className="inline-block bg-blue-500 hover:bg-blue-700 text-white py-2 px-4 rounded transition duration-300">
+                        Elevate Your Bessemer Business Online
                     </a>
-                </Link>
-                <Link href="/seopackagepage" legacyBehavior>
-                    <a className="inline-block bg-blue-500 hover:bg-blue-700 text-white mb-4 py-2 px-4 rounded">
-                        View SEO Services
-                    </a>
-                </Link>
+                    </Link>
+                </div>
             </div>
         </div>
-        <div className="w-full md:w-1/2 flex items-center justify-center">
-                      <a href="https://commons.wikimedia.org/wiki/File:Alabama-Tennessee-state-line-207-11-altn1.jpg" target="_blank" rel="noopener noreferrer">
-            <Image
-                src="https://upload.wikimedia.org/wikipedia/commons/thumb/0/0a/Alabama-Tennessee-state-line-207-11-altn1.jpg/1200px-Alabama-Tennessee-state-line-207-11-altn1.jpg?20161031223120"
-                alt="Alabama welcome sign Sweet Home, Alabama at the border between Giles County, Tennessee, and Lauderdale County, Alabama, in the southern United States."
-                width={400} 
-                height={300} 
-                className="rounded-lg"
-            />
-              </a>
+
+
+        <div className="flex-1 flex flex-col">
+    <div className="rounded-lg shadow-md mb-6 flex-grow" style={{ backgroundColor: 'rgba(255, 255, 255, 0.5)' }}>
+        <h2 className="text-4xl font-bold text-indigo-950 mt-5 mb-6 text-center">Explore Bessemer</h2>
+
+        <p className="text-indigo-950 text-lg mb-1">
+        <b className="underline"><a href="https://www.bessemeral.org/directory-entry/bessemer-hall-of-history/" target="_blank">Bessemer Hall of History Museum</a></b>
+</p>
+<p className="mb-2 text-white text-lg">
+    Citys historical artifacts.
+</p>
+
+<p className="text-indigo-950 text-lg mb-1">
+    <b className="underline"><a href="https://alabamaadventure.com/" target="_blank">Alabama Adventure & Splash Adventure</a></b>
+</p>
+<p className="mb-2 text-white text-lg">
+    Fun park for all ages.
+</p>
+
+<p className="text-indigo-950 text-lg mb-1">
+<b className="underline"><a href="https://www.bessemeral.org/parks-and-recreation/" target="_blank">DeBardeleben Park</a></b>
+</p>
+<p className="mb-2 text-white text-lg">
+    Historic downtown park.
+</p>
+
+<p className="text-indigo-950 text-lg mb-1">
+<b className="underline"><a href="https://www.fws.gov/refuge/watercress-darter" target="_blank">Watercress Darter National Wildlife Refuge</a></b>
+</p>
+<p className="mb-2 text-white text-lg">
+    Endangered fish, photography, hiking.
+</p>
+
+<p className="text-indigo-950 text-lg mb-1"><b>Alabama Wine Trail</b></p>
+<p className="mb-2 text-white text-lg">Local vineyards, award-winning wines.</p>
+
+<p className="text-indigo-950 text-lg mb-1"><b>Bessemer Farmers Market</b></p>
+<p className="mb-2 text-white text-lg">Fresh, local produce.</p>
+
+
+
         </div>
     </div>
-</section>
+</div>
+
+
+{/* Elevate Your Business Title Section */}
+<div className="bg-gradient-to-br from-gray-100 to-blue-50 p-8 rounded-3xl shadow-2xl">
+<h2 className="text-5xl font-bold text-gray-800 mb-5 text-center">Boost Your Bessemer Business with SEO-Optimized Web Design</h2>
+
+{/* Elevate Your Business Section */}
+<p className="mt-6 mb-8 text-lg md:text-md text-gray-700">
+We seamlessly integrate cutting-edge web design with advanced SEO techniques, ensuring that your website not only captivates visitors but also effectively aligns with your business objectives. By staying at the forefront of the latest SEO trends while adhering to proven design principles, we deliver a website that is visually stunning, functionally powerful, and optimized for organic growth. Our approach centers on engaging your target audience, enhancing your brands online footprint, and generating measurable business results through SEO-driven strategies.
+</p>
+
+                {/* Contact Us Button */}
+                <Link href="/contact" legacyBehavior>
+                <a className="inline-block bg-blue-600 hover:bg-cyan-800 text-white mb-4 py-2 px-6 rounded-full transition duration-300 transform hover:scale-110 mx-2">
+                    Contact Us
+                </a>
+                </Link>
+
+                {/* Web Design Form Button */}
+                <Link href="/seoConsultation" legacyBehavior>
+                <a className="inline-block bg-blue-600 hover:bg-indigo-800 text-white py-2 px-6 rounded-full transition duration-300 transform hover:scale-110 mx-2">
+                    Start SEO Initial Consultation
+                </a>
+                </Link>
             </div>
+        </div>
+    </div>
+        
         </>
     );
 }
