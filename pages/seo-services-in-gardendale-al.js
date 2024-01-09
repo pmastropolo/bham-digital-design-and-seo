@@ -70,9 +70,9 @@ For more detailed information, you can refer to the official city website and th
         </div>
 
 
-<div className="flex-1 flex flex-col">
-            <div className="bg-white p-6 rounded-lg shadow-md mb-6 flex-grow">
-            <h2 className="text-4xl font-bold text-indigo-950 mt-5 mb-6 text-center">Best Things to Do in Gardendale, AL</h2>
+        <div className="flex-1 flex flex-col">
+<div className="rounded-lg shadow-md mb-6 flex-grow" style={{ backgroundColor: 'rgba(255, 255, 255, 0.5)' }}>
+            <h2 className="text-4xl font-bold text-indigo-950 mt-5 mb-6 text-center">Best Things to Do in Gardendale</h2>
 
 <p className="text-indigo-950 text-lg mb-1"><b className="underline text-lg"><a href="https://www.alapark.com/parks/oak-mountain-state-park">Oak Mountain State Park</a></b></p>
 <p className="mb-2 text-white text-lg">Alabamas largest state park with picturesque landscapes and recreational activities.</p>
