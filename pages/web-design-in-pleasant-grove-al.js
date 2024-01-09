@@ -16,24 +16,6 @@ const WebDesignPleasantGrove = () => {
                 }}
             />
 
-import React from 'react';
-import { NextSeo } from 'next-seo';
-import Link from 'next/link';
-
-const WebDesignPleasantGrove = () => {
-    return (
-        <>
-            <NextSeo
-                title="Web Design Services in Pleasant Grove, AL | Bham Web Design and SEO Co."
-                description="Bham Web Design and SEO Co. offers top-notch web design services in Pleasant Grove, AL. Explore our customized web solutions designed to elevate your Pleasant Grove business's online presence."
-                openGraph={{
-                    title: 'Web Design Services in Pleasant Grove, AL | Bham Web Design and SEO Co.',
-                    description: 'Bham Web Design and SEO Co. offers top-notch web design services in Pleasant Grove, AL. Explore our customized web solutions designed to elevate your Pleasant Grove businesss online presence.',
-                    url: 'https://bhamseoanddesignco.com/web-design-pleasant-grove-al',
-                    type: 'website',
-                }}
-            />
-
 
 <div className="bg-gradient-to-br from-slate-950 to-indigo-950 text-center py-12 px-6 shadow-xl rounded-2xl mt-10 mb-12 transform hover:scale-105 transition duration-500 ease-in-out relative overflow-hidden">
     <h1 className="text-4xl md:text-6xl font-extrabold text-transparent bg-clip-text bg-gradient-to-r from-slate-700 via-white to-indigo-200 my-4 animate-gradient">
