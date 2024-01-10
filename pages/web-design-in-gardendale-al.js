@@ -50,8 +50,6 @@ const WebDesignGardendale = () => {
 <p className="mb-2 text-left"><span className="font-semibold text-indigo-900">Education:</span> Part of Jefferson County School System. Has two elementary schools, one middle school, one high school, and three private academies.</p>
 <p className="mb-2 text-left"><span className="font-semibold text-indigo-900">Transportation:</span> Served by Interstate 65 and U.S. Highway 31.</p>
 <p className="mb-2 text-left"><span className="font-semibold text-indigo-900">Attractions and Events:</span> Hosts Magnolia Festival annually. Features parks like G. William Noble Park, Luman Harris Park, and Quail Ridge Golf Course.</p>
-
-For more detailed information, you can refer to the official city website and the Encyclopedia of Alabama
                   
 
 <p className="text-gray-600"><b>County</b> | <span className="font-semibold text-indigo-900">Jefferson</span></p>
