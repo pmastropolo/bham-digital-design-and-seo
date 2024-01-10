@@ -44,7 +44,7 @@ const WebDesignPleasantGrove = () => {
                 {/* Discover Title */}
                 <h2 className="text-4xl font-bold text-gray-800">Discover Pleasant Grove</h2>  
                     <div className="p-8 rounded-2xl shadow-lg mb-4 flex-1 hover:shadow-2xl">
-                    <p className="mb-2 text-indigo-500 text-left">
+                
 
 
 <p className="mb-4">The city was incorporated in 1937. It was primarily a rural area known for its farming and agriculture.</p>
