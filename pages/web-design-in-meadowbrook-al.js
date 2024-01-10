@@ -50,7 +50,7 @@ const WebDesignMeadowbrook = () => {
 <p className="mb-4"><b>Additional Information:</b>The community falls under the Central time zone and has ZIP codes 35242 and area codes 205 and 659.</p>
 
                
-<p className="text-gray-600">Countys | <span className="text-indigo-900"></span></p>
+<p className="text-gray-600">Countys | <span className="text-indigo-900">Shelby</span></p>
 <p className="text-gray-600">Zip Codes | <span className="text-indigo-900"></span></p>
         </div>
 
