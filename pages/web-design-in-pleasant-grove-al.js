@@ -65,7 +65,7 @@ const WebDesignPleasantGrove = () => {
 
 
 <p className="text-gray-600">Countys | <span className="text-indigo-900">Jefferson</span></p>
-<p className="text-gray-600">Zip Codes | <span className="text-indigo-900"></span></p>
+<p className="text-gray-600">Zip Codes | <span className="text-indigo-900">35127, </span></p>
         </div>
 
         <div className="mt-auto">
