@@ -119,9 +119,6 @@ const WebDesignChelsea = () => {
 <p className="text-indigo-950 text-lg mb-1"><b className="underline"><a href="https://www.vestaviahills.net" target="_blank">Statue of Liberty Replica</a></b></p>
 <p className="mb-2 text-white text-lg">A familiar and iconic sight in nearby Vestavia Hills.</p>
 
-
-With these changes, each location now has an underline and link to their respective websites. 
-
         </div>
     </div>
 </div>
