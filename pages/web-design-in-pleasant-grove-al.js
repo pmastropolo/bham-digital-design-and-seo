@@ -53,19 +53,13 @@ const WebDesignPleasantGrove = () => {
 <p className="mb-4">Pleasant Grove is known for its strong sense of community and neighborly spirit. Residents often come together for events, supporting local businesses, and helping one another.</p>
 
 <p className="mb-4">Pleasant Grove is home to several schools, including Pleasant Grove High School, Pleasant Grove Middle School, and several elementary schools. Education plays an important role in the community.</p>
-
 <p className="mb-4">The city boasts several parks and recreational areas where residents can enjoy outdoor activities and spend time with family and friends.</p>
 
 <p className="mb-4">Being located just outside Birmingham, Pleasant Grove offers easy access to the amenities and attractions of the larger city, including shopping centers, restaurants, cultural venues, and more.</p>
 
-<p className="mb-4">Like many communities in the Southern United States, Pleasant Grove has a complex history intertwined with issues such as slavery, segregation, and the civil rights movement. Exploring local history and engaging in conversations about its past can provide valuable insights into the citys journey.</p>
-
-
-
-
 
 <p className="text-gray-600">Countys | <span className="text-indigo-900">Jefferson</span></p>
-<p className="text-gray-600">Zip Codes | <span className="text-indigo-900">35127, </span></p>
+<p className="text-gray-600">Zip Codes | <span className="text-indigo-900">35127, 35224</span></p>
         </div>
 
         <div className="mt-auto">
