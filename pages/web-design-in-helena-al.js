@@ -63,6 +63,23 @@ const WebDesignHelena = () => {
     <div className="rounded-lg shadow-md mb-6 flex-grow" style={{ backgroundColor: 'rgba(255, 255, 255, 0.5)' }}>
         <h2 className="text-4xl font-bold text-indigo-950 mt-5 mb-6 text-center">Explore Helena</h2>
 
+<p className="text-indigo-950 text-lg mb-1"><b>Buck Creek</b></p>
+<p className="mb-2 text-white text-lg">Spend time along Buck Creek, enjoying the scenic beauty and outdoor activities like fishing, canoeing, or walking along the trails.</p>
+
+<p className="text-indigo-950 text-lg mb-1"><b>Old Town Helena</b></p>
+<p className="mb-2 text-white text-lg">Explore historic downtown with its charming shops, boutiques, art galleries, and dining options.</p>
+
+<p className="text-indigo-950 text-lg mb-1"><b>Civil War History</b></p>
+<p className="mb-2 text-white text-lg">Learn about Helenas ties to the Civil War at the Helena Jail Museum and through guided tours and local historical markers.</p>
+
+<p className="text-indigo-950 text-lg mb-1"><b>Local Festivals and Events</b></p>
+<p className="mb-2 text-white text-lg">Attend festivals, music events, craft fairs, and holiday celebrations happening in Helena throughout the year.</p>
+
+<p className="text-indigo-950 text-lg mb-1"><b>Outdoor Recreation</b></p>
+<p className="mb-2 text-white text-lg">Discover the Cahaba River, hike or bike on local trails, and enjoy the parks in Helena for picnics or sports.</p>
+
+<p className="text-indigo-950 text-lg mb-1"><b>Support Local Businesses</b></p>
+<p className="mb-2 text-white text-lg">Visit unique shops, galleries, and restaurants in Helena to support the local economy and find hidden gems.</p>
 
 
 
