@@ -26,8 +26,8 @@ const WebDesignHelena = () => {
     </p>
     <div className="py-4 px-6 mb-4 md:mb-6 mt-4 bg-white bg-opacity-20 rounded-lg">
         <p className="text-lg md:text-xl text-white">
-            <span className="block mb-2 text-2xl md:text-3xl text-indigo-300">Nick Name</span>
-         
+            <span className="block mb-2 text-2xl md:text-3xl text-indigo-300">Fun Fact</span>
+         The Battle of Helena took place here in 1863, and remnants of that era can still be seen in the form of historical markers, the Helena Jail Museum, and other Civil War-related sites.
         </p>
     </div>
     <div className="absolute top-0 left-0 w-full h-full overflow-hidden z-0">
