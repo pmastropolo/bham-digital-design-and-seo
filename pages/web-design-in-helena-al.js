@@ -44,6 +44,18 @@ const WebDesignHelena = () => {
                 <h2 className="text-4xl font-bold text-gray-800">Discover Helena</h2>  
                     <div className="p-8 rounded-2xl shadow-lg mb-4 flex-1 hover:shadow-2xl">
 
+<p className="mb-2 text-left">Historical Background: Helena was incorporated as a city in 1877, but its history dates back to the early 1800s when European settlers began to arrive in the area. The city was named the daughter of one of the early pioneers, Helen Lee.</p>
+<p className="mb-2 text-left">Civil War Connection: During the American Civil War, Helena was occupied by Union forces due to its strategic location along the Alabama and Tennessee River railroad. The Battle of Helena took place on July 4, 1863, resulting in a Union victory.</p>
+
+<p className="mb-2 text-left">Coal Mining Heritage: Helena played a significant role in the coal mining industry during the late 19th and early 20th centuries. The area was rich in coal deposits, and several mines were established, attracting workers and contributing to the local economy.</p>
+
+<p className="mb-2 text-left">Helenas Early Industries: Aside from coal mining, Helena was also known for industries such as brick manufacturing & timber harvesting.</p>
+
+<p className="mb-2 text-left">Old Town Helena: The heart of Helena is its historic downtown area, known as Old Town Helena. It features well-preserved buildings from the late 19th and early 20th centuries, including the Civil War-era Buck Creek Cotton Mills and the Helena Jail, which now serves as a museum. </p>
+
+<p className="mb-2 text-left">Buck Creek: Buck Creek, which runs through Helena, has always been a focal point for the community. It provided water for early settlers, powered mills and factories, and now serves as a recreational area with parks and walking trails. </p>
+
+
 <p className="text-gray-600">Countys | <span className="text-indigo-900">Shelby</span></p>
 <p className="text-gray-600">Zip Codes | <span className="text-indigo-900">35022, 35080</span></p>
         </div>
