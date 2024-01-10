@@ -131,11 +131,6 @@ const WebDesignMeadowbrook = () => {
 <p className="mb-2 text-white text-lg">
     Engage in spiritual and cultural activities in historic churches and participate in local cultural events.
 </p>
-```Let me know if there's anything else I can assist you with! 
-
-
-
-
 
 
         </div>
