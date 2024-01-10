@@ -88,9 +88,6 @@ const WebDesignMcCalla = () => {
 
 <p className="text-indigo-950 text-lg mb-1"><b>Scott Vaughn Owen Studio</b></p>
 <p className="mb-2 text-white text-lg">Experience the local art scene.</p>
-
-
-
         </div>
     </div>
 </div>
