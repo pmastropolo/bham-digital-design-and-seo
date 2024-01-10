@@ -16,7 +16,8 @@ const SEOClanton = () => {
                     type: 'website',
                 }}
             />
-<div className="bg-gradient-to-br from-slate-950 to-indigo-950 text-center py-12 px-6 shadow-xl rounded-2xl mt-10 mb-12 transform hover:scale-105 transition duration-500 ease-in-out relative overflow-hidden">
+
+    <div className="bg-gradient-to-br from-slate-950 to-indigo-950 text-center py-12 px-6 shadow-xl rounded-2xl mt-10 mb-12 transform hover:scale-105 transition duration-500 ease-in-out relative overflow-hidden">
     <h1 className="text-4xl md:text-6xl font-extrabold text-transparent bg-clip-text bg-gradient-to-r from-slate-700 via-white to-indigo-200 my-4 animate-gradient">
         SEO Services in Clanton, AL
     </h1>
@@ -43,13 +44,30 @@ const SEOClanton = () => {
                 {/* Discover Title */}
                 <h2 className="text-4xl font-bold text-gray-800">Discover Clanton</h2>  
                     <div className="p-8 rounded-2xl shadow-lg mb-4 flex-1 hover:shadow-2xl">
-                    <p className="mb-2 text-left">Named after <span className="font-semibold text-indigo-900">James H. Clanton</span>, its a charming city with a <span className="text-indigo-500">rich history</span>.</p>
-<p className="mb-2 text-left"><span className="text-indigo-500">Famous</span> for its <span className="font-semibold text-indigo-900">Peach Park</span>, offering <span className="font-semibold text-indigo-500">delicious peach-themed treats</span>.</p>
-<p className="mb-2 text-left"><span className="text-indigo-500">Proud home</span> to the <span className="font-semibold text-indigo-900">annual Peach Festival</span>, a <span className="font-semibold text-indigo-500">local tradition</span>.</p>
-<p className="mb-2 text-left">Explore <span className="text-indigo-500">historic sites</span> like the <span className="font-semibold text-indigo-900">Clanton Confederate Memorial</span>.</p>
 
-<p className="text-gray-600">Countys | <span className="text-indigo-900">Chilton</span></p>
-<p className="text-gray-600">Zip Codes | <span className="text-indigo-900">35045, 35046</span></p>
+<p className="mb-2 text-xl text-left"><b className="font-semibold text-indigo-900">History</b></p>
+<p className="mb-4 text-left">Clanton, Alabama was incorporated in 1873 and named after General James H. Clanton, a Confederate war hero. The city has a rich history steeped in the agricultural heritage of the region. It was originally an agricultural community, known for its cotton production. Over the years, Clanton diversified its economy and became famous for its peach orchards, earning the title of the Peach Capital of Alabama.</p>
+
+<p className="mb-2 text-xl text-left"><b className="font-semibold text-indigo-900">Geography</b></p>
+<p className="mb-4 text-left">Clanton is located in Chilton County, Alabama, in the central part of the state. Situated in the rolling hills of the Appalachian foothills, the citys location provides scenic views and a mild climate, making it an inviting place to live and visit.</p>
+
+<p className="mb-2 text-xl text-left"><b className="font-semibold text-indigo-900">Government</b></p>
+<p className="mb-4 text-left">Clanton operates under a Mayor-Council form of government. Comprising a mayor and five council members elected by residents, the city government focuses on providing essential services, maintaining infrastructure, and promoting economic development.</p>
+
+<p className="mb-2 text-xl text-left"><b className="font-semibold text-indigo-900">Economy</b></p>
+<p className="mb-4 text-left">Clantons economy is diverse, with agriculture playing a significant role. Known as the Peach Capital of Alabama, the city also has manufacturing facilities including automotive parts, food processing, and industrial machinery, contributing to local employment and economy.</p>
+
+<p className="mb-2 text-xl text-left"><b className="font-semibold text-indigo-900">Education</b></p>
+<p className="mb-4 text-left">Served by the Chilton County School District, Clanton offers education from pre-kindergarten through high school, with a variety of programs and activities. There are also private school options in the area.</p>
+
+<p className="mb-2 text-xl text-left"><b className="font-semibold text-indigo-900">Transportation</b></p>
+<p className="mb-4 text-left">Clantons location along Interstate 65 provides easy access to major cities. Its also served by U.S. Route 31 and state highways, with Birmingham-Shuttlesworth International Airport being the nearest major airport.</p>
+
+<p className="mb-2 text-xl text-left"><b className="font-semibold text-indigo-900">Attractions and Events</b></p>
+<p className="mb-4 text-left">Clanton offers attractions like Durbin Farms Market and Lake Mitchell, and hosts events such as the Annual Peach Festival. Nearby attractions include Talladega Superspeedway and Oak Mountain State Park.</p>
+
+<p className="text-gray-600 text-left"><b>County</b> : <span className="font-semibold text-indigo-900">Chilton</span></p>
+<p className="text-gray-600 text-left"><b>Zip Codes</b> : <span className="font-semibold text-indigo-900">35045 | 35046</span></p>
         </div>
 
         <div className="mt-auto">
@@ -65,25 +83,37 @@ const SEOClanton = () => {
 
         <div className="flex-1 flex flex-col">
     <div className="rounded-lg shadow-md mb-6 flex-grow" style={{ backgroundColor: 'rgba(255, 255, 255, 0.5)' }}>
-    <h2 className="text-4xl font-bold text-indigo-950 mt-5 mb-6 text-center">Explore Clanton</h2>
+        <h2 className="text-3xl sm:text-4xl font-bold text-indigo-950 mt-4 sm:mt-5 mb-5 sm:mb-6 text-center">Best Things to Do in Clanton</h2>
 
-        <p className="text-indigo-950 text-lg mb-1"><b>Peach Park</b></p>
-<p className="mb-2 text-white text-lg">Enjoy delicious peach-themed treats.</p>
+<p className="text-indigo-950 text-xl sm:text-2xl text-center"><b>Peach Park</b></p>
+<p className="mb-4 text-white text-base sm:text-lg text-center">Clanton is known as the Peach Capital of Alabama, and a visit to Peach Park is a must. This local attraction offers a wide range of peach products, including homemade ice cream, peach preserves, and fresh peaches during the harvest season. You can also enjoy peach cobbler, pies, and other delicious treats at the on-site restaurant.</p>
+ 
+<p className="text-indigo-950 text-xl sm:text-2xl text-center"><b>Durbin Farms Market</b></p>
+<p className="mb-4 text-white text-base sm:text-lg text-center">Indulge in peach-related treats at Durbin Farms Market, offering fresh produce, homemade jams, jellies, and famous peach cider, along with other locally sourced goods like honey and homemade pies.</p>
 
-<p className="text-indigo-950 text-lg mb-1"><b>Peach Festival</b></p>
-<p className="mb-2 text-white text-lg">Experience the local Peach Festival tradition.</p>
+<p className="text-indigo-950 text-xl sm:text-2xl text-center"><b>Chilton County Peach Festival</b></p>
+<p className="mb-4 text-white text-base sm:text-lg text-center">Experience the Chilton County Peach Festival, a true local celebration with live music, arts and crafts vendors, a parade, peach cook-off, and eating contest, highlighting the communitys peach heritage.</p>
 
-<p className="text-indigo-950 text-lg mb-1"><b>Clanton Confederate Memorial</b></p>
-<p className="mb-2 text-white text-lg">Explore historic sites.</p>
+<p className="text-indigo-950 text-xl sm:text-2xl text-center"><b>Peach Orchard Tours</b></p>
+<p className="mb-4 text-white text-base sm:text-lg text-center">Join guided tours at local orchards during peach harvest season, learn about cultivation, and pick your own peaches in a hands-on agricultural experience.</p>
 
-<p className="text-indigo-950 text-lg mb-1"><b>Chilton County History Museum</b></p>
-<p className="mb-2 text-white text-lg">Learn about the countys history.</p>
+<p className="text-indigo-950 text-xl sm:text-2xl text-center"><b>Confederate Memorial Park</b></p>
+<p className="mb-4 text-white text-base sm:text-lg text-center">Located in nearby Marbury, Confederate Memorial Park is a historical site with a museum, exhibits on the Civil War era, walking trails, and a campground.</p>
 
-<p className="text-indigo-950 text-lg mb-1"><b>Cedar Creek Reservoir</b></p>
-<p className="mb-2 text-white text-lg">Fishing and outdoor activities.</p>
+<p className="text-indigo-950 text-xl sm:text-2xl text-center"><b>Clanton Railroad Museum</b></p>
+<p className="mb-4 text-white text-base sm:text-lg text-center">Explore the history of rail transportation and its impact on the region at the Clanton Railroad Museum, featuring vintage train cars and historical artifacts.</p>
 
+<p className="text-indigo-950 text-xl sm:text-2xl text-center"><b>City Park Splash Pad</b></p>
+<p className="mb-4 text-white text-base sm:text-lg text-center">A fun water play area for children, the City Park Splash Pad offers fountains, water sprays, and interactive features, with shaded seating for parents.</p>
 
+<p className="text-indigo-950 text-xl sm:text-2xl text-center"><b>Alabaster Caverns State Park</b></p>
+<p className="mb-4 text-white text-base sm:text-lg text-center">Visit Alabaster Caverns State Park to explore the worlds largest gypsum cave open to the public, with guided tours and unique geological features.</p>
 
+<p className="text-indigo-950 text-xl sm:text-2xl text-center"><b>Peach Pickin Jubilee</b></p>
+<p className="mb-4 text-white text-base sm:text-lg text-center">Celebrate the peach harvest at the Peach Pickin Jubilee, featuring live music, arts and crafts, a peach recipe contest, childrens activities, and peach treats.</p>
+
+<p className="text-indigo-950 text-xl sm:text-2xl text-center"><b>Chilton County Historical Museum</b></p>
+<p className="mb-4 text-white text-base sm:text-lg text-center">Delve into the history and heritage of Clanton and Chilton County at the Chilton County Historical Museum, showcasing artifacts and stories of the areas development.</p>
 
         </div>
     </div>
@@ -92,11 +122,11 @@ const SEOClanton = () => {
 
 {/* Elevate Your Business Title Section */}
 <div className="bg-gradient-to-br from-gray-100 to-blue-50 p-8 rounded-3xl shadow-2xl">
-<h2 className="text-5xl font-bold text-gray-800 mb-5 text-center">Elevate Your Business with SEO</h2>
+<h2 className="text-5xl font-bold text-gray-800 mb-5 text-center">Elevate Your Clanton Business with SEO</h2>
 
 {/* Elevate Your Business Section */}
 <p className="mt-6 mb-8 text-lg md:text-md text-gray-700">
-    We seamlessly integrate cutting-edge web design with advanced SEO techniques, ensuring that your website not only captivates visitors but also effectively aligns with your business objectives. By staying at the forefront of the latest SEO trends while adhering to proven design principles, we deliver a website that is visually stunning, functionally powerful, and optimized for organic growth. Our approach centers on engaging your target audience, enhancing your brands online footprint, and generating measurable business results through SEO-driven strategies.
+We seamlessly integrate cutting-edge web design with advanced SEO techniques, ensuring that your website not only captivates visitors but also effectively aligns with your business objectives. By staying at the forefront of the latest SEO trends while adhering to proven design principles, we deliver a website that is visually stunning, functionally powerful, and optimized for organic growth. Our approach centers on engaging your target audience, enhancing your brands online footprint, and generating measurable business results through SEO-driven strategies.
 </p>
 
                 {/* Contact Us Button */}
@@ -115,6 +145,7 @@ const SEOClanton = () => {
             </div>
         </div>
     </div>
+    
         </>
     );
 }
