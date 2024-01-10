@@ -178,7 +178,7 @@ In the digital age, a compelling online presence is more than just a luxury. Its
        
     
     
-            </div>
+        
         </>
     );
 }
