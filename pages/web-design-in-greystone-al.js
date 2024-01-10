@@ -15,7 +15,8 @@ const WebDesignGreystone = () => {
                     type: 'website',
                 }}
             />
- <div className="bg-gradient-to-br from-slate-950 to-indigo-950 text-center py-12 px-6 shadow-xl rounded-2xl mt-10 mb-12 transform hover:scale-105 transition duration-500 ease-in-out relative overflow-hidden">
+
+<div className="bg-gradient-to-br from-slate-950 to-indigo-950 text-center py-12 px-6 shadow-xl rounded-2xl mt-10 mb-12 transform hover:scale-105 transition duration-500 ease-in-out relative overflow-hidden">
     <h1 className="text-4xl md:text-6xl font-extrabold text-transparent bg-clip-text bg-gradient-to-r from-slate-700 via-white to-indigo-200 my-4 animate-gradient">
         Web Design Services in Greystone, AL
     </h1>
@@ -25,8 +26,8 @@ const WebDesignGreystone = () => {
     </p>
     <div className="py-4 px-6 mb-4 md:mb-6 mt-4 bg-white bg-opacity-20 rounded-lg">
         <p className="text-lg md:text-xl text-white">
-            <span className="block mb-2 text-2xl md:text-3xl text-indigo-300">Known For</span>
-         Greystone, Alabama is an upscale residential community known for its beautiful homes, elegant architecture, and well-maintained neighborhoods. It features the Greystone Golf & Country Club with two championship golf courses and amenities like tennis courts and swimming pools. The community is also close to Oak Mountain State Park, offering outdoor recreational activities.
+            <span className="block mb-2 text-2xl md:text-3xl text-indigo-300">Features</span>
+            Greystone Golf & Country Club with two championship golf courses and amenities like tennis courts and swimming pools.
         </p>
     </div>
     <div className="absolute top-0 left-0 w-full h-full overflow-hidden z-0">
@@ -42,14 +43,50 @@ const WebDesignGreystone = () => {
                 {/* Discover Title */}
                 <h2 className="text-4xl font-bold text-gray-800">Discover Greystone</h2>  
                     <div className="p-8 rounded-2xl shadow-lg mb-4 flex-1 hover:shadow-2xl">
-                    <p className="mb-2 text-left"><span className="font-semibold text-indigo-900">Overview:</span> Greystone is a 4,000-acre master-planned golf community in Birmingham, Alabama, developed by Daniel Corporation, featuring 3,000 homes and two championship golf courses.</p>
-<p className="mb-2 text-left"><span className="text-indigo-500">Development History:</span> Development began in 1989 and completed in 2006. The community includes the Founders course (designed by Bob Cupp and Hubert Green) and the Legacy course, designed by Rees Jones.</p>
-<p className="mb-2 text-left"><span className="font-semibold text-indigo-900">Golfing Excellence:</span> Greystone has hosted significant tournaments, including the Brunos Memorial Classic Champions Tour and the Regions Tradition, contributing over 14 million to Alabama charities.</p>
-<p className="mb-2 text-left"><span className="text-indigo-500">Awards and Recognition:</span> Recognized among Americas Top 100 Golf Communities by TRAVEL plus LEISURE GOLF and ranked in the Top 100 Residential Golf Courses by GolfWeek.</p>
-<p className="mb-2 text-left"><span className="font-semibold text-indigo-900">Expansion of Amenities:</span> In 2001, Greystone added a swim and tennis facility. The club became member-owned in 2009, enhancing its community focus.</p>
-<p className="mb-2 text-left"><span className="text-indigo-500">Ongoing Development:</span> The addition of a TaylorMade Performance Lab, a 24/7 fitness center, and other facilities have continuously improved the communitys offerings.</p>
-<p className="mb-2 text-left"><span className="font-semibold text-indigo-900">Major Golf Tournaments:</span> Since 2016, the Founders Course has hosted the Regions Tradition, a senior major championship, highlighting Greystones prominence in the golfing world.</p>
 
+<p className="mb-2 text-xl text-left"><b className="font-semibold text-indigo-900">History</b></p>
+<p className="mb-4 text-left">Greystone is a relatively new community that was developed in the late 20th century. It is located in Shelby County and is considered a suburb of Birmingham, Alabama.</p>
+
+<p className="mb-2 text-xl text-left"><b className="font-semibold text-indigo-900">Geography</b></p>
+<p className="mb-4 text-left">Greystone is nestled in the rolling hills of central Alabama, offering scenic views. Its located near the intersection of Interstate 459 and U.S. Route 280, providing easy access to surrounding areas.</p>
+
+<p className="mb-2 text-xl text-left"><b className="font-semibold text-indigo-900">Government</b></p>
+<p className="mb-4 text-left">As part of Shelby County, Greystone is governed by county authorities who provide local government services to the community.</p>
+
+<p className="mb-2 text-xl text-left"><b className="font-semibold text-indigo-900">Economy</b></p>
+<p className="mb-4 text-left">The economy in Greystone is diverse, featuring residential, commercial, and retail developments, along with upscale neighborhoods and prestigious golf courses and country clubs.</p>
+
+<p className="mb-2 text-xl text-left"><b className="font-semibold text-indigo-900">Education</b></p>
+<p className="mb-4 text-left">Education in Greystone is provided by the Hoover City School District and includes access to private schools and educational institutions in nearby areas.</p>
+
+<p className="mb-2 text-xl text-left"><b className="font-semibold text-indigo-900">Transportation</b></p>
+<p className="mb-4 text-left">Greystone offers convenient access to major routes like Interstate 459 and U.S. Route 280. The Birmingham-Shuttlesworth International Airport, around 20 miles away, provides air travel options.</p>
+
+<p className="mb-2 text-xl text-left"><b className="font-semibold text-indigo-900">Attractions and Events</b></p>
+<p className="mb-4 text-left">Known for championship golf courses like Greystone Golf and Country Club, the community also hosts various events and activities, with Oak Mountain State Park nearby offering outdoor recreation.</p>
+
+<p className="mb-2 text-xl text-left"><b className="font-semibold text-indigo-900">Demographics</b></p>
+<p className="mb-4 text-left">Greystones diverse population includes families, professionals, and retirees, drawn to its suburban lifestyle and proximity to Birmingham amenities.</p>
+
+<p className="mb-2 text-xl text-left"><b className="font-semibold text-indigo-900">Real Estate</b></p>
+<p className="mb-4 text-left">Real estate in Greystone features upscale properties, from luxurious single-family homes to gated communities, catering to a range of housing preferences.</p>
+
+<p className="mb-2 text-xl text-left"><b className="font-semibold text-indigo-900">Recreation and Amenities</b></p>
+<p className="mb-4 text-left">The community offers recreational activities like golf, tennis, and swimming, along with parks, walking trails, and green spaces for outdoor pursuits.</p>
+
+<p className="mb-2 text-xl text-left"><b className="font-semibold text-indigo-900">Shopping and Dining</b></p>
+<p className="mb-4 text-left">Greystone boasts shopping centers and retail establishments, with a variety of dining options including casual and upscale restaurants, as well as international cuisine.</p>
+
+<p className="mb-2 text-xl text-left"><b className="font-semibold text-indigo-900">Healthcare</b></p>
+<p className="mb-4 text-left">There are multiple healthcare providers and medical facilities in and around Greystone, ensuring access to quality healthcare services for residents.</p>
+
+<p className="mb-2 text-xl text-left"><b className="font-semibold text-indigo-900">Community Involvement</b></p>
+<p className="mb-4 text-left">Greystones community is characterized by active participation in neighborhood associations and events, with a strong focus on volunteerism and philanthropy.</p>
+
+
+
+<p className="text-gray-600 text-left"><b>County</b> : <span className="font-semibold text-indigo-900">Shelby</span></p>
+<p className="text-gray-600 text-left"><b>Zip Codes</b> : <span className="font-semibold text-indigo-900"></span></p>
         </div>
 
         <div className="mt-auto">
@@ -65,19 +102,39 @@ const WebDesignGreystone = () => {
 
         <div className="flex-1 flex flex-col">
     <div className="rounded-lg shadow-md mb-6 flex-grow" style={{ backgroundColor: 'rgba(255, 255, 255, 0.5)' }}>
-        <h2 className="text-4xl font-bold text-indigo-950 mt-5 mb-6 text-center">Explore Greystone</h2>
+        <h2 className="text-3xl sm:text-4xl font-bold text-indigo-950 mt-4 sm:mt-5 mb-5 sm:mb-6 text-center">Best Things to Do in Greystone</h2>
 
-<p className="text-indigo-950 text-lg mb-1"><b>Greystone Golf & Country Club</b></p>
-<p className="mb-2 text-white text-lg">Enjoy golfing and other amenities offered by the country club, such as tennis courts and swimming pools.</p>
 
-<p className="text-indigo-950 text-lg mb-1"><b>Greystone Community Park</b></p>
-<p className="mb-2 text-white text-lg">A green space for outdoor activities such as walking, jogging, or having a picnic with family & friends.</p>
+<p className="text-indigo-950 text-xl sm:text-2xl text-center"><b>Golf</b></p>
+<p className="mb-4 text-white text-base sm:text-lg text-center">Many residents enjoy playing a round of golf at the Greystone Golf and Country Club, which offers two championship courses, the Founders Course and Legacy Course.</p>
 
-<p className="text-indigo-950 text-lg mb-1"><b>Attend community events</b></p>
-<p className="mb-2 text-white text-lg">Keep an eye out for any local events or activities organized specifically for the Greystone community, such as festivals, neighborhood gatherings, or holiday celebrations.</p>
+<p className="text-indigo-950 text-xl sm:text-2xl text-center"><b>Tennis</b></p>
+<p className="mb-4 text-white text-base sm:text-lg text-center">The Greystone Golf and Country Club also offers tennis facilities for playing games or taking lessons, providing an active and competitive environment for residents.</p>
 
-<p className="text-indigo-950 text-lg mb-1"><b>Discover local dining options</b></p>
-<p className="mb-2 text-white text-lg">Explore the various restaurants and cafes in and around Greystone for a delicious meal or a cozy coffee break.</p>
+<p className="text-indigo-950 text-xl sm:text-2xl text-center"><b>Walking and Biking Trails</b></p>
+<p className="mb-4 text-white text-base sm:text-lg text-center">Greystone features several walking and biking trails that meander through the community, offering scenic routes for enjoying nature and staying fit.</p>
+
+<p className="text-indigo-950 text-xl sm:text-2xl text-center"><b>Parks and Recreation Areas</b></p>
+<p className="mb-4 text-white text-base sm:text-lg text-center">The community has various parks and recreation areas like Greystone Park and Nature Preserve, perfect for hiking, picnics, and outdoor enjoyment.</p>
+
+<p className="text-indigo-950 text-xl sm:text-2xl text-center"><b>Water Activities</b></p>
+<p className="mb-4 text-white text-base sm:text-lg text-center">Nearby lakes and rivers offer water activities such as boating, fishing, and kayaking. Lake Purdy is a popular destination for these activities.</p>
+
+<p className="text-indigo-950 text-xl sm:text-2xl text-center"><b>Fitness Facilities</b></p>
+<p className="mb-4 text-white text-base sm:text-lg text-center">In addition to the Greystone Golf and Country Club, the area boasts fitness centers and gyms where residents can engage in various workouts and fitness routines.</p>
+
+<p className="text-indigo-950 text-xl sm:text-2xl text-center"><b>Community Events</b></p>
+<p className="mb-4 text-white text-base sm:text-lg text-center">Greystone is host to numerous community events throughout the year, including fun runs, charity walks, and festivals, promoting outdoor activities and community spirit.</p>
+
+<p className="text-indigo-950 text-xl sm:text-2xl text-center"><b>Greystone Nature Trail</b></p>
+<p className="mb-4 text-white text-base sm:text-lg text-center">This 2.5-mile trail in Greystone Park and Nature Preserve offers a moderate hike with beautiful views of forests, meadows, and streams.</p>
+
+<p className="text-indigo-950 text-xl sm:text-2xl text-center"><b>Greystone Greenway</b></p>
+<p className="mb-4 text-white text-base sm:text-lg text-center">The Greystone Greenway is a paved 3-mile multi-use trail, ideal for walking and biking, and its accessible for all fitness levels.</p>
+
+<p className="text-indigo-950 text-xl sm:text-2xl text-center"><b>Founders Park Trail</b></p>
+<p className="mb-4 text-white text-base sm:text-lg text-center">Located in the Greystone Golf and Country Club, this 1.5-mile trail offers a tranquil setting for walking or jogging, with a mix of wooded areas and open spaces.</p>
+
 
         </div>
     </div>
@@ -86,7 +143,7 @@ const WebDesignGreystone = () => {
 
 {/* Elevate Your Business Title Section */}
 <div className="bg-gradient-to-br from-gray-100 to-blue-50 p-8 rounded-3xl shadow-2xl">
-<h2 className="text-5xl font-bold text-gray-800 mb-5 text-center">Elevate Your Business with Web Design</h2>
+<h2 className="text-5xl font-bold text-gray-800 mb-5 text-center">Elevate Your Greystone Business with Web Design</h2>
 
 {/* Elevate Your Business Section */}
 <p className="mt-6 mb-8 text-lg md:text-md text-gray-700">
@@ -110,8 +167,10 @@ In the digital age, a compelling online presence is more than just a luxury. Its
         </div>
     </div>
 
+
         </>
     );
 }
 
 export default WebDesignGreystone;
+
