@@ -26,7 +26,7 @@ const WebDesignGreystone = () => {
     <div className="py-4 px-6 mb-4 md:mb-6 mt-4 bg-white bg-opacity-20 rounded-lg">
         <p className="text-lg md:text-xl text-white">
             <span className="block mb-2 text-2xl md:text-3xl text-indigo-300">Known For</span>
-         Greystone, Alabama is an upscale residential community known for its beautiful homes, elegant architecture, and well-maintained neighborhoods.
+         Greystone, Alabama is an upscale residential community known for its beautiful homes, elegant architecture, and well-maintained neighborhoods. It features the Greystone Golf & Country Club with two championship golf courses and amenities like tennis courts and swimming pools. The community is also close to Oak Mountain State Park, offering outdoor recreational activities.
         </p>
     </div>
     <div className="absolute top-0 left-0 w-full h-full overflow-hidden z-0">
