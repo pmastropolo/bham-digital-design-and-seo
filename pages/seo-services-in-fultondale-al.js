@@ -41,17 +41,29 @@ const SEOFultondale = () => {
             <div className="bg-gradient-to-br from-gray-50 to-blue-100 p-8 rounded-2xl shadow-lg mb-8 flex-grow transform transition duration-500 hover:shadow-2xl">
 
                 {/* Discover Title */}
-                <h2 className="text-4xl font-bold text-gray-800 mb-6">Discover Fultondale, AL</h2>  
-                    <div className="p-8 rounded-2xl shadow-lg mb-8 flex-1 hover:shadow-2xl">
-                    <p className="mb-2 text-left"><span className="font-semibold text-indigo-900">Fultondale</span>, with its <span className="font-semibold text-indigo-900">friendly community</span>, is a welcoming city in <span className="font-semibold text-indigo-900">Jefferson County</span>.</p>
-<p className="mb-2 text-left">Founded on <span className="font-semibold text-indigo-900">strong community values</span>, Fultondale has a history rooted in <span className="font-semibold text-indigo-900">unity</span> and <span className="font-semibold text-indigo-900">cooperation</span>.</p>
-<p className="mb-2 text-left">Over the years, Fultondale has grown to become a <span className="font-semibold text-indigo-900">vibrant</span> and <span className="font-semibold text-indigo-900">close-knit city</span> in <span className="font-semibold text-indigo-900">Alabama</span>.</p>
-<p className="mb-2 text-left">With a focus on <span className="font-semibold text-indigo-900">family</span>, Fultondale offers a range of <span className="font-semibold text-indigo-900">recreational activities</span> and <span className="font-semibold text-indigo-900">parks</span> for residents.</p>
-<p className="mb-2 text-left">The citys commitment to <span className="font-semibold text-indigo-900">education</span> is evident through its <span className="font-semibold text-indigo-900">schools</span> and <span className="font-semibold text-indigo-900">community involvement</span>.</p>
-<p className="mb-2 text-left">Fultondale continues to <span className="font-semibold text-indigo-900">develop</span> and <span className="font-semibold text-indigo-900">thrive</span>, making it a great place to <span className="font-semibold text-indigo-900">live</span> and <span className="font-semibold text-indigo-900">do business</span>.</p>
+                <h2 className="text-4xl font-bold text-gray-800">Discover Fultondale</h2>  
+                    <div className="p-8 rounded-2xl shadow-lg mb-4 flex-1 hover:shadow-2xl">
 
-<p className="text-gray-600"><b>County</b> | <span className="font-semibold text-indigo-900">Jefferson</span></p>
-<p className="text-gray-600"><b>Zip Code</b> | <span className="font-semibold text-indigo-900">35068, 35207, 35215, 35217</span></p>
+<p className="mb-2 text-xl text-left"><b className="font-semibold text-indigo-900">History</b></p>
+<p className="mb-4 text-left">Fultondale was initially settled in the late 1800s as a mining community. The area was known for its significant coal deposits, which led to the establishment of mining operations and the growth of the town. Over the years, Fultondale transitioned from a mining town to a suburban community.</p>
+
+<p className="mb-2 text-xl text-left"><b className="font-semibold text-indigo-900">Geography</b></p>
+<p className="mb-4 text-left">Fultondale is located in northern Jefferson County, Alabama, at the southern end of the Appalachian Mountains. Its proximity to the Black Warrior River provides opportunities for outdoor activities like fishing and boating, along with picturesque views.</p>
+
+<p className="mb-2 text-xl text-left"><b className="font-semibold text-indigo-900">Government</b></p>
+<p className="mb-4 text-left">Fultondales government operates under a mayor-council form. Led by an elected mayor and city council representing different districts, they collectively make decisions and oversee city governance.</p>
+
+<p className="mb-2 text-xl text-left"><b className="font-semibold text-indigo-900">Economy</b></p>
+<p className="mb-4 text-left">The economy in Fultondale is diverse, encompassing small businesses, retail establishments, service providers, and various industries. Its proximity to Birmingham provides additional employment opportunities in numerous sectors.</p>
+
+<p className="mb-2 text-xl text-left"><b className="font-semibold text-indigo-900">Education</b></p>
+<p className="mb-4 text-left">Fultondale is served by the Fultondale City School District, offering education from kindergarten through twelfth grade. The district includes Fultondale High School, Fultondale Middle School, and Fultondale Elementary School.</p>
+
+<p className="mb-2 text-xl text-left"><b className="font-semibold text-indigo-900">Attractions and Events</b></p>
+<p className="mb-4 text-left">Fultondale hosts various attractions like Black Creek Park and the Fultondale Arts Council, along with community events including festivals, parades, and cultural celebrations.</p>
+
+<p className="text-gray-600 text-left"><b>County</b> : <span className="font-semibold text-indigo-900">Jefferson</span></p>
+<p className="text-gray-600 text-left"><b>Zip Codes</b> : <span className="font-semibold text-indigo-900">35068 | 35207 | 35215 | 35217</span></p>
         </div>
 
         <div className="mt-auto">
@@ -65,27 +77,45 @@ const SEOFultondale = () => {
         </div>
 
 
-       <div className="flex-1 flex flex-col">
-<div className="rounded-lg shadow-md mb-6 flex-grow" style={{ backgroundColor: 'rgba(255, 255, 255, 0.5)' }}>
-            <h2 className="text-4xl font-bold text-indigo-950 mt-5 mb-6 text-center">Best Things to Do in Fultondale</h2>
+        <div className="flex-1 flex flex-col">
+    <div className="rounded-lg shadow-md mb-6 flex-grow" style={{ backgroundColor: 'rgba(255, 255, 255, 0.5)' }}>
+        <h2 className="text-3xl sm:text-4xl font-bold text-indigo-950 mt-4 sm:mt-5 mb-5 sm:mb-6 text-center">Best Things to Do in Fultondale</h2>
 
-            <p className="text-indigo-950 text-lg mb-1"><b>Fultondale Park</b></p>
-<p className="mb-2 text-white text-lg">Enjoy outdoor activities and picnics.</p>
+<p className="text-indigo-950 text-xl sm:text-2xl text-center"><b>Fultondale Arts Council Gallery</b></p>
+<p className="mb-4 text-white text-base sm:text-lg text-center">Located in the Fultondale City Hall, the Arts Council Gallery showcases local artists and their works. Explore the various exhibitions featuring paintings, sculptures, and other forms of art.</p>   
 
-<p className="text-indigo-950 text-lg mb-1"><b>Black Creek Park</b></p>
-<p className="mb-2 text-white text-lg">Scenic trails and nature exploration.</p>
+<p className="text-indigo-950 text-xl sm:text-2xl text-center"><b>Alabama Mining Museum</b></p>
+<p className="mb-4 text-white text-base sm:text-lg text-center">Learn about the rich mining history of the region at the Alabama Mining Museum. Explore exhibits that showcase the tools, equipment, and techniques used in coal mining and gain insights into the industrys impact on the area.</p>
 
-<p className="text-indigo-950 text-lg mb-1"><b>Fultondale Skating Rink</b></p>
-<p className="mb-2 text-white text-lg">Fun roller skating for all ages.</p>
+<p className="text-indigo-950 text-xl sm:text-2xl text-center"><b>Black Creek Park</b></p>
+<p className="mb-4 text-white text-base sm:text-lg text-center">Take advantage of the beautiful natural surroundings at Black Creek Park. This park offers hiking trails, picnic areas, and a playground for families to enjoy a day out in nature.</p>
 
-<p className="text-indigo-950 text-lg mb-1"><b>Local Dining</b></p>
-<p className="mb-2 text-white text-lg">Savor delicious local cuisine.</p>
+<p className="text-indigo-950 text-xl sm:text-2xl text-center"><b>Castle Pines Country Club</b></p>
+<p className="mb-4 text-white text-base sm:text-lg text-center">If youre a golf enthusiast, head over to the Castle Pines Country Club. This 18-hole golf course offers a challenging and scenic experience for golfers of all skill levels.</p>
 
-<p className="text-indigo-950 text-lg mb-1"><b>Fultondale Arts Council</b></p>
-<p className="mb-2 text-white text-lg">Explore local art and culture.</p>
+<p className="text-indigo-950 text-xl sm:text-2xl text-center"><b>Fultondale Municipal Center</b></p>
+<p className="mb-4 text-white text-base sm:text-lg text-center">Keep an eye out for events happening at the Fultondale Municipal Center. From community festivals to concerts and art shows, theres always something happening that you can enjoy.</p>
 
-<p className="text-indigo-950 text-lg mb-1"><b>Festivals and Events</b></p>
-<p className="mb-2 text-white text-lg">Join community celebrations.</p>
+<p className="text-indigo-950 text-xl sm:text-2xl text-center"><b>Colonial Promenade Fultondale</b></p>
+<p className="mb-4 text-white text-base sm:text-lg text-center">This shopping center offers a variety of shops and boutiques where you can find everything from clothing and accessories to home goods and electronics.</p>
+
+<p className="text-indigo-950 text-xl sm:text-2xl text-center"><b>Local Restaurants</b></p>
+<p className="mb-4 text-white text-base sm:text-lg text-center">Explore the culinary scene of Fultondale by trying out the local restaurants. There are several dining options offering a range of cuisines, from Southern comfort food to global flavors.</p>
+
+<p className="text-indigo-950 text-xl sm:text-2xl text-center"><b>Cahaba River Wildlife Management Area</b></p>
+<p className="mb-4 text-white text-base sm:text-lg text-center">Located nearby, the Cahaba River Wildlife Management Area offers opportunities for outdoor recreation. Enjoy activities such as hunting, fishing, birdwatching, and hiking along the scenic river.</p>
+
+<p className="text-indigo-950 text-xl sm:text-2xl text-center"><b>Black Creek Park & Multipurpose Complex</b></p>
+<p className="mb-4 text-white text-base sm:text-lg text-center">This multipurpose complex offers a range of recreational activities including sports fields, tennis courts, a walking trail, and a splash pad for kids. Its a great place to spend time outdoors and stay active.</p>
+
+<p className="text-indigo-950 text-xl sm:text-2xl text-center"><b>Wind Creek Casino</b></p>
+<p className="mb-4 text-white text-base sm:text-lg text-center">Located in nearby Wetumpka, the Wind Creek Casino offers a variety of gaming options, restaurants, and live entertainment. Its a popular destination for those looking for a bit of excitement.</p>
+
+<p className="text-indigo-950 text-xl sm:text-2xl text-center"><b>Sporting Events</b></p>
+<p className="mb-4 text-white text-base sm:text-lg text-center">Depending on the season, you might catch a college football game at the University of Alabama at Birmingham (UAB) or watch minor league baseball at a nearby stadium.</p>
+
+<p className="text-indigo-950 text-xl sm:text-2xl text-center"><b>Local Parks</b></p>
+<p className="mb-4 text-white text-base sm:text-lg text-center">Fultondale has several parks and green spaces for a peaceful day outdoors. Visit Black Creek Park, Alabama Village Park, or George Ward Park for relaxation and fresh air.</p>
 
 
         </div>
@@ -95,7 +125,7 @@ const SEOFultondale = () => {
 
 {/* Elevate Your Business Title Section */}
 <div className="bg-gradient-to-br from-gray-100 to-blue-50 p-8 rounded-3xl shadow-2xl">
-<h2 className="text-5xl font-bold text-gray-800 mb-6 text-center">Elevate Your Business with SEO</h2>
+<h2 className="text-5xl font-bold text-gray-800 mb-5 text-center">Elevate Your Fultondale Business with SEO</h2>
 
 {/* Elevate Your Business Section */}
 <p className="mt-6 mb-8 text-lg md:text-md text-gray-700">
@@ -104,12 +134,12 @@ We seamlessly integrate cutting-edge web design with advanced SEO techniques, en
 
                 {/* Contact Us Button */}
                 <Link href="/contact" legacyBehavior>
-                <a className="inline-block bg-blue-600 hover:bg-cyan-800 text-white py-2 px-6 rounded-full transition duration-300 transform hover:scale-110 mx-2">
+                <a className="inline-block bg-blue-600 hover:bg-cyan-800 text-white mb-4 py-2 px-6 rounded-full transition duration-300 transform hover:scale-110 mx-2">
                     Contact Us
                 </a>
                 </Link>
 
-                {/* Web Design Form Button */}
+                {/* SEO Form Button */}
                 <Link href="/seoConsultation" legacyBehavior>
                 <a className="inline-block bg-blue-600 hover:bg-indigo-800 text-white py-2 px-6 rounded-full transition duration-300 transform hover:scale-110 mx-2">
                     Start SEO Initial Consultation
