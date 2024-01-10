@@ -51,7 +51,7 @@ const WebDesignMeadowbrook = () => {
 
                
 <p className="text-gray-600">Countys | <span className="text-indigo-900">Shelby</span></p>
-<p className="text-gray-600">Zip Codes | <span className="text-indigo-900"></span></p>
+<p className="text-gray-600">Zip Codes | <span className="text-indigo-900">35242</span></p>
         </div>
 
         <div className="mt-auto">
