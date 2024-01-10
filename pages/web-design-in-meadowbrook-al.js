@@ -26,8 +26,8 @@ const WebDesignMeadowbrook = () => {
     </p>
     <div className="py-4 px-6 mb-4 md:mb-6 mt-4 bg-white bg-opacity-20 rounded-lg">
         <p className="text-lg md:text-xl text-white">
-            <span className="block mb-2 text-2xl md:text-3xl text-indigo-300">Nick Name</span>
-        
+            <span className="block mb-2 text-2xl md:text-3xl text-indigo-300">Known For</span>
+        The neighborhood is home to Meadowbrook Golf Course, which offers an 18-hole golf course and a driving range for golf enthusiasts.
         </p>
     </div>
     <div className="absolute top-0 left-0 w-full h-full overflow-hidden z-0">
