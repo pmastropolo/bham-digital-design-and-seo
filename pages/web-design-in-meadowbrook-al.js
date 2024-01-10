@@ -48,7 +48,6 @@ const WebDesignMeadowbrook = () => {
 <p className="mb-4"><b>Economy and Socioeconomic Status:</b>The median household income in Meadowbrook is $127,981. The area is known for its high population density and socioeconomic status, ranking high in terms of income and living standards in Alabama.</p>
 <p className="mb-4"><b>Lifestyle and Attractions:</b>Meadowbrook offers a range of outdoor activities, shopping opportunities, and year-round festivals. It is characterized by its charming atmosphere, with quaint coffee shops, stores, and restaurants.</p>
 <p className="mb-4"><b>Additional Information:</b>The community falls under the Central time zone and has ZIP codes 35242 and area codes 205 and 659.</p>
-
                
 <p className="text-gray-600">Countys | <span className="text-indigo-900">Shelby</span></p>
 <p className="text-gray-600">Zip Codes | <span className="text-indigo-900">35242</span></p>
@@ -69,8 +68,8 @@ const WebDesignMeadowbrook = () => {
     <div className="rounded-lg shadow-md mb-6 flex-grow" style={{ backgroundColor: 'rgba(255, 255, 255, 0.5)' }}>
         <h2 className="text-4xl font-bold text-indigo-950 mt-5 mb-6 text-center">Explore Meadowbrook</h2>
 
-        <p className="text-indigo-950 text-lg mb-1">
-    <strong>Inverness Country Club</strong>
+<p className="text-indigo-950 text-lg mb-1">
+    <b>Inverness Country Club</b>
 </p>
 <p className="mb-2 text-white text-lg">
     A private club known for hosting major golf events, offering an elite golf course to its members and guests in a serene, natural setting.
