@@ -68,7 +68,7 @@ const WebDesignGreystone = () => {
         <h2 className="text-4xl font-bold text-indigo-950 mt-5 mb-6 text-center">Explore Greystone</h2>
 
 <p className="text-indigo-950 text-lg mb-1"><b>Greystone Golf & Country Club</b></p>
-<p className="mb-2 text-white text-lg">Enjoy golfing and other amenities offered by the country club, such as tennis courts and swimming pools.</>
+<p className="mb-2 text-white text-lg">Enjoy golfing and other amenities offered by the country club, such as tennis courts and swimming pools.</p>
 
 <p className="text-indigo-950 text-lg mb-1"><b>Greystone Community Park</b></p>
 <p className="mb-2 text-white text-lg">A green space for outdoor activities such as walking, jogging, or having a picnic with family & friends.</p>
