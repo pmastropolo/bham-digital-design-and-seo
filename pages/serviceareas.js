@@ -101,7 +101,7 @@ const ServiceAreas = () => {
     <a className="grid-item">Web site Design & Development in <b className="text-blue-500">Woodstock</b> AL</a>
   </Link>
 </div>
-
+</ul>
 
 <h1 className="text-5xl lg:text-6xl font-bold text-center mt-6 mb-10 underline decoration-emerald-200 decoration-4 underline-offset-8">SEO | Search Engine Service Areas</h1>
 <div class="grid-container">
@@ -199,7 +199,7 @@ const ServiceAreas = () => {
 </Link>
 
 </div>
-</ul>
+
 
           </div>
       
