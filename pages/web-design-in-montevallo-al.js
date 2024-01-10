@@ -16,17 +16,15 @@ const WebDesignMontevallo = () => {
                 }}
             />
 
-    <div className="bg-gradient-to-br from-slate-950 to-indigo-950 text-center py-12 px-6 shadow-xl rounded-2xl mt-10 mb-12 transform hover:scale-105 transition duration-500 ease-in-out relative overflow-hidden">
-    <h1 className="text-4xl md:text-6xl font-extrabold text-transparent bg-clip-text bg-gradient-to-r from-slate-700 via-white to-indigo-200 my-4 animate-gradient">
-        Web Design Services in Montevallo, AL
-    </h1>
+ <div className="bg-gradient-to-br from-slate-950 to-indigo-950 text-center py-12 px-6 shadow-xl rounded-2xl mt-10 mb-12 transform hover:scale-105 transition duration-500 ease-in-out relative overflow-hidden">
+<h1 className="text-4xl md:text-6xl font-extrabold text-transparent bg-clip-text bg-gradient-to-r from-slate-700 via-white to-indigo-200 my-4 animate-gradient">
+ Web Design Services in Montevallo, AL
+</h1>
 
-    <p className="text-white text-opacity-90 mb-8 text-lg md:text-xl leading-loose max-w-xl md:max-w-3xl mx-auto">
-        Empowering your businesss online presence with our expert web design and SEO solutions.
-    </p>
+<p className="text-white text-opacity-90 mb-8 text-lg md:text-xl leading-loose max-w-xl md:max-w-3xl mx-auto">Empowering your businesss online presence with our expert web design and SEO solutions.</p>
     <div className="py-4 px-6 mb-4 md:mb-6 mt-4 bg-white bg-opacity-20 rounded-lg">
         <p className="text-lg md:text-xl text-white">
-            <span className="block mb-2 text-2xl md:text-3xl text-indigo-300">Nick Name</span>
+        <span className="block mb-2 text-2xl md:text-3xl text-indigo-300">Nick Name</span>
       
         </p>
     </div>
