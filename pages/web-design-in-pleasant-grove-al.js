@@ -75,8 +75,7 @@ const WebDesignPleasantGrove = () => {
 
         <div className="flex-1 flex flex-col">
     <div className="rounded-lg shadow-md mb-6 flex-grow" style={{ backgroundColor: 'rgba(255, 255, 255, 0.5)' }}>
-        <h2 className="text-4xl font-bold text-indigo-950 mt-5 mb-6 text-center">Explore Pleasant Grove</h2>
-Certainly! Here's a shorter version:
+        <h2 className="text-4xl font-bold text-indigo-950 mt-5 mb-6 text-center">Things To Do in Pleasant Grove</h2>
 
 
 <p className="text-indigo-950 text-lg mb-1"><b>Eddie Earl Self Park</b></p>
