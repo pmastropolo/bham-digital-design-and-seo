@@ -76,41 +76,41 @@ const WebDesignMontevallo = () => {
     <div className="rounded-lg shadow-md mb-6 flex-grow" style={{ backgroundColor: 'rgba(255, 255, 255, 0.5)' }}>
         <h2 className="text-4xl font-bold text-indigo-950 mt-5 mb-6 text-center">Explore Montevallo</h2>
 
-        <p className="text-indigo-950 text-lg mb-1">
-    <strong>Orr Park</strong>
+
+<p className="text-indigo-950 text-lg mb-1">
+    <b>Orr Park</b>
 </p>
 <p className="mb-2 text-white text-lg">
     Visit Orr Park for its unique tree carvings, walking trails, and picnic areas. The park showcases local artist Tim Tingles impressive tree artwork, including the notable Tinglewood carvings.
 </p>
 
 <p className="text-indigo-950 text-lg mb-1">
-    <strong>Shoal Creek Park</strong>
+    <b>Shoal Creek Park</b>
 </p>
 <p className="mb-2 text-white text-lg">
     Shoal Creek Park offers fishing, picnicking, and scenic hiking trails. Enjoy its well-stocked fishing lake and explore the natural beauty of the surrounding landscape on various trails.
 </p>
 
 <p className="text-indigo-950 text-lg mb-1">
-    <strong>Alabama Wildlife Center</strong>
+    <b>Alabama Wildlife Center</b>
 </p>
 <p className="mb-2 text-white text-lg">
     The center is dedicated to the care and rehabilitation of Alabamas native birds. Visitors can volunteer, engage in conservation efforts, and learn about avian ecology.
 </p>
 
 <p className="text-indigo-950 text-lg mb-1">
-    <strong>Main Street Montevallo</strong>
+    <b>Main Street Montevallo</b>
 </p>
 <p className="mb-2 text-white text-lg">
     Explore the historic downtown area, with a variety of local shops, restaurants, and cultural events reflecting Montevallos rich heritage.
 </p>
 
 <p className="text-indigo-950 text-lg mb-1">
-    <strong>University of Montevallo Campus</strong>
+    <b>University of Montevallo Campus</b>
 </p>
 <p className="mb-2 text-white text-lg">
     Visit the universitys picturesque campus, known for its beautiful architecture, historical buildings, and vibrant student life.
 </p>
-
 
 
 
