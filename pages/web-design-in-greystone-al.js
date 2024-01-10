@@ -67,10 +67,17 @@ const WebDesignGreystone = () => {
     <div className="rounded-lg shadow-md mb-6 flex-grow" style={{ backgroundColor: 'rgba(255, 255, 255, 0.5)' }}>
         <h2 className="text-4xl font-bold text-indigo-950 mt-5 mb-6 text-center">Explore Greystone</h2>
 
+<p className="text-indigo-950 text-lg mb-1"><b>Greystone Golf & Country Club</b></p>
+<p className="mb-2 text-white text-lg">Enjoy golfing and other amenities offered by the country club, such as tennis courts and swimming pools.</>
 
+<p className="text-indigo-950 text-lg mb-1"><b>Greystone Community Park</b></p>
+<p className="mb-2 text-white text-lg">A green space for outdoor activities such as walking, jogging, or having a picnic with family & friends.</p>
 
+<p className="text-indigo-950 text-lg mb-1"><b>Attend community events</b></p>
+<p className="mb-2 text-white text-lg">Keep an eye out for any local events or activities organized specifically for the Greystone community, such as festivals, neighborhood gatherings, or holiday celebrations.</p>
 
-
+<p className="text-indigo-950 text-lg mb-1"><b>Discover local dining options</b></p>
+<p className="mb-2 text-white text-lg">Explore the various restaurants and cafes in and around Greystone for a delicious meal or a cozy coffee break.</p>
 
         </div>
     </div>
