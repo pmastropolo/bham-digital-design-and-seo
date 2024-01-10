@@ -66,7 +66,7 @@ const WebDesignBessemer = () => {
 
         <div className="flex-1 flex flex-col">
     <div className="rounded-lg shadow-md mb-6 flex-grow" style={{ backgroundColor: 'rgba(255, 255, 255, 0.5)' }}>
-        <h2 className="text-4xl font-bold text-indigo-950 mt-5 mb-6 text-center">Explore Bessemer</h2>
+        <h2 className="text-4xl font-bold text-indigo-950 mt-5 mb-6 text-center">Things To Do in Bessemer</h2>
 
         <p className="text-indigo-950 text-lg mb-1">
         <b className="underline"><a href="https://www.bessemeral.org/directory-entry/bessemer-hall-of-history/" target="_blank">Bessemer Hall of History Museum</a></b>
