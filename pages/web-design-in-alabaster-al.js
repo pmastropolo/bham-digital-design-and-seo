@@ -17,104 +17,139 @@ const WebDesignAlabaster = () => {
                 }}
             />
 
-            <div className="bg-white text-center p-10 shadow-lg rounded-lg mb-10 z-10 relative">
-                <h2 className="text-5xl font-extrabold text-gray-800 mt-4 mb-6">Web Design Services in Alabaster, AL</h2>
-                <p className="text-gray-600 mb-4">Nickname | The Good Neighbor City</p>
+<div className="bg-gradient-to-br from-slate-950 to-indigo-950 text-center py-12 px-6 shadow-xl rounded-2xl mt-10 mb-12 transform hover:scale-105 transition duration-500 ease-in-out relative overflow-hidden">
+    <h1 className="text-4xl md:text-6xl font-extrabold text-transparent bg-clip-text bg-gradient-to-r from-slate-700 via-white to-indigo-200 my-4 animate-gradient">
+        Web Design Services in Alabaster, AL
+    </h1>
 
-                <section className="mb-4">
-                    <div className="bg-white p-6 rounded-lg shadow-lg flex flex-wrap md:flex-nowrap">
-                        {/* Text Section */}
-                        <div className="w-full md:w-1/2 text-gray-700">
-                            <h2 className="text-3xl font-bold text-gray-800 mb-4 text-left">Discover Alabaster, AL</h2>
-                            <p className="text-slate-600 mb-4 text-left"><b>County</b> | Shelby</p>
-                            <p className="mb-2 text-left">Named after the calcium carbonate mineral, Alabaster has a rich mining history.</p>
-                            <p className="mb-2 text-left">George L. Scott Sr. founded the Alabaster Lime Co., known as - Scott Rock.</p>
-                            <p className="mb-2 text-left">In 1952, the citys first bank was established, led by George L. Scott Jr., the first mayor.</p>
-                            <p className="mb-2 text-left">Officially incorporated in 1953, Alabaster transformed from a small community to Alabamas 16th largest city.</p>
-                            <p className="mb-2 text-left">The Main Street Medical Mile development began in 2015, signifying growth.</p>
-                            <p className="mb-2 text-left">District 31, a major retail complex, reflects Alabasters expansion at Highway 31 and Interstate 65.</p>
-                            <p className="text-gray-600 mb-4 text-left"><b>Zip Codes</b> | 35007, 35114, 35144</p>
-                        </div>
-                        {/* Image Section */}
-                        <div className="w-full md:w-1/2 flex items-center justify-center">
-                        <a href="https://commons.wikimedia.org/wiki/File:Alabaster_City_Hall.jpg" target="_blank" rel="noopener noreferrer">
-                        <Image
-                src="https://upload.wikimedia.org/wikipedia/commons/3/35/Alabaster_City_Hall.jpg?20160316195729"
-                alt="Alabaster City Hall"
-                width={400} 
-                height={300} 
-                className="rounded-lg"
-            />
-            </a>
-                        </div>
-                    </div>
-                </section>
+    <p className="text-white text-opacity-90 mb-8 text-lg md:text-xl leading-loose max-w-xl md:max-w-3xl mx-auto">
+        Empowering your businesss online presence with our expert web design and SEO solutions.
+    </p>
+    <div className="py-4 px-6 mb-4 md:mb-6 mt-4 bg-white bg-opacity-20 rounded-lg">
+        <p className="text-lg md:text-xl text-white">
+            <span className="block mb-2 text-2xl md:text-3xl text-indigo-300">Fun Fact</span>
+             Known for its abundant limestone deposits, the city derives its name from the alabaster appearance of the rock.
+        </p>
+    </div>
+    <div className="absolute top-0 left-0 w-full h-full overflow-hidden z-0">
+</div>
 
-                <section className="mt-4">
-                    <div className="bg-slate-100 p-6 rounded-lg shadow-lg flex flex-wrap md:flex-nowrap">
-                        {/* Image Section */}
-                        <div className="w-full md:w-1/2 flex justify-center items-center">
-                        <a href="https://commons.wikimedia.org/wiki/File:Alabaster,_Alabama_City_Hall.JPG" target="_blank" rel="noopener noreferrer">
-                        <Image
-                src="https://upload.wikimedia.org/wikipedia/commons/thumb/5/51/Alabaster%2C_Alabama_City_Hall.JPG/1200px-Alabaster%2C_Alabama_City_Hall.JPG?20120226115852"
-                alt="This is a photograph of the city hall in Alabaster, Alabama."
-                width={400} 
-                height={300} 
-                className="rounded-lg max-w-sm"
-            />
-            </a>
-                        </div>
-                        {/* Text Section */}
-                        <div className="w-full md:w-1/2 text-gray-700 text-center md:text-center mt-4">
-                            <h2 className="text-4xl font-bold text-gray-800 mb-4">Best Things to Do in Alabaster, AL</h2>
-                            <div className="mt-4">
-                                <p className="mb-2 text-indigo-500"><b>Buck Creek Trail</b> | Scenic trails and events.</p>
-                                <p className="mb-2 text-indigo-500"><b>Siluria Brewing Company</b> | Craft brews in a historic setting.</p>
-                                <p className="mb-2 text-indigo-500"><b>American Village</b> | Interactive historical experience.</p>
-                                <p className="mb-2 text-indigo-500"><b>Ebenezer Swamp Ecological Preserve</b> | Nature lovers paradise.</p>
-                                <p className="mb-2 text-indigo-500"><b>Veterans Park</b> | Family-friendly outdoor activities.</p>
-                                <p className="mb-2 text-indigo-500"><b>Central Alabama Paintball Park</b> | Exciting paintball experience.</p>
-                            </div>
-                        </div>
-                    </div>
-                </section>
 
-                <section className="mb-8 mt-4">
-                    <div className="bg-white p-6 rounded-lg shadow-lg flex flex-wrap md:flex-nowrap">
-                        {/* Text Section */}
-                        <div className="w-full md:w-1/2 text-gray-700">
-                            <h2 className="text-3xl font-bold text-gray-800 mb-4">Elevate Your Business in Alabaster with Our Web Design Expertise</h2>
-                            <p>In the digital age, a compelling online presence is more than just a luxury. Its a necessity. At Bham Web Design and SEO Co., we understand the heartbeat of Alabaster, AL. Our web design solutions are not just aesthetically pleasing but also strategically crafted to meet the unique needs and goals of your local business.</p>
-                            <p className="mt-4">We blend innovative design with cutting-edge functionality, ensuring your site stands out in a crowded digital landscape. With our finger on the pulse of current trends and timeless design principles, we promise a website that not only looks stunning but also drives growth, engages your audience, and elevates your brand.</p>
-                            <div className="mt-6 gap-8">
-                                <Link href="/contact" legacyBehavior>
-                                    <a className="inline-block bg-blue-500 hover:bg-blue-700 text-white mr-4 mb-4 py-2 px-4 rounded">
-                                        Contact Us
-                                    </a>
-                                </Link>
+{/* Discover Section */}
+<div className="max-w-7xl mx-auto">
+    <div className="flex flex-col md:flex-row gap-8">
+        <div className="flex-1 flex flex-col">
+            <div className="bg-gradient-to-br from-gray-50 to-blue-100 p-8 rounded-2xl shadow-lg mb-8 flex-grow transform transition duration-500 hover:shadow-2xl">
 
-                                {/* Web Design Packages Button with Link */}
-                                <Link href="/PackagePage" legacyBehavior>
-                                    <a className="inline-block bg-blue-500 hover:bg-blue-700 text-white mb-4 py-2 px-4 rounded">
-                                        View Web Design Packages
-                                    </a>
-                                </Link>
-                            </div>
-                        </div>
-                        {/* Image Section */}
-                        <div className="w-full md:w-1/2 flex items-center justify-center">
-                        <a href="https://commons.wikimedia.org/wiki/File:Alabama-Tennessee-state-line-207-11-altn1.jpg" target="_blank" rel="noopener noreferrer">
-            <Image
-                src="https://upload.wikimedia.org/wikipedia/commons/thumb/0/0a/Alabama-Tennessee-state-line-207-11-altn1.jpg/1200px-Alabama-Tennessee-state-line-207-11-altn1.jpg?20161031223120"
-                alt="Alabama welcome sign Sweet Home, Alabama at the border between Giles County, Tennessee, and Lauderdale County, Alabama, in the southern United States."
-                width={400} 
-                height={300} 
-                className="rounded-lg"
-            />
-              </a>
-                        </div>
-                    </div>
-                </section>
+                {/* Discover Title */}
+                <h2 className="text-4xl font-bold text-gray-800 mb-6">Discover Alabaster</h2>  
+                    <div className="p-8 rounded-2xl shadow-lg mb-8 flex-1 hover:shadow-2xl">
+                    <p className="mb-2 text-left"><span className="font-semibold text-indigo-900">History:</span> Initially settled by War of 1812 veterans in 1825. Known as Jugtown due to a local pottery industry. Renamed to Gardendale in 1906.</p>
+<p className="mb-2 text-left"><span className="font-semibold text-indigo-900">Geography:</span> Located in Jefferson County, north-central part of Alabama, north of Birmingham. Covers an area of approximately 57 square miles.</p>
+<p className="mb-2 text-left"><span className="font-semibold text-indigo-900">Government:</span> Became a city in 1955, with J.I. Pesnell as the first mayor.</p>
+<p className="mb-2 text-left"><span className="font-semibold text-indigo-900">Economy:</span> Diverse employment sectors including educational services, healthcare, and social assistance.</p>
+<p className="mb-2 text-left"><span className="font-semibold text-indigo-900">Education:</span> Part of Jefferson County School System. Has two elementary schools, one middle school, one high school, and three private academies.</p>
+<p className="mb-2 text-left"><span className="font-semibold text-indigo-900">Transportation:</span> Served by Interstate 65 and U.S. Highway 31.</p>
+<p className="mb-2 text-left"><span className="font-semibold text-indigo-900">Attractions and Events:</span> Hosts Magnolia Festival annually. Features parks like G. William Noble Park, Luman Harris Park, and Quail Ridge Golf Course.</p>
+                  
+
+<p className="text-gray-600"><b>County</b> | <span className="font-semibold text-indigo-900">Shelby</span></p>
+<p className="text-gray-600"><b>Zip Code</b> | <span className="font-semibold text-indigo-900">35071, 35073</span></p>
+        </div>
+
+        <div className="mt-auto">
+        <Link href="/PackagePage" legacyBehavior>
+                    <a className="inline-block bg-blue-500 hover:bg-blue-700 text-white py-2 px-4 rounded transition duration-300">
+                        Elevate Your Alabaster Business Online
+                    </a>
+                    </Link>
+                </div>
+            </div>
+        </div>
+
+
+        <div className="flex-1 flex flex-col">
+<div className="rounded-lg shadow-md mb-6 flex-grow" style={{ backgroundColor: 'rgba(255, 255, 255, 0.5)' }}>
+            <h2 className="text-4xl font-bold text-indigo-950 mt-5 mb-6 text-center">Best Things to Do in Gardendale</h2>
+
+<p className="text-indigo-950 text-lg mb-1"><b className="underline text-lg"><a href="https://www.alapark.com/parks/oak-mountain-state-park">Oak Mountain State Park</a></b></p>
+<p className="mb-2 text-white text-lg">Alabamas largest state park with picturesque landscapes and recreational activities.</p>
+
+<p className="text-indigo-950 text-lg mb-1"><b className="underline text-lg"><a href="https://www.cityofhelena.org/">Joe Tucker Park</a></b></p>
+<p className="mb-2 text-white text-lg">A local park offering a variety of recreational facilities and activities.</p>
+
+<p className="text-indigo-950 text-lg mb-1"><b className="underline text-lg"><a href="https://www.cityofhelena.org/museum/">Kenneth R. Penhale City of Helena Museum</a></b></p>
+<p className="mb-2 text-white text-lg">A museum showcasing Helenas history through photographs, artifacts, and documents.</p>
+
+<p className="text-indigo-950 text-lg mb-1"><b className="underline text-lg"><a href="https://bluewaterparkal.com/">Blue Water Park</a></b></p>
+<p className="mb-2 text-white text-lg">A unique park in Pelham offering scuba diving experiences and training.</p>
+
+<p className="text-indigo-950 text-lg mb-1"><b className="underline text-lg"><a href="https://hoovermetcomplex.com/">Hoover Metropolitan Complex</a></b></p>
+<p className="mb-2 text-white text-lg">A sports and events complex hosting a variety of sporting events and concerts.</p>
+
+<p className="text-indigo-950 text-lg mb-1"><b>Hot Air Balloon Rides</b></p>
+<p className="mb-2 text-white text-lg">Experience breathtaking views of Alabama with a hot air balloon ride.</p>
+
+<p className="text-indigo-950 text-lg mb-1"><b className="underline text-lg"><a href="https://www.theoakmountainamphitheater.com/">Oak Mountain Amphitheatre</a></b></p>
+<p className="mb-2 text-white text-lg">A popular music venue hosting famous artists and bands.</p>
+
+<p className="text-indigo-950 text-lg mb-1"><b className="underline text-lg"><a href="https://www.ozanwine.com/">Ozan Winery & Vineyard</a></b></p>
+<p className="mb-2 text-white text-lg">An award-winning winery and vineyard near Helena.</p>
+
+<p className="text-indigo-950 text-lg mb-1"><b className="underline text-lg">Old Town Helena</b></p>
+<p className="mb-2 text-white text-lg">A charming area with great dining options, bars, and shops.</p>
+
+<p className="text-indigo-950 text-lg mb-1"><b className="underline text-lg"><a href="https://www.jimnnicks.com/">Jim n Nicks Bar-B-Q</a></b></p>
+<p className="mb-2 text-white text-lg">A popular local barbecue joint known for delicious dishes.</p>
+
+<p className="text-indigo-950 text-lg mb-1"><b className="underline text-lg"><a href="https://aldridgegardens.com/">Aldridge Gardens</a></b></p>
+<p className="mb-2 text-white text-lg">Beautiful gardens combining nature and art in nearby Hoover.</p>
+
+<p className="text-indigo-950 text-lg mb-1"><b className="underline text-lg"><a href="https://www.hooveral.gov/parks-recreation/moss-rock-preserve">Moss Rock Preserve and Waterfalls</a></b></p>
+<p className="mb-2 text-white text-lg">An outdoor adventure spot with hiking trails and beautiful waterfalls.</p>
+
+<p className="text-indigo-950 text-lg mb-1"><b className="underline text-lg"><a href="https://www.warehouse31.com/">Warehouse31</a></b></p>
+<p className="mb-2 text-white text-lg">One of Alabamas scariest haunted house attractions.</p>
+
+<p className="text-indigo-950 text-lg mb-1"><b className="underline text-lg"><a href="https://www.ballantraegolf.com/">Ballantrae Golf Club</a></b></p>
+<p className="mb-2 text-white text-lg">A beautifully designed golf course offering a challenging play experience.</p>
+
+
+
+        </div>
+    </div>
+</div>
+
+
+{/* Elevate Your Business Title Section */}
+<div className="bg-gradient-to-br from-gray-100 to-blue-50 p-8 rounded-3xl shadow-2xl">
+<h2 className="text-5xl font-bold text-gray-800 mb-6 text-center">Elevate Your Business with Web Design</h2>
+
+{/* Elevate Your Business Section */}
+<p className="mt-6 mb-8 text-lg md:text-md text-gray-700">
+In the digital age, a compelling online presence is more than just a luxury. Its a necessity. Our web design solutions are strategically crafted to meet the unique needs and goals of your local business. Blending innovative design with cutting-edge functionality, we ensure your site stands out in a crowded digital landscape.
+</p>
+
+                {/* Contact Us Button */}
+                <Link href="/contact" legacyBehavior>
+                <a className="inline-block bg-blue-600 hover:bg-cyan-800 text-white mb-4 py-2 px-6 rounded-full transition duration-300 transform hover:scale-110 mx-2">
+                    Contact Us
+                </a>
+                </Link>
+
+                {/* Web Design Form Button */}
+                <Link href="/webDesignConsultation" legacyBehavior>
+                <a className="inline-block bg-blue-600 hover:bg-indigo-800 text-white py-2 px-6 rounded-full transition duration-300 transform hover:scale-110 mx-2">
+                    Start Web Design Initial Consultation
+                </a>
+                </Link>
+            </div>
+        </div>
+    </div>
+
+       
+    
+    
             </div>
         </>
     );
