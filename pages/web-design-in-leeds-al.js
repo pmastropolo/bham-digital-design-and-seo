@@ -15,7 +15,8 @@ const WebDesignLeeds = () => {
                     type: 'website',
                 }}
             />
- <div className="bg-gradient-to-br from-slate-950 to-indigo-950 text-center py-12 px-6 shadow-xl rounded-2xl mt-10 mb-12 transform hover:scale-105 transition duration-500 ease-in-out relative overflow-hidden">
+
+<div className="bg-gradient-to-br from-slate-950 to-indigo-950 text-center py-12 px-6 shadow-xl rounded-2xl mt-10 mb-12 transform hover:scale-105 transition duration-500 ease-in-out relative overflow-hidden">
     <h1 className="text-4xl md:text-6xl font-extrabold text-transparent bg-clip-text bg-gradient-to-r from-slate-700 via-white to-indigo-200 my-4 animate-gradient">
         Web Design Services in Leeds, AL
     </h1>
@@ -42,14 +43,32 @@ const WebDesignLeeds = () => {
                 {/* Discover Title */}
                 <h2 className="text-4xl font-bold text-gray-800">Discover Leeds</h2>  
                     <div className="p-8 rounded-2xl shadow-lg mb-4 flex-1 hover:shadow-2xl">
-<p className="mb-2 text-left">Incorporated in <span className="text-indigo-800">1887</span>, Leeds, Alabama, was named after the English city and is located in <span className="text-indigo-500">Jefferson County</span>.</p>
-<p className="mb-2 text-left">Leeds growth was driven by the discovery of <span className="text-indigo-800">iron ore</span> and its rail connections to major cities.</p>
-<p className="mb-2 text-left">The city is celebrated for the <span className="text-indigo-800">John Henry folklore</span> and hosts an <span className="text-indigo-500">annual festival</span> in his honor.</p>
-<p className="mb-2 text-left">Leeds 2020 population was <span className="text-indigo-800">12,324</span>, with a diverse demographic profile.</p>
-<p className="mb-2 text-left">Governed by a <span className="text-indigo-800">Mayor-Council system</span>, Leeds is undergoing downtown revitalization projects.</p>
-<p className="mb-2 text-left">Leeds hosts cultural events and has historical sites like the <span className="font-semibold text-indigo-800">Jonathan Bass House Museum</span>.</p>
-<p className="text-gray-600">Countys | <span className="text-indigo-900">Jefferson, St. Clair, & Shelby</span></p>
-<p className="text-gray-600">Zip Codes | <span className="text-indigo-900">35004, 35094, 35173</span></p>
+
+<p className="mb-2 text-xl text-left"><b className="font-semibold text-indigo-900">History</b></p>
+<p className="mb-4 text-left">Leeds, Alabama, has a rich history dating back to the early 19th century. was founded in 1877 by Francis Elias Whitfield and was named after the city of Leeds in West Yorkshire, England. Initially, it was a mining town with significant deposits of coal, iron, and limestone. Over the years, Leeds has evolved into a diverse community with a blend of historical charm and modern development.</p>
+
+<p className="mb-2 text-xl text-left"><b className="font-semibold text-indigo-900">Geography</b></p>
+<p className="mb-4 text-left">Leeds is located in central Alabama, about 15 miles east of Birmingham. Covering approximately 22 square miles, it lies in both Jefferson and Shelby counties, nestled in the Appalachian foothills, known for its natural beauty.</p>
+
+<p className="mb-2 text-xl text-left"><b className="font-semibold text-indigo-900">Government</b></p>
+<p className="mb-4 text-left">Leeds operates under a Mayor-Council government system. The mayor, alongside a five-member council elected by residents, is responsible for city governance and municipal services.</p>
+
+<p className="mb-2 text-xl text-left"><b className="font-semibold text-indigo-900">Economy</b></p>
+<p className="mb-4 text-left">The citys economy is varied, with retail, manufacturing, healthcare, and construction sectors. Leeds also boasts the Leeds Industrial Park, attracting a range of businesses.</p>
+
+<p className="mb-2 text-xl text-left"><b className="font-semibold text-indigo-900">Education</b></p>
+<p className="mb-4 text-left">Leeds City Schools district serves the city, including an elementary, middle, and high school, emphasizing high-quality education and diverse extracurricular activities.</p>
+
+<p className="mb-2 text-xl text-left"><b className="font-semibold text-indigo-900">Transportation</b></p>
+<p className="mb-4 text-left">Leeds offers excellent connectivity with Interstate 20 and proximity to Birmingham-Shuttlesworth International Airport, facilitating easy travel and access.</p>
+
+<p className="mb-2 text-xl text-left"><b className="font-semibold text-indigo-900">Attractions and Events</b></p>
+<p className="mb-4 text-left">Key attractions in Leeds include the Barber Vintage Motorsports Museum and the nearby Talladega Superspeedway, a major NASCAR racing venue.</p>
+
+<p className="text-gray-600 text-left"><b>Countys</b> : <span className="font-semibold text-indigo-900">Jefferson | St. Clair | Shelby</span></p>
+<p className="text-gray-600 text-left"><b>Zip Codes</b> : <span className="font-semibold text-indigo-900">35004 | 35094 | 35173</span></p>
+
+
         </div>
 
         <div className="mt-auto">
@@ -65,43 +84,28 @@ const WebDesignLeeds = () => {
 
         <div className="flex-1 flex flex-col">
     <div className="rounded-lg shadow-md mb-6 flex-grow" style={{ backgroundColor: 'rgba(255, 255, 255, 0.5)' }}>
-        <h2 className="text-4xl font-bold text-indigo-950 mt-5 mb-6 text-center">Explore Leeds</h2>
+        <h2 className="text-3xl sm:text-4xl font-bold text-indigo-950 mt-4 sm:mt-5 mb-5 sm:mb-6 text-center">Best Things to Do in Leeds</h2>
 
-        <p className="text-indigo-950 text-lg mb-1"><b className="underline"><a href="https://leedsalabama.org/rowan-house/" target="_blank">Rowan House Historical Home</a></b></p>
-        <p className="mb-2 text-white text-lg">Historical Site Displaying Furnishings & Stained Glass from 1846.</p>
+<p className="text-indigo-950 text-xl sm:text-2xl text-center"><b>Barber Vintageports Museum</b></p>
+<p className="mb-4 text-white text-base sm:text-lg text-center">If youre a fan of motorcycles or motorsports, this museum is a must-visit. It houses the worlds largest collection of vintage motorcycles and features over 1,400 motorcycles on display.</p>
 
-        <p className="text-indigo-950 text-lg mb-1"><b className="underline"><a href="https://www.bamafleamall.com/" target="_blank">Bama Flea Mall & Antiques Center</a></b></p>
-        <p className="mb-2 text-white text-lg">An Unique Shopping Destination.</p>
+<p className="text-indigo-950 text-xl sm:text-2xl text-center"><b>Oak Mountain State Park</b></p>
+<p className="mb-4 text-white text-base sm:text-lg text-center">A short drive from Leeds, Oak Mountain State Park offers outdoor activities like hiking, fishing, boating, picnicking, and camping in a scenic environment.</p>
 
-        <p className="text-indigo-950 text-lg mb-1"><b className="underline"><a href="https://www.barbermuseum.org/" target="_blank">Barber Vintage Motorsports Museum</a></b></p>
-        <p className="mb-2 text-white text-lg">Worlds largest collection of motorbikes and rare racing cars.</p>
+<p className="text-indigo-950 text-xl sm:text-2xl text-center"><b>Outlet Shops of Grand River</b></p>
+<p className="mb-4 text-white text-base sm:text-lg text-center">This open-air outlet mall near Leeds features numerous brand-name stores, offering great deals on clothing, accessories, and more for a delightful shopping experience.</p>
 
-        <p className="text-indigo-950 text-lg mb-1"><b>Lee Branch Farmers Market</b></p>
-        <p className="mb-2 text-white text-lg">Open-air market offering local produce and handmade crafts near Lake Purdy.</p>
+<p className="text-indigo-950 text-xl sm:text-2xl text-center"><b>Leeds Downtown Historical District</b></p>
+<p className="mb-4 text-white text-base sm:text-lg text-center">Explore the historic downtown area of Leeds with its well-preserved buildings, unique shops, restaurants, cafes, and beautiful architecture from the late 1800s.</p>
 
-        <p className="text-indigo-950 text-lg mb-1"><b className="underline"><a href="https://www.ruffnermountain.org/" target="_blank">Ruffner Mountain</a></b></p>
-        <p className="mb-2 text-white text-lg">Nature reserve with hiking trails, wildlife watching, and historic mining sites.</p>
+<p className="text-indigo-950 text-xl sm:text-2xl text-center"><b>Leeds Arts Council</b></p>
+<p className="mb-4 text-white text-base sm:text-lg text-center">Visit the Leeds Arts Council for art exhibitions and events showcasing local artists work, offering a cultural experience throughout the year.</p>
 
-        <p className="text-indigo-950 text-lg mb-1"><b>Lake Purdy</b></p>
-        <p className="mb-2 text-white text-lg">Picturesque reservoir for bird-watching, hiking, and fishing.</p>
+<p className="text-indigo-950 text-xl sm:text-2xl text-center"><b>Leeds Memorial Park</b></p>
+<p className="mb-4 text-white text-base sm:text-lg text-center">This park in Leeds is perfect for relaxation, picnics, walks, and features playgrounds, trails, sports fields, and a pavilion.</p>
 
-        <p className="text-indigo-950 text-lg mb-1"><b className="underline"><a href="https://www.shopsofgrandriver.com/" target="_blank">The Outlet Shops of Grand River</a></b></p>
-        <p className="mb-2 text-white text-lg">Shopping mall with designer stores and diverse dining options.</p>
-
-        <p className="text-indigo-950 text-lg mb-1"><b className="underline"><a href="https://rustysbarbq.com/" target="_blank">Rustys Bar-B-Q</a></b></p>
-        <p className="mb-2 text-white text-lg">Local diner offering a variety of delicious barbeque dishes.</p>
-
-        <p className="text-indigo-950 text-lg mb-1"><b className="underline"><a href="https://www.grandriverdrive-in.com/" target="_blank">Grand River Drive-In Theatre</a></b></p>
-        <p className="mb-2 text-white text-lg">Outdoor movie experience with a mini-golf course and snack bar.</p>
-
-        <p className="text-indigo-950 text-lg mb-1"><b>Earthborn Pottery Studio</b></p>
-        <p className="mb-2 text-white text-lg">Custom-designed, hand-made pottery studio.</p>
-
-        <p className="text-indigo-950 text-lg mb-1"><b className="underline"><a href="https://stores.basspro.com/us/al/leeds/5000-bass-pro-blvd.html" target="_blank">Bass Pro Shop</a></b></p>
-        <p className="mb-2 text-white text-lg">Outdoor equipment store ideal for fishing & camping enthusiasts.</p>
-
-<p className="text-indigo-950 text-lg"><b className="underline"><a href="https://www.barbermotorsports.com/" target="_blank">Barber Motorsports Park</a></b></p>
-<p className="mb-2 text-white">An 880-acre park with an Indycar and MotoAmerica road course.</p>
+<p className="text-indigo-950 text-xl sm:text-2xl text-center"><b>Talladega Superspeedway</b></p>
+<p className="mb-4 text-white text-base sm:text-lg text-center">Near Leeds, the Talladega Superspeedway is a haven for racing enthusiasts, hosting NASCAR races and other thrilling motorsport events.</p>
 
         </div>
     </div>
@@ -110,7 +114,7 @@ const WebDesignLeeds = () => {
 
 {/* Elevate Your Business Title Section */}
 <div className="bg-gradient-to-br from-gray-100 to-blue-50 p-8 rounded-3xl shadow-2xl">
-<h2 className="text-5xl font-bold text-gray-800 mb-5 text-center">Elevate Your Business with Web Design</h2>
+<h2 className="text-5xl font-bold text-gray-800 mb-5 text-center">Elevate Your Leeds Business with Web Design</h2>
 
 {/* Elevate Your Business Section */}
 <p className="mt-6 mb-8 text-lg md:text-md text-gray-700">
