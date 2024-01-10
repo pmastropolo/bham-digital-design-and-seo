@@ -45,36 +45,12 @@ const WebDesignPleasantGrove = () => {
                 <h2 className="text-4xl font-bold text-gray-800">Discover Pleasant Grove</h2>  
                     <div className="p-8 rounded-2xl shadow-lg mb-4 flex-1 hover:shadow-2xl">
                     <p className="mb-2 text-indigo-500 text-left">
-    <b>The Grid</b> | Auto Racing Track.
-</p>
-
-<p className="mb-2 text-indigo-500 text-left">
-    <b>Pleasant Grove City Park</b> | Outdoor activities.
-</p>
-
-<p className="mb-2 text-indigo-500 text-left">
-    <b>Historic Sites</b> | Discover local history.
-</p>
-
-<p className="mb-2 text-indigo-500 text-left">
-    <b>Community Events</b> | Enjoy local festivals.
-</p>
-
-<p className="mb-2 text-indigo-500 text-left">
-    <b>Outdoor Adventures</b> | Explore nature.
-</p>
-
-<p className="mb-2 text-indigo-500 text-left">
-    <b>Birmingham Attractions</b> | Visit nearby city.
-</p>
-
-<p className="mb-2 text-indigo-500 text-left">
-    <b>Relaxation</b> | Unwind in peaceful surroundings.
-</p>
 
 
 
-<p className="text-gray-600">Countys | <span className="text-indigo-900"></span></p>
+
+
+<p className="text-gray-600">Countys | <span className="text-indigo-900">Jefferson</span></p>
 <p className="text-gray-600">Zip Codes | <span className="text-indigo-900"></span></p>
         </div>
 
