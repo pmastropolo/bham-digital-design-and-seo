@@ -19,13 +19,13 @@ const ServiceAreas = () => {
     <a className="grid-item">Website Design & Development in <b className="text-blue-500">Birmingham</b> AL</a>
   </Link>
   <Link href="/web-design-in-chelsea-al" legacyBehavior>
-          <a className="grid-item">Website Design & Development in <b className="text-blue-500">Chelsea</b> AL</a>
-        </Link>
-        <Link href="/web-design-in-clanton-al" legacyBehavior>
-          <a className="grid-item">Website Design & Development in <b className="text-blue-500">Clanton</b> AL</a>
-        </Link>
-        <Link href="/web-design-in-columbiana-al" legacyBehavior>
-          <a className="grid-item">Website site Design & Development in <b className="text-blue-500">Columbiana</b> AL</a>
+    <a className="grid-item">Website Design & Development in <b className="text-blue-500">Chelsea</b> AL</a>
+  </Link>
+  <Link href="/web-design-in-clanton-al" legacyBehavior>
+    <a className="grid-item">Website Design & Development in <b className="text-blue-500">Clanton</b> AL</a>
+   </Link>
+  <Link href="/web-design-in-columbiana-al" legacyBehavior>
+    <a className="grid-item">Website site Design & Development in <b className="text-blue-500">Columbiana</b> AL</a>
         </Link>
         <Link href="/web-design-in-fultondale-al" legacyBehavior>
           <a className="grid-item">Website Design & Development in <b className="text-blue-500">Fultondale</b> AL</a>
@@ -101,7 +101,7 @@ const ServiceAreas = () => {
     <a className="grid-item">Web site Design & Development in <b className="text-blue-500">Woodstock</b> AL</a>
   </Link>
 </div>
-</ul>
+
 
 <h1 className="text-5xl lg:text-6xl font-bold text-center mt-6 mb-10 underline decoration-emerald-200 decoration-4 underline-offset-8">SEO | Search Engine Service Areas</h1>
 <div class="grid-container">
@@ -199,6 +199,7 @@ const ServiceAreas = () => {
 </Link>
 
 </div>
+</ul>
 
           </div>
       
