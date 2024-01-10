@@ -43,14 +43,46 @@ const WebDesignAlabaster = () => {
                 {/* Discover Title */}
                 <h2 className="text-4xl font-bold text-gray-800 mb-6">Discover Alabaster</h2>  
                     <div className="p-8 rounded-2xl shadow-lg mb-8 flex-1 hover:shadow-2xl">
-                    <p className="mb-2 text-left"><span className="font-semibold text-indigo-900">History:</span> Initially settled by War of 1812 veterans in 1825. Known as Jugtown due to a local pottery industry. Renamed to Gardendale in 1906.</p>
-<p className="mb-2 text-left"><span className="font-semibold text-indigo-900">Geography:</span> Located in Jefferson County, north-central part of Alabama, north of Birmingham. Covers an area of approximately 57 square miles.</p>
-<p className="mb-2 text-left"><span className="font-semibold text-indigo-900">Government:</span> Became a city in 1955, with J.I. Pesnell as the first mayor.</p>
-<p className="mb-2 text-left"><span className="font-semibold text-indigo-900">Economy:</span> Diverse employment sectors including educational services, healthcare, and social assistance.</p>
-<p className="mb-2 text-left"><span className="font-semibold text-indigo-900">Education:</span> Part of Jefferson County School System. Has two elementary schools, one middle school, one high school, and three private academies.</p>
-<p className="mb-2 text-left"><span className="font-semibold text-indigo-900">Transportation:</span> Served by Interstate 65 and U.S. Highway 31.</p>
-<p className="mb-2 text-left"><span className="font-semibold text-indigo-900">Attractions and Events:</span> Hosts Magnolia Festival annually. Features parks like G. William Noble Park, Luman Harris Park, and Quail Ridge Golf Course.</p>
-                  
+                        
+                      
+
+<p className="mb-2 text-left">
+  <span className="font-semibold text-indigo-900">History</span>
+  Alabaster is a city located in Shelby County, Alabama. It was initially incorporated in 1953 and has since grown into a thriving community. The city gets its name from the presence of extensive limestone deposits in the area, which were once used to produce plaster powder, giving it an alabaster appearance.
+</p>
+
+<p className="mb-2 text-left">
+  <span className="font-semibold text-indigo-900">Geography</span>
+  Alabaster is situated in the central part of Alabama and covers a total area of approximately 25 square miles. It is located about 20 miles south of downtown Birmingham and is part of the Birmingham-Hoover Metropolitan Area. The city is characterized by rolling hills and is bordered by the Cahaba River.
+</p>
+
+<p className="mb-2 text-left">
+  <span className="font-semibold text-indigo-900">Government</span>
+  Alabaster operates under a mayor-council form of government. The city's government consists of a mayor and a city council that is responsible for making policy decisions and overseeing city services. The current mayor of Alabaster is Marty Handlon.
+</p>
+
+<p className="mb-2 text-left">
+  <span className="font-semibold text-indigo-900">Economy</span>
+  Alabaster has a diverse economy that includes sectors such as healthcare, retail, manufacturing, and professional services. The city is home to several retail centers, including the Alabaster Promenade and Colonial Promenade Alabaster, which provide shopping and dining options for residents and visitors. The University of Alabama Health Services Foundation, a medical clinic, is also located in Alabaster.
+</p>
+
+<p className="mb-2 text-left">
+  <span className="font-semibold text-indigo-900">Education</span>
+  The city of Alabaster is primarily served by the Alabaster City School District, which operates public schools in the area. The district includes multiple elementary, middle, and high schools. There are also private school options available in the city. Additionally, Jefferson State Community College has a campus located in nearby Hoover, providing higher education opportunities for residents.
+</p>
+
+<p className="mb-2 text-left">
+  <span className="font-semibold text-indigo-900">Transportation</span>
+  Alabaster is conveniently located near major highways, including Interstate 65, which runs through the city, providing easy access to other parts of Alabama and beyond. The Birmingham-Shuttlesworth International Airport is located approximately 25 miles north of Alabaster, offering air travel options.
+</p>
+
+<p className="mb-2 text-left">
+  <span className="font-semibold text-indigo-900">Attractions and Events</span>
+  Alabaster offers a range of recreational activities and attractions for residents and visitors. Buck Creek Park is a popular destination with walking trails, pavilions, and a creek for fishing. Veterans Park features a memorial to honor local veterans and hosts community events. The city also holds several annual events, such as the CityFest, which showcases live music, food vendors, and activities for all ages.
+</p>
+
+
+Let me know if there's anything else I can help with! 
 
 <p className="text-gray-600"><b>County</b> | <span className="font-semibold text-indigo-900">Shelby</span></p>
 <p className="text-gray-600"><b>Zip Code</b> | <span className="font-semibold text-indigo-900">35071, 35073</span></p>
