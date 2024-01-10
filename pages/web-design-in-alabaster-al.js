@@ -1,7 +1,6 @@
 import React from 'react';
 import { NextSeo } from 'next-seo';
 import Link from 'next/link';
-import Image from 'next/image';
 
 const WebDesignAlabaster = () => {
     return (
