@@ -26,7 +26,7 @@ const SEOClanton = () => {
     </p>
     <div className="py-4 px-6 mb-4 md:mb-6 mt-4 bg-white bg-opacity-20 rounded-lg">
         <p className="text-lg md:text-xl text-white">
-            <span className="block mb-2 text-2xl md:text-3xl text-indigo-300">Fun Fact</span>
+            <span className="block mb-2 text-2xl md:text-3xl text-indigo-300">Known For</span>
             Clanton is known for its Peach Festival.
         </p>
     </div>
