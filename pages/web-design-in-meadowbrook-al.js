@@ -71,65 +71,70 @@ const WebDesignMeadowbrook = () => {
 <p className="text-indigo-950 text-lg mb-1">
     <b>Inverness Country Club</b>
 </p>
+
 <p className="mb-2 text-white text-lg">
-    A private club known for hosting major golf events, offering an elite golf course to its members and guests in a serene, natural setting.
+    Enjoy nature parks and trails, visit the Cahaba Beach Dog Park, and engage in outdoor recreational activities such as bass fishing and hiking.
 </p>
 
 <p className="text-indigo-950 text-lg mb-1">
-    <strong>Historic Sites</strong>
+    <b>Historic Sites</b>
 </p>
 <p className="mb-2 text-white text-lg">
     Explore the industrial history of Birmingham at Sloss Furnaces National Historic Landmark, Vulcan Park and Museum, and Tannehill Ironworks Historical State Park.
 </p>
 
 <p className="text-indigo-950 text-lg mb-1">
-    <strong>Outdoor Activities</strong>
+    <b>Outdoor Activities</b>
 </p>
 <p className="mb-2 text-white text-lg">
     Enjoy nature parks and trails, visit the Cahaba Beach Dog Park, and engage in outdoor recreational activities such as bass fishing and hiking.
 </p>
 
 <p className="text-indigo-950 text-lg mb-1">
-    <strong>Trampoline Parks and Free Fall Attractions</strong>
+    <b>Trampoline Parks and Free Fall Attractions</b>
 </p>
 <p className="mb-2 text-white text-lg">
     Great for adrenaline seekers and families, offering activities like trampoline dodgeball, basketball, and obstacle courses.
 </p>
 
 <p className="text-indigo-950 text-lg mb-1">
-    <strong>Local Events and Festivals</strong>
+    <b>Local Events and Festivals</b>
 </p>
 <p className="mb-2 text-white text-lg">
     Attend community events and festivals like the Magic City Wine Fest, the Biggest Networking Event of the Year, and the Inaugural Derby Day Social.
 </p>
 
 <p className="text-indigo-950 text-lg mb-1">
-    <strong>Wine Tasting and Vineyards</strong>
+    <b>Wine Tasting and Vineyards</b>
 </p>
 <p className="mb-2 text-white text-lg">
     Participate in wine tasting events and visit vineyards in and around Meadowbrook, perfect for wine enthusiasts.
 </p>
 
 <p className="text-indigo-950 text-lg mb-1">
-    <strong>Shopping and Dining</strong>
+    <b>Shopping and Dining</b>
 </p>
 <p className="mb-2 text-white text-lg">
     Explore downtown shopping and services in nearby Vestavia Hills, and enjoy diverse dining options like Capella Pizzeria and local cafes.
 </p>
 
 <p className="text-indigo-950 text-lg mb-1">
-    <strong>Family-Friendly Activities</strong>
+    <b>Family-Friendly Activities</b>
 </p>
 <p className="mb-2 text-white text-lg">
     Visit family fun centers, attend carnivals and community events, and explore zoos and wildlife areas for a delightful family experience.
 </p>
 
 <p className="text-indigo-950 text-lg mb-1">
-    <strong>Spiritual and Cultural Experiences</strong>
+    <b>Spiritual and Cultural Experiences</b>
 </p>
 <p className="mb-2 text-white text-lg">
     Engage in spiritual and cultural activities in historic churches and participate in local cultural events.
 </p>
+```Let me know if there's anything else I can assist you with! 
+
+
+
 
 
 
