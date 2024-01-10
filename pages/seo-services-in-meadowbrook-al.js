@@ -16,7 +16,7 @@ const SEOMeadowbrook = () => {
                 }}
             />
 
- <div className="bg-gradient-to-br from-slate-950 to-indigo-950 text-center py-12 px-6 shadow-xl rounded-2xl mt-10 mb-12 transform hover:scale-105 transition duration-500 ease-in-out relative overflow-hidden">
+  <div className="bg-gradient-to-br from-slate-950 to-indigo-950 text-center py-12 px-6 shadow-xl rounded-2xl mt-10 mb-12 transform hover:scale-105 transition duration-500 ease-in-out relative overflow-hidden">
     <h1 className="text-4xl md:text-6xl font-extrabold text-transparent bg-clip-text bg-gradient-to-r from-slate-700 via-white to-indigo-200 my-4 animate-gradient">
         SEO Services in Meadowbrook, AL
     </h1>
@@ -26,8 +26,8 @@ const SEOMeadowbrook = () => {
     </p>
     <div className="py-4 px-6 mb-4 md:mb-6 mt-4 bg-white bg-opacity-20 rounded-lg">
         <p className="text-lg md:text-xl text-white">
-            <span className="block mb-2 text-2xl md:text-3xl text-indigo-300">Nick Name</span>
-        
+            <span className="block mb-2 text-2xl md:text-3xl text-indigo-300">Known For</span>
+            The neighborhood is home to Meadowbrook Golf Course, which offers an 18-hole golf course and a driving range for golf enthusiasts.
         </p>
     </div>
     <div className="absolute top-0 left-0 w-full h-full overflow-hidden z-0">
@@ -44,34 +44,31 @@ const SEOMeadowbrook = () => {
                 <h2 className="text-4xl font-bold text-gray-800">Discover Meadowbrook</h2>  
                     <div className="p-8 rounded-2xl shadow-lg mb-4 flex-1 hover:shadow-2xl">
 
-                    <p className="mb-4">
-    <strong>Geographical Location:</strong>
-    Meadowbrook is located in Shelby County, Alabama, within the southeastern suburbs of Birmingham. Its bounded by U.S. Route 280, Alabama State Route 119, Valleydale Rd, and Meadow Brook Rd.
-</p>
+<p className="mb-2 text-xl text-left"><b className="font-semibold text-indigo-900">History</b></p>
+<p className="mb-4 text-left">Meadowbrook is a census-designated place located in Shelby County, Alabama. It was originally settled in the early 1800s and has since grown into a residential community. The area has a rich history, reflecting the growth and development of the surrounding region.</p>
 
-<p className="mb-4">
-    <strong>Demographics:</strong>
-    As of the 2020 census, Meadowbrook had a population of 9,688, showing significant growth over the years. The community is primarily White, with a presence of Black or African American, Asian, and Hispanic or Latino populations.
-</p>
+<p className="mb-2 text-xl text-left"><b className="font-semibold text-indigo-900">Geography</b></p>
+<p className="mb-4 text-left">Meadowbrook is located in central Alabama, about 15 miles southeast of Birmingham. Covering approximately 6 square miles, it features gently rolling hills and wooded areas, offering a picturesque suburban environment.</p>
 
-<p className="mb-4">
-    <strong>Economy and Socioeconomic Status:</strong>
-    The median household income in Meadowbrook is $127,981. The area is known for its high population density and socioeconomic status, ranking high in terms of income and living standards in Alabama.
-</p>
+<p className="mb-2 text-xl text-left"><b className="font-semibold text-indigo-900">Government</b></p>
+<p className="mb-4 text-left">As part of Shelby County, Meadowbrook receives essential services such as law enforcement, public works, and planning from the county government.</p>
 
-<p className="mb-4">
-    <strong>Lifestyle and Attractions:</strong>
-    Meadowbrook offers a range of outdoor activities, shopping opportunities, and year-round festivals. It is characterized by its charming atmosphere, with quaint coffee shops, stores, and restaurants.
-</p>
+<p className="mb-2 text-xl text-left"><b className="font-semibold text-indigo-900">Economy</b></p>
+<p className="mb-4 text-left">Meadowbrooks economy is integrated with the Birmingham metropolitan area, offering diverse job opportunities in healthcare, education, manufacturing, retail, and other sectors.</p>
 
-<p className="mb-4">
-    <strong>Additional Information:</strong>
-    The community falls under the Central time zone and has ZIP codes 35242 and area codes 205 and 659.
-</p>
+<p className="mb-2 text-xl text-left"><b className="font-semibold text-indigo-900">Education</b></p>
+<p className="mb-4 text-left">The community is served by the Shelby County School District, with local schools including Meadow View Elementary, Oak Mountain Intermediate, Middle, and High Schools.</p>
 
-               
-<p className="text-gray-600">Countys | <span className="text-indigo-900"></span></p>
-<p className="text-gray-600">Zip Codes | <span className="text-indigo-900"></span></p>
+<p className="mb-2 text-xl text-left"><b className="font-semibold text-indigo-900">Transportation</b></p>
+<p className="mb-4 text-left">Meadowbrook is well-connected, near Interstate 459 and served by Birmingham-Jefferson County Transit Authoritys bus services, offering convenient travel options.</p>
+
+<p className="mb-2 text-xl text-left"><b className="font-semibold text-indigo-900">Attractions and Events</b></p>
+<p className="mb-4 text-left">Residents can enjoy nearby attractions in Birmingham like the Zoo, McWane Center, Botanical Gardens, and Vulcan Park, along with events like the Sidewalk Film Festival and Magic City Art Connection.</p>
+
+<p className="text-gray-600 text-left"><b>County</b> : <span className="font-semibold text-indigo-900">Shelby</span></p>
+<p className="text-gray-600 text-left"><b>Zip Codes</b> : <span className="font-semibold text-indigo-900">35242</span></p>
+
+
         </div>
 
         <div className="mt-auto">
@@ -87,73 +84,22 @@ const SEOMeadowbrook = () => {
 
         <div className="flex-1 flex flex-col">
     <div className="rounded-lg shadow-md mb-6 flex-grow" style={{ backgroundColor: 'rgba(255, 255, 255, 0.5)' }}>
-        <h2 className="text-4xl font-bold text-indigo-950 mt-5 mb-6 text-center">Explore Meadowbrook</h2>
+        <h2 className="text-3xl sm:text-4xl font-bold text-indigo-950 mt-4 sm:mt-5 mb-5 sm:mb-6 text-center">Best Things to Do in Meadowbrook</h2>
 
-        <p className="text-indigo-950 text-lg mb-1">
-    <strong>Inverness Country Club</strong>
-</p>
-<p className="mb-2 text-white text-lg">
-    A private club known for hosting major golf events, offering an elite golf course to its members and guests in a serene, natural setting.
-</p>
+<p className="text-indigo-950 text-xl sm:text-2xl text-center"><b>Oak Mountain State Park</b></p>
+<p className="mb-4 text-white text-base sm:text-lg text-center">Located just a short drive from Meadowbrook, Oak Mountain State Park offers a wide range of outdoor activities. You can go hiking or biking on the numerous trails, enjoy a picnic by the lake, go fishing, or even rent a boat for a day on the water.</p>
 
-<p className="text-indigo-950 text-lg mb-1">
-    <strong>Historic Sites</strong>
-</p>
-<p className="mb-2 text-white text-lg">
-    Explore the industrial history of Birmingham at Sloss Furnaces National Historic Landmark, Vulcan Park and Museum, and Tannehill Ironworks Historical State Park.
-</p>
+<p className="text-indigo-950 text-xl sm:text-2xl text-center"><b>Meadow Brook Golf Course</b></p>
+<p className="mb-4 text-white text-base sm:text-lg text-center">Golf enthusiasts can visit Meadow Brook Golf Course, an 18-hole public course offering a scenic and challenging golf experience near Meadowbrook.</p>
 
-<p className="text-indigo-950 text-lg mb-1">
-    <strong>Outdoor Activities</strong>
-</p>
-<p className="mb-2 text-white text-lg">
-    Enjoy nature parks and trails, visit the Cahaba Beach Dog Park, and engage in outdoor recreational activities such as bass fishing and hiking.
-</p>
+<p className="text-indigo-950 text-xl sm:text-2xl text-center"><b>Birmingham Zoo</b></p>
+<p className="mb-4 text-white text-base sm:text-lg text-center">Located close to Meadowbrook, the Birmingham Zoo features diverse animal exhibits, educational programs, and is set in a beautiful environment for a day of exploration.</p>
 
-<p className="text-indigo-950 text-lg mb-1">
-    <strong>Trampoline Parks and Free Fall Attractions</strong>
-</p>
-<p className="mb-2 text-white text-lg">
-    Great for adrenaline seekers and families, offering activities like trampoline dodgeball, basketball, and obstacle courses.
-</p>
+<p className="text-indigo-950 text-xl sm:text-2xl text-center"><b>The Village at Lee Branch</b></p>
+<p className="mb-4 text-white text-base sm:text-lg text-center">Explore The Village at Lee Branch for shopping and dining experiences. Enjoy a variety of stores, restaurants, and entertainment options, including a movie theater.</p>
 
-<p className="text-indigo-950 text-lg mb-1">
-    <strong>Local Events and Festivals</strong>
-</p>
-<p className="mb-2 text-white text-lg">
-    Attend community events and festivals like the Magic City Wine Fest, the Biggest Networking Event of the Year, and the Inaugural Derby Day Social.
-</p>
-
-<p className="text-indigo-950 text-lg mb-1">
-    <strong>Wine Tasting and Vineyards</strong>
-</p>
-<p className="mb-2 text-white text-lg">
-    Participate in wine tasting events and visit vineyards in and around Meadowbrook, perfect for wine enthusiasts.
-</p>
-
-<p className="text-indigo-950 text-lg mb-1">
-    <strong>Shopping and Dining</strong>
-</p>
-<p className="mb-2 text-white text-lg">
-    Explore downtown shopping and services in nearby Vestavia Hills, and enjoy diverse dining options like Capella Pizzeria and local cafes.
-</p>
-
-<p className="text-indigo-950 text-lg mb-1">
-    <strong>Family-Friendly Activities</strong>
-</p>
-<p className="mb-2 text-white text-lg">
-    Visit family fun centers, attend carnivals and community events, and explore zoos and wildlife areas for a delightful family experience.
-</p>
-
-<p className="text-indigo-950 text-lg mb-1">
-    <strong>Spiritual and Cultural Experiences</strong>
-</p>
-<p className="mb-2 text-white text-lg">
-    Engage in spiritual and cultural activities in historic churches and participate in local cultural events.
-</p>
-
-
-
+<p className="text-indigo-950 text-xl sm:text-2xl text-center"><b>Local Events and Festivals</b></p>
+<p className="mb-4 text-white text-base sm:text-lg text-center">Stay updated with local events and festivals around Meadowbrook, ranging from community gatherings and holiday celebrations to art shows and more.</p>
         </div>
     </div>
 </div>
@@ -161,7 +107,7 @@ const SEOMeadowbrook = () => {
 
 {/* Elevate Your Business Title Section */}
 <div className="bg-gradient-to-br from-gray-100 to-blue-50 p-8 rounded-3xl shadow-2xl">
-<h2 className="text-5xl font-bold text-gray-800 mb-5 text-center">Elevate Your Business with SEO</h2>
+<h2 className="text-5xl font-bold text-gray-800 mb-5 text-center">Elevate Your Meadowbrook Business with SEO</h2>
 
 {/* Elevate Your Business Section */}
 <p className="mt-6 mb-8 text-lg md:text-md text-gray-700">
