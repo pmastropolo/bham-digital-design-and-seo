@@ -45,7 +45,6 @@ const WebDesignGardendale = () => {
                     <div className="p-8 rounded-2xl shadow-lg mb-8 flex-1 hover:shadow-2xl">
                     <p className="mb-2 text-left"><span className="font-semibold text-indigo-900">History:</span> Initially settled by War of 1812 veterans in 1825. Known as Jugtown due to a local pottery industry. Renamed to Gardendale in 1906.</p>
 <p className="mb-2 text-left"><span className="font-semibold text-indigo-900">Geography:</span> Located in Jefferson County, north-central part of Alabama, north of Birmingham. Covers an area of approximately 57 square miles.</p>
-<p className="mb-2 text-left"><span className="font-semibold text-indigo-900">Demographics:</span> Population around 16,044 (2020 Census). Predominantly white, with African American, Hispanic, and Asian communities.</p>
 <p className="mb-2 text-left"><span className="font-semibold text-indigo-900">Government:</span> Became a city in 1955, with J.I. Pesnell as the first mayor.</p>
 <p className="mb-2 text-left"><span className="font-semibold text-indigo-900">Economy:</span> Diverse employment sectors including educational services, healthcare, and social assistance.</p>
 <p className="mb-2 text-left"><span className="font-semibold text-indigo-900">Education:</span> Part of Jefferson County School System. Has two elementary schools, one middle school, one high school, and three private academies.</p>
