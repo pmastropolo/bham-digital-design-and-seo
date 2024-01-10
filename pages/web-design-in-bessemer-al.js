@@ -44,11 +44,31 @@ const WebDesignBessemer = () => {
                 {/* Discover Title */}
                 <h2 className="text-4xl font-bold text-gray-800">Discover Bessemer</h2>  
                     <div className="p-8 rounded-2xl shadow-lg mb-4 flex-1 hover:shadow-2xl">
-                    <p className="mb-2 text-left">Founded in <span className="font-semibold text-indigo-900">1887,</span> Bessemer rapidly grew due to the steel industry.</p>
-                            <p className="mb-2 text-left"><span className="font-semibold text-indigo-900">Tannehill Ironworks State Park</span> preserves a 19th-century iron furnace and hosts trade events.</p>
-                            <p className="mb-2 text-left">Home to <span className="font-semibold text-indigo-900">The Bright Star,</span> opened in <span className="font-semibold text-indigo-900">1907,</span> known for Greek-style seafood and steaks.</p>
-                            <p className="mb-2 text-left"><span className="font-semibold text-indigo-900">The Bessemer Hall of History Museum</span> showcases local artifacts and history.</p>
-                            <p className="mb-2 text-left"><span className="font-semibold text-indigo-900">Alabama Adventure & Splash Adventure</span> offers water attractions and roller coasters.</p>
+                   
+                <p classNamemb-2 text-left">
+  <span className="font-semibold text-indigo-900">History</span>
+  Bessemer is a city located in Jefferson County, Alabama. It was founded in 1887 and named after Sir Henry Bessemer, a British inventor and engineer. The city has a rich history in the iron and steel industry, playing a significant role in the development of the Birmingham metropolitan area as an industrial center.
+</p>
+
+<p className="mb-2 text-left">
+  <span className="font-semibold text-indigo-900">Geography</span>
+  Bessemer is situated in the central part of Alabama, covering an area of approximately 40 square miles. It is located about 13 miles southwest of downtown Birmingham and sits at the southern edge of the Appalachian foothills. The city is crossed by the Mulberry Fork of the Black Warrior River, providing scenic views and recreational opportunities.
+</p>
+
+<p className="mb-2 text-left">
+  <span className="font-semibold text-indigo-900">Government</span>
+  The city of Bessemer operates under a mayor-council form of government. The mayor serves as the chief executive officer, while the council members are responsible for legislative decisions. The current mayor of Bessemer is Kenneth Gulley. The city has several departments dedicated to public services, such as police, fire, and public works.
+</p>
+
+<p className="mb-2 text-left">
+  <span className="font-semibold text-indigo-900">Economy</span>
+  Bessemer's economy has diversified over the years but still retains its historical ties to the iron and steel industry. The city is home to the U.S. Pipe and Foundry Company, which manufactures ductile iron pipes and fittings. Additionally, Bessemer has a growing retail sector, with shopping centers like the Promenade Tannehill providing commerce and employment opportunities.
+</p>
+
+<p className="mb-2 text-left">
+  <span className="font-semibold text-indigo-900">Education</span>
+  The city of Bessemer is served by the Bessemer City School District, which operates several public schools in the area. These include elementary, middle, and high schools, providing education to students from kindergarten through 12th grade. The district focuses on academic excellence and offers various extracurricular activities for students.
+                
 <p className="text-gray-600">County | <span className="text-indigo-900">Jefferson</span></p>
 <p className="text-gray-600">Zip Codes | <span className="text-indigo-900">35111, 35023, 35022, 35021, 35020</span></p>
         </div>
