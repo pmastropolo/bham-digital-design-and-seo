@@ -41,20 +41,37 @@ const WebDesignColumbiana = () => {
             <div className="bg-gradient-to-br from-gray-50 to-blue-100 p-8 rounded-2xl shadow-lg mb-8 flex-grow transform transition duration-500 hover:shadow-2xl">
 
                 {/* Discover Title */}
-                <h2 className="text-4xl font-bold text-gray-800 mb-6">Discover Columbiana</h2>  
-                    <div className="p-8 rounded-2xl shadow-lg mb-8 flex-1 hover:shadow-2xl">
+                <h2 className="text-4xl font-bold text-gray-800">Discover Columbiana</h2>  
+                    <div className="p-8 rounded-2xl shadow-lg mb-4 flex-1 hover:shadow-2xl">
 
-<p className="mb-2 text-left">First settled around 1821, <span className="font-semibold text-indigo-900">Columbiana, Alabama</span> was incorporated on December 5, 1837. Originally named Columbia, it was renamed to <span className="font-semibold text-indigo-900">Columbiana</span> in 1832.</p>
-<p className="mb-2 text-left">Chosen as the <span className="font-semibold text-indigo-900">county seat</span> of Shelby County in 1826, Columbiana celebrated this decision with notable enthusiasm. Its early justice system was led by Justices of the Peace, including the first Chief Justice, <span className="text-indigo-500">George Phillips</span>.</p>
-<p className="mb-2 text-left">The towns initial courthouse, serving for about 28 years, was also utilized as a school. <span className="text-indigo-500">Joab Lawler</span> notably served as the first Judge of the County Court after its relocation to Columbiana.</p>
-<p className="mb-2 text-left">Historically, the citys economy included <span className="font-semibold text-indigo-900">foundries</span> and saw the inception of newspapers such as <span className="text-indigo-500">The Peoples Advocate</span> and <span className="text-indigo-500">Shelby County Sun</span>.</p>
-<p className="mb-2 text-left">The city is celebrated for its annual <span className="font-semibold text-indigo-900">Liberty Day celebration</span>, started in 1986. Notable landmarks include the <span className="text-indigo-500">Shelby County Museum and Archives</span> and the <span className="text-indigo-500">Karl C. Harrison Museum of George Washington</span>.</p>
-                    
+<p className="mb-2 text-xl text-left"><b className="font-semibold text-indigo-900">History</b></p>
+<p className="mb-4 text-left">Columbiana, Alabama was founded in 1836 and is the county seat of Shelby County. The city was named after Christopher Columbus and has a rich history dating back to the early days of Alabamas settlement. It played an important role in development of the region, serving as a center for trade and commerce.</p>
 
-                   
+<p className="mb-2 text-xl text-left"><b className="font-semibold text-indigo-900">Geography</b></p>
+<p className="mb-4 text-left">Located in Shelby County, Alabama, Columbiana sits on the southern edge of the Appalachian Mountains. The area is known for its rolling hills and picturesque landscapes, offering scenic views and a range of outdoor recreational activities.</p>
 
-<p className="text-gray-600"><b>County</b> | <span className="font-semibold text-indigo-900">Shelby</span></p>
-<p className="text-gray-600"><b>Zip Code</b> | <span className="font-semibold text-indigo-900">35051</span></p>
+<p className="mb-2 text-xl text-left"><b className="font-semibold text-indigo-900">Government</b></p>
+<p className="mb-4 text-left">Columbiana is governed under a Mayor-Council form of government. The citys leadership includes a mayor and five council members, elected by residents, focusing on providing essential services and promoting the well-being of the community.</p>
+
+<p className="mb-2 text-xl text-left"><b className="font-semibold text-indigo-900">Economy</b></p>
+<p className="mb-4 text-left">Columbianas diverse economy includes a strong agricultural sector and a growing business community. It benefits from its proximity to Birmingham, offering additional employment opportunities for its residents.</p>
+
+<p className="mb-2 text-xl text-left"><b className="font-semibold text-indigo-900">Education</b></p>
+<p className="mb-4 text-left">Served by the Shelby County School District, Columbiana offers comprehensive education from elementary through high school. The district is known for its commitment to academic excellence and diverse educational programs.</p>
+
+<p className="mb-2 text-xl text-left"><b className="font-semibold text-indigo-900">Transportation</b></p>
+<p className="mb-4 text-left">Columbiana is well-connected by highways such as Interstate 65 and State Route 25, with the Birmingham-Shuttlesworth International Airport located nearby, facilitating both road and air travel.</p>
+
+<p className="mb-2 text-xl text-left"><b className="font-semibold text-indigo-900">Attractions and Events</b></p>
+<p className="mb-4 text-left">The city offers various attractions like the Shelby County Historical Society Museum and Heart of Dixie Railroad Museum. Annual events such as the Liberty Day Festival celebrate the communitys heritage and culture.</p>
+
+<p className="mb-2 text-xl text-left"><b className="font-semibold text-indigo-900">Nature</b></p>
+<p className="mb-4 text-left">Columbiana is surrounded by natural beauty, with the Cahaba River, Oak Mountain State Park, and the Coosa River nearby, providing ample opportunities for hiking, fishing, boating, and camping.</p>
+
+
+<p className="text-gray-600 text-left"><b>County</b> : <span className="font-semibold text-indigo-900">Shelby</span></p>
+<p className="text-gray-600 text-left"><b>Zip Codes</b> : <span className="font-semibold text-indigo-900">35051</span></p>
+
         </div>
 
         <div className="mt-auto">
@@ -70,23 +87,22 @@ const WebDesignColumbiana = () => {
 
         <div className="flex-1 flex flex-col">
     <div className="rounded-lg shadow-md mb-6 flex-grow" style={{ backgroundColor: 'rgba(255, 255, 255, 0.5)' }}>
-            <h2 className="text-4xl font-bold text-indigo-950 mt-5 mb-6 text-center">Things To Do in Columbiana</h2>
+        <h2 className="text-3xl sm:text-4xl font-bold text-indigo-950 mt-4 sm:mt-5 mb-5 sm:mb-6 text-center">Best Things to Do in Columbiana</h2>
 
-<p className="text-indigo-950 text-lg mb-1"><b>Shelby County Museum and Archives</b></p>
-<p className="mb-2 text-white text-lg">Explore local history and heritage.</p>
+<p className="text-indigo-950 text-xl sm:text-2xl text-center"><b>Shelby County Museum and Archives</b></p>
+<p className="mb-4 text-white text-base sm:text-lg text-center">Located in the heart of Columbiana, the Shelby County Museum and Archives showcases the history and heritage of Shelby County. The museum features exhibits on Native American history, pioneer life, the Civil War, local industries. Its a great place to learn about the areas rich past.</p>
 
-<p className="text-indigo-950 text-lg mb-1"><b>Karl C. Harrison Museum of George Washington</b></p>
-<p className="mb-2 text-white text-lg">Discover artifacts from the first U.S. President.</p>
+<p className="text-indigo-950 text-xl sm:text-2xl text-center"><b>Old Shelby County Courthouse</b></p>
+<p className="mb-4 text-white text-base sm:text-lg text-center">Built in 1854, the Old Shelby County Courthouse in Columbiana is one of Alabamas oldest courthouses in continuous use. Explore the courthouse and its grounds to learn about local legal history and admire its beautiful architecture.</p>
 
-<p className="text-indigo-950 text-lg mb-1"><b>Beeswax Creek Park</b></p>
-<p className="mb-2 text-white text-lg">Enjoy outdoor activities and nature trails.</p>
+<p className="text-indigo-950 text-xl sm:text-2xl text-center"><b>Columbiana City Library</b></p>
+<p className="mb-4 text-white text-base sm:text-lg text-center">The Columbiana City Library offers a cozy environment with a wide range of books, resources, and community events. Its an ideal spot for reading, relaxation, and participating in book clubs or workshops.</p>
 
-<p className="text-indigo-950 text-lg mb-1"><b>Shops of Columbiana</b></p>
-<p className="mb-2 text-white text-lg">Find unique gifts and local crafts.</p>
+<p className="text-indigo-950 text-xl sm:text-2xl text-center"><b>Columbiana Walk of Memories</b></p>
+<p className="mb-4 text-white text-base sm:text-lg text-center">The Columbiana Walk of Memories is a tribute to veterans from Shelby County. This memorial near the courthouse square features engraved bricks honoring veterans from various wars.</p>
 
-<p className="text-indigo-950 text-lg mb-1"><b>Scott Vaughn Owen Studio</b></p>
-<p className="mb-2 text-white text-lg">Experience the local art scene.</p>
-
+<p className="text-indigo-950 text-xl sm:text-2xl text-center"><b>Shelby County Arts Council</b></p>
+<p className="mb-4 text-white text-base sm:text-lg text-center">The Shelby County Arts Council promotes the arts in the region with art classes, exhibitions, and performances. Check their schedule for upcoming art shows, concerts, or workshops.</p>
 
 
         </div>
@@ -96,7 +112,7 @@ const WebDesignColumbiana = () => {
 
 {/* Elevate Your Business Title Section */}
 <div className="bg-gradient-to-br from-gray-100 to-blue-50 p-8 rounded-3xl shadow-2xl">
-<h2 className="text-5xl font-bold text-gray-800 mb-6 text-center">Elevate Your Business with Web Design</h2>
+<h2 className="text-5xl font-bold text-gray-800 mb-5 text-center">Elevate Your Columbiana Business with Web Design</h2>
 
 {/* Elevate Your Business Section */}
 <p className="mt-6 mb-8 text-lg md:text-md text-gray-700">
@@ -105,7 +121,7 @@ In the digital age, a compelling online presence is more than just a luxury. Its
 
                 {/* Contact Us Button */}
                 <Link href="/contact" legacyBehavior>
-                <a className="inline-block bg-blue-600 hover:bg-cyan-800 text-white py-2 px-6 rounded-full transition duration-300 transform hover:scale-110 mx-2">
+                <a className="inline-block bg-blue-600 hover:bg-cyan-800 text-white mb-4 py-2 px-6 rounded-full transition duration-300 transform hover:scale-110 mx-2">
                     Contact Us
                 </a>
                 </Link>
@@ -119,6 +135,7 @@ In the digital age, a compelling online presence is more than just a luxury. Its
             </div>
         </div>
     </div>
+
         </>
     );
 }
