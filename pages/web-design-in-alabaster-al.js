@@ -58,7 +58,7 @@ const WebDesignAlabaster = () => {
 
 <p className="mb-2 text-left">
   <span className="font-semibold text-indigo-900">Government</span>
-  Alabaster operates under a mayor-council form of government. The city's government consists of a mayor and a city council that is responsible for making policy decisions and overseeing city services. The current mayor of Alabaster is Marty Handlon.
+  Alabaster operates under a mayor-council form of government. The citys government consists of a mayor and a city council that is responsible for making policy decisions and overseeing city services. The current mayor of Alabaster is Marty Handlon.
 </p>
 
 <p className="mb-2 text-left">
