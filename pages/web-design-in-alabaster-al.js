@@ -81,9 +81,6 @@ const WebDesignAlabaster = () => {
   Alabaster offers a range of recreational activities and attractions for residents and visitors. Buck Creek Park is a popular destination with walking trails, pavilions, and a creek for fishing. Veterans Park features a memorial to honor local veterans and hosts community events. The city also holds several annual events, such as the CityFest, which showcases live music, food vendors, and activities for all ages.
 </p>
 
-
-Let me know if there's anything else I can help with! 
-
 <p className="text-gray-600"><b>County</b> | <span className="font-semibold text-indigo-900">Shelby</span></p>
 <p className="text-gray-600"><b>Zip Code</b> | <span className="font-semibold text-indigo-900">35071, 35073</span></p>
         </div>
