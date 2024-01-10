@@ -44,30 +44,10 @@ const WebDesignMeadowbrook = () => {
                 <h2 className="text-4xl font-bold text-gray-800">Discover Meadowbrook</h2>  
                     <div className="p-8 rounded-2xl shadow-lg mb-4 flex-1 hover:shadow-2xl">
 
-                    <p className="mb-4">
-    <strong>Geographical Location:</strong>
-    Meadowbrook is located in Shelby County, Alabama, within the southeastern suburbs of Birmingham. Its bounded by U.S. Route 280, Alabama State Route 119, Valleydale Rd, and Meadow Brook Rd.
-</p>
-
-<p className="mb-4">
-    <strong>Demographics:</strong>
-    As of the 2020 census, Meadowbrook had a population of 9,688, showing significant growth over the years. The community is primarily White, with a presence of Black or African American, Asian, and Hispanic or Latino populations.
-</p>
-
-<p className="mb-4">
-    <strong>Economy and Socioeconomic Status:</strong>
-    The median household income in Meadowbrook is $127,981. The area is known for its high population density and socioeconomic status, ranking high in terms of income and living standards in Alabama.
-</p>
-
-<p className="mb-4">
-    <strong>Lifestyle and Attractions:</strong>
-    Meadowbrook offers a range of outdoor activities, shopping opportunities, and year-round festivals. It is characterized by its charming atmosphere, with quaint coffee shops, stores, and restaurants.
-</p>
-
-<p className="mb-4">
-    <strong>Additional Information:</strong>
-    The community falls under the Central time zone and has ZIP codes 35242 and area codes 205 and 659.
-</p>
+<p className="mb-4"><b>Geographical Location</b>Meadowbrook is located in Shelby County, Alabama, within the southeastern suburbs of Birmingham. Its bounded by U.S. Route 280, Alabama State Route 119, Valleydale Rd, and Meadow Brook Rd.</p>
+<p className="mb-4"><b>Economy and Socioeconomic Status:</b>The median household income in Meadowbrook is $127,981. The area is known for its high population density and socioeconomic status, ranking high in terms of income and living standards in Alabama.</p>
+<p className="mb-4"><b>Lifestyle and Attractions:</b>Meadowbrook offers a range of outdoor activities, shopping opportunities, and year-round festivals. It is characterized by its charming atmosphere, with quaint coffee shops, stores, and restaurants.</p>
+<p className="mb-4"><b>Additional Information:</b>The community falls under the Central time zone and has ZIP codes 35242 and area codes 205 and 659.</p>
 
                
 <p className="text-gray-600">Countys | <span className="text-indigo-900"></span></p>
