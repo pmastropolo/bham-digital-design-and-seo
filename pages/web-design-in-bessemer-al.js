@@ -28,13 +28,11 @@ const WebDesignBessemer = () => {
     <div className="py-4 px-6 mb-4 md:mb-6 mt-4 bg-white bg-opacity-20 rounded-lg">
         <p className="text-lg md:text-xl text-white">
             <span className="block mb-2 text-2xl md:text-3xl text-indigo-300">Nick Name</span>
-            Bessemer is often referred to as the Marvel City due to its rapid growth and industrial prowess in the late 19th and early 20th centuries.
+            The Marvel City.
         </p>
     </div>
     <div className="absolute top-0 left-0 w-full h-full overflow-hidden z-0">
 </div>
-
-
 {/* Discover Section */}
 <div className="max-w-7xl mx-auto">
     <div className="flex flex-col md:flex-row gap-8">
@@ -44,33 +42,27 @@ const WebDesignBessemer = () => {
                 {/* Discover Title */}
                 <h2 className="text-4xl font-bold text-gray-800">Discover Bessemer</h2>  
                     <div className="p-8 rounded-2xl shadow-lg mb-4 flex-1 hover:shadow-2xl">
-                   
-                <p classNamemb-2 text-left">
-  <span className="font-semibold text-indigo-900">History</span>
-  Bessemer is a city located in Jefferson County, Alabama. It was founded in 1887 and named after Sir Henry Bessemer, a British inventor and engineer. The city has a rich history in the iron and steel industry, playing a significant role in the development of the Birmingham metropolitan area as an industrial center.
-</p>
 
-<p className="mb-2 text-left">
-  <span className="font-semibold text-indigo-900">Geography</span>
-  Bessemer is situated in the central part of Alabama, covering an area of approximately 40 square miles. It is located about 13 miles southwest of downtown Birmingham and sits at the southern edge of the Appalachian foothills. The city is crossed by the Mulberry Fork of the Black Warrior River, providing scenic views and recreational opportunities.
-</p>
+                    <p className="mb-2 text-xl text-left"><b className="font-semibold text-indigo-900">History</b></p>
+<p className="mb-4 text-left">Founded in 1887 and named after Sir Henry Bessemer, the city has a rich history in the iron and steel industry, significantly contributing to the Birmingham metropolitan areas development.</p>
 
-<p className="mb-2 text-left">
-  <span className="font-semibold text-indigo-900">Government</span>
-  The city of Bessemer operates under a mayor-council form of government. The mayor serves as the chief executive officer, while the council members are responsible for legislative decisions. The current mayor of Bessemer is Kenneth Gulley. The city has several departments dedicated to public services, such as police, fire, and public works.
-</p>
+<p className="mb-2 text-xl text-left"><b className="font-semibold text-indigo-900">Geography</b></p>
+<p className="mb-4 text-left">Located in central Alabama, covering 40 square miles, it is situated about 13 miles southwest of downtown Birmingham, offering scenic views and recreational opportunities along the Mulberry Fork of the Black Warrior River.</p>
 
-<p className="mb-2 text-left">
-  <span className="font-semibold text-indigo-900">Economy</span>
-  Bessemer's economy has diversified over the years but still retains its historical ties to the iron and steel industry. The city is home to the U.S. Pipe and Foundry Company, which manufactures ductile iron pipes and fittings. Additionally, Bessemer has a growing retail sector, with shopping centers like the Promenade Tannehill providing commerce and employment opportunities.
-</p>
+<p className="mb-2 text-xl text-left"><b className="font-semibold text-indigo-900">Government</b></p>
+<p className="mb-4 text-left">Operating under a mayor-council form of government, the city is led by Mayor Kenneth Gulley. It has several public service departments, including police, fire, and public works.</p>
 
-<p className="mb-2 text-left">
-  <span className="font-semibold text-indigo-900">Education</span>
-  The city of Bessemer is served by the Bessemer City School District, which operates several public schools in the area. These include elementary, middle, and high schools, providing education to students from kindergarten through 12th grade. The district focuses on academic excellence and offers various extracurricular activities for students.
-                
-<p className="text-gray-600">County | <span className="text-indigo-900">Jefferson</span></p>
-<p className="text-gray-600">Zip Codes | <span className="text-indigo-900">35111, 35023, 35022, 35021, 35020</span></p>
+<p className="mb-2 text-xl text-left"><b className="font-semibold text-indigo-900">Economy</b></p>
+<p className="mb-4 text-left">While retaining its historical ties to the iron and steel industry, the economy has diversified. Key features include the U.S. Pipe and Foundry Company and a growing retail sector with shopping centers like the Promenade Tannehill.</p>
+
+<p className="mb-2 text-xl text-left"><b className="font-semibold text-indigo-900">Education</b></p>
+<p className="mb-4 text-left">The Bessemer City School District serves the city, operating several public schools from kindergarten through 12th grade. The district emphasizes academic excellence and offers various extracurricular activities.</p>
+
+<p className="mb-2 text-xl text-left"><b className="font-semibold text-indigo-900">Transportation</b></p>
+<p className="mb-4 text-left">The city is well-connected by major highways, including Interstate 20/59, and offers several public transportation options, including bus services, for easy accessibility.</p>
+
+<p className="text-gray-600 text-left"><b>County</b> : <span className="font-semibold text-indigo-900">Jefferson</span></p>
+<p className="text-gray-600 text-left"><b>Zip Codes</b> : <span className="font-semibold text-indigo-900">35111 | 35023 | 35022 | 35021 | 35020</span></p>
         </div>
 
         <div className="mt-auto">
@@ -83,52 +75,44 @@ const WebDesignBessemer = () => {
             </div>
         </div>
 
-
-        <div className="flex-1 flex flex-col">
+<div className="flex-1 flex flex-col">
     <div className="rounded-lg shadow-md mb-6 flex-grow" style={{ backgroundColor: 'rgba(255, 255, 255, 0.5)' }}>
-        <h2 className="text-4xl font-bold text-indigo-950 mt-5 mb-6 text-center">Things To Do in Bessemer</h2>
+        <h2 className="text-3xl sm:text-4xl font-bold text-indigo-950 mt-4 sm:mt-5 mb-5 sm:mb-6 text-center">Best Things to Do in Bessemer</h2>
 
-        <p className="text-indigo-950 text-lg mb-1">
-        <b className="underline"><a href="https://www.bessemeral.org/directory-entry/bessemer-hall-of-history/" target="_blank">Bessemer Hall of History Museum</a></b>
-</p>
-<p className="mb-2 text-white text-lg">
-    Citys historical artifacts.
-</p>
+{/* Bessemer Hall of History Museum */}
+<p className="text-indigo-950 text-xl sm:text-2xl mb-1 text-center"><b className="underline"><a href="https://www.bessemeral.org/directory-entry/bessemer-hall-of-history/" target="_blank">Bessemer Hall of History Museum</a></b></p>
+<p className="mb-6 text-white text-base sm:text-lg text-center">Explore Bessemers history and culture with artifacts and stories showcasing its industrial heritage.</p>
 
-<p className="text-indigo-950 text-lg mb-1">
-    <b className="underline"><a href="https://alabamaadventure.com/" target="_blank">Alabama Adventure & Splash Adventure</a></b>
-</p>
-<p className="mb-2 text-white text-lg">
-    Fun park for all ages.
-</p>
+{/* Alabama Adventure & Splash Adventure */}
+<p className="text-indigo-950 text-xl sm:text-2xl mb-1 text-center"><b className="underline"><a href="https://alabamaadventure.com/" target="_blank">Alabama Adventure & Splash Adventure</a></b></p>
+<p className="mb-6 text-white text-base sm:text-lg text-center">Enjoy a mix of fun rides and water attractions suitable for all ages at this amusement and water park.</p>
 
-<p className="text-indigo-950 text-lg mb-1">
-<b className="underline"><a href="https://www.bessemeral.org/parks-and-recreation/" target="_blank">DeBardeleben Park</a></b>
-</p>
-<p className="mb-2 text-white text-lg">
-    Historic downtown park.
-</p>
+{/* Bent Brook Golf Course */}
+<p className="text-indigo-950 text-xl sm:text-2xl mb-1 text-center"><b>Bent Brook Golf Course</b></p>
+<p className="mb-6 text-white text-base sm:text-lg text-center">Enjoy a day of golf at this scenic course with three nine-hole challenges.</p>
 
-<p className="text-indigo-950 text-lg mb-1">
-<b className="underline"><a href="https://www.fws.gov/refuge/watercress-darter" target="_blank">Watercress Darter National Wildlife Refuge</a></b>
-</p>
-<p className="mb-2 text-white text-lg">
-    Endangered fish, photography, hiking.
-</p>
+{/* WaterMark Place Outlet Center */}
+<p className="text-indigo-950 text-xl sm:text-2xl mb-1 text-center"><b>WaterMark Place Outlet Center</b></p>
+<p className="mb-6 text-white text-base sm:text-lg text-center">Discover great deals at this outlet center, offering a variety of shops.</p>
 
-<p className="text-indigo-950 text-lg mb-1"><b>Alabama Wine Trail</b></p>
-<p className="mb-2 text-white text-lg">Local vineyards, award-winning wines.</p>
+{/* DeBardeleben Park */}
+<p className="text-indigo-950 text-xl sm:text-2xl mb-1 text-center"><b>DeBardeleben Park</b></p>
+<p className="mb-6 text-white text-base sm:text-lg text-center">Relax or play in this park featuring trails, picnic areas, and a playground.</p>
 
-<p className="text-indigo-950 text-lg mb-1"><b>Bessemer Farmers Market</b></p>
-<p className="mb-2 text-white text-lg">Fresh, local produce.</p>
+{/* Bessemer Civic Center */}
+<p className="text-indigo-950 text-xl sm:text-2xl mb-1 text-center"><b>Bessemer Civic Center</b></p>
+<p className="mb-6 text-white text-base sm:text-lg text-center">Experience a variety of events from concerts to expos at the Civic Center.</p>
 
+{/* Bessemer Farmers Market */}
+<p className="text-indigo-950 text-xl sm:text-2xl mb-1 text-center"><b>Bessemer Farmers Market</b></p>
+<p className="mb-6 text-white text-base sm:text-lg text-center">Visit the farmers market for fresh produce, crafts, and a vibrant atmosphere.</p>
 
-
+{/* Bright Star Restaurant */}
+<p className="text-indigo-950 text-xl sm:text-2xl mb-1 text-center"><b>Bright Star Restaurant</b></p>
+<p className="mb-6 text-white text-base sm:text-lg text-center">Established in 1907, this historic landmark serves Southern cuisine, including Greek-style snapper and steaks.</p>
         </div>
     </div>
 </div>
-
-
 {/* Elevate Your Business Title Section */}
 <div className="bg-gradient-to-br from-gray-100 to-blue-50 p-8 rounded-3xl shadow-2xl">
 <h2 className="text-5xl font-bold text-gray-800 mb-5 text-center">Elevate Your Business with Web Design</h2>
@@ -154,10 +138,9 @@ In the digital age, a compelling online presence is more than just a luxury. Its
             </div>
         </div>
     </div>
-
+                    
         </>
     );
 }
 
 export default WebDesignBessemer;
-
