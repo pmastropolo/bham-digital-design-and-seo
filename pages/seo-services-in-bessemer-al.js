@@ -32,8 +32,6 @@ const SEOBessemer = () => {
     </div>
     <div className="absolute top-0 left-0 w-full h-full overflow-hidden z-0">
 </div>
-
-
 {/* Discover Section */}
 <div className="max-w-7xl mx-auto">
     <div className="flex flex-col md:flex-row gap-8">
@@ -43,13 +41,27 @@ const SEOBessemer = () => {
                 {/* Discover Title */}
                 <h2 className="text-4xl font-bold text-gray-800">Discover Bessemer</h2>  
                     <div className="p-8 rounded-2xl shadow-lg mb-4 flex-1 hover:shadow-2xl">
-                    <p className="mb-2 text-left">Founded in <span className="font-semibold text-indigo-900">1887,</span> Bessemer rapidly grew due to the steel industry.</p>
-                            <p className="mb-2 text-left"><span className="font-semibold text-indigo-900">Tannehill Ironworks State Park</span> preserves a 19th-century iron furnace and hosts trade events.</p>
-                            <p className="mb-2 text-left">Home to <span className="font-semibold text-indigo-900">The Bright Star,</span> opened in <span className="font-semibold text-indigo-900">1907,</span> known for Greek-style seafood and steaks.</p>
-                            <p className="mb-2 text-left"><span className="font-semibold text-indigo-900">The Bessemer Hall of History Museum</span> showcases local artifacts and history.</p>
-                            <p className="mb-2 text-left"><span className="font-semibold text-indigo-900">Alabama Adventure & Splash Adventure</span> offers water attractions and roller coasters.</p>
-<p className="text-gray-600">Countys | <span className="text-indigo-900">Jefferson</span></p>
-<p className="text-gray-600">Zip Codes | <span className="text-indigo-900">35111, 35023, 35022, 35021, 35020</span></p>
+
+                    <p className="mb-2 text-xl text-left"><b className="font-semibold text-indigo-900">History</b></p>
+<p className="mb-4 text-left">Founded in 1887 and named after Sir Henry Bessemer, the city has a rich history in the iron and steel industry, significantly contributing to the Birmingham metropolitan areas development.</p>
+
+<p className="mb-2 text-xl text-left"><b className="font-semibold text-indigo-900">Geography</b></p>
+<p className="mb-4 text-left">Located in central Alabama, covering 40 square miles, it is situated about 13 miles southwest of downtown Birmingham, offering scenic views and recreational opportunities along the Mulberry Fork of the Black Warrior River.</p>
+
+<p className="mb-2 text-xl text-left"><b className="font-semibold text-indigo-900">Government</b></p>
+<p className="mb-4 text-left">Operating under a mayor-council form of government, the city is led by Mayor Kenneth Gulley. It has several public service departments, including police, fire, and public works.</p>
+
+<p className="mb-2 text-xl text-left"><b className="font-semibold text-indigo-900">Economy</b></p>
+<p className="mb-4 text-left">While retaining its historical ties to the iron and steel industry, the economy has diversified. Key features include the U.S. Pipe and Foundry Company and a growing retail sector with shopping centers like the Promenade Tannehill.</p>
+
+<p className="mb-2 text-xl text-left"><b className="font-semibold text-indigo-900">Education</b></p>
+<p className="mb-4 text-left">The Bessemer City School District serves the city, operating several public schools from kindergarten through 12th grade. The district emphasizes academic excellence and offers various extracurricular activities.</p>
+
+<p className="mb-2 text-xl text-left"><b className="font-semibold text-indigo-900">Transportation</b></p>
+<p className="mb-4 text-left">The city is well-connected by major highways, including Interstate 20/59, and offers several public transportation options, including bus services, for easy accessibility.</p>
+
+<p className="text-gray-600 text-left"><b>County</b> : <span className="font-semibold text-indigo-900">Jefferson</span></p>
+<p className="text-gray-600 text-left"><b>Zip Codes</b> : <span className="font-semibold text-indigo-900">35111 | 35023 | 35022 | 35021 | 35020</span></p>
         </div>
 
         <div className="mt-auto">
@@ -62,55 +74,47 @@ const SEOBessemer = () => {
             </div>
         </div>
 
-
-        <div className="flex-1 flex flex-col">
+<div className="flex-1 flex flex-col">
     <div className="rounded-lg shadow-md mb-6 flex-grow" style={{ backgroundColor: 'rgba(255, 255, 255, 0.5)' }}>
-        <h2 className="text-4xl font-bold text-indigo-950 mt-5 mb-6 text-center">Explore Bessemer</h2>
+        <h2 className="text-3xl sm:text-4xl font-bold text-indigo-950 mt-4 sm:mt-5 mb-5 sm:mb-6 text-center">Best Things to Do in Bessemer</h2>
 
-        <p className="text-indigo-950 text-lg mb-1">
-        <b className="underline"><a href="https://www.bessemeral.org/directory-entry/bessemer-hall-of-history/" target="_blank">Bessemer Hall of History Museum</a></b>
-</p>
-<p className="mb-2 text-white text-lg">
-    Citys historical artifacts.
-</p>
+{/* Bessemer Hall of History Museum */}
+<p className="text-indigo-950 text-xl sm:text-2xl mb-1 text-center"><b className="underline"><a href="https://www.bessemeral.org/directory-entry/bessemer-hall-of-history/" target="_blank">Bessemer Hall of History Museum</a></b></p>
+<p className="mb-6 text-white text-base sm:text-lg text-center">Explore Bessemers history and culture with artifacts and stories showcasing its industrial heritage.</p>
 
-<p className="text-indigo-950 text-lg mb-1">
-    <b className="underline"><a href="https://alabamaadventure.com/" target="_blank">Alabama Adventure & Splash Adventure</a></b>
-</p>
-<p className="mb-2 text-white text-lg">
-    Fun park for all ages.
-</p>
+{/* Alabama Adventure & Splash Adventure */}
+<p className="text-indigo-950 text-xl sm:text-2xl mb-1 text-center"><b className="underline"><a href="https://alabamaadventure.com/" target="_blank">Alabama Adventure & Splash Adventure</a></b></p>
+<p className="mb-6 text-white text-base sm:text-lg text-center">Enjoy a mix of fun rides and water attractions suitable for all ages at this amusement and water park.</p>
 
-<p className="text-indigo-950 text-lg mb-1">
-<b className="underline"><a href="https://www.bessemeral.org/parks-and-recreation/" target="_blank">DeBardeleben Park</a></b>
-</p>
-<p className="mb-2 text-white text-lg">
-    Historic downtown park.
-</p>
+{/* Bent Brook Golf Course */}
+<p className="text-indigo-950 text-xl sm:text-2xl mb-1 text-center"><b>Bent Brook Golf Course</b></p>
+<p className="mb-6 text-white text-base sm:text-lg text-center">Enjoy a day of golf at this scenic course with three nine-hole challenges.</p>
 
-<p className="text-indigo-950 text-lg mb-1">
-<b className="underline"><a href="https://www.fws.gov/refuge/watercress-darter" target="_blank">Watercress Darter National Wildlife Refuge</a></b>
-</p>
-<p className="mb-2 text-white text-lg">
-    Endangered fish, photography, hiking.
-</p>
+{/* WaterMark Place Outlet Center */}
+<p className="text-indigo-950 text-xl sm:text-2xl mb-1 text-center"><b>WaterMark Place Outlet Center</b></p>
+<p className="mb-6 text-white text-base sm:text-lg text-center">Discover great deals at this outlet center, offering a variety of shops.</p>
 
-<p className="text-indigo-950 text-lg mb-1"><b>Alabama Wine Trail</b></p>
-<p className="mb-2 text-white text-lg">Local vineyards, award-winning wines.</p>
+{/* DeBardeleben Park */}
+<p className="text-indigo-950 text-xl sm:text-2xl mb-1 text-center"><b>DeBardeleben Park</b></p>
+<p className="mb-6 text-white text-base sm:text-lg text-center">Relax or play in this park featuring trails, picnic areas, and a playground.</p>
 
-<p className="text-indigo-950 text-lg mb-1"><b>Bessemer Farmers Market</b></p>
-<p className="mb-2 text-white text-lg">Fresh, local produce.</p>
+{/* Bessemer Civic Center */}
+<p className="text-indigo-950 text-xl sm:text-2xl mb-1 text-center"><b>Bessemer Civic Center</b></p>
+<p className="mb-6 text-white text-base sm:text-lg text-center">Experience a variety of events from concerts to expos at the Civic Center.</p>
 
+{/* Bessemer Farmers Market */}
+<p className="text-indigo-950 text-xl sm:text-2xl mb-1 text-center"><b>Bessemer Farmers Market</b></p>
+<p className="mb-6 text-white text-base sm:text-lg text-center">Visit the farmers market for fresh produce, crafts, and a vibrant atmosphere.</p>
 
-
+{/* Bright Star Restaurant */}
+<p className="text-indigo-950 text-xl sm:text-2xl mb-1 text-center"><b>Bright Star Restaurant</b></p>
+<p className="mb-6 text-white text-base sm:text-lg text-center">Established in 1907, this historic landmark serves Southern cuisine, including Greek-style snapper and steaks.</p>
         </div>
     </div>
 </div>
-
-
 {/* Elevate Your Business Title Section */}
 <div className="bg-gradient-to-br from-gray-100 to-blue-50 p-8 rounded-3xl shadow-2xl">
-<h2 className="text-5xl font-bold text-gray-800 mb-5 text-center">Boost Your Bessemer Business with SEO-Optimized Web Design</h2>
+<h2 className="text-5xl font-bold text-gray-800 mb-5 text-center">Elevate Your Bessemer Business with SEO</h2>
 
 {/* Elevate Your Business Section */}
 <p className="mt-6 mb-8 text-lg md:text-md text-gray-700">
@@ -124,7 +128,7 @@ We seamlessly integrate cutting-edge web design with advanced SEO techniques, en
                 </a>
                 </Link>
 
-                {/* Web Design Form Button */}
+                {/* SEO Form Button */}
                 <Link href="/seoConsultation" legacyBehavior>
                 <a className="inline-block bg-blue-600 hover:bg-indigo-800 text-white py-2 px-6 rounded-full transition duration-300 transform hover:scale-110 mx-2">
                     Start SEO Initial Consultation
