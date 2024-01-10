@@ -41,22 +41,37 @@ const SEOMcCalla = () => {
             <div className="bg-gradient-to-br from-gray-50 to-blue-100 p-8 rounded-2xl shadow-lg mb-8 flex-grow transform transition duration-500 hover:shadow-2xl">
 
                 {/* Discover Title */}
-                <h2 className="text-4xl font-bold text-gray-800 mb-6">Discover McCalla</h2>  
-                    <div className="p-8 rounded-2xl shadow-lg mb-8 flex-1 hover:shadow-2xl">
+                <h2 className="text-4xl font-bold text-gray-800">Discover McCalla</h2>  
+                    <div className="p-8 rounded-2xl shadow-lg mb-4 flex-1 hover:shadow-2xl">
 
-<p className="mb-2 text-left"><span className="font-semibold text-indigo-900">McCalla</span> is the childhood home of famous athlete <span className="font-semibold text-indigo-900">Bo Jackson</span>, known for his remarkable multi-sport career.</p>
-<p className="mb-2 text-left">McCalla has several <span className="font-semibold text-indigo-900">historic churches</span>, some dating back to the <span className="text-indigo-500">19th century</span>, reflecting its cultural heritage.</p>
-<p className="mb-2 text-left">McCalla was initially settled in the <span className="font-semibold text-indigo-900">early 19th century</span>, with agriculture as its main economic activity.</p>
-<p className="mb-2 text-left">In the <span className="font-semibold text-indigo-900">20th century</span>, coal mining became a significant industry in the McCalla area.
-</p>
-<p className="mb-2 text-left">
-    The development of <span className="font-semibold text-indigo-900">railroads</span> in the late <span className="text-indigo-500">19th century</span> significantly boosted McCallas growth and connectivity.
-</p>
+<p className="mb-2 text-xl text-left"><b className="font-semibold text-indigo-900">History</b></p>
+<p className="mb-4 text-left">McCalla is a small unincorporated community located in Jefferson County, Alabama. It was named after Richard Calvin McCalla, an engineer who played a significant role in the construction of the railroad through the area in the late 1800s.</p>
 
-                   
+<p className="mb-2 text-xl text-left"><b className="font-semibold text-indigo-900">Geography</b></p>
+<p className="mb-4 text-left">McCalla is in central Alabama, part of the Birmingham metro area, featuring scenic hills and woods. Its near the junction of Interstates 20 and 459.</p>
 
-<p className="text-gray-600"><b>County</b> | <span className="font-semibold text-indigo-900">Jefferson</span></p>
-<p className="text-gray-600"><b>Zip Code</b> | 35111<span className="font-semibold text-indigo-900"></span></p>
+<p className="mb-2 text-xl text-left"><b className="font-semibold text-indigo-900">Government</b></p>
+<p className="mb-4 text-left">As an unincorporated community, McCalla falls under Jefferson Countys jurisdiction, represented by county officials, lacking its own municipal government.</p>
+
+<p className="mb-2 text-xl text-left"><b className="font-semibold text-indigo-900">Economy</b></p>
+<p className="mb-4 text-left">McCallas economy includes manufacturing, healthcare, retail, and education, boosted by its proximity to major transportation routes.</p>
+
+<p className="mb-2 text-xl text-left"><b className="font-semibold text-indigo-900">Education</b></p>
+<p className="mb-4 text-left">The community is served by the Jefferson County School District, with several elementary, middle, and high schools in the area.</p>
+
+<p className="mb-2 text-xl text-left"><b className="font-semibold text-indigo-900">Transportation</b></p>
+<p className="mb-4 text-left">McCalla is accessible via Interstates 20 and 459, providing connectivity to the region, with Birmingham-Shuttlesworth International Airport about 25 miles northeast.</p>
+
+<p className="mb-2 text-xl text-left"><b className="font-semibold text-indigo-900">Attractions and Events</b></p>
+<p className="mb-4 text-left">Nearby attractions include Tannehill Ironworks Historical State Park, offering insights into the areas industrial past, and the Tannehill Trade Days event, featuring arts, crafts, and antiques.</p>
+
+
+
+
+<p className="text-gray-600 text-left"><b>County</b> : <span className="font-semibold text-indigo-900">Jefferson</span></p>
+<p className="text-gray-600 text-left"><b>Zip Codes</b> : <span className="font-semibold text-indigo-900">35111</span></p>
+
+
         </div>
 
         <div className="mt-auto">
@@ -72,23 +87,28 @@ const SEOMcCalla = () => {
 
         <div className="flex-1 flex flex-col">
     <div className="rounded-lg shadow-md mb-6 flex-grow" style={{ backgroundColor: 'rgba(255, 255, 255, 0.5)' }}>
-            <h2 className="text-4xl font-bold text-indigo-950 mt-5 mb-6 text-center">Things To Do in McCalla</h2>
+        <h2 className="text-3xl sm:text-4xl font-bold text-indigo-950 mt-4 sm:mt-5 mb-5 sm:mb-6 text-center">Best Things to Do in McCalla</h2>
 
-<p className="text-indigo-950 text-lg mb-1"><b>Shelby County Museum and Archives</b></p>
-<p className="mb-2 text-white text-lg">Explore local history and heritage.</p>
+<p className="text-indigo-950 text-xl sm:text-2xl text-center"><b>Tannehill Ironworks Historical State Park</b></p>
+<p className="mb-4 text-white text-base sm:text-lg text-center">This park showcases the history of iron production in Alabama and offers various recreational activities such as camping, hiking trails, picnic areas, and a museum.</p>
 
-<p className="text-indigo-950 text-lg mb-1"><b>Karl C. Harrison Museum of George Washington</b></p>
-<p className="mb-2 text-white text-lg">Discover artifacts from the first U.S. President.</p>
+<p className="text-indigo-950 text-xl sm:text-2xl text-center"><b>Bent Brook Golf Course</b></p>
+<p className="mb-4 text-white text-base sm:text-lg text-center">Enjoy golfing at Bent Brook Golf Course in McCalla, a 27-hole course offering challenges and relaxation at its clubhouse.</p>
 
-<p className="text-indigo-950 text-lg mb-1"><b>Beeswax Creek Park</b></p>
-<p className="mb-2 text-white text-lg">Enjoy outdoor activities and nature trails.</p>
+<p className="text-indigo-950 text-xl sm:text-2xl text-center"><b>Splash Adventure Waterpark</b></p>
+<p className="mb-4 text-white text-base sm:text-lg text-center">Just a short drive from McCalla, Splash Adventure offers water slides, lazy rivers, wave pools, and attractions for all ages.</p>
 
-<p className="text-indigo-950 text-lg mb-1"><b>Shops of Columbiana</b></p>
-<p className="mb-2 text-white text-lg">Find unique gifts and local crafts.</p>
+<p className="text-indigo-950 text-xl sm:text-2xl text-center"><b>Hueytown Historic District</b></p>
+<p className="mb-4 text-white text-base sm:text-lg text-center">Explore Hueytowns historic district, with preserved homes, antique shops, and local businesses, just a short drive from McCalla.</p>
 
-<p className="text-indigo-950 text-lg mb-1"><b>Scott Vaughn Owen Studio</b></p>
-<p className="mb-2 text-white text-lg">Experience the local art scene.</p>
+<p className="text-indigo-950 text-xl sm:text-2xl text-center"><b>Cahaba River Wildlife Management Area</b></p>
+<p className="mb-4 text-white text-base sm:text-lg text-center">Visit the nearby Cahaba River area for hiking, birdwatching, fishing, and observing wildlife in a natural setting.</p>
 
+<p className="text-indigo-950 text-xl sm:text-2xl text-center"><b>Oak Mountain State Park</b></p>
+<p className="mb-4 text-white text-base sm:text-lg text-center">About 30 minutes from McCalla, Oak Mountain State Park, Alabamas largest, offers camping, hiking, biking, fishing, and boating activities.</p>
+
+<p className="text-indigo-950 text-xl sm:text-2xl text-center"><b>Local Restaurants and Shops</b></p>
+<p className="mb-4 text-white text-base sm:text-lg text-center">Discover unique local flavors and shop for souvenirs or essentials in McCallas local dining and shopping establishments.</p>
 
 
         </div>
@@ -98,7 +118,7 @@ const SEOMcCalla = () => {
 
 {/* Elevate Your Business Title Section */}
 <div className="bg-gradient-to-br from-gray-100 to-blue-50 p-8 rounded-3xl shadow-2xl">
-<h2 className="text-5xl font-bold text-gray-800 mb-6 text-center">Elevate Your Business with SEO</h2>
+<h2 className="text-5xl font-bold text-gray-800 mb-5 text-center">Elevate Your McCalla Business with SEO</h2>
 
 {/* Elevate Your Business Section */}
 <p className="mt-6 mb-8 text-lg md:text-md text-gray-700">
@@ -107,12 +127,12 @@ We seamlessly integrate cutting-edge web design with advanced SEO techniques, en
 
                 {/* Contact Us Button */}
                 <Link href="/contact" legacyBehavior>
-                <a className="inline-block bg-blue-600 hover:bg-cyan-800 text-white py-2 px-6 rounded-full transition duration-300 transform hover:scale-110 mx-2">
+                <a className="inline-block bg-blue-600 hover:bg-cyan-800 text-white mb-4 py-2 px-6 rounded-full transition duration-300 transform hover:scale-110 mx-2">
                     Contact Us
                 </a>
                 </Link>
 
-                {/* Web Design Form Button */}
+                {/* SEO Form Button */}
                 <Link href="/seoConsultation" legacyBehavior>
                 <a className="inline-block bg-blue-600 hover:bg-indigo-800 text-white py-2 px-6 rounded-full transition duration-300 transform hover:scale-110 mx-2">
                     Start SEO Initial Consultation
