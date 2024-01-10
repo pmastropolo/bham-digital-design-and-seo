@@ -15,6 +15,7 @@ const WebDesignIrondale = () => {
                     type: 'website',
                 }}
             />
+   
    <div className="bg-gradient-to-br from-slate-950 to-indigo-950 text-center py-12 px-6 shadow-xl rounded-2xl mt-10 mb-12 transform hover:scale-105 transition duration-500 ease-in-out relative overflow-hidden">
     <h1 className="text-4xl md:text-6xl font-extrabold text-transparent bg-clip-text bg-gradient-to-r from-slate-700 via-white to-indigo-200 my-4 animate-gradient">
         Web Design Services in Irondale, AL
@@ -42,13 +43,32 @@ const WebDesignIrondale = () => {
                 {/* Discover Title */}
                 <h2 className="text-4xl font-bold text-gray-800">Discover Irondale</h2>  
                     <div className="p-8 rounded-2xl shadow-lg mb-4 flex-1 hover:shadow-2xl">
-                    <p className="mb-2 text-left">Incorporated in 1967 | Rapid Suburban Growth</p>
-                <p className="mb-2 text-left">Notable Hoover City School System</p>
-                <p className="mb-2 text-left">Scenic Foothills Location | Abundance of Parks</p>
-                <p className="mb-2 text-left">Diverse and vibrant community | Active Community Involvement | Annual Hoover Hayride & More</p>
-                <p className="mb-2 text-left">Strategic economic hub</p>
-<p className="text-gray-600">Countys | <span className="text-indigo-900">Jefferson</span></p>
-<p className="text-gray-600">Zip Codes | <span className="text-indigo-900">35210, 35213, 35223</span></p>
+
+<p className="mb-2 text-xl text-left"><b className="font-semibold text-indigo-900">History</b></p>
+<p className="mb-4 text-left">Irondale is a city located in Jefferson County, Alabama. It was originally settled in the late 1800s and became known for its iron industry, specifically iron ore mining and processing. The city experienced significant growth during the industrial boom of the early 20th century.</p>
+
+<p className="mb-2 text-xl text-left"><b className="font-semibold text-indigo-900">Geography</b></p>
+<p className="mb-4 text-left">Located in central Alabama, about 8 miles east of Birmingham, Irondale spans approximately 19 square miles. Its surrounded by scenic hills and forests, at the foothills of the Appalachian Mountains, offering beautiful views and outdoor activities.</p>
+
+<p className="mb-2 text-xl text-left"><b className="font-semibold text-indigo-900">Government</b></p>
+<p className="mb-4 text-left">Irondale operates under a mayor-council government system. The mayor, as chief executive, and the city council, consisting of elected representatives, manage the citys policies and departments.</p>
+
+<p className="mb-2 text-xl text-left"><b className="font-semibold text-indigo-900">Economy</b></p>
+<p className="mb-4 text-left">The economy in Irondale is diverse, with a mix of retail, healthcare, services, small businesses, and restaurants contributing to the local economic landscape.</p>
+
+<p className="mb-2 text-xl text-left"><b className="font-semibold text-indigo-900">Education</b></p>
+<p className="mb-4 text-left">Irondale is part of the Jefferson County School District and hosts various public and private schools. Nearby Birmingham also offers higher education opportunities with several colleges and universities.</p>
+
+<p className="mb-2 text-xl text-left"><b className="font-semibold text-indigo-900">Transportation</b></p>
+<p className="mb-4 text-left">Irondale enjoys excellent connectivity through major highways like Interstate 20 and U.S. Route 11, and is near the Birmingham-Shuttlesworth International Airport for air travel.</p>
+
+<p className="mb-2 text-xl text-left"><b className="font-semibold text-indigo-900">Attractions and Events</b></p>
+<p className="mb-4 text-left">Attractions include the Ruffner Mountain Nature Preserve with its extensive hiking trails and wildlife. The annual Whistle Stop Festival celebrates the citys history with music, food, and activities for all ages.</p>
+
+<p className="text-gray-600 text-left"><b>County</b> : <span className="font-semibold text-indigo-900">Jefferson</span></p>
+<p className="text-gray-600 text-left"><b>Zip Codes</b> : <span className="font-semibold text-indigo-900">35210 | 35213 | 35223</span></p>
+
+
         </div>
 
         <div className="mt-auto">
@@ -64,11 +84,28 @@ const WebDesignIrondale = () => {
 
         <div className="flex-1 flex flex-col">
     <div className="rounded-lg shadow-md mb-6 flex-grow" style={{ backgroundColor: 'rgba(255, 255, 255, 0.5)' }}>
-        <h2 className="text-4xl font-bold text-indigo-950 mt-5 mb-6 text-center">Explore Irondale</h2>
+        <h2 className="text-3xl sm:text-4xl font-bold text-indigo-950 mt-4 sm:mt-5 mb-5 sm:mb-6 text-center">Best Things to Do in Irondale</h2>
 
+<p className="text-indigo-950 text-xl sm:text-2xl text-center"><b>Whistle Stop Cafe</b></p>
+<p className="mb-4 text-white text-base sm:text-lg text-center">Made famous by the novel and movie Fried Green Tomatoes, the Whistle Stop Café is a must-visit spot in Irondale. Enjoy a delicious Southern meal and try their famous fried green tomatoes.</p>
 
+<p className="text-indigo-950 text-xl sm:text-2xl text-center"><b>Ruffner Mountain Nature Preserve</b></p>
+<p className="mb-4 text-white text-base sm:text-lg text-center">Located on Irondales eastern outskirts, Ruffner Mountain features over 14 miles of trails through forests and overlooks, ideal for nature enthusiasts and hikers.</p>
 
+<p className="text-indigo-950 text-xl sm:text-2xl text-center"><b>Pine Tree Country Club</b></p>
+<p className="mb-4 text-white text-base sm:text-lg text-center">Pine Tree Country Club in Irondale offers an 18-hole championship golf course, tennis courts, a pool, and dining, perfect for golf lovers and leisure seekers.</p>
 
+<p className="text-indigo-950 text-xl sm:text-2xl text-center"><b>Irondale Municipal Park Events</b></p>
+<p className="mb-4 text-white text-base sm:text-lg text-center">Irondale Municipal Park hosts a variety of events including concerts, festivals, and community gatherings. Check their schedule for upcoming happenings.</p>
+
+<p className="text-indigo-950 text-xl sm:text-2xl text-center"><b>Historical Sites in Irondale</b></p>
+<p className="mb-4 text-white text-base sm:text-lg text-center">Visit historical landmarks like the Historic Irondale Furnace or the Cahaba Pumping Station to delve into Irondales rich history.</p>
+
+<p className="text-indigo-950 text-xl sm:text-2xl text-center"><b>Local Eateries in Irondale</b></p>
+<p className="mb-4 text-white text-base sm:text-lg text-center">Sample Southern cuisine and other delicious dishes at Irondales local restaurants and eateries, offering classic comfort food and more.</p>
+
+<p className="text-indigo-950 text-xl sm:text-2xl text-center"><b>Shop at Local Boutiques and Antique Stores</b></p>
+<p className="mb-4 text-white text-base sm:text-lg text-center">Explore unique gifts, antiques, and locally made products at the boutiques and antique stores in Irondale for a memorable shopping experience.</p>
 
         </div>
     </div>
@@ -77,7 +114,7 @@ const WebDesignIrondale = () => {
 
 {/* Elevate Your Business Title Section */}
 <div className="bg-gradient-to-br from-gray-100 to-blue-50 p-8 rounded-3xl shadow-2xl">
-<h2 className="text-5xl font-bold text-gray-800 mb-5 text-center">Elevate Your Business with Web Design</h2>
+<h2 className="text-5xl font-bold text-gray-800 mb-5 text-center">Elevate Your Irondale Business with Web Design</h2>
 
 {/* Elevate Your Business Section */}
 <p className="mt-6 mb-8 text-lg md:text-md text-gray-700">
