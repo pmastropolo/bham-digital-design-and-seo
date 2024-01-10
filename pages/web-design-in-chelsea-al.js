@@ -68,12 +68,8 @@ const WebDesignChelsea = () => {
             <h2 className="text-4xl font-bold text-indigo-950 mt-5 mb-6 text-center">Best Things to Do in Chelsea</h2>
 
 
-            <p className="text-indigo-950 text-lg mb-1">
-<b className="underline"><a href="https://www.alapark.com/parks/oak-mountain-state-park" target="_blank">Oak Mountain State Park</a></b>
-</p>
-<p className="mb-2 text-white text-lg">
-    Vast green space with activities for all ages.
-</p>
+<p className="text-indigo-950 text-lg mb-1"><b className="underline"><a href="https://www.alapark.com/parks/oak-mountain-state-park" target="_blank">Oak Mountain State Park</a></b></p>
+<p className="mb-2 text-white text-lg">Vast green space with activities for all ages.</p>
 
 <p className="text-indigo-950 text-lg mb-1"><b>TreeTop Family Adventure</b></p>
 <p className="mb-2 text-white text-lg">Fun-filled family amusement center.</p>
