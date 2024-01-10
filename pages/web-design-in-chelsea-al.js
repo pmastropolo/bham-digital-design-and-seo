@@ -71,21 +71,30 @@ const WebDesignChelsea = () => {
 <p className="text-indigo-950 text-lg mb-1"><b className="underline"><a href="https://www.alapark.com/parks/oak-mountain-state-park" target="_blank">Oak Mountain State Park</a></b></p>
 <p className="mb-2 text-white text-lg">Vast green space with activities for all ages.</p>
 
-<p className="text-indigo-950 text-lg mb-1"><b>TreeTop Family Adventure</b></p>
+<p className="text-indigo-950 text-lg mb-1"><b className="underline"><a href="https://www.alapark.com/parks/oak-mountain-state-park" target="_blank">Oak Mountain State Park</a></b></p>
+<p className="mb-2 text-white text-lg">Vast green space with activities for all ages.</p>
+
+<p className="text-indigo-950 text-lg mb-1">
+    <b className="underline"><a href="https://www.treetopfamilyadventure.com" target="_blank">TreeTop Family Adventure</a></b>
+</p>
 <p className="mb-2 text-white text-lg">Fun-filled family amusement center.</p>
 
-<p className="text-indigo-950 text-lg mb-1"><b>Cat-n-Bird Winery</b></p>
+<p className="text-indigo-950 text-lg mb-1"><b className="underline"><a href="https://www.catbirdseatwinery.com" target="_blank">Cat-n-Bird Winery</a></b>
+</p>
 <p className="mb-2 text-white text-lg">Local wine tasting and charming vineyard.</p>
 
-<p className="text-indigo-950 text-lg mb-1"><b>Aldridge Gardens</b></p>
+<p className="text-indigo-950 text-lg mb-1"><b className="underline"><a href="https://www.aldridgegardens.com" target="_blank">Aldridge Gardens</a></b>
+</p>
 <p className="mb-2 text-white text-lg">Tranquil woodland garden with diverse birdlife.</p>
 
-<p className="text-indigo-950 text-lg mb-1"><b>Oak Mountain Amphitheatre</b></p>
+<p className="text-indigo-950 text-lg mb-1"><b className="underline"><a href="https://www.oakmountainamphitheatre.com" target="_blank">Oak Mountain Amphitheatre</a></b></p>
 <p className="mb-2 text-white text-lg">Premier outdoor music venue.</p>
 
-<p className="text-indigo-950 text-lg mb-1"><b>Statue of Liberty Replica</b></p>
+<p className="text-indigo-950 text-lg mb-1"><b className="underline"><a href="https://www.vestaviahills.net" target="_blank">Statue of Liberty Replica</a></b></p>
 <p className="mb-2 text-white text-lg">A familiar and iconic sight in nearby Vestavia Hills.</p>
 
+
+With these changes, each location now has an underline and link to their respective websites. 
 
         </div>
     </div>
