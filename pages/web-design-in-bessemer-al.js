@@ -28,7 +28,7 @@ const WebDesignBessemer = () => {
     <div className="py-4 px-6 mb-4 md:mb-6 mt-4 bg-white bg-opacity-20 rounded-lg">
         <p className="text-lg md:text-xl text-white">
             <span className="block mb-2 text-2xl md:text-3xl text-indigo-300">Nick Name</span>
-            The Marvel City.
+            Bessemer is often referred to as the Marvel City due to its rapid growth and industrial prowess in the late 19th and early 20th centuries.
         </p>
     </div>
     <div className="absolute top-0 left-0 w-full h-full overflow-hidden z-0">
