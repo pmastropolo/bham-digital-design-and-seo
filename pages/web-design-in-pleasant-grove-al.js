@@ -76,7 +76,27 @@ const WebDesignPleasantGrove = () => {
         <div className="flex-1 flex flex-col">
     <div className="rounded-lg shadow-md mb-6 flex-grow" style={{ backgroundColor: 'rgba(255, 255, 255, 0.5)' }}>
         <h2 className="text-4xl font-bold text-indigo-950 mt-5 mb-6 text-center">Explore Pleasant Grove</h2>
+Certainly! Here's a shorter version:
 
+```jsx
+<p className="text-indigo-950 text-lg mb-1"><b>Eddie Earl Self Park</b></p>
+<p className="mb-2 text-white text-lg">Beautiful walking trails, picnic areas, and playgrounds for a fun day outdoors.</p>
+
+<p className="text-indigo-950 text-lg mb-1"><b>Johnny Champion Park</b></p>
+<p className="mb-2 text-white text-lg">Baseball fields, soccer fields, walking trails, and a splash pad for sports enthusiasts and families.</p>
+
+<p className="text-indigo-950 text-lg mb-1"><b>Go fishing or boating</b></p>
+<p className="mb-2 text-white text-lg">Enjoy fishing or boating at nearby lakes and rivers like Lake Purdy and Cahaba River.</p>
+
+<p className="text-indigo-950 text-lg mb-1"><b>Attend local events:</b></p>
+<p className="mb-2 text-white text-lg">Join community events like festivals, parades, and holiday celebrations throughout the year.</p>
+
+<p className="text-indigo-950 text-lg mb-1"><b>Visit Birmingham:</b></p>
+<p className="mb-2 text-white text-lg">Explore Birminghams vibrant food scene, museums, shopping districts, and entertainment venues.</p>
+
+<p className="text-indigo-950 text-lg mb-1"><b>Check out Oak Mountain State Park:</b></p>
+<p className="mb-2 text-white text-lg">Hiking trails, biking paths, fishing, camping, and a golf course at Oak Mountain State Park.</p>
+``` 
 
 
 
