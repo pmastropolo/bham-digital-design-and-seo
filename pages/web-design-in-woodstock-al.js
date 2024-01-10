@@ -88,6 +88,28 @@ const WebDesignWoodstock = () => {
 <p className="text-indigo-500"><b>Bird Watching</b></p>
 <p className="mb-3 text-indigo-500">Observe Diverse Species</p>
 
+<p className="text-indigo-500"><b>Tannehill Ironworks Historical State Park</b></p>
+<p className="mb-3 text-indigo-500">Explore Alabamas Iron History</p>
+
+<p className="text-indigo-500"><b>Visit the Woodstock Community Center</b></p>
+<p className="mb-3 text-indigo-500">Attend local events and gatherings at the community center</p>
+
+<p className="text-indigo-500"><b>Go fishing or boating at Harvey Lake</b></p>
+<p className="mb-3 text-indigo-500">Enjoy a day of fishing or boating at the scenic Harvey Lake</p>
+
+<p className="text-indigo-500"><b>Take a hike at Cahaba River Wildlife Management Area</b></p>
+<p className="mb-3 text-indigo-500">Explore the beautiful trails and wildlife at Cahaba River Wildlife Management Area</p>
+
+<p className="text-indigo-500"><b>Visit nearby West Blocton Coke Ovens Park</b></p>
+<p className="mb-3 text-indigo-500">Learn about the areas coal mining history and explore the coke ovens park</p>
+
+<p className="text-indigo-500"><b>Buck Creek Park</b></p>
+<p className="mb-3 text-indigo-500">Enjoy a picnic or go for a walk along the trails at Buck Creek Park</p>
+
+<p className="text-indigo-500"><b>Oak Mountain State Park</b></p>
+<p className="mb-3 text-indigo-500">Go hiking, biking, camping, or horseback riding at Oak Mountain State Park</p>
+
+
         </div>
     </div>
 </div>
