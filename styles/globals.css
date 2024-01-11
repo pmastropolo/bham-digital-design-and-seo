@@ -100,6 +100,84 @@ img {
 }
 
 
+/* Title Section Styling */
+.ttitle-section {
+  text-align: center;
+  margin-top: 12px;
+  margin-bottom: 50px; /* Increased margin-bottom for more space */
+  margin-top: 30px;
+}
+
+.ttitle-section h1, .ttitle-section h2 {
+  font-size: 3xl; /* Adjust as needed */
+  font-weight: bold;
+  line-height: 1.2;
+  background: linear-gradient(to right, #8f8d8d, #14275d); /* Adjust the colors as needed */
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+.grid-item {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  padding: 10px;
+  gap: 8px; /* Adds space between inline elements */
+  background-color: #f5f5f5;
+  border-radius: 8px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  color: inherit;
+  text-decoration: none;
+}
+
+/* Grid Container Styling */
+.service-areas-grid {
+  display: grid;
+  grid-template-columns: repeat(6, 1fr); /* 6 items per row */
+  gap: 10px; /* Space between grid items */
+}
+
+/* Grid Item Styling */
+.service-areas-grid a {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  padding: 10px;
+  background-color: #ffffff; /* Example background color */
+  border-radius: 8px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); /* Optional shadow for depth */
+  color: inherit; /* Inherit the text color */
+  text-decoration: none; /* Remove underline from links */
+}
+
+.service-areas-grid a b {
+  color: #2563eb; /* Color for the bold text */
+}
+
+/* Responsive Adjustments */
+@media screen and (max-width: 768px) {
+  .service-areas-grid {
+      grid-template-columns: repeat(3, 1fr); /* 3 items per row on medium screens */
+  }
+}
+
+@media screen and (max-width: 480px) {
+  .service-areas-grid {
+      grid-template-columns: 1fr; /* One column for small screens */
+  }
+
+  .service-areas-grid a {
+      font-size: 14px; /* Smaller font size for smaller screens */
+  }
+
+  .ttitle-section h1, .ttitle-section h2 {
+    font-size: 2xl; /* Smaller font size for titles on small screens */
+  }
+}
+
+
 /* RED SHADOW */
 .shadow-red {
   box-shadow: 0 4px 6px rgba(255, 0, 0, 0.1);
