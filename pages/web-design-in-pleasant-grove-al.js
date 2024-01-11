@@ -28,7 +28,7 @@ const WebDesignPleasantGrove = () => {
     <div className="py-4 px-6 mb-4 md:mb-6 mt-4 bg-white bg-opacity-20 rounded-lg">
         <p className="text-lg md:text-xl text-white">
             <span className="block mb-2 text-2xl md:text-3xl text-indigo-300">Fun Fact</span>
-      Originally known as Frog Pond because of the large number of frogs in the area, particularly during the rainy seasons. The name Pleasant Grove was eventually adopted in 1889 when the community established its first post office. 
+            Originally known as Frog Pond because of the large number of frogs in the area, particularly during the rainy seasons. The name Pleasant Grove was eventually adopted in 1889 when the community established its first post office. 
         </p>
     </div>
     <div className="absolute top-0 left-0 w-full h-full overflow-hidden z-0">
@@ -44,22 +44,33 @@ const WebDesignPleasantGrove = () => {
                 {/* Discover Title */}
                 <h2 className="text-4xl font-bold text-gray-800">Discover Pleasant Grove</h2>  
                     <div className="p-8 rounded-2xl shadow-lg mb-4 flex-1 hover:shadow-2xl">
-                
+
+<p className="mb-2 text-xl text-left"><b className="font-semibold text-indigo-900">History</b></p>
+<p className="mb-4 text-left">Pleasant Grove was first in the early 1800s and was originally called Pond Springs due to the numerous natural springs in the area. In 1889, the town was officially incorporated as Pleasant Grove. It has a rich history tied to agriculture and the growth of the Birmingham metropolitan area.</p>
+
+<p className="mb-2 text-xl text-left"><b className="font-semibold text-indigo-900">Geography</b></p>
+<p className="mb-4 text-left">Located in Jefferson County, Alabama, about 10 miles west of Birmingham. It covers around 9 square miles, surrounded by rolling hills and scenic landscapes, offering a picturesque environment.</p>
+
+<p className="mb-2 text-xl text-left"><b className="font-semibold text-indigo-900">Government</b></p>
+<p className="mb-4 text-left">Operates under a mayor-council form. The mayor and City Council members, elected by residents, oversee local governance including public services and development initiatives.</p>
+
+<p className="mb-2 text-xl text-left"><b className="font-semibold text-indigo-900">Economy</b></p>
+<p className="mb-4 text-left">Features a diverse economy focused on small businesses, retail, and service industries. It benefits from proximity to the larger Birmingham metropolitan area for additional employment opportunities.</p>
+
+<p className="mb-2 text-xl text-left"><b className="font-semibold text-indigo-900">Education</b></p>
+<p className="mb-4 text-left">Served by the Jefferson County School System with schools like Pleasant Grove Elementary, Middle, and High School. Also offers private school options.</p>
+
+<p className="mb-2 text-xl text-left"><b className="font-semibold text-indigo-900">Transportation</b></p>
+<p className="mb-4 text-left">Well-connected via major routes like Interstate 20/59. Birmingham-Shuttlesworth International Airport is around 16 miles away, providing air travel options.</p>
+
+<p className="mb-2 text-xl text-left"><b className="font-semibold text-indigo-900">Attractions and Events</b></p>
+<p className="mb-4 text-left">Close to Birminghams cultural, entertainment, and sporting events. Attractions include the Birmingham Zoo, Birmingham Museum of Art, and various festivals and concerts.</p>
 
 
-<p className="mb-4">The city was incorporated in 1937. It was primarily a rural area known for its farming and agriculture.</p>
-<p className="mb-4">The name Pleasant Grove is said to have come from the pleasant groves of trees that were found in the area.</p>
-<p className="mb-4">Over the years, Pleasant Grove has seen steady growth and development. It has transitioned from a primarily agricultural community to a suburban residential area.</p>
-<p className="mb-4">Pleasant Grove is known for its strong sense of community and neighborly spirit. Residents often come together for events, supporting local businesses, and helping one another.</p>
-
-<p className="mb-4">Pleasant Grove is home to several schools, including Pleasant Grove High School, Pleasant Grove Middle School, and several elementary schools. Education plays an important role in the community.</p>
-<p className="mb-4">The city boasts several parks and recreational areas where residents can enjoy outdoor activities and spend time with family and friends.</p>
-
-<p className="mb-4">Being located just outside Birmingham, Pleasant Grove offers easy access to the amenities and attractions of the larger city, including shopping centers, restaurants, cultural venues, and more.</p>
+<p className="text-gray-600 text-left"><b>County</b> : <span className="font-semibold text-indigo-900">Jefferson</span></p>
+<p className="text-gray-600 text-left"><b>Zip Codes</b> : <span className="font-semibold text-indigo-900">35127 | 35224</span></p>
 
 
-<p className="text-gray-600">Countys | <span className="text-indigo-900">Jefferson</span></p>
-<p className="text-gray-600">Zip Codes | <span className="text-indigo-900">35127, 35224</span></p>
         </div>
 
         <div className="mt-auto">
@@ -75,26 +86,29 @@ const WebDesignPleasantGrove = () => {
 
         <div className="flex-1 flex flex-col">
     <div className="rounded-lg shadow-md mb-6 flex-grow" style={{ backgroundColor: 'rgba(255, 255, 255, 0.5)' }}>
-        <h2 className="text-4xl font-bold text-indigo-950 mt-5 mb-6 text-center">Things To Do in Pleasant Grove</h2>
+        <h2 className="text-3xl sm:text-4xl font-bold text-indigo-950 mt-4 sm:mt-5 mb-5 sm:mb-6 text-center">Best Things to Do in Pleasant Grove</h2>
 
+<p className="text-indigo-950 text-xl sm:text-2xl text-center"><b>Pleasant Grove Park</b></p>
+<p className="mb-4 text-white text-base sm:text-lg text-center">Visit the local park for some outdoor recreation. The park offers walking trails, picnic areas, playgrounds, and sports fields where you can enjoy activities like soccer, baseball, and basketball.</p>
 
-<p className="text-indigo-950 text-lg mb-1"><b>Eddie Earl Self Park</b></p>
-<p className="mb-2 text-white text-lg">Beautiful walking trails, picnic areas, and playgrounds for a fun day outdoors.</p>
+<p className="text-indigo-950 text-xl sm:text-2xl text-center"><b>Pond Springs Historical Village</b></p>
+<p className="mb-4 text-white text-base sm:text-lg text-center">Explore the rich history at Pond Springs Historical Village. Visit historic buildings and artifacts, learning about early settlers of Pleasant Grove.</p>
 
-<p className="text-indigo-950 text-lg mb-1"><b>Johnny Champion Park</b></p>
-<p className="mb-2 text-white text-lg">Baseball fields, soccer fields, walking trails, and a splash pad for sports enthusiasts and families.</p>
+<p className="text-indigo-950 text-xl sm:text-2xl text-center"><b>Local Restaurants</b></p>
+<p className="mb-4 text-white text-base sm:text-lg text-center">Discover Pleasant Groves dining scene, with a variety of Southern cuisine at local barbecue joints, diners, and family-owned eateries.</p>
 
-<p className="text-indigo-950 text-lg mb-1"><b>Go fishing or boating</b></p>
-<p className="mb-2 text-white text-lg">Enjoy fishing or boating at nearby lakes and rivers like Lake Purdy and Cahaba River.</p>
+<p className="text-indigo-950 text-xl sm:text-2xl text-center"><b>Community Events</b></p>
+<p className="mb-4 text-white text-base sm:text-lg text-center">Participate in local community events, including festivals, fairs, and special events featuring entertainment, live music, and activities for all ages.</p>
 
-<p className="text-indigo-950 text-lg mb-1"><b>Attend local events:</b></p>
-<p className="mb-2 text-white text-lg">Join community events like festivals, parades, and holiday celebrations throughout the year.</p>
+<p className="text-indigo-950 text-xl sm:text-2xl text-center"><b>Explore Nature</b></p>
+<p className="mb-4 text-white text-base sm:text-lg text-center">Enjoy the natural beauty surrounding Pleasant Grove. Go hiking or biking in nearby parks and nature trails, or visit lakes and rivers for fishing or boating.</p>
 
-<p className="text-indigo-950 text-lg mb-1"><b>Visit Birmingham:</b></p>
-<p className="mb-2 text-white text-lg">Explore Birminghams vibrant food scene, museums, shopping districts, and entertainment venues.</p>
+<p className="text-indigo-950 text-xl sm:text-2xl text-center"><b>Golfing</b></p>
+<p className="mb-4 text-white text-base sm:text-lg text-center">Enjoy a round of golf at local golf courses near Pleasant Grove, perfect for golf enthusiasts of all skill levels.</p>
 
-<p className="text-indigo-950 text-lg mb-1"><b>Check out Oak Mountain State Park:</b></p>
-<p className="mb-2 text-white text-lg">Hiking trails, biking paths, fishing, camping, and a golf course at Oak Mountain State Park.</p>
+<p className="text-indigo-950 text-xl sm:text-2xl text-center"><b>Nearby Attractions</b></p>
+<p className="mb-4 text-white text-base sm:text-lg text-center">Explore attractions in the Birmingham metropolitan area, including museums, art galleries, shopping centers, theaters, and more, just a short drive from Pleasant Grove.</p>
+
         </div>
     </div>
 </div>
@@ -102,7 +116,7 @@ const WebDesignPleasantGrove = () => {
 
 {/* Elevate Your Business Title Section */}
 <div className="bg-gradient-to-br from-gray-100 to-blue-50 p-8 rounded-3xl shadow-2xl">
-<h2 className="text-5xl font-bold text-gray-800 mb-5 text-center">Elevate Your Business with Web Design</h2>
+<h2 className="text-5xl font-bold text-gray-800 mb-5 text-center">Elevate Your Pleasant Grove Business with Web Design</h2>
 
 {/* Elevate Your Business Section */}
 <p className="mt-6 mb-8 text-lg md:text-md text-gray-700">
@@ -131,5 +145,3 @@ In the digital age, a compelling online presence is more than just a luxury. Its
 }
 
 export default WebDesignPleasantGrove;
-
-
