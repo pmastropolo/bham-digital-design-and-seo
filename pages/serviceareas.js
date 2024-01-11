@@ -4,8 +4,9 @@ import Link from 'next/link';
 const ServiceAreas = () => {
         return (
             <div>
-<h1 className="text-5xl lg:text-6xl font-bold text-center mt-6 mb-8 underline decoration-emerald-200 decoration-4 underline-offset-8">Web Design Service Areas</h1>
-
+<h1 className="text-5xl lg:text-6xl font-bold text-center mt-12 mb-8 tracking-widest text-gradient bg-clip-text text-transparent bg-gradient-to-r from-slate-400 to-blue-500">
+    Web Design Service Areas
+</h1>
               <ul>
               <div class="grid-container">
 
@@ -103,7 +104,10 @@ const ServiceAreas = () => {
 </div>
 </ul>
 
-<h1 className="text-5xl lg:text-6xl font-bold text-center mt-6 mb-10 underline decoration-emerald-200 decoration-4 underline-offset-8">SEO | Search Engine Service Areas</h1>
+<h2 className="text-5xl lg:text-6xl font-bold text-center mt-8 mb-8 tracking-widest text-gradient bg-clip-text text-transparent bg-gradient-to-r from-slate-400 to-blue-500">
+  SEO | Search Engine Service Areas
+</h2>
+              
 <div class="grid-container">
 
 <Link href="/seo-services-in-alabaster-al" legacyBehavior>
