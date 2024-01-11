@@ -16,7 +16,7 @@ const SEOTrussville = () => {
                 }}
             />
 
-<div className="bg-gradient-to-br from-slate-700 to-indigo-800 text-center py-12 px-6 shadow-xl rounded-2xl mt-10 mb-12 transform hover:scale-105 transition duration-500 ease-in-out relative overflow-hidden">
+<div className="bg-gradient-to-br from-slate-950 to-indigo-950 text-center py-12 px-6 shadow-xl rounded-2xl mt-10 mb-12 transform hover:scale-105 transition duration-500 ease-in-out relative overflow-hidden">
     <h1 className="text-4xl md:text-6xl font-extrabold text-transparent bg-clip-text bg-gradient-to-r from-slate-700 via-white to-indigo-200 my-4 animate-gradient">
         SEO Services in Trussville, AL
     </h1>
@@ -27,7 +27,7 @@ const SEOTrussville = () => {
     <div className="py-4 px-6 mb-4 md:mb-6 mt-4 bg-white bg-opacity-20 rounded-lg">
         <p className="text-lg md:text-xl text-white">
             <span className="block mb-2 text-2xl md:text-3xl text-indigo-300">Fun Fact</span>
-        Trussville Has Over 75 Restaurants
+            Trussville Has Over 75 Restaurants
         </p>
     </div>
     <div className="absolute top-0 left-0 w-full h-full overflow-hidden z-0">
@@ -41,26 +41,35 @@ const SEOTrussville = () => {
             <div className="bg-gradient-to-br from-gray-50 to-blue-100 p-8 rounded-2xl shadow-lg mb-8 flex-grow transform transition duration-500 hover:shadow-2xl">
 
                 {/* Discover Title */}
-                <h2 className="text-4xl font-bold text-gray-800 mb-6">Discover Trussville, AL</h2>  
-                    <div className="bg-gradient-to-br from-gray-50 to-blue-100 p-8 rounded-2xl shadow-lg mb-8 flex-1 transform transition duration-500 hover:shadow-2xl">
-                    <p className="mb-4">
-    <span className="font-semibold text-indigo-900">Trussville</span>, settled by <span className="text-indigo-500">Warren Truss</span> in <span className="font-semibold text-indigo-900">1821</span>, was initially an agricultural community, growing significantly post-<span className="text-indigo-500">Civil War</span>.
-</p>
-<p className="mb-4">
-    The <span className="font-semibold text-indigo-900">Cahaba Project</span>, a <span className="text-indigo-500">1930s</span> development by <span className="font-semibold text-indigo-900">FDRs administration</span>, dramatically shaped Trussvilles growth, adding over <span className="font-semibold text-indigo-900">250 homes</span>.
-</p>
-<p className="mb-4">
-    Homes in Trussville featured the <span className="text-indigo-500">American four-square style</span>, complete with modern amenities and <span className="font-semibold text-indigo-900">two oak saplings</span> per household.
-</p>
-<p className="mb-4">
-    Trussville was incorporated as a town in <span className="font-semibold text-indigo-900">1947</span> and became a city in <span className="font-semibold text-indigo-900">1957</span>.
-</p>
-<p className="mb-4">
-    From <span className="font-semibold text-indigo-900">1980 to 2010</span>, Trussvilles population grew by over <span className="font-semibold text-indigo-900">500%</span>, marked by substantial residential and retail development.
-</p>
+                <h2 className="text-4xl font-bold text-gray-800">Discover Trussville</h2>  
+                    <div className="p-8 rounded-2xl shadow-lg mb-4 flex-1 hover:shadow-2xl">
 
-            <p className="text-gray-600"><b>County</b> | Jefferson</p>
-            <p className="text-gray-600"><b>Zip Code</b> | 35004, 35173, 35210, 35235</p>
+<p className="mb-2 text-xl text-left"><b className="font-semibold text-indigo-900">History</b></p>
+<p className="mb-4 text-left">Trussville was originally settled in the early 1800s and was named after a local landowner, Warren Truss. The city grew steadily throughout the 20th century, with a significant increase in population and development in recent decades.</p>
+
+<p className="mb-2 text-xl text-left"><b className="font-semibold text-indigo-900">Geography</b></p>
+<p className="mb-4 text-left">Trussville is located in northeastern Alabama, about 15 miles from Birmingham. Spread over 22 square miles, it features rolling hills, lush woods, and tranquil waters.</p>
+
+<p className="mb-2 text-xl text-left"><b className="font-semibold text-indigo-900">Government</b></p>
+<p className="mb-4 text-left">Trussvilles government is a mayor-council system, with elected officials making key city decisions.</p>
+
+<p className="mb-2 text-xl text-left"><b className="font-semibold text-indigo-900">Economy</b></p>
+<p className="mb-4 text-left">Trussville boasts a varied economy with retail, services, healthcare, and manufacturing. The Colonial Promenade is a major shopping hub.</p>
+
+<p className="mb-2 text-xl text-left"><b className="font-semibold text-indigo-900">Education</b></p>
+<p className="mb-4 text-left">Trussville City Schools, known for academic excellence, serve the city with multiple schools and a range of extracurriculars.</p>
+
+<p className="mb-2 text-xl text-left"><b className="font-semibold text-indigo-900">Transportation</b></p>
+<p className="mb-4 text-left">Accessible via Interstate 59, Trussville connects to Birmingham and beyond. The nearby Birmingham-Shuttlesworth International Airport provides air travel.</p>
+
+<p className="mb-2 text-xl text-left"><b className="font-semibold text-indigo-900">Attractions and Events</b></p>
+<p className="mb-4 text-left">Trussville features the Trussville Sports Complex and scenic Cahaba River Walk, with annual events like the Trussville City Fest for community engagement.</p>
+
+
+<p className="text-gray-600 text-left"><b>County</b> : <span className="font-semibold text-indigo-900">Jefferson</span></p>
+<p className="text-gray-600 text-left"><b>Zip Codes</b> : <span className="font-semibold text-indigo-900">35004 | 35173 | 35210 | 35235</span></p>
+
+
         </div>
 
         <div className="mt-auto">
@@ -74,47 +83,36 @@ const SEOTrussville = () => {
         </div>
 
 
-<div className="flex-1 flex flex-col">
-            <div className="bg-white p-6 rounded-lg shadow-md mb-6 flex-grow">
-                <h2 className="text-3xl font-semibold text-gray-800 mb-4">Best Things to Do in Trussville, AL</h2>
+        <div className="flex-1 flex flex-col">
+    <div className="rounded-lg shadow-md mb-6 flex-grow" style={{ backgroundColor: 'rgba(255, 255, 255, 0.5)' }}>
+        <h2 className="text-3xl sm:text-4xl font-bold text-indigo-950 mt-4 sm:mt-5 mb-5 sm:mb-6 text-center">Best Things to Do in Trussville</h2>
 
-                <p className="text-indigo-500"><b>Cosby Lake Park</b></p>
-<p className="mb-3 text-indigo-500">A serene lake surrounded by lush forests, ideal for walking, cycling, and bird-watching.</p>
+<p className="text-indigo-950 text-xl sm:text-2xl text-center"><b>Historic Downtown Trussville</b></p>
+<p className="mb-4 text-white text-base sm:text-lg text-center"> Take a stroll through the charming downtown area of Trussville, which features historic buildings, boutiques, restaurants, and local businesses.</p>
 
-<p className="text-indigo-500"><b>Turkey Creek Nature Preserve</b></p>
-<p className="mb-3 text-indigo-500">Home to beautiful creeks, waterfalls, and diverse wildlife. Perfect for hiking and swimming.</p>
+<p className="text-indigo-950 text-xl sm:text-2xl text-center"><b>Trussville Sports Complex</b></p>
+<p className="mb-4 text-white text-base sm:text-lg text-center">A haven for sports enthusiasts with facilities for baseball, softball, soccer, tennis, and more in Trussville.</p>
 
-<p className="text-indigo-500"><b>Barber Vintage Motorsports Museum</b></p>
-<p className="mb-3 text-indigo-500">Features an extensive collection of over 1,600 motorcycles and sports cars.</p>
+<p className="text-indigo-950 text-xl sm:text-2xl text-center"><b>Cahaba River Outdoor Activities</b></p>
+<p className="mb-4 text-white text-base sm:text-lg text-center">Near Trussville, enjoy kayaking, canoeing, fishing, and hiking along the beautiful Cahaba River.</p>
 
-<p className="text-indigo-500"><b>Trussville Antique Mall</b></p>
-<p className="mb-3 text-indigo-500">A large mall with a diverse range of antiques and collectibles.</p>
+<p className="text-indigo-950 text-xl sm:text-2xl text-center"><b>Pine Tree Country Club Golfing</b></p>
+<p className="mb-4 text-white text-base sm:text-lg text-center">Visit this 18-hole golf course for a day of golf with scenic views and challenging fairways.</p>
 
-<p className="text-indigo-500"><b>Paint All The Things</b></p>
-<p className="mb-3 text-indigo-500">A creative space offering painting classes for all ages.</p>
+<p className="text-indigo-950 text-xl sm:text-2xl text-center"><b>Clay Historical Society</b></p>
+<p className="mb-4 text-white text-base sm:text-lg text-center">Explore the history of the area with artifacts and exhibits in nearby Clay.</p>
 
-<p className="text-indigo-500"><b>Grand River Drive-In Movie Theatre</b></p>
-<p className="mb-3 text-indigo-500">Enjoy films under the stars with food and entertainment amenities.</p>
+<p className="text-indigo-950 text-xl sm:text-2xl text-center"><b>Trussville Events and Festivals</b></p>
+<p className="mb-4 text-white text-base sm:text-lg text-center">Join in on local events like Trussville City Fest for live music, food, arts, and family fun.</p>
 
-<p className="text-indigo-500"><b>The Outlet Shops of Grand River</b></p>
-<p className="mb-3 text-indigo-500">A shopping destination with a variety of designer and high-street brands.</p>
+<p className="text-indigo-950 text-xl sm:text-2xl text-center"><b>Shopping and Dining at Pinnacle at Tutwiler Farm</b></p>
+<p className="mb-4 text-white text-base sm:text-lg text-center">A hub for shopping and dining in Trussville, offering a range of stores and eateries.</p>
 
-<p className="text-indigo-500"><b>Ruffner Mountain Nature Preserve</b></p>
-<p className="mb-3 text-indigo-500">Explore the trails and learn about the regions iron ore mining history.</p>
+<p className="text-indigo-950 text-xl sm:text-2xl text-center"><b>Ruffner Mountain Nature Preserve</b></p>
+<p className="mb-4 text-white text-base sm:text-lg text-center">Just a drive from Trussville, this preserve offers trails, wildlife, and educational programs.</p>
 
-<p className="text-indigo-500"><b>Southern Museum of Flight</b></p>
-<p className="mb-3 text-indigo-500">An aviation museum showcasing the history of flight with numerous exhibits.</p>
-
-<p className="text-indigo-500"><b>Porsche Sport Driving School</b></p>
-<p className="mb-3 text-indigo-500">Experience driving a variety of Porsche models on the track.</p>
-
-<p className="text-indigo-500"><b>Sloss Furnaces National Historic Landmark</b></p>
-<p className="mb-3 text-indigo-500">A monument to the industrial revolution, offering tours and events.</p>
-
-<p className="text-indigo-500"><b>Birmingham Civil Rights Institute</b></p>
-<p className="mb-3 text-indigo-500">An educational and cultural research center in Birmingham dedicated to Civil Rights history.</p>
-
-
+<p className="text-indigo-950 text-xl sm:text-2xl text-center"><b>Trussville Play Station</b></p>
+<p className="mb-4 text-white text-base sm:text-lg text-center">A fun indoor playground in Trussville with inflatable slides, bounce houses, and arcade games, perfect for kids.</p>
 
 
         </div>
@@ -124,18 +122,16 @@ const SEOTrussville = () => {
 
 {/* Elevate Your Business Title Section */}
 <div className="bg-gradient-to-br from-gray-100 to-blue-50 p-8 rounded-3xl shadow-2xl">
-<h2 className="text-5xl font-bold text-gray-800 mb-6 text-center">Elevate Your Business with SEO</h2>
+<h2 className="text-5xl font-bold text-gray-800 mb-5 text-center">Elevate Your Trussville Business with SEO</h2>
 
 {/* Elevate Your Business Section */}
 <p className="mt-6 mb-8 text-lg md:text-md text-gray-700">
 We seamlessly integrate cutting-edge web design with advanced SEO techniques, ensuring that your website not only captivates visitors but also effectively aligns with your business objectives. By staying at the forefront of the latest SEO trends while adhering to proven design principles, we deliver a website that is visually stunning, functionally powerful, and optimized for organic growth. Our approach centers on engaging your target audience, enhancing your brands online footprint, and generating measurable business results through SEO-driven strategies.
 </p>
 
-
                 {/* Contact Us Button */}
-                <div className="text-center mt-4">
                 <Link href="/contact" legacyBehavior>
-                <a className="inline-block bg-blue-600 hover:bg-cyan-800 text-white py-2 px-6 rounded-full transition duration-300 transform hover:scale-110 mx-2">
+                <a className="inline-block bg-blue-600 hover:bg-cyan-800 text-white mb-4 py-2 px-6 rounded-full transition duration-300 transform hover:scale-110 mx-2">
                     Contact Us
                 </a>
                 </Link>
@@ -149,7 +145,6 @@ We seamlessly integrate cutting-edge web design with advanced SEO techniques, en
             </div>
         </div>
     </div>
-</div>
 
     
         </>
