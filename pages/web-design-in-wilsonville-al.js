@@ -45,19 +45,35 @@ const WebDesignWilsonville = () => {
                 <h2 className="text-4xl font-bold text-gray-800">Discover Wilsonville</h2>  
                     <div className="p-8 rounded-2xl shadow-lg mb-4 flex-1 hover:shadow-2xl">
 
-                    <p className="mb-2 text-left">Founded in the 19th century as Cahaba Pump, Wilsonville was later named after its first postmaster, Mortimer Wilson.</p>
-                            <p className="mb-2 text-left">Situated along Lay Lake, Wilsonville offers scenic views and water-based recreational activities.</p>
-                            <p className="mb-2 text-left">With a rich agricultural heritage, farming and forestry have been integral to Wilsonvilles economy.</p>
-                            <p className="mb-2 text-left">Wilsonville Park is a popular spot for outdoor gatherings and events in the community.</p>
-                            <p className="mb-2 text-left">The town hosts various annual events, fostering a sense of community among residents.</p>
-                            <p className="mb-2 text-left">Wilsonvilles small and close-knit community welcomes both residents and newcomers.</p>
-                            <p className="mb-2 text-left">Surrounded by natural beauty, including forests and wildlife, the town is ideal for outdoor enthusiasts.</p>
-                            <p className="mb-2 text-left">Local businesses play a vital role in Wilsonvilles economy and provide essential services.</p>
-                            <p className="mb-2 text-left">Wilsonvilles historical significance as a transportation hub and its proximity to major highways make it accessible to nearby cities.</p>
+                    <p className="mb-2 text-xl text-left"><b className="font-semibold text-indigo-900">History</b></p>
+<p className="mb-4 text-left">Wilsonville was settled in the early 19th century and originally known as Elyton. The towns name was later changed to Wilsonville in honor of President Woodrow Wilson. The area has a rich history, with early settlers engaged in agriculture and timber industries.</p>
 
-  
-<p className="text-gray-600">Countys | <span className="text-indigo-900">Shelby</span></p>
-<p className="text-gray-600">Zip Codes | <span className="text-indigo-900">35186</span></p>
+<p className="mb-2 text-xl text-left"><b className="font-semibold text-indigo-900">Geography</b></p>
+<p className="mb-4 text-left">Wilsonville is situated in central Alabama and is part of Shelby County. It is approximately 45 miles southeast of Birmingham. The town is surrounded by scenic countryside, including rolling hills, forests, and farmland.</p>
+
+<p className="mb-2 text-xl text-left"><b className="font-semibold text-indigo-900">Government</b></p>
+<p className="mb-4 text-left">Wilsonville operates under a Mayor-Council form of government. The Mayor and Town Council members are elected by the residents of the town. They are responsible for making decisions and providing services for the community.</p>
+
+<p className="mb-2 text-xl text-left"><b className="font-semibold text-indigo-900">Economy</b></p>
+<p className="mb-4 text-left">The local economy of Wilsonville is diverse, including sectors such as agriculture, manufacturing, and retail. Agriculture plays a significant role, with many residents involved in farming and raising livestock. The area also has industries related to automotive parts manufacturing and industrial services.</p>
+
+<p className="mb-2 text-xl text-left"><b className="font-semibold text-indigo-900">Education</b></p>
+<p className="mb-4 text-left">Wilsonville is served by the Shelby County School District, which provides public education for the community. Wilsonville Elementary School is the primary school serving students in the town. For secondary education, students typically attend schools in nearby towns such as Columbiana.</p>
+
+<p className="mb-2 text-xl text-left"><b className="font-semibold text-indigo-900">Transportation</b></p>
+<p className="mb-4 text-left">Wilsonville is accessible by major highways, including Alabama State Route 25, which runs through the town. The nearest airport is the Birmingham-Shuttlesworth International Airport, located approximately 40 miles northwest of Wilsonville.</p>
+
+<p className="mb-2 text-xl text-left"><b className="font-semibold text-indigo-900">Attractions and Events</b></p>
+<p className="mb-4 text-left">While Wilsonville is a small town, there are still attractions and events that residents and visitors can enjoy. Some popular local attractions include the Lay Lake Recreational Area, which offers opportunities for boating, fishing, and picnicking. Additionally, the town hosts events like the Wilsonville Day festival, featuring live music, food vendors, and family-friendly activities.</p>
+
+
+
+
+
+<p className="text-gray-600 text-left"><b>County</b> : <span className="font-semibold text-indigo-900">Shelby</span></p>
+<p className="text-gray-600 text-left"><b>Zip Codes</b> : <span className="font-semibold text-indigo-900">35186</span></p>
+
+
         </div>
 
         <div className="mt-auto">
@@ -73,71 +89,25 @@ const WebDesignWilsonville = () => {
 
         <div className="flex-1 flex flex-col">
     <div className="rounded-lg shadow-md mb-6 flex-grow" style={{ backgroundColor: 'rgba(255, 255, 255, 0.5)' }}>
-        <h2 className="text-4xl font-bold text-indigo-950 mt-5 mb-6 text-center">Explore Wilsonville</h2>
-        <p className="text-indigo-950 text-lg mb-1">
-    <strong>Inverness Country Club</strong>
-</p>
-<p className="mb-2 text-white text-lg">
-    A private club known for hosting major golf events, offering an elite golf course to its members and guests in a serene, natural setting.
-</p>
+        <h2 className="text-3xl sm:text-4xl font-bold text-indigo-950 mt-4 sm:mt-5 mb-5 sm:mb-6 text-center">Best Things to Do in Wilsonville</h2>
 
-<p className="text-indigo-950 text-lg mb-1">
-    <strong>Historic Sites</strong>
-</p>
-<p className="mb-2 text-white text-lg">
-    Explore the industrial history of Birmingham at Sloss Furnaces National Historic Landmark, Vulcan Park and Museum, and Tannehill Ironworks Historical State Park.
-</p>
+<p className="text-indigo-950 text-xl sm:text-2xl text-center"><b></b></p>
+<p className="mb-4 text-white text-base sm:text-lg text-center"></p>
 
-<p className="text-indigo-950 text-lg mb-1">
-    <strong>Outdoor Activities</strong>
-</p>
-<p className="mb-2 text-white text-lg">
-    Enjoy nature parks and trails, visit the Cahaba Beach Dog Park, and engage in outdoor recreational activities such as bass fishing and hiking.
-</p>
+<p className="text-indigo-950 text-xl sm:text-2xl text-center"><b>Lay Lake</b></p>
+<p className="mb-4 text-white text-base sm:text-lg text-center">Wilsonville is located near Lay Lake, a popular spot for fishing, boating, and various water sports. You can spend a day out on the lake, enjoying the scenic views and engaging in recreational activities.</p>
 
-<p className="text-indigo-950 text-lg mb-1">
-    <strong>Trampoline Parks and Free Fall Attractions</strong>
-</p>
-<p className="mb-2 text-white text-lg">
-    Great for adrenaline seekers and families, offering activities like trampoline dodgeball, basketball, and obstacle courses.
-</p>
+<p className="text-indigo-950 text-xl sm:text-2xl text-center"><b>Historic Downtown Wilsonville</b></p>
+<p className="mb-4 text-white text-base sm:text-lg text-center">Take a stroll through the historic downtown area of Wilsonville. You can admire the old buildings, explore local shops, and grab a bite to eat at one of the charming restaurants or cafes.</p>
 
-<p className="text-indigo-950 text-lg mb-1">
-    <strong>Local Events and Festivals</strong>
-</p>
-<p className="mb-2 text-white text-lg">
-    Attend community events and festivals like the Magic City Wine Fest, the Biggest Networking Event of the Year, and the Inaugural Derby Day Social.
-</p>
+<p className="text-indigo-950 text-xl sm:text-2xl text-center"><b>Outdoor Activities</b></p>
+<p className="mb-4 text-white text-base sm:text-lg text-center">Wilsonville is surrounded by beautiful natural landscapes, so outdoor enthusiasts can enjoy activities such as hiking, biking, and picnicking in nearby parks or nature areas. Oak Mountain State Park and Talladega National Forest are within driving distance from Wilsonville.</p>
 
-<p className="text-indigo-950 text-lg mb-1">
-    <strong>Wine Tasting and Vineyards</strong>
-</p>
-<p className="mb-2 text-white text-lg">
-    Participate in wine tasting events and visit vineyards in and around Meadowbrook, perfect for wine enthusiasts.
-</p>
+<p className="text-indigo-950 text-xl sm:text-2xl text-center"><b>Wilsonville Public Library</b></p>
+<p className="mb-4 text-white text-base sm:text-lg text-center">If youre interested in reading or research, you can visit the Wilsonville Public Library. Its a great place to relax, read a book, or access various resources.</p>
 
-<p className="text-indigo-950 text-lg mb-1">
-    <strong>Shopping and Dining</strong>
-</p>
-<p className="mb-2 text-white text-lg">
-    Explore downtown shopping and services in nearby Vestavia Hills, and enjoy diverse dining options like Capella Pizzeria and local cafes.
-</p>
-
-<p className="text-indigo-950 text-lg mb-1">
-    <strong>Family-Friendly Activities</strong>
-</p>
-<p className="mb-2 text-white text-lg">
-    Visit family fun centers, attend carnivals and community events, and explore zoos and wildlife areas for a delightful family experience.
-</p>
-
-<p className="text-indigo-950 text-lg mb-1">
-    <strong>Spiritual and Cultural Experiences</strong>
-</p>
-<p className="mb-2 text-white text-lg">
-    Engage in spiritual and cultural activities in historic churches and participate in local cultural events.
-</p>
-
-
+<p className="text-indigo-950 text-xl sm:text-2xl text-center"><b>Local Events</b></p>
+<p className="mb-4 text-white text-base sm:text-lg text-center">Keep an eye out for any local events or festivals happening in Wilsonville throughout the year. These events may include live music performances, community fairs, or seasonal celebrations.</p>
 
 
         </div>
@@ -147,7 +117,7 @@ const WebDesignWilsonville = () => {
 
 {/* Elevate Your Business Title Section */}
 <div className="bg-gradient-to-br from-gray-100 to-blue-50 p-8 rounded-3xl shadow-2xl">
-<h2 className="text-5xl font-bold text-gray-800 mb-5 text-center">Elevate Your Business with Web Design</h2>
+<h2 className="text-5xl font-bold text-gray-800 mb-5 text-center">Elevate Your Wilsonville Business with Web Design</h2>
 
 {/* Elevate Your Business Section */}
 <p className="mt-6 mb-8 text-lg md:text-md text-gray-700">
