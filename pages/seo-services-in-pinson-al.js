@@ -16,7 +16,7 @@ const SEOPinson = () => {
                 }}
             />
 
-<div className="bg-gradient-to-br from-slate-700 to-indigo-800 text-center py-12 px-6 shadow-xl rounded-2xl mt-10 mb-12 transform hover:scale-105 transition duration-500 ease-in-out relative overflow-hidden">
+<div className="bg-gradient-to-br from-slate-950 to-indigo-950 text-center py-12 px-6 shadow-xl rounded-2xl mt-10 mb-12 transform hover:scale-105 transition duration-500 ease-in-out relative overflow-hidden">
     <h1 className="text-4xl md:text-6xl font-extrabold text-transparent bg-clip-text bg-gradient-to-r from-slate-700 via-white to-indigo-200 my-4 animate-gradient">
         SEO Services in Pinson, AL
     </h1>
@@ -27,7 +27,7 @@ const SEOPinson = () => {
     <div className="py-4 px-6 mb-4 md:mb-6 mt-4 bg-white bg-opacity-20 rounded-lg">
         <p className="text-lg md:text-xl text-white">
             <span className="block mb-2 text-2xl md:text-3xl text-indigo-300">Fun Fact</span>
-        Home to One of Alabamas Oldest Caves | Pinson Cave
+            Home to One of Alabamas Oldest Caves | Pinson Cave
         </p>
     </div>
     <div className="absolute top-0 left-0 w-full h-full overflow-hidden z-0">
@@ -41,17 +41,37 @@ const SEOPinson = () => {
             <div className="bg-gradient-to-br from-gray-50 to-blue-100 p-8 rounded-2xl shadow-lg mb-8 flex-grow transform transition duration-500 hover:shadow-2xl">
 
                 {/* Discover Title */}
-                <h2 className="text-4xl font-bold text-gray-800 mb-6">Discover Pinson, AL</h2>  
-                    <div className="p-8 rounded-2xl shadow-lg mb-8 flex-1 hover:shadow-2xl">
+                <h2 className="text-4xl font-bold text-gray-800">Discover Pinson</h2>  
+                    <div className="p-8 rounded-2xl shadow-lg mb-4 flex-1 hover:shadow-2xl">
 
-                    <p className="mb-4">Pinson, originally <span className="font-semibold text-indigo-900">Hagoods Crossroads</span>, was settled by General Andrew Jacksons soldiers in the 19th century. The town was renamed to Pinson in <span className="font-semibold text-indigo-900">1837</span>, evolving from its early beginnings in the Creek War.</p>
-<p className="mb-4">During the Civil War, Pinson formed the <span className="font-semibold text-indigo-900">Jefferson Warriors</span>, with a local ironworks contributing to the Confederacy.</p>
-<p className="mb-4">The <span className="font-semibold text-indigo-800">Louisville & Nashville Railroad</span> in 1889 marked Pinsons growth as a coal shipping hub.</p>
-<p className="mb-4">The <span className="font-semibold text-indigo-800">Palmerdale Homestead Community</span> was established in Pinson during the <span className="font-semibold text-indigo-400">Great Depression</span>.</p>
-<p className="mb-4">The <span className="font-semibold text-indigo-800">Turkey Creek Nature Preserve</span> in Pinson protects <span className="font-semibold text-indigo-400">endangered species</span> and highlights natural conservation.</p>
+<p className="mb-2 text-xl text-left"><b className="font-semibold text-indigo-900">History</b></p>
+<p className="mb-4 text-left">Pinson is a city located in Jefferson County, Alabama. It was incorporated in 2004 and has a rich history dating back to the early 19th century. The area was settled by European Americans around 1815, and the town was named after a local family. The community grew as a result of mining operations in the surrounding area in the late 1800s.</p>
 
-<p className="text-gray-600"><b>County</b> | <span className="font-semibold text-indigo-900">Jefferson</span></p>
-<p className="text-gray-600"><b>Zip Code</b> | <span className="font-semibold text-indigo-900">35216, 35215</span></p>
+<p className="mb-2 text-xl text-left"><b className="font-semibold text-indigo-900">Geography</b></p>
+<p className="mb-4 text-left">Pinson is situated in northeastern Jefferson County, Alabama. Spanning about 11 square miles, its on the southern edge of the Appalachian Mountains, offering picturesque views and outdoor activities.</p>
+
+<p className="mb-2 text-xl text-left"><b className="font-semibold text-indigo-900">Government</b></p>
+<p className="mb-4 text-left">Pinson operates under a mayor-council government. Governed by a mayor and city council, they establish policies and manage the citys services.</p>
+
+<p className="mb-2 text-xl text-left"><b className="font-semibold text-indigo-900">Economy</b></p>
+<p className="mb-4 text-left">Pinsons diverse economy includes retail, healthcare, education, and manufacturing sectors. Proximity to Birmingham adds further employment opportunities.</p>
+
+<p className="mb-2 text-xl text-left"><b className="font-semibold text-indigo-900">Education</b></p>
+<p className="mb-4 text-left">Served by the Jefferson County School District, Pinson boasts several public schools, including Pinson Valley High School, and offers private education options as well.</p>
+
+<p className="mb-2 text-xl text-left"><b className="font-semibold text-indigo-900">Transportation</b></p>
+<p className="mb-4 text-left">Located near Interstate 59, Pinson offers easy access to nearby cities. Birmingham-Shuttlesworth International Airport is about 20 miles southwest, facilitating air travel.</p>
+
+<p className="mb-2 text-xl text-left"><b className="font-semibold text-indigo-900">Attractions and Events</b></p>
+<p className="mb-4 text-left">Home to Turkey Creek Nature Preserve, Pinson also hosts the annual Butterbean Festival. Nearby attractions include Birmingham Botanical Gardens and the Civil Rights Institute.</p>
+
+
+
+
+<p className="text-gray-600 text-left"><b>County</b> : <span className="font-semibold text-indigo-900">Jefferson</span></p>
+<p className="text-gray-600 text-left"><b>Zip Codes</b> : <span className="font-semibold text-indigo-900">35216 | 35215</span></p>
+
+
         </div>
 
         <div className="mt-auto">
@@ -65,21 +85,31 @@ const SEOPinson = () => {
         </div>
 
 
-<div className="flex-1 flex flex-col">
-            <div className="bg-white p-6 rounded-lg shadow-md mb-6 flex-grow">
-                <h2 className="text-3xl font-semibold text-gray-800 mb-6">Best Things to Do in Pinson, AL</h2>
+        <div className="flex-1 flex flex-col">
+    <div className="rounded-lg shadow-md mb-6 flex-grow" style={{ backgroundColor: 'rgba(255, 255, 255, 0.5)' }}>
+        <h2 className="text-3xl sm:text-4xl font-bold text-indigo-950 mt-4 sm:mt-5 mb-5 sm:mb-6 text-center">Best Things to Do in Pinson</h2>
 
-<p className="text-indigo-500"><b className="underline text-lg"><a href="https://turkeycreeknp.com/">Turkey Creek Nature Preserve</a></b></p>
-<p className="mb-3">A well-maintained natural area with beautiful trails and scenery, ideal for summer visits.</p>
+<p className="text-indigo-950 text-xl sm:text-2xl text-center"><b>Turkey Creek Nature Preserve</b></p>
+<p className="mb-4 text-white text-base sm:text-lg text-center">Explore the beautiful 466-acre nature preserve that features hiking trails, waterfalls, and swimming holes. Its a great place for outdoor enthusiasts and nature lovers.</p>
 
-<p className="text-indigo-500"><b className="underline text-lg"><a href="https://alabamabutterbeanfestival.com/">Pinson Butterbean Festival</a></b></p>
-<p className="mb-3">An annual celebration that showcases local heritage and community spirit.</p>
+<p className="text-indigo-950 text-xl sm:text-2xl text-center"><b>Palmerdale Homesteads Community Center</b></p>
+<p className="mb-4 text-white text-base sm:text-lg text-center">Visit this historic site from the Great Depression era, part of Roosevelts New Deal. The center hosts community events, farmers markets, and a museum detailing local history.</p>
 
-<p className="text-indigo-500"><b className="underline text-lg"><a href="https://www.facebook.com/pinsonmethodist/">Pinson United Methodist Church</a></b></p>
-<p className="mb-3">Another prominent church in Pinson, known for its architecture and community activities.</p>
+<p className="text-indigo-950 text-xl sm:text-2xl text-center"><b>The Foundation Obstacle Course</b></p>
+<p className="mb-4 text-white text-base sm:text-lg text-center">Challenge yourself at The Foundations obstacle course, offering a variety of fitness activities to test strength and endurance.</p>
 
-<p className="text-indigo-500"><b className="underline text-lg"><a href="https://www.facebook.com/p/Pinson-Bicentennial-Park-100082076586471/">Pinson Bicentennial Park</a></b></p>
-<p className="mb-3">A park that provides a tranquil environment for relaxation and recreation.</p>
+<p className="text-indigo-950 text-xl sm:text-2xl text-center"><b>Gardendale First Baptist Church Pumpkin Patch</b></p>
+<p className="mb-4 text-white text-base sm:text-lg text-center">In fall, visit the pumpkin patch for pumpkin picking, hayrides, and fun activities. Its a seasonal delight for all ages.</p>
+
+<p className="text-indigo-950 text-xl sm:text-2xl text-center"><b>Pinson Public Library</b></p>
+<p className="mb-4 text-white text-base sm:text-lg text-center">Enjoy a peaceful visit to the library, with book clubs, storytime sessions, and community events. A haven for readers and those seeking quiet.</p>
+
+<p className="text-indigo-950 text-xl sm:text-2xl text-center"><b>Local Parks and Recreation</b></p>
+<p className="mb-4 text-white text-base sm:text-lg text-center">Explore Pinsons parks like Clayton Park and Cosby Lake Park for picnicking, sports, and outdoor fun. Enjoy the natural beauty and recreational facilities.</p>
+
+<p className="text-indigo-950 text-xl sm:text-2xl text-center"><b>Local Restaurants and Shops</b></p>
+<p className="mb-4 text-white text-base sm:text-lg text-center">Discover Pinsons local eateries and boutiques. From charming cafes to unique shopping experiences, the city offers diverse local flavors and products.</p>
+
 
         </div>
     </div>
@@ -88,7 +118,7 @@ const SEOPinson = () => {
 
 {/* Elevate Your Business Title Section */}
 <div className="bg-gradient-to-br from-gray-100 to-blue-50 p-8 rounded-3xl shadow-2xl">
-<h2 className="text-5xl font-bold text-gray-800 mb-6 text-center">Elevate Your Business with SEO</h2>
+<h2 className="text-5xl font-bold text-gray-800 mb-5 text-center">Elevate Your Pinson Business with SEO</h2>
 
 {/* Elevate Your Business Section */}
 <p className="mt-6 mb-8 text-lg md:text-md text-gray-700">
@@ -97,7 +127,7 @@ We seamlessly integrate cutting-edge web design with advanced SEO techniques, en
 
                 {/* Contact Us Button */}
                 <Link href="/contact" legacyBehavior>
-                <a className="inline-block bg-blue-600 hover:bg-cyan-800 text-white py-2 px-6 rounded-full transition duration-300 transform hover:scale-110 mx-2">
+                <a className="inline-block bg-blue-600 hover:bg-cyan-800 text-white mb-4 py-2 px-6 rounded-full transition duration-300 transform hover:scale-110 mx-2">
                     Contact Us
                 </a>
                 </Link>
@@ -111,7 +141,6 @@ We seamlessly integrate cutting-edge web design with advanced SEO techniques, en
             </div>
         </div>
     </div>
-
 
         </>
     );
