@@ -1,8 +1,20 @@
 import React from 'react';
-import Link from 'next/link'
+import Link from 'next/link';
+import { NextSeo } from 'next-seo';
 
 const ServiceAreas = () => {
     return (
+                <>
+        <NextSeo
+            title="Service Areas For Web Design and SEO - Bham SEO & Design Co."
+            description="Discover our web design services across various areas including Alabaster, Bessemer, Birmingham, and more. Bham SEO & Design Co. offers top-notch web design solutions."
+            openGraph={{
+                title: 'Service Areas For Web Design and SEO - Bham SEO & Design Co.',
+                description: 'Discover our web design, website development, and SEO services across various areas including Alabaster, Bessemer, Birmingham, Chelsea, Clanton, Gardendale, Fultondale, Columbiana, Helena, Homewood, Hoover, Hueytown, Irondale, Jemison, Leeds, McCalla, Meadowbrook, Montevallo, Moody, Mountain Brook, Pelham, Pinson, Pleasant Grove, Shelby County, Trussville, Vestavia Hills, Wilsonville, Woodstock, and Sylacauga.',
+                url: 'https://bhamseoanddesignco.com/serviceareas',
+            }}  
+        />
+    
         <div>
             {/* Web Design Title Section */}
             <div className="ttitle-section">
@@ -211,7 +223,7 @@ const ServiceAreas = () => {
 </div>
 </div>
 
-      
+       </>
         );
       }
       
