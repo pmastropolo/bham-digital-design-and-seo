@@ -1,8 +1,19 @@
 import React from 'react';
 import Image from 'next/image';
+import { NextSeo } from 'next-seo';
 
 const Apply = () => {
     return (
+         <>
+<NextSeo
+        title="About Us - Bham Web Design & SEO Co."
+        description="Learn more about Bham Web Design & SEO Co., our mission, and how we empower businesses with innovative web design, web development, SEO, and digital solutions."
+        openGraph={{
+          title: 'About Us - Bham Web Design & SEO Co.',
+          description: 'Learn more about Bham Web Design & SEO Co., our mission, and how we empower businesses with innovative web design, web development, SEO, and digital solutions.',
+          url: 'https://bhamseoanddesignco.com/apply',
+        }} 
+      />
 
 <div className="apply-container bg-gray-100 text-gray-800 py-8 lg:py-16">
 <div className="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8">
@@ -368,7 +379,7 @@ Brainstorm relevant keywords related to your business and services |  Analyze yo
 </div>
 </div>
 </div>
-
+    </>
     );
 };
   
