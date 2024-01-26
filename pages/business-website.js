@@ -7,10 +7,10 @@ const BusinessWebsiteServices = () => {
   return (
       <>
           <NextSeo
-              title="Unleash Your Business Potential with Top-Tier Web Development | Bham Co."
+              title="Unleash Your Business Potential with Top-Tier Web Development | Bham Web Design and SEO Co."
               description="Elevate your brand with Bham Web Design and SEO Co. – offering unparalleled business website development services that promise to skyrocket your digital presence!"
               openGraph={{
-                  title: 'Unleash Your Business Potential with Top-Tier Web Development | Bham Co.',
+                  title: 'Unleash Your Business Potential with Top-Tier Web Development | Bham Web Design and SEO Co.',
                   description: 'Elevate your brand with Bham Web Design and SEO Co. – offering unparalleled business website development services that promise to skyrocket your digital presence!',
                   url: 'https://bhamseoanddesignco.com/business-website-services',
                   type: 'website',
