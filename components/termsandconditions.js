@@ -12,7 +12,7 @@ const TermsandConditions = () => {
     <p className="text-gray-600 mt-4 mb-4">We employ the use of cookies. By accessing Bham Web Design and SEO Co., you agreed to use cookies in agreement with the Bham Web Design and SEO Co.s Privacy Policy. </p>
     <p className="text-gray-600 mb-5">Most interactive websites use cookies to let us retrieve the users details for each visit. Cookies are used by our website to enable the functionality of certain areas to make it easier for people visiting our website. Some of our affiliate/advertising partners may also use cookies.</p>
     <h3><strong>License</strong></h3>
-    <p className="text-gray-600 mt-4 mb-4">Unless otherwise stated, Bham Web Design and SEO Co. and/or its licensors own the intellectual property rights for all material on Bham SEO &amp; Design Co.. All intellectual property rights are reserved. You may access this from Bham SEO &amp; Design Co. for your own personal use subjected to restrictions set in these terms and conditions.</p>
+    <p className="text-gray-600 mt-4 mb-4">Unless otherwise stated, Bham Web Design and SEO Co. and/or its licensors own the intellectual property rights for all material on Bham Web Design and SEO Co.. All intellectual property rights are reserved. You may access this from Bham Web Design and SEO Co.. for your own personal use subjected to restrictions set in these terms and conditions.</p>
     <p className="text-gray-600 mb-4">You must not:</p>
     <ul>
     <li>Republish material from Bham Web Design and SEO Co.</li>
