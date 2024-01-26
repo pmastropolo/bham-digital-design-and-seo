@@ -7,12 +7,12 @@ const BlogWebsiteServices = () => {
     return (
       <>
         <NextSeo
-          title="Elevate Your Brand with Bham's Premier Blog Development Services!"
+          title="💫 Elevate Your Brand with Bham's Premier Blog Development Services!"
           description="Revolutionize your online presence with Bham Web Design and SEO Co. - Your gateway to custom, SEO-optimized blog platforms designed to captivate and engage."
           canonical="https://bhamseoanddesignco.com/blog-website-services"
           openGraph={{
             url: 'https://bhamseoanddesignco.com/blog-website-services',
-            title: 'Elevate Your Brand with Bhams Premier Blog Development Services!',
+            title: '💫 Elevate Your Brand with Bhams Premier Blog Development Services!',
             description: 'Revolutionize your online presence with Bham Web Design and SEO Co. - Your gateway to custom, SEO-optimized blog platforms designed to captivate and engage.',
             type: 'website',
           }}
