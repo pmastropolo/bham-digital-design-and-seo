@@ -22,7 +22,7 @@ const TermsandConditions = () => {
     </ul>
     <p className="text-gray-600 mt-4 mb-4">This Agreement shall begin on the date hereof. Our Terms and Conditions were created with the help of the <a href="https://www.termsandconditionsgenerator.com/">Free Terms and Conditions Generator</a>.</p>
     <p className="text-gray-600 mb-4">Parts of this website offer an opportunity for users to post and exchange opinions and information in certain areas of the website. Bham Web Design and SEO Co. does not filter, edit, publish or review Comments prior to their presence on the website. Comments do not reflect the views and opinions of Bham Web Design and SEO Co.,its agents and/or affiliates. Comments reflect the views and opinions of the person who post their views and opinions. To the extent permitted by applicable laws, Bham SEO &amp; Design Co. shall not be liable for the Comments or for any liability, damages or expenses caused and/or suffered as a result of any use of and/or posting of and/or appearance of the Comments on this website.</p>
-    <p className="text-gray-600 mb-4">Bham SEO &amp; Design Co. reserves the right to monitor all Comments and to remove any Comments which can be considered inappropriate, offensive or causes breach of these Terms and Conditions.</p>
+    <p className="text-gray-600 mb-4">Bham Web Design and SEO Co. reserves the right to monitor all Comments and to remove any Comments which can be considered inappropriate, offensive or causes breach of these Terms and Conditions.</p>
     <p className="text-gray-600 mt-2 mb-4">You warrant and represent that:</p>
     <ul>
     <li>You are entitled to post the Comments on our website and have all necessary licenses and consents to do so;</li>
@@ -30,7 +30,7 @@ const TermsandConditions = () => {
     <li>The Comments do not contain any defamatory, libelous, offensive, indecent or otherwise unlawful material which is an invasion of privacy</li>
     <li>The Comments will not be used to solicit or promote business or custom or present commercial activities or unlawful activity.</li>
     </ul>
-    <p className="text-gray-600 mb-4 mt-4">You hereby grant Bham SEO &amp; Design Co. a non-exclusive license to use, reproduce, edit and authorize others to use, reproduce and edit any of your Comments in any and all forms, formats or media.</p>
+    <p className="text-gray-600 mb-4 mt-4">You hereby grant Bham Web Design and SEO Co. a non-exclusive license to use, reproduce, edit and authorize others to use, reproduce and edit any of your Comments in any and all forms, formats or media.</p>
     <h3><strong>Hyperlinking to our Content</strong></h3>
     <p className="text-gray-600 mt-4 mb-4">The following organizations may link to our Website without prior written approval:</p>
     <ul>
@@ -60,7 +60,7 @@ const TermsandConditions = () => {
     <li>By use of the uniform resource locator being linked to; or</li>
     <li>By use of any other description of our Website being linked to that makes sense within the context and format of content on the linking partys site.</li>
    </ul>
-   <p className="text-gray-600 mt-4 mb-4">No use of Bham SEO &amp; Design Co.s logo or other artwork will be allowed for linking absent a trademark license agreement.</p>
+   <p className="text-gray-600 mt-4 mb-4">No use of Bham Web Design and SEO Co.s logo or other artwork will be allowed for linking absent a trademark license agreement.</p>
    <h3><strong>iFrames</strong></h3>
    <p className="text-gray-600 mt-4 mb-4">Without prior approval and written permission, you may not create frames around our Webpages that alter in any way the visual presentation or appearance of our Website.</p>
    <h3><strong>Content Liability</strong></h3>
