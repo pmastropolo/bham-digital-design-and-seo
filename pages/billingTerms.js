@@ -17,7 +17,7 @@ const BillingTerms = () => {
         additionalMetaTags={[
           {
             property: 'keywords',
-            content: 'Billing, Payment Terms, Bham SEO & Design Co., Payment Policies, Invoice Terms'
+            content: 'Billing, Payment Terms, Bham Web Design and SEO Co., Payment Policies, Invoice Terms'
           },
           {
             name: 'viewport',
