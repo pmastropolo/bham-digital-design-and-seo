@@ -6,13 +6,13 @@ const BillingTerms = () => {
   return (
     <>
       <NextSeo
-        title="Billing Terms | Bham SEO & Design Co."
-        description="Explore the billing terms and conditions at Bham SEO & Design Co. Understand our payment processes and policies in detail."
+        title="Billing Terms | Bham Web Design and SEO Co."
+        description="Explore the billing terms and conditions at Bham Web Design and SEO Co. Understand our payment processes and policies in detail."
         canonical="https://bhamseoanddesignco.com/billingTerms"
         openGraph={{
           url: 'https://bhamseoanddesignco.com/billingTerms',
-          title: 'Billing Terms | Bham SEO & Design Co.',
-          description: 'Explore the billing terms and conditions at Bham SEO & Design Co. Understand our payment processes and policies in detail.'
+          title: 'Billing Terms | Bham Web Design and SEO Co.',
+          description: 'Explore the billing terms and conditions at Bham Web Design and SEO Co. Understand our payment processes and policies in detail.'
         }}
         additionalMetaTags={[
           {
