@@ -18,7 +18,7 @@ export default function Home() {
         { name: 'author', content: 'Bham Web Design and SEO Co.' },
         { name: 'designer', content: 'Web Design Expert' },
         { name: 'seo-expert', content: 'SEO Specialist' },
-        { name: 'industry', content: 'Digital Marketing' },
+        { name: 'industry', content: 'Website Design' },
         { name: 'contact-email', content: 'services@bhamseoanddesignco.com' },
       ]}
       additionalLinkTags={[
