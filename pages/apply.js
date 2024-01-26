@@ -26,7 +26,7 @@ const Apply = () => {
 {/* OUR MISSION SECTION */}
 <h2 className="text-2xl lg:text-3xl font-semibold mb-4 text-indigo-600">Our Mission</h2>
 <p className="text-lg lg:text-xl mb-6 leading-relaxed">
-At Bham SEO & Design Co., our mission is to empower businesses with innovative web design and digital solutions. We are driven by a passion for creativity, technology, and client success.
+At Bham Web Design and SEO Co., our mission is to empower businesses with innovative web design and digital solutions. We are driven by a passion for creativity, technology, and client success.
 </p>
 <p className="text-lg lg:text-xl mb-6 leading-relaxed">
 What sets us apart is our commitment to tailoring each project to our clients unique needs. We take the time to understand your business, goals, and target audience to create customized solutions that make a lasting impact. We stand out in the industry by consistently staying ahead of design trends and emerging technologies. Our mission is to make your online presence shine and help your business thrive in the digital landscape.
