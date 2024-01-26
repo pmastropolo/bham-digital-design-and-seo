@@ -6,13 +6,13 @@ function Contact() {
   return (
     <>
       <NextSeo
-        title="Contact Us | Bham SEO & Design Co."
-        description="Get in touch with Bham SEO & Design Co. for your web design and SEO needs. Contact us today to discuss how we can help grow your business."
+        title="Contact Us | Bham Web Design and SEO Co."
+        description="Get in touch with Bham Web Design and SEO Co. for your web design and SEO needs. Contact us today to discuss how we can help grow your business."
         canonical="https://bhamseoanddesignco.com/contact"
         openGraph={{
           url: 'https://bhamseoanddesignco.com/contact',
-          title: 'Contact Us | Bham SEO & Design Co.',
-          description: 'Get in touch with Bham SEO & Design Co. for your web design and SEO needs. Contact us today to discuss how we can help grow your business.',
+          title: 'Contact Us | Bham Web Design and SEO Co.',
+          description: 'Get in touch with Bham Web Design and SEO Co. for your web design and SEO needs. Contact us today to discuss how we can help grow your business.',
         }}
       />
 
