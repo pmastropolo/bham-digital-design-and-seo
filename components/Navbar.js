@@ -39,7 +39,7 @@ const NavBar = () => {
                             />
                         </div>
                         <span className="self-center text-xl font-semibold whitespace-nowrap dark:text-white">
-                            Bham SEO & Design Co.
+                            Bham Web Design and SEO Co.
                         </span>
                     </Link>
 
