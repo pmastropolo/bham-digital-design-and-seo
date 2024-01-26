@@ -19,7 +19,7 @@ const BlogWebsiteServices = () => {
           additionalMetaTags={[
             {
               property: 'keywords',
-              content: 'Blog Development, SEO Blogging, Bham Web Design, Custom Blog Platforms, Engaging Blog Content'
+              content: 'Blog Development, Responsive Design, CMS, SEO Blogging, Bham Web Design, Custom Blog Platforms, Engaging Blog Content'
             },
             {
               name: 'viewport',
