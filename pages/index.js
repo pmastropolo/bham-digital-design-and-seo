@@ -79,7 +79,7 @@ export default function Home() {
         {/* MAIN HEADING */}
         <div className="bg-white text-center p-10 shadow-lg rounded-lg mb-10 z-10 relative">
           <h2 className="text-5xl font-extrabold text-gray-800 mb-6">Expert Web Design & SEO Services</h2>
-          <p className="text-lg mb-8 text-gray-600">Elevate your online presence with our tailored solutions in Birmingham, Alabama.</p>
+          <p className="text-lg mb-8 text-gray-600">Elevate your online presence with our tailored solutions in Alabama.</p>
           
           {/* CONTACT PAGE BUTTON */} 
           <Link href="/contact" legacyBehavior>
