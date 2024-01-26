@@ -5,13 +5,13 @@ import { NextSeo } from 'next-seo';
 const terms = () => (
   <>
     <NextSeo
-      title="Terms and Conditions | Bham SEO & Design Co."
-      description="Read the terms and conditions for using the Bham SEO & Design Co. website. Learn about our policies, user agreements, and legal information."
+      title="Terms and Conditions | Bham Web Design and SEO Co."
+      description="Read the terms and conditions for using the Bham Web Design and SEO Co. website. Learn about our policies, user agreements, and legal information."
       canonical="https://bhamseoanddesignco.com/terms"
       openGraph={{
         url: 'https://bhamseoanddesignco.com/terms',
-        title: 'Terms and Conditions | Bham SEO & Design Co.',
-        description: 'Discover the detailed terms and conditions for engaging with services and content provided by Bham SEO & Design Co.',
+        title: 'Terms and Conditions | Bham Web Design and SEO Co.',
+        description: 'Discover the detailed terms and conditions for engaging with services and content provided by Bham Web Design and SEO Co.',
       }}
       additionalMetaTags={[
         {
