@@ -3,8 +3,8 @@ import Head from 'next/head'
 export default function MyHead({ title, description, image, url }) {
     return (
         <Head>
-            <title>Bham SEO and Web Design Co</title>
-            <meta name="description" content="Bham SEO and Design Co offers expert SEO and web design services to elevate your online presence. Discover innovative strategies tailored for your success." />
+            <title>Bham Web Design and SEO Co.</title>
+            <meta name="description" content="Bham Web Design and SEO Co. offers expert SEO and web design services to elevate your online presence. Discover innovative strategies tailored for your success." />
             <meta property="og:title" content={title} key="title" />
             <meta property="og:description" content={description} key="description" />
             <meta property="og:image" content={image} key="image" />
