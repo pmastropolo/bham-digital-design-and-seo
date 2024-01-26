@@ -4,8 +4,8 @@ import Link from 'next/link';
 const BlogPackageData = [
   {
     "name": "Basic Blog Package",
-    "price": "$500 - $1500",
-    "duration": "3 Weeks",
+    "price": "$900 - $1500",
+    "duration": "4 Weeks",
     "features": [
       "- Up to 10 Initial Blog Posts Setup",
       "- User Friendly Layout for Beginners",
