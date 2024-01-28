@@ -56,11 +56,32 @@ const BlogWebsiteServices = () => {
         Elevate your digital presence with <span className="text-blue-600 font-bold">Bham Web Design and SEO Co.</span> – Your key to digital mastery.
       </p>
       
-      <h3 className="text-2xl font-bold text-gray-900 mb-4">
+      <div className="mb-4">
+    <h3 className="text-2xl font-bold text-gray-900 mb-2">Explore Our Lifestyle Blog Design</h3>
+    <p className="text-xl text-gray-800">
+      Dive into a visual journey showcasing our innovative lifestyle blog CMS design. This video illustrates our approach to creating dynamic, user-friendly blog interfaces that can elevate your content creation experience.
+    </p>
+  </div>
+
+  <div className="relative" style={{ paddingTop: '60%' }}> {/* Use an object for styling */}
+
+    <iframe 
+      src="https://www.youtube.com/embed/nwHgk_sFUjY" 
+      title="YouTube video player" 
+      frameborder="0" 
+      allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" 
+      allowfullscreen
+      className="absolute top-0 left-0 w-full h-full">
+    </iframe>
+  </div>
+
+
+      
+      <h3 className="text-2xl font-bold text-gray-900 mt-6 mb-4">
         Why Partner with Bham
       </h3>
       
-      <ul className="list-disc pl-10 text-xl text-gray-800 mb-6 space-y-2 text-left">
+      <ul className="list-disc pl-10 text-lg text-gray-800 mb-6 space-y-2 text-left">
   <li><strong>Global Influence</strong> | Reach an international audience and connect with readers worldwide, making your blog a global hub of ideas and interaction.</li>
   <li><strong>Income Potential</strong> | Turn your blog into a profitable venture with opportunities like affiliate marketing, advertisements, and sponsored content.</li>
   <li><strong>Creative Freedom</strong> | Personalize your blog with unique designs and content, reflecting your individual style and passion.</li>
@@ -83,12 +104,10 @@ const BlogWebsiteServices = () => {
 </div>
 
 
-
-
-
 <BlogPackages />
       </>
   );
 }
 
 export default BlogWebsiteServices;
+
