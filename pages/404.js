@@ -6,7 +6,7 @@ const NotFoundPage = () => {
   return (
     <>
       <NextSeo
-        title="404 Not Found | Bham SEO & Design Co."
+        title="404 Not Found | Bham Web Design and SEO Co"
         description="The page you are looking for might have been removed, had its name changed, or is temporarily unavailable."
         noindex={true}  
         nofollow={true} 
